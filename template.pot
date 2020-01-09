@@ -17,7 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Celebrating Swansea"
+msgstr ""
+
 msgid "Centenary Essays"
+msgstr ""
+
+msgid "Council Annual Report 1920"
+msgstr ""
+
+msgid "History of the University"
 msgstr ""
 
 msgid "Home"
