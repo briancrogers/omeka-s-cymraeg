@@ -17,6 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Browse"
+msgstr "Pori"
+
 msgid "Celebrating Swansea"
 msgstr "Dathlu Abertawe"
 
@@ -29,5 +32,11 @@ msgstr "Adroddiad Blynyddol Cyngor 1920"
 msgid "History of the University"
 msgstr "Hanes y Brifysgol"
 
+msgid "History of the University Publication"
+msgstr "Cyhoeddiad Hanes y Brifysgol"
+
 msgid "Home"
 msgstr "Hafan"
+
+msgid "Inaugural Lectures"
+msgstr "Darlithoedd agoriadol"

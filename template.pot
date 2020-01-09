@@ -17,6 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Browse"
+msgstr ""
+
 msgid "Celebrating Swansea"
 msgstr ""
 
@@ -29,5 +32,11 @@ msgstr ""
 msgid "History of the University"
 msgstr ""
 
+msgid "History of the University Publication"
+msgstr ""
+
 msgid "Home"
+msgstr ""
+
+msgid "Inaugural Lectures"
 msgstr ""
