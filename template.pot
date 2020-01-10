@@ -1164,6 +1164,9 @@ msgstr ""
 msgid "Aberystwyth, Ceredigion SY23 3BU"
 msgstr ""
 
+msgid "About the item"
+msgstr ""
+
 msgid "About the project"
 msgstr ""
 
@@ -2160,6 +2163,9 @@ msgid "Attested"
 msgstr ""
 
 msgid "Attested or not attested"
+msgstr ""
+
+msgid "Attribution"
 msgstr ""
 
 #. Property label for Dublin Core:audience
@@ -4737,6 +4743,9 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Interview
 msgid "Interview"
+msgstr ""
+
+msgid "Introduction"
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:82

@@ -1180,6 +1180,9 @@ msgstr "Dosbarth Gwledig Aberystwyth - Achosion Apêl, [1916-1918]"
 msgid "Aberystwyth, Ceredigion SY23 3BU"
 msgstr "Aberystwyth, Ceredigion, SY23 3BU"
 
+msgid "About the item"
+msgstr "Ynglŷn â'r eitem"
+
 msgid "About the project"
 msgstr "Am y prosiect"
 
@@ -2191,6 +2194,9 @@ msgstr "Ardystiwyd"
 
 msgid "Attested or not attested"
 msgstr "Wedi ardystio neu heb ei ardystio"
+
+msgid "Attribution"
+msgstr "Priodoli"
 
 #. Property label for Dublin Core:audience
 msgid "Audience"
@@ -4819,6 +4825,9 @@ msgstr ""
 #. Class label for Bibliographic Ontology:Interview
 msgid "Interview"
 msgstr "Cyfweliad"
+
+msgid "Introduction"
+msgstr "Cyflwyniad"
 
 #: application/src/Controller/Admin/ModuleController.php:82
 msgid "Invalid INI"
@@ -7559,7 +7568,7 @@ msgstr "Hawliau"
 
 #. Property label for Dublin Core:rightsHolder
 msgid "Rights Holder"
-msgstr ""
+msgstr "Deiliad Hawliau"
 
 #. Class label for Dublin Core:RightsStatement
 msgid "Rights Statement"
