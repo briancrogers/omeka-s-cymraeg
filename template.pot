@@ -143,6 +143,9 @@ msgstr ""
 msgid "%s–%s of %s"
 msgstr ""
 
+msgid "&copy; The National Library of Wales 2017"
+msgstr ""
+
 #: application/libraries/globals.php:2614
 msgid "&larr; Previous Item"
 msgstr ""
@@ -180,6 +183,15 @@ msgstr ""
 msgid "(Private)"
 msgstr ""
 
+msgid "(R186 or R187) Application as to Exemption from Military Service "
+msgstr ""
+
+msgid "(R43 or R44) Notice of Appeal"
+msgstr ""
+
+msgid "(R52 or R53) Form for Voluntarily Attested Men"
+msgstr ""
+
 #: application/view/omeka/admin/user/show-details.phtml:7
 msgid "(inactive)"
 msgstr ""
@@ -202,6 +214,9 @@ msgstr ""
 msgid "404 Page Not Found"
 msgstr ""
 
+msgid "404 Page not found"
+msgstr ""
+
 #: admin/themes/default/error/404.php:2
 msgid "404: Page Not Found"
 msgstr ""
@@ -212,6 +227,14 @@ msgstr ""
 
 #: admin/themes/default/error/405.php:2
 msgid "405: Method Not Allowed"
+msgstr ""
+
+msgid ""
+"<p>Help us to unlock a hidden history from The First World War and make part "
+"of the war&rsquo;s secret heritage which is held at The National Library of "
+"Wales accessible to the people of Wales and the world, now and in the "
+"future. Your contributions will enable others to research the Cardiganshire "
+"First World War Tribunal Records.</p>"
 msgstr ""
 
 #. Property comment for Friend of a Friend:mbox
@@ -482,6 +505,9 @@ msgstr ""
 msgid "A human-readable title of the vocabulary."
 msgstr ""
 
+msgid "A index page with links to other pages in the document."
+msgstr ""
+
 #. Property comment for Friend of a Friend:jabberID
 msgid "A jabber ID for something."
 msgstr ""
@@ -624,6 +650,9 @@ msgstr ""
 
 #: application/src/Api/Adapter/SitePageAdapter.php:106
 msgid "A page must have a title."
+msgstr ""
+
+msgid "A page of text with names and field numbers. "
 msgstr ""
 
 #. Property comment for Friend of a Friend:page
@@ -1105,6 +1134,42 @@ msgstr ""
 msgid "API keys"
 msgstr ""
 
+msgid "Aberaeron Borough District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Aberaeron Borough/Urban District"
+msgstr ""
+
+msgid "Aberaeron Rural District"
+msgstr ""
+
+msgid "Aberaeron Rural District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Aberystwyth"
+msgstr ""
+
+msgid "Aberystwyth Borough District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Aberystwyth Borough/Urban District"
+msgstr ""
+
+msgid "Aberystwyth Rural District"
+msgstr ""
+
+msgid "Aberystwyth Rural District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Aberystwyth, Ceredigion SY23 3BU"
+msgstr ""
+
+msgid "About the project"
+msgstr ""
+
+msgid "About this photograph"
+msgstr ""
+
 #. Property label for Dublin Core:abstract
 msgid "Abstract"
 msgstr ""
@@ -1400,6 +1465,9 @@ msgstr ""
 msgid "Add to site permission as"
 msgstr ""
 
+msgid "Add to the collection"
+msgstr ""
+
 #: application/view/common/resource-form-templates.phtml:21
 #: application/view/common/resource-form-templates.phtml:27
 #: application/view/common/resource-form-templates.phtml:28
@@ -1408,6 +1476,66 @@ msgstr ""
 
 #. Omeka Legacy File: Additional Creator element
 msgid "Additional Creator"
+msgstr ""
+
+msgid "Additional Name"
+msgstr ""
+
+msgid "Additional names for person"
+msgstr ""
+
+msgid "Address "
+msgstr ""
+
+msgid "Address (if not already stated)"
+msgstr ""
+
+msgid "Address (in full) of man in respect of whom the application is made"
+msgstr ""
+
+msgid "Address at date of National Registration"
+msgstr ""
+
+msgid "Address at date of National Registration "
+msgstr ""
+
+msgid "Address of Applicant"
+msgstr ""
+
+msgid "Address of appellant "
+msgstr ""
+
+msgid "Address of employer"
+msgstr ""
+
+msgid "Address of employer, if employed person"
+msgstr ""
+
+msgid "Address of man at date of National Registration"
+msgstr ""
+
+msgid "Address of place"
+msgstr ""
+
+msgid "Address of place of employment "
+msgstr ""
+
+msgid "Address of present employer"
+msgstr ""
+
+msgid "Address of the Person by whom application made"
+msgstr ""
+
+msgid "Address of the applicant if other than the man himself "
+msgstr ""
+
+msgid "Address of the person making the application"
+msgstr ""
+
+msgid "Address on National Registration Certificate"
+msgstr ""
+
+msgid "Address on national Registration Certificate"
 msgstr ""
 
 #: application/view/layout/layout-admin.phtml:24
@@ -1494,6 +1622,21 @@ msgid ""
 "adding, editing, and deleting content, is protected and requires key "
 "authentication. Each key corresponds to, and has all permissions of, an "
 "existing Omeka user. You can create keys on each user's %sedit page%s."
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Age at last birthday"
+msgstr ""
+
+msgid "Age of man"
+msgstr ""
+
+msgid "Age of man (in respect of whom the application is being made)"
+msgstr ""
+
+msgid "Age of man (in respect of whom the application is made)"
 msgstr ""
 
 #. Class label for Dublin Core:Agent
@@ -1594,9 +1737,15 @@ msgstr ""
 msgid "Alphabetical"
 msgstr ""
 
+msgid "Already registered"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/form.phtml:58
 #: application/view/omeka/admin/resource-template/form.phtml:65
 msgid "Alternate"
+msgstr ""
+
+msgid "Alternate Name (of Place)"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:39
@@ -1610,8 +1759,17 @@ msgstr ""
 msgid "Alternate label"
 msgstr ""
 
+msgid "Alternate name for place"
+msgstr ""
+
+msgid "Alternative Names"
+msgstr ""
+
 #. Property label for Dublin Core:alternative
 msgid "Alternative Title"
+msgstr ""
+
+msgid "Alternative name(s) for person"
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:79
@@ -1842,12 +2000,39 @@ msgid ""
 "publication."
 msgstr ""
 
+msgid "Annotations"
+msgstr ""
+
+msgid "Any other type of form or document"
+msgstr ""
+
+msgid "Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Appeal cases, [1916-1918] (15r-32r)"
+msgstr ""
+
+msgid "Appeal cases, [1916-1918] (1r-14r)"
+msgstr ""
+
+msgid "Appeal cases, [1916-1918] (33r-46v)"
+msgstr ""
+
 #: admin/themes/default/appearance/edit-navigation.php:3
 #: admin/themes/default/appearance/edit-settings.php:2
 #: admin/themes/default/common/global-nav.php:11
 #: admin/themes/default/themes/browse.php:5
 #: admin/themes/default/themes/config.php:3
 msgid "Appearance"
+msgstr ""
+
+msgid "Appellant details"
+msgstr ""
+
+msgid "Applicant Occupation"
+msgstr ""
+
+msgid "Applicant details"
 msgstr ""
 
 #: application/view/omeka/site-admin/page/edit.phtml:52
@@ -1865,6 +2050,11 @@ msgstr ""
 msgid ""
 "Are you sure you want to delete this asset? It will no longer be available "
 "to any resources currently using it."
+msgstr ""
+
+msgid ""
+"Are you sure you want to delete this asset? It will no longer be available "
+"to any sites currently using it."
 msgstr ""
 
 #: admin/themes/default/plugins/confirm-uninstall.php:7
@@ -1963,6 +2153,15 @@ msgstr ""
 msgid "Attempting to stop the job."
 msgstr ""
 
+msgid "Attestation details"
+msgstr ""
+
+msgid "Attested"
+msgstr ""
+
+msgid "Attested or not attested"
+msgstr ""
+
 #. Property label for Dublin Core:audience
 msgid "Audience"
 msgstr ""
@@ -1991,6 +2190,14 @@ msgstr ""
 
 #: admin/themes/default/common/footer.php:6
 msgid "Back to top"
+msgstr ""
+
+msgid ""
+"Barack Obama and his wife Michelle walk through the crowd at a rally in "
+"Reynolds Coliseum"
+msgstr ""
+
+msgid "Barack Obama speaking at rally at Reynolds Coliseum"
 msgstr ""
 
 #. Vocabulary comment for Dublin Core
@@ -2074,6 +2281,9 @@ msgstr ""
 msgid "Batch edit users"
 msgstr ""
 
+msgid "Become a contributor"
+msgstr ""
+
 #: install/views/scripts/index/errors.phtml:2
 msgid ""
 "Before installation can continue, the following errors must be resolved:"
@@ -2083,6 +2293,15 @@ msgstr ""
 msgid ""
 "Begin playing the video at the given number of seconds from the start of the "
 "video."
+msgstr ""
+
+msgid "Beige R41 form, after mid 1916"
+msgstr ""
+
+msgid "Beige R41 form, before mid 1916"
+msgstr ""
+
+msgid "Beige form"
 msgstr ""
 
 #. Property label for Dublin Core:bibliographicCitation
@@ -2121,12 +2340,30 @@ msgstr ""
 msgid "Block to be removed"
 msgstr ""
 
+msgid "Blue R52/53 form, after mid-1916."
+msgstr ""
+
+msgid "Blue R52/53 form, before mid 1916"
+msgstr ""
+
+msgid "Blue form"
+msgstr ""
+
+msgid "Blue/Grey Form"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Book
 msgid "Book"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:BookSection
 msgid "Book Section"
+msgstr ""
+
+msgid "Bookmark"
+msgstr ""
+
+msgid "Bookmarked"
 msgstr ""
 
 #: application/libraries/globals.php:469
@@ -2236,8 +2473,30 @@ msgstr ""
 msgid "Browse item sets"
 msgstr ""
 
+msgid "Browse link text"
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:15
 msgid "Browse preview"
+msgstr ""
+
+msgid ""
+"Bundle of Local Government circulars relating to the work of the Tribunals, "
+"April 1916-Nov. 1918"
+msgstr ""
+
+msgid ""
+"Bundle of Ministry of National Service circulars relating to the work of the "
+"Tribunals, Nov. 1917-Oct. 1918"
+msgstr ""
+
+msgid ""
+"Bundle of miscellaneous government circulars associated with the tribunal's "
+"work, from the Ministry of Food, Board of Agriculture, Army Council ..., "
+"1916-18"
+msgstr ""
+
+msgid "Business"
 msgstr ""
 
 #: admin/themes/default/themes/browse.php:24
@@ -2257,6 +2516,9 @@ msgstr ""
 #: application/tests/suite/Omeka/NavigationTest.php:825
 #: application/tests/suite/Omeka/NavigationTest.php:951
 msgid "CHNM"
+msgstr ""
+
+msgid "Can't find a relevant tag? Enter your own tags below."
 msgstr ""
 
 #: application/src/View/Helper/CancelButton.php:14
@@ -2333,6 +2595,60 @@ msgstr ""
 msgid "Capture Device"
 msgstr ""
 
+msgid "Cardigan Borough District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Cardigan Borough/Urban District"
+msgstr ""
+
+msgid "Cardigan Rural District"
+msgstr ""
+
+msgid "Cardigan Rural District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Cardiganshire First World War Tribunal (Appeals) Records"
+msgstr ""
+
+msgid "Cardiganshire Great War Tribunal (Appeals) Records,"
+msgstr ""
+
+msgid "Cardiganshire Great War Tribunal (Appeals) records"
+msgstr ""
+
+msgid "Cardiganshire Tribunal records"
+msgstr ""
+
+msgid "Cardiganshire/Cardigan County"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1910"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1911"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1912"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1913"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1914"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1915"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1916"
+msgstr ""
+
+msgid "Carlisle School Annual Reports, 1917"
+msgstr ""
+
+msgid "Case"
+msgstr ""
+
 #. Omeka Legacy File: Change History element
 msgid "Change History"
 msgstr ""
@@ -2346,8 +2662,17 @@ msgstr ""
 msgid "Change item"
 msgstr ""
 
+msgid "Change of conditions or circumstances"
+msgstr ""
+
+msgid "Change password"
+msgstr ""
+
 #: application/src/Controller/Admin/VocabularyController.php:198
 msgid "Changes to the vocabulary successfully made"
+msgstr ""
+
+msgid "Changes to this page"
 msgstr ""
 
 #: admin/themes/default/items/batch-edit-all.php:20
@@ -2418,8 +2743,40 @@ msgstr ""
 msgid "Checked items will be deleted."
 msgstr ""
 
+msgid "Children"
+msgstr ""
+
+msgid "Choice 1"
+msgstr ""
+
+msgid "Choice for WW1 Tribunal Records using R41 form (beige/yellow)."
+msgstr ""
+
+msgid "Choose"
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:16
 msgid "Choose a RDF vocabulary file. You must choose a file or enter a URL."
+msgstr ""
+
+msgid "Choose date"
+msgstr ""
+
+msgid "Choose the location on a map"
+msgstr ""
+
+msgid "Choose the type of form that best matches the page you can see. "
+msgstr ""
+
+msgid "Choose what to record about this"
+msgstr ""
+
+msgid "Choose what you want to tag"
+msgstr ""
+
+msgid ""
+"Choose whether to tag a person within the photograph, or describe the whole "
+"photograph."
 msgstr ""
 
 #: application/views/scripts/items/show.php:36
@@ -2482,6 +2839,15 @@ msgstr ""
 
 #: admin/themes/default/items/files-form.php:2
 msgid "Click and drag the files into the preferred display order."
+msgstr ""
+
+msgid "Click here to login"
+msgstr ""
+
+msgid "Click here to register"
+msgstr ""
+
+msgid "Click here to sign up"
 msgstr ""
 
 #: application/view/common/property-selector.phtml:10
@@ -2585,6 +2951,9 @@ msgstr ""
 msgid "Collection Items"
 msgstr ""
 
+msgid "Collection list does not exist yet."
+msgstr ""
+
 #: admin/themes/default/common/content-nav.php:13
 msgid "Collections"
 msgstr ""
@@ -2683,6 +3052,15 @@ msgstr ""
 msgid "Conforms To"
 msgstr ""
 
+msgid "Contact"
+msgstr ""
+
+msgid "Continued …"
+msgstr ""
+
+msgid "Contribute"
+msgstr ""
+
 #. Property label for Dublin Core:contributor
 msgid "Contributor"
 msgstr ""
@@ -2691,6 +3069,15 @@ msgstr ""
 #: admin/themes/default/collections/show.php:51
 #: application/views/scripts/collections/browse.php:35
 msgid "Contributors"
+msgstr ""
+
+msgid "Contributors' comments"
+msgstr ""
+
+msgid "Copies of Military Service Acts and proclamations, 1916-18"
+msgstr ""
+
+msgid "Copyright"
 msgstr ""
 
 #: application/libraries/globals.php:1267
@@ -2709,6 +3096,12 @@ msgstr ""
 
 #: admin/themes/default/tags/browse.php:58
 msgid "Count"
+msgstr ""
+
+msgid "Country (of Place)"
+msgstr ""
+
+msgid "County"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:CourtReporter
@@ -2756,6 +3149,9 @@ msgstr ""
 msgid "Critical or explanatory note for a Document."
 msgstr ""
 
+msgid "Crowd at Obama speech"
+msgstr ""
+
 #: application/views/scripts/common/pagination_control.php:36
 msgid "Current Page"
 msgstr ""
@@ -2770,6 +3166,9 @@ msgstr ""
 
 #: application/src/Form/UserForm.php:166
 msgid "Current password"
+msgstr ""
+
+msgid "Current projects"
 msgstr ""
 
 #: application/view/omeka/site-admin/index/theme.phtml:27
@@ -2816,6 +3215,9 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
+msgid "Date "
+msgstr ""
+
 #. Property comment for Dublin Core:valid
 msgid "Date (often a range) of validity of a resource."
 msgstr ""
@@ -2860,16 +3262,46 @@ msgstr ""
 msgid "Date Submitted"
 msgstr ""
 
+msgid "Date Taken"
+msgstr ""
+
 #. Property label for Dublin Core:valid
 msgid "Date Valid"
+msgstr ""
+
+msgid "Date and year of birth"
 msgstr ""
 
 #: admin/themes/default/tags/browse.php:59
 msgid "Date created"
 msgstr ""
 
+msgid "Date of Application"
+msgstr ""
+
+msgid "Date of Birth"
+msgstr ""
+
+msgid "Date of Death"
+msgstr ""
+
 #. Property comment for Dublin Core:dateAccepted
 msgid "Date of acceptance of the resource."
+msgstr ""
+
+msgid "Date of application"
+msgstr ""
+
+msgid "Date of attestation "
+msgstr ""
+
+msgid "Date of birth"
+msgstr ""
+
+msgid "Date of birth of the person selected"
+msgstr ""
+
+msgid "Date of birthday"
 msgstr ""
 
 #. Property comment for Dublin Core:dateCopyrighted
@@ -2884,6 +3316,12 @@ msgstr ""
 msgid "Date of formal issuance (e.g., publication) of the resource."
 msgstr ""
 
+msgid "Date of last examination"
+msgstr ""
+
+msgid "Date of marriage"
+msgstr ""
+
 #. Property comment for Dublin Core:dateSubmitted
 msgid "Date of submission of the resource."
 msgstr ""
@@ -2892,12 +3330,30 @@ msgstr ""
 msgid "Date on which the resource was changed."
 msgstr ""
 
+msgid "Date person born"
+msgstr ""
+
+msgid "Date person died"
+msgstr ""
+
+msgid "Date this photograph was taken"
+msgstr ""
+
 #: application/src/Form/ModuleStateChangeForm.php:55
 msgid "Deactivate"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:LegalDecision
 msgid "Decision"
+msgstr ""
+
+msgid "Decision of Tribunal"
+msgstr ""
+
+msgid "Decision of the Local Tribunal"
+msgstr ""
+
+msgid "Decision of the Tribunal "
 msgstr ""
 
 #: application/src/Api/Representation/ResourceTemplatePropertyRepresentation.php:105
@@ -3021,6 +3477,9 @@ msgstr ""
 msgid "Deletions will be processed in the background item by item."
 msgstr ""
 
+msgid "Denbighshire Archive Service New"
+msgstr ""
+
 #: application/src/Site/BlockLayout/TableOfContents.php:28
 msgid "Depth"
 msgstr ""
@@ -3033,8 +3492,23 @@ msgstr ""
 msgid "Descending"
 msgstr ""
 
+msgid "Describe the contents of this photograph"
+msgstr ""
+
+msgid "Describe this photograph"
+msgstr ""
+
 #: application/config/module.config.php:631
 msgid "Description"
+msgstr ""
+
+msgid "Description and data about the whole photo"
+msgstr ""
+
+msgid "Description of the person identified"
+msgstr ""
+
+msgid "Description of the person selected"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:124
@@ -3095,6 +3569,9 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:distributor
 msgid "Distributor of a document or a collection of documents."
+msgstr ""
+
+msgid "Districts"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Document
@@ -3219,6 +3696,9 @@ msgstr ""
 msgid "Edit media"
 msgstr ""
 
+msgid "Edit my profile"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/show-property-row.phtml:32
 msgid "Edit property"
 msgstr ""
@@ -3246,12 +3726,18 @@ msgstr ""
 msgid "Edit user"
 msgstr ""
 
+msgid "Edited"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:EditedBook
 msgid "Edited Book"
 msgstr ""
 
 #: admin/themes/default/tags/browse.php:42
 msgid "Editing Tags"
+msgstr ""
+
+msgid "Editing complete"
 msgstr ""
 
 #: application/src/Controller/Admin/ItemSetController.php:314
@@ -3264,6 +3750,12 @@ msgstr ""
 
 #: application/src/Controller/Admin/MediaController.php:282
 msgid "Editing medias. This may take a while."
+msgstr ""
+
+msgid "Editing not started"
+msgstr ""
+
+msgid "Editing started"
 msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:444
@@ -3323,6 +3815,12 @@ msgstr ""
 msgid "Embedded Metadata"
 msgstr ""
 
+msgid "Employer Address"
+msgstr ""
+
+msgid "Employer address "
+msgstr ""
+
 #: admin/themes/default/settings/edit-api.php:11
 msgid "Enable API"
 msgstr ""
@@ -3371,6 +3869,9 @@ msgstr ""
 msgid "Enter a RDF vocabulary URL. You must enter a URL or choose a file."
 msgstr ""
 
+msgid "Enter any other information about this person."
+msgstr ""
+
 #: application/forms/SecuritySettings.php:60
 #, php-format
 msgid ""
@@ -3389,6 +3890,9 @@ msgstr ""
 msgid ""
 "Enter the preferred language of the labels and comments using an IETF "
 "language tag. Defaults to the first available."
+msgstr ""
+
+msgid "Enter whatever information you have about this photograph"
 msgstr ""
 
 #: admin/themes/default/users/forgot-password.php:11
@@ -3495,12 +3999,18 @@ msgstr ""
 msgid "Extent"
 msgstr ""
 
+msgid "External resource"
+msgstr ""
+
 #: application/config/module.config.php:626
 msgid "Failed loading resource template from API"
 msgstr ""
 
 #: install/views/scripts/index/fatal-error.phtml:1
 msgid "Fatal Error"
+msgstr ""
+
+msgid "Fax"
 msgstr ""
 
 #: admin/themes/default/collections/add.php:19
@@ -3592,6 +4102,9 @@ msgid ""
 "Files cannot be attached to an item that is not persistent in the database!"
 msgstr ""
 
+msgid "Fill in any extra information you have about this photo or leave blank"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Film
 msgid "Film"
 msgstr ""
@@ -3656,8 +4169,35 @@ msgstr ""
 msgid "Find a File"
 msgstr ""
 
+msgid "Find out more"
+msgstr ""
+
 #: application/src/Controller/SiteAdmin/IndexController.php:207
 msgid "First page in navigation"
+msgstr ""
+
+msgid "First page of beige R. 186 form"
+msgstr ""
+
+msgid "First page of beige R41 form, post mid-1916."
+msgstr ""
+
+msgid "First page of beige R41 form, pre mid-1916."
+msgstr ""
+
+msgid "First page of blue R52/53 form, post mid-1916."
+msgstr ""
+
+msgid "First page of blue R52/53 form, pre mid-1916."
+msgstr ""
+
+msgid "First page of pink form (R43 / R44)"
+msgstr ""
+
+msgid "Flag"
+msgstr ""
+
+msgid "Flag as inappropriate"
 msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:371
@@ -3683,6 +4223,9 @@ msgstr ""
 
 #: install/views/scripts/index/index.phtml:16
 msgid "Form Validation Errors"
+msgstr ""
+
+msgid "Form for voluntary attested men (IS Label)"
 msgstr ""
 
 #. Property label for Dublin Core:format
@@ -3715,9 +4258,18 @@ msgstr ""
 msgid "Fullsize Image Size"
 msgstr ""
 
+msgid "GLE Collection (SSL)"
+msgstr ""
+
+msgid "Gender"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:28
 #: application/src/Form/SettingForm.php:105
 msgid "General"
+msgstr ""
+
+msgid "Get started"
 msgstr ""
 
 #: admin/themes/default/collections/browse.php:85
@@ -3828,8 +4380,23 @@ msgid ""
 "Your reset link will expire on %4$s."
 msgstr ""
 
+msgid "Grounds"
+msgstr ""
+
+msgid "Grounds for application"
+msgstr ""
+
+msgid "Grounds on which application is made"
+msgstr ""
+
 #. Class label for Friend of a Friend:Group
 msgid "Group"
+msgstr ""
+
+msgid "Group and Class Systems: Notes on Administration, Feb, 1916"
+msgstr ""
+
+msgid "Gwilym Livingstone Evans Photography Collection"
 msgstr ""
 
 #: application/src/Media/Ingester/Html.php:36
@@ -3858,6 +4425,9 @@ msgstr ""
 msgid "Has Version"
 msgstr ""
 
+msgid "Has everything been annotated?"
+msgstr ""
+
 #: application/src/View/Helper/SearchUserFilters.php:71
 #: application/view/common/advanced-search/users.phtml:53
 msgid "Has permission in site"
@@ -3865,6 +4435,9 @@ msgstr ""
 
 #: application/forms/AppearanceSettings.php:73
 msgid "Have item files link to the file metadata instead of the file directly."
+msgstr ""
+
+msgid "Heading above resource list"
 msgstr ""
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:66
@@ -3885,6 +4458,22 @@ msgstr ""
 msgid "Hello %s. Your username is %s"
 msgstr ""
 
+msgid "Help & Tutorials"
+msgstr ""
+
+msgid ""
+"Help us to unlock a hidden history from The First World War and make part of "
+"the war’s secret heritage which is held at The National Library of Wales "
+"accessible to the people of Wales and the world, now and in the future. Your "
+"contributions will enable others to research the Cardiganshire First World "
+"War Tribunal Records."
+msgstr ""
+
+msgid ""
+"Help us to unlock the hidden histories of the First World War contained in "
+"these documents"
+msgstr ""
+
 #: admin/themes/default/items/browse.php:157
 msgid "Hide Details"
 msgstr ""
@@ -3895,6 +4484,9 @@ msgstr ""
 
 #: application/src/Controller/SiteAdmin/IndexController.php:201
 msgid "Homepage"
+msgstr ""
+
+msgid "How long employed in the same or similar oocupation before August 1915"
 msgstr ""
 
 #. Property label for Friend of a Friend:icqChatID
@@ -3935,15 +4527,38 @@ msgstr ""
 msgid "Identifier"
 msgstr ""
 
+msgid "Identify the document type (IS Label)"
+msgstr ""
+
+msgid ""
+"If appellant is not the military representative, why appelant acts for the "
+"man"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:246
 msgid ""
 "If checked, all items, item sets and sites newly created will have their "
 "visibility set to private by default."
 msgstr ""
 
+msgid "If married, date of marriage"
+msgstr ""
+
+msgid "If the application is for renewal, any change in conditions?"
+msgstr ""
+
+msgid "If the case number is known, please include the details here"
+msgstr ""
+
+msgid "If the name of Local Tribunal is known, please include the details here"
+msgstr ""
+
 #: admin/themes/default/error/404.php:10
 #, php-format
 msgid "If this does not help, try contacting the %s."
+msgstr ""
+
+msgid "If voluntarily attested, state so"
 msgstr ""
 
 #: admin/themes/default/upgrade/migrate.php:31
@@ -3958,6 +4573,11 @@ msgstr ""
 msgid "If you think you should have permission, try contacting the %s."
 msgstr ""
 
+msgid ""
+"If you would like to change your password please enter a new password here, "
+"otherwise leave blank."
+msgstr ""
+
 #. Class label for Dublin Core Type:Image
 #. Class label for Bibliographic Ontology:Image
 #. Class label for Friend of a Friend:Image
@@ -3966,6 +4586,15 @@ msgstr ""
 
 #: application/forms/GeneralSettings.php:59 application/forms/Install.php:174
 msgid "ImageMagick Directory Path"
+msgstr ""
+
+msgid "Images"
+msgstr ""
+
+msgid "Images annotated"
+msgstr ""
+
+msgid "Images waiting"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/browse.phtml:28
@@ -3997,6 +4626,14 @@ msgstr ""
 
 #: application/forms/User.php:137
 msgid "Inactive users cannot log in to the site."
+msgstr ""
+
+msgid ""
+"Includes the title 'Application as to Exemption from Military Service' and "
+"R186 or R187 in the header"
+msgstr ""
+
+msgid "Index Page"
 msgstr ""
 
 #: admin/themes/default/settings/edit-search.php:23
@@ -4042,6 +4679,9 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:accountName
 msgid "Indicates the name (identifier) associated with this online account."
+msgstr ""
+
+msgid "Information about a person depicted in the illustration"
 msgstr ""
 
 #. Dublin Core: Rights element description
@@ -4274,6 +4914,9 @@ msgstr ""
 msgid "Is active"
 msgstr ""
 
+msgid "Is this page complete?"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Issue
 msgid "Issue"
 msgstr ""
@@ -4293,6 +4936,9 @@ msgstr ""
 
 #: application/src/DataType/Resource/ItemSet.php:13
 msgid "Item Set"
+msgstr ""
+
+msgid "Item Set TItle"
 msgstr ""
 
 #: admin/themes/default/items/batch-edit-common.php:33
@@ -4509,6 +5155,24 @@ msgstr ""
 msgid "Label Property"
 msgstr ""
 
+msgid "Label for person"
+msgstr ""
+
+msgid "Lamp"
+msgstr ""
+
+msgid "Lampeter Borough/Urban District"
+msgstr ""
+
+msgid "Lampeter Rural District"
+msgstr ""
+
+msgid "Lampeter Rural District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Lampeter Urban District - Appeal cases, [1916-1918]"
+msgstr ""
+
 #: application/view/common/data-type/literal.phtml:5
 msgid "Language"
 msgstr ""
@@ -4521,8 +5185,14 @@ msgstr ""
 msgid "Last accessed"
 msgstr ""
 
+msgid "Latest annotated images NLW"
+msgstr ""
+
 #: application/view/common/form-row.phtml:20
 msgid "Learn more"
+msgstr ""
+
+msgid "Leave blank if you don't know."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:LegalCaseDocument
@@ -4535,6 +5205,9 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Legislation
 msgid "Legislation"
+msgstr ""
+
+msgid "Length of occupation before 15 August 1915"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Letter
@@ -4588,10 +5261,16 @@ msgstr ""
 msgid "Link to File Metadata"
 msgstr ""
 
+msgid "Link to wikipaedia"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/show.phtml:22
 #: application/view/omeka/admin/item/show.phtml:13
 #: application/view/omeka/site/item/show.phtml:45
 msgid "Linked resources"
+msgstr ""
+
+msgid "Links, e.g. Wikipedia page"
 msgstr ""
 
 #: application/forms/SecuritySettings.php:82
@@ -4619,6 +5298,12 @@ msgstr ""
 msgid "List of tags to add to all checked items, separated by %s."
 msgstr ""
 
+msgid "Llandysul Rural District"
+msgstr ""
+
+msgid "Llandysul rural District - Appeal cases, [1916-1918]"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:103
 #: application/src/Form/InstallationForm.php:112
 #: application/src/Form/UserForm.php:129
@@ -4636,8 +5321,17 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+msgid "Location (of Place)"
+msgstr ""
+
+msgid "Location where man attested"
+msgstr ""
+
 #. Class label for Dublin Core:LocationPeriodOrJurisdiction
 msgid "Location, Period, or Jurisdiction"
+msgstr ""
+
+msgid "Location:"
 msgstr ""
 
 #: application/view/omeka/admin/job/show.phtml:58
@@ -4659,8 +5353,14 @@ msgstr ""
 msgid "Log in"
 msgstr ""
 
+msgid "Login"
+msgstr ""
+
 #: application/controllers/UsersController.php:486
 msgid "Login information incorrect. Please try again."
+msgstr ""
+
+msgid "Login with NLW Reader's Ticket"
 msgstr ""
 
 #: application/view/common/user-bar.phtml:25
@@ -4709,6 +5409,12 @@ msgstr ""
 msgid "Make public"
 msgstr ""
 
+msgid "Male / Female"
+msgstr ""
+
+msgid "Man in respect of whom the application is made"
+msgstr ""
+
 #: admin/themes/default/common/global-nav.php:1
 msgid "Manage Site"
 msgstr ""
@@ -4731,6 +5437,29 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Map
 msgid "Map"
+msgstr ""
+
+msgid "Map Page"
+msgstr ""
+
+msgid "Mark as complete"
+msgstr ""
+
+msgid "Mark page as complete"
+msgstr ""
+
+msgid "Mark page as incomplete"
+msgstr ""
+
+msgid ""
+"Marking this page as complete helps us to understand the progress of "
+"annotations."
+msgstr ""
+
+msgid "Married or single"
+msgstr ""
+
+msgid "Married or single?"
 msgstr ""
 
 #: application/src/Site/BlockLayout/ListOfSites.php:50
@@ -4836,8 +5565,20 @@ msgstr ""
 msgid "Mediator"
 msgstr ""
 
+msgid "Medical grade category "
+msgstr ""
+
+msgid "Medical grade or category"
+msgstr ""
+
 #. Property label for Dublin Core:medium
 msgid "Medium"
+msgstr ""
+
+msgid "Memories"
+msgstr ""
+
+msgid "Menu"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/show.phtml:21
@@ -4946,9 +5687,17 @@ msgstr ""
 msgid "Modules"
 msgstr ""
 
+msgid "Monday - Friday"
+msgstr ""
+
 #: application/view/common/item-set-selector.phtml:30
 #: application/view/common/property-selector.phtml:33
 msgid "More info"
+msgstr ""
+
+msgid ""
+"Move the red box to highlight one person, and enter information about them "
+"below. You can repeat this for as many people as you recognise."
 msgstr ""
 
 #. Class label for Dublin Core Type:MovingImage
@@ -4971,12 +5720,39 @@ msgstr ""
 msgid "N-Triples (.nt)"
 msgstr ""
 
+msgid "NLW Proof"
+msgstr ""
+
+msgid "NLW Tribunal Cases"
+msgstr ""
+
+msgid "NLW Tribunal Cases SSL"
+msgstr ""
+
 #: application/src/View/Helper/SearchUserFilters.php:54
 msgid "Name"
 msgstr ""
 
+msgid "Name "
+msgstr ""
+
+msgid "Name (in full) of man in respect of whom the application is made"
+msgstr ""
+
+msgid "Name and address of last employer before 15 August 1915"
+msgstr ""
+
+msgid "Name and address of last employer when so employed before that date"
+msgstr ""
+
 #: application/forms/User.php:82
 msgid "Name as it should be displayed on the site"
+msgstr ""
+
+msgid "Name of Local Tribunal"
+msgstr ""
+
+msgid "Name of Tribunal "
 msgstr ""
 
 #: application/models/ElementSet.php:144
@@ -4985,6 +5761,21 @@ msgstr ""
 
 #: application/models/ElementSet.php:148
 msgid "Name of element set must not be empty."
+msgstr ""
+
+msgid "Name of employer"
+msgstr ""
+
+msgid "Name of employer, if employed person"
+msgstr ""
+
+msgid "Name of man in respect of whom the application is made"
+msgstr ""
+
+msgid "Name of present employer"
+msgstr ""
+
+msgid "Name of present employer, if any"
 msgstr ""
 
 #: application/models/Plugin.php:133
@@ -5004,6 +5795,15 @@ msgstr ""
 #: admin/themes/default/items/search-form.php:27
 #: application/views/scripts/items/search-form.php:25
 msgid "Narrow by Specific Fields"
+msgstr ""
+
+msgid "Nature of Application"
+msgstr ""
+
+msgid "Nature of Application, e.g. Conditional, Absolute, Temporary."
+msgstr ""
+
+msgid "Nature of application"
 msgstr ""
 
 #: application/view/omeka/site-admin/index/navigation.phtml:10
@@ -5037,6 +5837,9 @@ msgstr ""
 
 #: application/forms/ChangePassword.php:34
 msgid "New Password"
+msgstr ""
+
+msgid "New Quay District"
 msgstr ""
 
 #: application/view/omeka/admin/item/add.phtml:6
@@ -5090,6 +5893,9 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/ListOfSites.php:39
 msgid "Newest first"
+msgstr ""
+
+msgid "Newquay District - Appeal cases, [1916-1918]"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Newspaper
@@ -5212,6 +6018,12 @@ msgstr ""
 msgid "No tags are available."
 msgstr ""
 
+msgid "No. of group"
+msgstr ""
+
+msgid "No. on group card"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:173
 msgid "None"
 msgstr ""
@@ -5251,6 +6063,12 @@ msgstr ""
 msgid "Not public"
 msgstr ""
 
+msgid "Not started"
+msgstr ""
+
+msgid "Not yet registered"
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:42
 msgid "Notation3 (.n3)"
 msgstr ""
@@ -5263,13 +6081,51 @@ msgstr ""
 msgid "Notes or annotations about a resource."
 msgstr ""
 
+msgid "Number of Case"
+msgstr ""
+
+msgid "Number of Group"
+msgstr ""
+
 #: application/src/Site/BlockLayout/TableOfContents.php:29
 msgid "Number of child page levels to display"
+msgstr ""
+
+msgid "Number of group"
+msgstr ""
+
+msgid "Number on group card"
 msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:113
 #: application/view/common/advanced-search/properties.phtml:50
 msgid "OR"
+msgstr ""
+
+msgid "Object"
+msgstr ""
+
+msgid "Occupation"
+msgstr ""
+
+msgid "Occupation of the person making the application"
+msgstr ""
+
+msgid "Occupation, profession or business"
+msgstr ""
+
+msgid "Occupation, profession or business."
+msgstr ""
+
+msgid ""
+"Occupation, profession, or business of man on behalf of whom the application "
+"is made"
+msgstr ""
+
+msgid "Occuption, profession or business"
+msgstr ""
+
+msgid "Official Handbooks, Circulars And Statutes,"
 msgstr ""
 
 #: admin/themes/default/settings/edit-item-type-elements.php:51
@@ -5463,6 +6319,9 @@ msgstr ""
 msgid "OpenSeadragon is not available unless JavaScript is enabled."
 msgstr ""
 
+msgid "Opening hours"
+msgstr ""
+
 #: application/src/Site/BlockLayout/ItemShowcase.php:22
 #: application/src/Site/BlockLayout/Media.php:22
 msgid "Options"
@@ -5487,8 +6346,14 @@ msgstr ""
 msgid "Original label"
 msgstr ""
 
+msgid "Other"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/form.phtml:69
 msgid "Other options"
+msgstr ""
+
+msgid "Other projects"
 msgstr ""
 
 #: admin/themes/default/collections/show.php:62
@@ -5546,6 +6411,9 @@ msgstr ""
 msgid "Page 1"
 msgstr ""
 
+msgid "Page 1 of R.41 (pre mid 1916)"
+msgstr ""
+
 #: application/tests/suite/Omeka/NavigationTest.php:1015
 #: application/tests/suite/Omeka/NavigationTest.php:1021
 #: application/tests/suite/Omeka/NavigationTest.php:1078
@@ -5598,6 +6466,9 @@ msgstr ""
 msgid "Page 6"
 msgstr ""
 
+msgid "Page Number"
+msgstr ""
+
 #: application/controllers/ErrorController.php:63
 msgid "Page not found."
 msgstr ""
@@ -5648,6 +6519,9 @@ msgstr ""
 
 #: application/controllers/UsersController.php:293
 msgid "Password changed!"
+msgstr ""
+
+msgid "Password confirmation must match new password"
 msgstr ""
 
 #: application/src/Controller/LoginController.php:113
@@ -5747,6 +6621,9 @@ msgstr ""
 msgid "Person"
 msgstr ""
 
+msgid "Person depicted"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:PersonalCommunication
 msgid "Personal Communication"
 msgstr ""
@@ -5755,8 +6632,23 @@ msgstr ""
 msgid "Personal Communication Document"
 msgstr ""
 
+msgid "Personal Memory"
+msgstr ""
+
+msgid "Personal details"
+msgstr ""
+
+msgid "Personal memory or experience of the events in this photograph"
+msgstr ""
+
 #. Class label for Friend of a Friend:PersonalProfileDocument
 msgid "PersonalProfileDocument"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Photo"
 msgstr ""
 
 #. Class label for Dublin Core:PhysicalMedium
@@ -5775,6 +6667,45 @@ msgstr ""
 msgid "Pick this type"
 msgstr ""
 
+msgid "Pink form"
+msgstr ""
+
+msgid "Place"
+msgstr ""
+
+msgid "Place Address"
+msgstr ""
+
+msgid "Place Taken"
+msgstr ""
+
+msgid "Place in this photograph"
+msgstr ""
+
+msgid "Place of Birth"
+msgstr ""
+
+msgid "Place of Death"
+msgstr ""
+
+msgid "Place of Residence"
+msgstr ""
+
+msgid "Place of residence of the person selected"
+msgstr ""
+
+msgid "Place person born"
+msgstr ""
+
+msgid "Place person died"
+msgstr ""
+
+msgid "Place this photograph was taken"
+msgstr ""
+
+msgid "Please add any additional information about the person."
+msgstr ""
+
 #: admin/themes/default/upgrade/index.php:35
 msgid ""
 "Please back up your existing database and then click the button to upgrade."
@@ -5790,8 +6721,14 @@ msgid ""
 "available until the problem is resolved or you select another theme below."
 msgstr ""
 
+msgid "Please describe the contents of this document"
+msgstr ""
+
 #: application/config/module.config.php:629
 msgid "Please enter a valid language tag"
+msgstr ""
+
+msgid "Please enter first names and or surnames."
 msgstr ""
 
 #: application/controllers/UsersController.php:110
@@ -5804,6 +6741,32 @@ msgstr ""
 
 #: application/src/Controller/Admin/VocabularyController.php:170
 msgid "Please review these changes before you accept them."
+msgstr ""
+
+msgid "Please select a region on the page"
+msgstr ""
+
+msgid "Please select the name of the Tribunal from the below dropdown."
+msgstr ""
+
+msgid ""
+"Please select which of the types of information you would want to capture "
+"about this photograph"
+msgstr ""
+
+msgid "Please select..."
+msgstr ""
+
+msgid "Please transcribe as much as you can of this document"
+msgstr ""
+
+msgid "Please transcribe the occupation as it is written"
+msgstr ""
+
+msgid "Please transcribe the official caption"
+msgstr ""
+
+msgid "Please try to find your tag in the list above first."
 msgstr ""
 
 #: application/libraries/Omeka/Plugin/Installer.php:112
@@ -5832,6 +6795,15 @@ msgstr ""
 msgid "Powered by Omeka S"
 msgstr ""
 
+msgid "Precise location"
+msgstr ""
+
+msgid "Precise location of employment before 15 August 1915"
+msgstr ""
+
+msgid "Precise occupation before 15 August 1915"
+msgstr ""
+
 #: application/view/omeka/admin/vocabulary/browse.phtml:11
 #: application/view/omeka/admin/vocabulary/browse.phtml:44
 msgid "Prefix"
@@ -5840,6 +6812,12 @@ msgstr ""
 #: application/view/omeka/admin/vocabulary/classes.phtml:24
 #: application/view/omeka/admin/vocabulary/properties.phtml:10
 msgid "Prefix:"
+msgstr ""
+
+msgid "Present address"
+msgstr ""
+
+msgid "Present employer"
 msgstr ""
 
 #: application/view/common/site-page-pagination.phtml:3
@@ -5861,6 +6839,18 @@ msgstr ""
 
 #: application/views/scripts/common/pagination_control.php:11
 msgid "Previous Page"
+msgstr ""
+
+msgid "Previous application"
+msgstr ""
+
+msgid "Previous applications"
+msgstr ""
+
+msgid "Previous applications?"
+msgstr ""
+
+msgid "Privacy & Cookies"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:103
@@ -5995,6 +6985,45 @@ msgstr ""
 msgid "Quote"
 msgstr ""
 
+msgid "R. 41: Application as to exemption"
+msgstr ""
+
+msgid "R. 43 / R. 44 Pink form"
+msgstr ""
+
+msgid "R. 52 / 53, earlier version (pre-mid-1916)"
+msgstr ""
+
+msgid "R. 52 / 53, later version (post mid-1916)"
+msgstr ""
+
+msgid "R. 52: Form for Voluntarily Attested Men (blue)"
+msgstr ""
+
+msgid "R.186 – Application as to Exemption from Military Service (beige)"
+msgstr ""
+
+msgid "R.41 Application as to exemption"
+msgstr ""
+
+msgid "R.41 post- mid-1916"
+msgstr ""
+
+msgid "R.41 pre- mid-1916"
+msgstr ""
+
+msgid "R.52/53 post- mid-1916"
+msgstr ""
+
+msgid "R.52/53 pre- mid-1916"
+msgstr ""
+
+msgid "R41. (Beige/Yellow form)"
+msgstr ""
+
+msgid "R43 / R44 pink form"
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:43
 msgid "RDF/XML (.rdf)"
 msgstr ""
@@ -6009,13 +7038,44 @@ msgstr ""
 msgid "Re-type the Password"
 msgstr ""
 
+msgid ""
+"Ready to get started on contributing to the collection? Click below to view "
+"all the images in the collection."
+msgstr ""
+
 #: application/forms/User.php:88 application/models/User.php:168
 msgid "Real Name is required."
+msgstr ""
+
+msgid "Reason for application"
+msgstr ""
+
+msgid ""
+"Reason for application (if not made by man or his employer or military "
+"representative)"
+msgstr ""
+
+msgid "Reason for application (if not made by man or his employer)"
+msgstr ""
+
+msgid "Reason for decision of Local Tribunal"
 msgstr ""
 
 #: application/view/error/404.phtml:12
 #, php-format
 msgid "Reason: %s"
+msgstr ""
+
+msgid "Reasons"
+msgstr ""
+
+msgid "Reasons for the decision of the Local Tribunal"
+msgstr ""
+
+msgid "Reasons in support of application "
+msgstr ""
+
+msgid "Reasons in support of the application "
 msgstr ""
 
 #: admin/themes/default/error/404.php:36 admin/themes/default/index.php:70
@@ -6053,6 +7113,33 @@ msgstr ""
 
 #. Property label for Dublin Core:references
 msgid "References"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Region (of Place)"
+msgstr ""
+
+msgid "Region of Interest"
+msgstr ""
+
+msgid "Regional Number, if known"
+msgstr ""
+
+msgid "Regional number"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Register of appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Registration complete"
+msgstr ""
+
+msgid "Related link"
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:presentedAt
@@ -6219,6 +7306,9 @@ msgstr ""
 msgid "Resource ID"
 msgstr ""
 
+msgid "Resource class"
+msgstr ""
+
 #: application/src/DataType/Resource/AbstractResource.php:51
 #, php-format
 msgid "Resource not found with id %s."
@@ -6346,6 +7436,9 @@ msgstr ""
 msgid "Return to Dashboard"
 msgstr ""
 
+msgid "Return to the"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/review-import.phtml:5
 msgid "Review"
 msgstr ""
@@ -6395,6 +7488,9 @@ msgstr ""
 
 #. Omeka Video File: Sample Rate element
 msgid "Sample Rate"
+msgstr ""
+
+msgid "Saturday"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/batch-edit.phtml:19
@@ -6588,6 +7684,9 @@ msgstr ""
 msgid "Search only these record types:"
 msgstr ""
 
+msgid "Search places"
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:1
 #, php-format
 msgid "Search results for “%s”"
@@ -6619,6 +7718,27 @@ msgstr ""
 
 #: application/view/common/advanced-search/resource-template.phtml:19
 msgid "Searches for items that use any of these templates."
+msgstr ""
+
+msgid "Second page of beige R. 186 form"
+msgstr ""
+
+msgid "Second page of beige R41 form, post mid-1916."
+msgstr ""
+
+msgid "Second page of beige R41 form, pre mid-1916."
+msgstr ""
+
+msgid "Second page of blue R52/53 form, post mid-1916."
+msgstr ""
+
+msgid "Second page of blue R52/53 form, pre mid-1916."
+msgstr ""
+
+msgid "Second page of pink form (R43 / R44)"
+msgstr ""
+
+msgid "Second page or supplementary page (Pink form R43/33)"
 msgstr ""
 
 #: application/src/Form/SettingForm.php:272
@@ -6896,6 +8016,33 @@ msgstr ""
 msgid "Show user bar on public views"
 msgstr ""
 
+msgid "Signature"
+msgstr ""
+
+msgid "Signature of appellant"
+msgstr ""
+
+msgid "Signature of man"
+msgstr ""
+
+msgid "Signature of person by whom application made"
+msgstr ""
+
+msgid "Signature of the Person by whom application made"
+msgstr ""
+
+msgid "Signature of the Person making the application"
+msgstr ""
+
+msgid "Signature of the applicant"
+msgstr ""
+
+msgid "Signature of the applicant if other than the man himself"
+msgstr ""
+
+msgid "Signature of the man "
+msgstr ""
+
 #: application/view/common/user-bar.phtml:22
 #: application/view/layout/layout-admin.phtml:48
 #, php-format
@@ -7064,6 +8211,9 @@ msgstr ""
 msgid "Spatial characteristics of the resource."
 msgstr ""
 
+msgid "Sponsored by Welsh Government"
+msgstr ""
+
 #: admin/themes/default/files/show.php:46
 msgid "Square Thumbnail"
 msgstr ""
@@ -7082,6 +8232,9 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
+msgid "Start typing to find a relevant tag."
+msgstr ""
+
 #: application/view/omeka/admin/job/show.phtml:33
 msgid "Started"
 msgstr ""
@@ -7092,6 +8245,9 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:pageStart
 msgid "Starting page number within a continuous page range."
+msgstr ""
+
+msgid "Starts with: 'Continued...'"
 msgstr ""
 
 #: application/view/omeka/admin/job/browse.phtml:15
@@ -7195,8 +8351,21 @@ msgstr ""
 msgid "Table of contents"
 msgstr ""
 
+msgid "Tag"
+msgstr ""
+
 #: application/forms/GeneralSettings.php:45 application/forms/Install.php:113
 msgid "Tag Delimiter"
+msgstr ""
+
+msgid "Tag and identify a person"
+msgstr ""
+
+msgid ""
+"Tagging photographs will help people to search the collection. Please use "
+"tags/suggestions from the autocomplete list whenever possible. If you cannot "
+"find a matching suggestion, then enter your own tags in the additional tags "
+"box."
 msgstr ""
 
 #: admin/themes/default/common/content-nav.php:21
@@ -7209,6 +8378,9 @@ msgstr ""
 
 #: application/models/Tag.php:57
 msgid "Tags must be given a name."
+msgstr ""
+
+msgid "Tags:"
 msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:137
@@ -7243,8 +8415,20 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
+msgid "Text Page"
+msgstr ""
+
+msgid "Text for link to full browse view"
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:74
 msgid "Text for link to full browse view, if any."
+msgstr ""
+
+msgid "Text value"
+msgstr ""
+
+msgid "Thank you for registering"
 msgstr ""
 
 #: application/models/Tag.php:61
@@ -7360,6 +8544,9 @@ msgstr ""
 msgid "The API does not support the \"%s\" resource."
 msgstr ""
 
+msgid "The Case Number which should appear in the top corner"
+msgstr ""
+
 #. Dublin Core description
 msgid ""
 "The Dublin Core metadata element set is common to all Omeka records, "
@@ -7381,6 +8568,17 @@ msgstr ""
 
 #: application/controllers/SettingsController.php:206
 msgid "The ImageMagick directory path works."
+msgstr ""
+
+msgid ""
+"The Law and Practice of Military Conscription under the Military Service "
+"Acts, 1917"
+msgstr ""
+
+msgid "The National Library of Wales"
+msgstr ""
+
+msgid "The Recruiting Guide, Jan, 1918"
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:shortTitle
@@ -7828,6 +9026,9 @@ msgstr ""
 msgid "The name of the item type."
 msgstr ""
 
+msgid "The name of the person that appears on the document"
+msgstr ""
+
 #: application/src/Api/Adapter/VocabularyAdapter.php:186
 #, php-format
 msgid "The namespace URI \"%s\" is already taken."
@@ -7906,6 +9107,14 @@ msgstr ""
 
 #. Property comment for Dublin Core:accrualPolicy
 msgid "The policy governing the addition of items to a collection."
+msgstr ""
+
+msgid "The precise occupation"
+msgstr ""
+
+msgid ""
+"The precise occupation whether engaged in same or similar occupation before "
+"August 1915"
 msgstr ""
 
 #: application/src/Api/Adapter/VocabularyAdapter.php:198
@@ -8012,6 +9221,9 @@ msgstr ""
 
 #. Property comment for Dublin Core:subject
 msgid "The topic of the resource."
+msgstr ""
+
+msgid "The two given tokens do not match"
 msgstr ""
 
 #. Property comment for Friend of a Friend:focus
@@ -8169,6 +9381,11 @@ msgstr ""
 msgid "There were errors found in your form. Please edit and resubmit."
 msgstr ""
 
+msgid ""
+"These are annotations created by the community and may need extra work to "
+"complete."
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Thesis
 msgid "Thesis"
 msgstr ""
@@ -8207,6 +9424,11 @@ msgstr ""
 msgid "This migration should not be run."
 msgstr ""
 
+msgid ""
+"This page has been marked as completed.<br/>You can mark as incomplete if it "
+"needs more work."
+msgstr ""
+
 #. Property comment for Bibliographic Ontology:content
 msgid ""
 "This property is for a plain-text rendering of the content of a Document. "
@@ -8232,6 +9454,11 @@ msgstr ""
 msgid ""
 "This site is down for maintenance. Please contact the site administrator "
 "for\n"
+"more information."
+msgstr ""
+
+msgid ""
+"This site is down for maintenance. Please contact the site administrator for "
 "more information."
 msgstr ""
 
@@ -8355,6 +9582,9 @@ msgstr ""
 msgid "Title (Mr, Mrs, Ms, Dr. etc)"
 msgstr ""
 
+msgid "Title of Place"
+msgstr ""
+
 #: admin/themes/default/users/api-keys.php:21
 msgid ""
 "To create a new API key, enter a label for the key below. For example, "
@@ -8385,6 +9615,12 @@ msgstr ""
 msgid "To view all items with a tag, click the number."
 msgstr ""
 
+msgid "Top 10 contributors"
+msgstr ""
+
+msgid "Top level choice"
+msgstr ""
+
 #: admin/themes/default/item-types/browse.php:31
 msgid "Total Items"
 msgstr ""
@@ -8395,12 +9631,33 @@ msgstr ""
 msgid "Total Number of Items"
 msgstr ""
 
+msgid "Transcribe the address as it is written."
+msgstr ""
+
+msgid "Transcribe the exact wording next to this field."
+msgstr ""
+
 #. Omeka Legacy File: Transcriber element
 msgid "Transcriber"
 msgstr ""
 
+msgid "Transcription"
+msgstr ""
+
 #: application/src/Site/BlockLayout/LineBreak.php:34
 msgid "Transparent"
+msgstr ""
+
+msgid "Trawsfynydd Carnival"
+msgstr ""
+
+msgid "Tregaron District"
+msgstr ""
+
+msgid "Tregaron District - Appeal cases, [1916-1918]"
+msgstr ""
+
+msgid "Tribunal application decision"
 msgstr ""
 
 #: application/src/Form/Element/VocabularyFetch.php:44
@@ -8420,6 +9677,16 @@ msgstr ""
 
 #: admin/themes/default/item-types/browse.php:29
 msgid "Type Name"
+msgstr ""
+
+msgid ""
+"Type a town or village, then use the map to pinpoint more exact location."
+msgstr ""
+
+msgid "Type of business of employer"
+msgstr ""
+
+msgid "Type of business of present employer"
 msgstr ""
 
 #: application/forms/ResetPassword.php:33
@@ -8505,6 +9772,9 @@ msgstr ""
 msgid "Unknown property"
 msgstr ""
 
+msgid "Unknown resource template"
+msgstr ""
+
 #: application/src/View/Helper/SearchUserFilters.php:62
 msgid "Unknown role"
 msgstr ""
@@ -8537,6 +9807,9 @@ msgstr ""
 #: application/view/omeka/migrate/index.phtml:4
 #: application/view/omeka/migrate/index.phtml:7
 msgid "Update database"
+msgstr ""
+
+msgid "Update vocabulary"
 msgstr ""
 
 #: application/src/Form/ModuleStateChangeForm.php:64
@@ -8712,6 +9985,9 @@ msgstr ""
 msgid "User settings"
 msgstr ""
 
+msgid "User submitted annotations"
+msgstr ""
+
 #: application/src/Controller/Admin/UserController.php:113
 #, php-format
 msgid "User successfully created. %s"
@@ -8831,6 +10107,9 @@ msgstr ""
 msgid "View Public Page"
 msgstr ""
 
+msgid "View all collections"
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:11
 #: application/view/omeka/site/index/search.phtml:32
 #, php-format
@@ -8848,6 +10127,9 @@ msgstr[1] ""
 msgid "View items"
 msgstr ""
 
+msgid "View on map"
+msgstr ""
+
 #: application/view/omeka/site-admin/page/index.phtml:39
 msgid "View public page"
 msgstr ""
@@ -8860,6 +10142,9 @@ msgstr ""
 #: application/views/scripts/collections/browse.php:41
 #, php-format
 msgid "View the items in %s"
+msgstr ""
+
+msgid "View whole collection"
 msgstr ""
 
 #: application/view/omeka/site-admin/index/show.phtml:6
@@ -8916,6 +10201,17 @@ msgstr ""
 msgid "Vocabulary successfully updated"
 msgstr ""
 
+msgid "Voluntarily attested"
+msgstr ""
+
+msgid ""
+"Volunteers from all over Wales and beyond are able to contribute to our work "
+"from their homes or from community centres, such as public libraries."
+msgstr ""
+
+msgid "WW1 Top Level Choice"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/browse.phtml:161
 #: application/view/omeka/admin/item-set/browse.phtml:179
 #: application/view/omeka/admin/item/browse.phtml:159
@@ -8935,6 +10231,9 @@ msgstr ""
 
 #. Omeka Legacy File: Watermark element
 msgid "Watermark"
+msgstr ""
+
+msgid "We'd love to hear any stories you have about this photograph."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Webpage
@@ -8968,8 +10267,35 @@ msgstr ""
 msgid "Welcome, %s"
 msgstr ""
 
+msgid "What is the exact date this photograph was taken? (DD/MM/YYYY)"
+msgstr ""
+
+msgid "What is this person’s name?"
+msgstr ""
+
+msgid "What year was this photograph taken?"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:78
 msgid "When logged in"
+msgstr ""
+
+msgid "Where Attested"
+msgstr ""
+
+msgid "Where attested"
+msgstr ""
+
+msgid "Where was this photograph taken?"
+msgstr ""
+
+msgid "Whether any previous application has been made"
+msgstr ""
+
+msgid "Whether he is attested or not"
+msgstr ""
+
+msgid "Whether he is attested or not attested"
 msgstr ""
 
 #: application/forms/Install.php:39 application/forms/User.php:46
@@ -8979,8 +10305,31 @@ msgid ""
 "Whitespace is not allowed. Only these special characters may be used: %s"
 msgstr ""
 
+msgid "Whole Photograph"
+msgstr ""
+
+msgid "Whole photograph"
+msgstr ""
+
+msgid "Whole photograph (training)"
+msgstr ""
+
+msgid "Why appellant acts for the man"
+msgstr ""
+
+msgid "Why application made by applicant for the man "
+msgstr ""
+
 #. Omeka Image File: Width element
 msgid "Width"
+msgstr ""
+
+msgid "Wikipedia event link:"
+msgstr ""
+
+msgid ""
+"Wm. Carey Jones, Isfryn, 4, Gwaenydd Terr. Rhiw-S Snar Traws. Part Marian "
+"Bryfdir Wedding."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Workshop
@@ -8994,6 +10343,12 @@ msgstr ""
 
 #. Property label for Friend of a Friend:yahooChatID
 msgid "Yahoo chat ID"
+msgstr ""
+
+msgid "Year:"
+msgstr ""
+
+msgid "Years of age last birthday"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:75
@@ -9087,6 +10442,12 @@ msgstr ""
 
 #: admin/themes/default/items/browse.php:165
 msgid "You have no items."
+msgstr ""
+
+msgid "You have succesfully logged in"
+msgstr ""
+
+msgid "You have successfully logged in."
 msgstr ""
 
 #: application/config/module.config.php:621
@@ -9184,9 +10545,15 @@ msgid ""
 "following link to activate your account:"
 msgstr ""
 
+msgid "Your annotated images"
+msgstr ""
+
 #: admin/themes/default/search/index.php:39
 #: application/views/scripts/search/index.php:40
 msgid "Your query returned no results."
+msgstr ""
+
+msgid "Your saved Images"
 msgstr ""
 
 #: application/controllers/UsersController.php:116
@@ -9215,6 +10582,9 @@ msgstr ""
 msgid "[Default]"
 msgstr ""
 
+msgid "[Mr. and Mrs. Carr, Marian and Husband Jeffrey, Talweunydd]"
+msgstr ""
+
 #: application/view/common/asset-form.phtml:34
 msgid "[No asset selected]"
 msgstr ""
@@ -9229,6 +10599,15 @@ msgstr ""
 #: application/src/Form/ResourceBatchUpdateForm.php:74
 #: application/src/Form/ResourceBatchUpdateForm.php:97
 msgid "[No change]"
+msgstr ""
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas - New SSL]"
+msgstr ""
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas - SSL]"
+msgstr ""
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas]"
 msgstr ""
 
 #: application/src/Form/ResourceBatchUpdateForm.php:96
@@ -9324,6 +10703,9 @@ msgstr ""
 msgid "aka movie."
 msgstr ""
 
+msgid "am"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:annotates
 msgid "annotates"
 msgstr ""
@@ -9384,6 +10766,9 @@ msgid "collection"
 msgid_plural "collections"
 msgstr[0] ""
 msgstr[1] ""
+
+msgid "comments"
+msgstr ""
 
 #: application/src/Entity/Job.php:26
 msgid "completed"
@@ -9446,6 +10831,9 @@ msgstr ""
 msgid "director"
 msgstr ""
 
+msgid "discussions"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:distributor
 msgid "distributor"
 msgstr ""
@@ -9457,6 +10845,9 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:35
 #: application/view/common/advanced-search/properties.phtml:68
 msgid "does not contain"
+msgstr ""
+
+msgid "does not have resource"
 msgstr ""
 
 #: admin/themes/default/items/search-form.php:94
@@ -9487,6 +10878,9 @@ msgstr ""
 msgid "eissn"
 msgstr ""
 
+msgid "elephant"
+msgstr ""
+
 #: admin/themes/default/items/search-form.php:92
 #: application/views/scripts/items/search-form.php:87
 msgid "ends with"
@@ -9502,6 +10896,9 @@ msgstr ""
 
 #. Property label for Friend of a Friend:family_name
 msgid "family_name"
+msgstr ""
+
+msgid "file name"
 msgstr ""
 
 #. Property label for Friend of a Friend:firstName
@@ -9542,6 +10939,9 @@ msgstr ""
 msgid "has no values"
 msgstr ""
 
+msgid "has resource"
+msgstr ""
+
 #. Property label for Friend of a Friend:homepage
 msgid "homepage"
 msgstr ""
@@ -9552,6 +10952,9 @@ msgstr ""
 
 #. Property label for Friend of a Friend:img
 msgid "image"
+msgstr ""
+
+msgid "images"
 msgstr ""
 
 #: application/src/Entity/Job.php:25
@@ -9665,6 +11068,9 @@ msgstr ""
 msgid "knows"
 msgstr ""
 
+msgid "label"
+msgstr ""
+
 #: application/view/omeka/admin/media/show.phtml:73
 msgid "large"
 msgstr ""
@@ -9691,6 +11097,12 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:locator
 msgid "locator"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "login or register to contribute."
 msgstr ""
 
 #. Property label for Friend of a Friend:logo
@@ -9804,6 +11216,9 @@ msgstr ""
 msgid "or"
 msgstr ""
 
+msgid "or Login"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:organizer
 msgid "organizer"
 msgstr ""
@@ -9818,6 +11233,12 @@ msgstr ""
 
 #: application/src/Controller/SiteAdmin/PageController.php:81
 msgid "page"
+msgstr ""
+
+msgid "page 1"
+msgstr ""
+
+msgid "page 2"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:pageEnd
@@ -9908,6 +11329,9 @@ msgstr ""
 
 #: admin/themes/default/items/browse.php:173
 msgid "refine your search"
+msgstr ""
+
+msgid "register"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:reproducedIn
@@ -10021,6 +11445,9 @@ msgstr[1] ""
 msgid "theme"
 msgstr ""
 
+msgid "these are a bunch of nice people"
+msgstr ""
+
 #: application/src/Form/Element/ColorPicker.php:10
 msgid "three- or six-digit hexadecimal color, or \"transparent\""
 msgstr ""
@@ -10079,6 +11506,9 @@ msgstr ""
 
 #: application/view/omeka/admin/job/show.phtml:61
 msgid "view log"
+msgstr ""
+
+msgid "views"
 msgstr ""
 
 #: application/src/Controller/Admin/VocabularyController.php:60

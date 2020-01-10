@@ -152,6 +152,9 @@ msgstr ""
 msgid "%s–%s of %s"
 msgstr ""
 
+msgid "&copy; The National Library of Wales 2017"
+msgstr "&copy; Llyfrgell Genedlaethol Cymru 2017"
+
 #: application/libraries/globals.php:2614
 msgid "&larr; Previous Item"
 msgstr "← Eitem Flaenorol"
@@ -189,13 +192,22 @@ msgstr "(wedi anghofio'ch cyfrinair?)"
 msgid "(Private)"
 msgstr "(Preifat)"
 
+msgid "(R186 or R187) Application as to Exemption from Military Service "
+msgstr "(R186 neu R187) Application as to Exemption from Military Service"
+
+msgid "(R43 or R44) Notice of Appeal"
+msgstr "(R43 neu R44) Notice of Appeal"
+
+msgid "(R52 or R53) Form for Voluntarily Attested Men"
+msgstr "(R52 neu R53) Form for Voluntarily Attested Men"
+
 #: application/view/omeka/admin/user/show-details.phtml:7
 msgid "(inactive)"
 msgstr ""
 
 #: application/view/common/pagination.phtml:30
 msgid "0 results"
-msgstr ""
+msgstr "0 canlyniad"
 
 #: application/views/scripts/error/403.php:2
 msgid "403 Page Forbidden"
@@ -211,6 +223,9 @@ msgstr "403: Gwaharddwyd"
 msgid "404 Page Not Found"
 msgstr "404 Ni Ellir Ddarganfod y Dudalen"
 
+msgid "404 Page not found"
+msgstr "404 Heb ddod o hyd i'r dudalen "
+
 #: admin/themes/default/error/404.php:2
 msgid "404: Page Not Found"
 msgstr "404: Tudalen Heb Ei Ddarganfod"
@@ -222,6 +237,19 @@ msgstr "405 Ni Chaniateir y Dull"
 #: admin/themes/default/error/405.php:2
 msgid "405: Method Not Allowed"
 msgstr "405: Ni Chaniateir y Dull"
+
+msgid ""
+"<p>Help us to unlock a hidden history from The First World War and make part "
+"of the war&rsquo;s secret heritage which is held at The National Library of "
+"Wales accessible to the people of Wales and the world, now and in the "
+"future. Your contributions will enable others to research the Cardiganshire "
+"First World War Tribunal Records.</p>"
+msgstr ""
+"<p>Helpwch ni i ddatgloi hanes cudd o gyfnod y Rhyfel Byd Cyntaf, a gwneud "
+"rhan o dreftadaeth ddirgel y rhyfel sy'n cael ei chadw yn Llyfrgell "
+"Genedlaethol Cymru yn hygyrch i bobl Cymru a'r byd, yn awr ac i’r dyfodol. "
+"Bydd eich cyfraniadau chi yn cynorthwyo pobl eraill i ymchwilio Cofnodion "
+"Tribiwnlys y Rhyfel Byd Cyntaf Sir Aberteifi.</p>"
 
 #. Property comment for Friend of a Friend:mbox
 msgid ""
@@ -237,7 +265,7 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:director
 msgid "A Film director."
-msgstr ""
+msgstr "cyfarwyddwr Ffilm."
 
 #. Property comment for Friend of a Friend:myersBriggs
 msgid "A Myers Briggs (MBTI) personality classification."
@@ -275,7 +303,7 @@ msgstr ""
 
 #. Class comment for Bibliographic Ontology:Chapter
 msgid "A chapter of a book."
-msgstr ""
+msgstr "Pennod o lyfr."
 
 #. Property comment for Friend of a Friend:dnaChecksum
 msgid "A checksum for the DNA of some thing. Joke."
@@ -301,7 +329,7 @@ msgstr ""
 
 #. Class comment for Bibliographic Ontology:CourtReporter
 msgid "A collection of legal cases."
-msgstr ""
+msgstr "Casgliad o achosion cyfreithiol"
 
 #. Class comment for Bibliographic Ontology:Code
 msgid "A collection of statutes."
@@ -351,7 +379,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:depiction
 msgid "A depiction of some thing."
-msgstr ""
+msgstr "Darluniad o rhyw beth."
 
 #. Property comment for Friend of a Friend:thumbnail
 msgid "A derived thumbnail image."
@@ -432,7 +460,7 @@ msgstr ""
 
 #. Class comment for Friend of a Friend:Document
 msgid "A document."
-msgstr ""
+msgstr "Dogfen."
 
 #. Class comment for Dublin Core:MediaType
 msgid "A file format or physical medium."
@@ -491,6 +519,9 @@ msgstr ""
 msgid "A human-readable title of the vocabulary."
 msgstr ""
 
+msgid "A index page with links to other pages in the document."
+msgstr "Tudalen mynegai gyda dolenni i dudalennau eraill yn y ddogfen."
+
 #. Property comment for Friend of a Friend:jabberID
 msgid "A jabber ID for something."
 msgstr ""
@@ -508,6 +539,8 @@ msgid ""
 "A legal decision on appeal that takes action on a case (affirming it, "
 "reversing it, etc.)."
 msgstr ""
+"Penderfyniad cyfreithiol ar apêl sy'n cael ei weithredu ar achos (ei "
+"gadarnhau, ei ddadwneud, ayb.)"
 
 #. Property comment for Bibliographic Ontology:affirmedBy
 msgid "A legal decision that affirms a ruling."
@@ -515,7 +548,7 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:reversedBy
 msgid "A legal decision that reverses a ruling."
-msgstr ""
+msgstr "Penderfyniad cyfrieithiol sy'n dadwneud rheithiad"
 
 #. Class comment for Dublin Core:LicenseDocument
 msgid ""
@@ -586,7 +619,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:name
 msgid "A name for some thing."
-msgstr ""
+msgstr "Enw am rhyw beth."
 
 #. Dublin Core: Title element description
 msgid "A name given to the resource"
@@ -634,6 +667,9 @@ msgstr ""
 #: application/src/Api/Adapter/SitePageAdapter.php:106
 msgid "A page must have a title."
 msgstr ""
+
+msgid "A page of text with names and field numbers. "
+msgstr "Tudalen o destun gydag enwau a rhifau meysydd"
 
 #. Property comment for Friend of a Friend:page
 msgid "A page or document about this thing."
@@ -685,7 +721,7 @@ msgstr ""
 
 #. Class comment for Friend of a Friend:Person
 msgid "A person."
-msgstr ""
+msgstr "Person."
 
 #. Class comment for Bibliographic Ontology:PersonalCommunicationDocument
 msgid "A personal communication manifested in some document."
@@ -753,7 +789,7 @@ msgstr ""
 
 #. Class comment for Bibliographic Ontology:Performance
 msgid "A public performance."
-msgstr ""
+msgstr "Perfformiad cyhoeddus."
 
 #. Class comment for Dublin Core:Frequency
 msgid "A rate at which something recurs."
@@ -987,7 +1023,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:theme
 msgid "A theme."
-msgstr ""
+msgstr "Thema."
 
 #. Property comment for Friend of a Friend:depicts
 msgid "A thing depicted in this representation."
@@ -1027,7 +1063,7 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:volume
 msgid "A volume number"
-msgstr ""
+msgstr "Rhif cyfrol"
 
 #. Class comment for Bibliographic Ontology:Webpage
 msgid ""
@@ -1056,7 +1092,7 @@ msgstr ""
 
 #. Class comment for Bibliographic Ontology:Brief
 msgid "A written argument submitted to a court."
-msgstr ""
+msgstr "Dadl ysgrifenedig a gyflwynwyd i lys."
 
 #. Class comment for Bibliographic Ontology:Email
 msgid ""
@@ -1090,7 +1126,7 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:115
 #: application/view/common/advanced-search/properties.phtml:49
 msgid "AND"
-msgstr ""
+msgstr "A"
 
 #: admin/themes/default/common/settings-nav.php:32
 msgid "API"
@@ -1114,17 +1150,53 @@ msgstr ""
 msgid "API keys"
 msgstr ""
 
+msgid "Aberaeron Borough District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Bwrdeistref Aberaeron - Achosion Apêl, [1916-1918]"
+
+msgid "Aberaeron Borough/Urban District"
+msgstr "Bwrdeistref/Dosbarth Trefol Aberaeron"
+
+msgid "Aberaeron Rural District"
+msgstr "Dosbarth Gwledig Aberaeron"
+
+msgid "Aberaeron Rural District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Gwledig Aberaeron - Achosion Apêl, [1916-1918]"
+
+msgid "Aberystwyth"
+msgstr "Aberystwyth"
+
+msgid "Aberystwyth Borough District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Bwrdeistref Aberystwyth - Achosion Apêl, [1916-1918]"
+
+msgid "Aberystwyth Borough/Urban District"
+msgstr "Bwrdeistref/Dosbarth Trefol Aberystwyth"
+
+msgid "Aberystwyth Rural District"
+msgstr "Dosbarth Gwledig Aberystwyth"
+
+msgid "Aberystwyth Rural District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Gwledig Aberystwyth - Achosion Apêl, [1916-1918]"
+
+msgid "Aberystwyth, Ceredigion SY23 3BU"
+msgstr "Aberystwyth, Ceredigion, SY23 3BU"
+
+msgid "About the project"
+msgstr "Am y prosiect"
+
+msgid "About this photograph"
+msgstr "Am y llun hwn"
+
 #. Property label for Dublin Core:abstract
 msgid "Abstract"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:AcademicArticle
 msgid "Academic Article"
-msgstr ""
+msgstr "Erthygl Academaidd"
 
 #: application/view/omeka/admin/vocabulary/update.phtml:24
 msgid "Accept changes"
-msgstr ""
+msgstr "Derbyn newidiadau"
 
 #. Property label for Dublin Core:accessRights
 msgid "Access Rights"
@@ -1168,7 +1240,7 @@ msgstr ""
 #: application/src/Controller/Admin/ModuleController.php:76
 #: application/view/common/advanced-search/users.phtml:47
 msgid "Active"
-msgstr ""
+msgstr "Gweithredol"
 
 #: application/forms/User.php:142
 msgid "Active?"
@@ -1294,23 +1366,23 @@ msgstr "Ychwanegu Math o Eitem"
 
 #: application/src/Controller/Admin/ItemSetController.php:35
 msgid "Add another item set?"
-msgstr ""
+msgstr "Ychwanegu set eitemau arall?"
 
 #: application/src/Controller/Admin/ItemController.php:211
 msgid "Add another item?"
-msgstr ""
+msgstr "Ychwanegu eitem arall?"
 
 #: application/src/Controller/Admin/ResourceTemplateController.php:415
 msgid "Add another resource template?"
-msgstr ""
+msgstr "Ychwanegu templed adnodd arall?"
 
 #: application/src/Controller/Admin/UserController.php:117
 msgid "Add another user?"
-msgstr ""
+msgstr "Ychwanegu defnyddiwr arall?"
 
 #: application/view/common/attachments-form.phtml:60
 msgid "Add attachment"
-msgstr ""
+msgstr "Ychwanegu atodiad"
 
 #: application/view/omeka/admin/item/manage-media.phtml:68
 #: application/view/omeka/admin/item/manage-media.phtml:72
@@ -1328,7 +1400,7 @@ msgstr ""
 #: application/view/omeka/admin/index/browse.phtml:17
 #: application/view/omeka/admin/item/browse.phtml:41
 msgid "Add new item"
-msgstr ""
+msgstr "Ychwanegu eitem newydd"
 
 #: application/view/common/advanced-search/item-sets.phtml:37
 #: application/view/omeka/admin/index/browse.phtml:23
@@ -1338,12 +1410,12 @@ msgstr ""
 
 #: application/view/omeka/site-admin/page/index.phtml:11
 msgid "Add new page"
-msgstr ""
+msgstr "Ychwanegu tudalen newydd"
 
 #: application/view/omeka/admin/index/browse.phtml:35
 #: application/view/omeka/admin/resource-template/browse.phtml:30
 msgid "Add new resource template"
-msgstr ""
+msgstr "Ychwanegu templed adnoddau newydd"
 
 #: application/view/omeka/site-admin/index/index.phtml:25
 msgid "Add new site"
@@ -1368,30 +1440,30 @@ msgstr ""
 #: application/view/omeka/admin/user/browse.phtml:36
 #: application/view/omeka/site-admin/index/users.phtml:75
 msgid "Add new user"
-msgstr ""
+msgstr "Ychwanegu defnyddiwr newydd"
 
 #: application/view/common/advanced-search/properties.phtml:81
 msgid "Add new value"
-msgstr ""
+msgstr "Ychwanegu gwerth newydd"
 
 #: application/view/common/resource-fields.phtml:33
 #: application/view/omeka/admin/resource-template/form.phtml:32
 msgid "Add property"
-msgstr ""
+msgstr "Ychwanegu nodwedd"
 
 #: application/view/common/property-form-batch-edit.phtml:26
 #: application/view/common/property-form-batch-edit.phtml:77
 msgid "Add resource value"
-msgstr ""
+msgstr "Ychwanegu gwerth adnodd"
 
 #: application/view/omeka/admin/index/browse.phtml:53
 msgid "Add site"
-msgstr ""
+msgstr "Ychwanegu safle"
 
 #: application/view/common/property-form-batch-edit.phtml:12
 #: application/view/common/property-form-batch-edit.phtml:76
 msgid "Add text value"
-msgstr ""
+msgstr "Ychwanegu gwerth testun"
 
 #: application/view/omeka/admin/item/manage-item-sets.phtml:43
 msgid "Add to item set"
@@ -1413,6 +1485,9 @@ msgstr ""
 msgid "Add to site permission as"
 msgstr ""
 
+msgid "Add to the collection"
+msgstr "Ychwanegwch at y casgliad"
+
 #: application/view/common/resource-form-templates.phtml:21
 #: application/view/common/resource-form-templates.phtml:27
 #: application/view/common/resource-form-templates.phtml:28
@@ -1422,6 +1497,66 @@ msgstr ""
 #. Omeka Legacy File: Additional Creator element
 msgid "Additional Creator"
 msgstr "Crëwr Ychwangeol"
+
+msgid "Additional Name"
+msgstr "Enw Ychwanegol"
+
+msgid "Additional names for person"
+msgstr "Enwau eraill am y person"
+
+msgid "Address "
+msgstr "Cyfeiriad"
+
+msgid "Address (if not already stated)"
+msgstr "Cyfeiriad (os na nodwyd eisoes)"
+
+msgid "Address (in full) of man in respect of whom the application is made"
+msgstr "Cyfeiriad (llawn) y dyn y gwneir y cais amdano"
+
+msgid "Address at date of National Registration"
+msgstr "Cyfeiriad ar ddyddiad Cofrestru Cenedlaethol"
+
+msgid "Address at date of National Registration "
+msgstr "Cyfeiriad ar ddyddiad Cofrestru Cenedlaethol"
+
+msgid "Address of Applicant"
+msgstr "Cyfeiriad yr Ymgeisydd"
+
+msgid "Address of appellant "
+msgstr "Cyfeiriad yr apelydd"
+
+msgid "Address of employer"
+msgstr "Cyfeiriad y cyflogwr"
+
+msgid "Address of employer, if employed person"
+msgstr "Cyfeiriad y cyflogwr, os yn berson cyflogedig"
+
+msgid "Address of man at date of National Registration"
+msgstr "Cyfeiriad y dyn ar ddyddiad Cofrestru Cenedlaethol"
+
+msgid "Address of place"
+msgstr "Cyfeiriad y man"
+
+msgid "Address of place of employment "
+msgstr "Cyfeiriad y man cyflogaeth"
+
+msgid "Address of present employer"
+msgstr "Cyfeiriad y cyflogwr presennol"
+
+msgid "Address of the Person by whom application made"
+msgstr "Cyfeiriad y person sy'n gwneud y cais"
+
+msgid "Address of the applicant if other than the man himself "
+msgstr "Cyfeiriad yr ymgeisydd os yn wahanol i'r dyn ei hun"
+
+msgid "Address of the person making the application"
+msgstr "Cyfeiriad y person sy'n cyflwyno'r cais"
+
+msgid "Address on National Registration Certificate"
+msgstr "Cyfeiriad ar Dystysgrif Cofrestru Cenedlaethol"
+
+msgid "Address on national Registration Certificate"
+msgstr "Cyfeiriad ar y Dystysgrif Cofrestru cenedlaethol"
 
 #: application/view/layout/layout-admin.phtml:24
 #: application/view/omeka/site-admin/index/add.phtml:7
@@ -1444,7 +1579,7 @@ msgstr ""
 #: application/view/omeka/admin/index/browse.phtml:4
 #: application/view/omeka/index/index.phtml:26
 msgid "Admin dashboard"
-msgstr ""
+msgstr "Dangosfwrdd gweinyddu"
 
 #: application/forms/GeneralSettings.php:31 application/forms/Install.php:99
 msgid "Administrator Email"
@@ -1452,7 +1587,7 @@ msgstr "Ebost Gweinyddwr"
 
 #: application/src/Form/SettingForm.php:114
 msgid "Administrator email"
-msgstr ""
+msgstr "ebost Gweinyddwr"
 
 #: application/views/scripts/search/search-form.php:19
 msgid "Advanced Search (Items only)"
@@ -1468,7 +1603,7 @@ msgstr ""
 
 #: application/view/layout/layout-admin.phtml:61
 msgid "Advanced options"
-msgstr ""
+msgstr "Dewisiadau uwch"
 
 #: application/view/omeka/admin/item-set/browse.phtml:35
 #: application/view/omeka/admin/item-set/search.phtml:5
@@ -1514,6 +1649,21 @@ msgstr ""
 "pob allwedd yn gyfystyr â, ac yn cario'r un hawliau â defnyddiwr Omeka "
 "presennol. Gellir creu allweddi ar %sdudalen golygu%s pob defnyddiwr."
 
+msgid "Age"
+msgstr "Oed"
+
+msgid "Age at last birthday"
+msgstr "Oed ar y penblwydd diwethaf"
+
+msgid "Age of man"
+msgstr "Oed y dyn"
+
+msgid "Age of man (in respect of whom the application is being made)"
+msgstr "Oed y dyn (y gwneir y cais amdano)"
+
+msgid "Age of man (in respect of whom the application is made)"
+msgstr "Oed y dyn (y gwneir cais amdano)"
+
 #. Class label for Dublin Core:Agent
 #. Class label for Friend of a Friend:Agent
 msgid "Agent"
@@ -1525,7 +1675,7 @@ msgstr ""
 
 #: application/view/common/linked-resources.phtml:17
 msgid "All"
-msgstr ""
+msgstr "Y cyfan"
 
 #: admin/themes/default/items/batch-delete-all.php:18
 #, php-format
@@ -1557,7 +1707,7 @@ msgstr "Mae'n rhaid cael math o gofnod ar gyfer pob testun elfen."
 
 #: application/view/common/item-set-selector.phtml:10
 msgid "All item sets"
-msgstr ""
+msgstr "Y setiau eitemau oll"
 
 #: admin/themes/default/collections/browse.php:20
 msgid "All items are in a collection."
@@ -1612,10 +1762,16 @@ msgstr ""
 msgid "Alphabetical"
 msgstr ""
 
+msgid "Already registered"
+msgstr "Eisoes wedi cofrestru"
+
 #: application/view/omeka/admin/resource-template/form.phtml:58
 #: application/view/omeka/admin/resource-template/form.phtml:65
 msgid "Alternate"
 msgstr ""
+
+msgid "Alternate Name (of Place)"
+msgstr "Enw Arall (Man)"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:39
 #: application/view/omeka/admin/resource-template/show.phtml:29
@@ -1628,9 +1784,18 @@ msgstr ""
 msgid "Alternate label"
 msgstr ""
 
+msgid "Alternate name for place"
+msgstr "Enw arall am y man"
+
+msgid "Alternative Names"
+msgstr "Enwau eraill"
+
 #. Property label for Dublin Core:alternative
 msgid "Alternative Title"
-msgstr ""
+msgstr "Teitl arall"
+
+msgid "Alternative name(s) for person"
+msgstr "Enw(au) eraill y person"
 
 #: application/src/Form/SiteSettingsForm.php:79
 msgid "Always"
@@ -1779,7 +1944,7 @@ msgstr ""
 
 #. Class comment for Friend of a Friend:Image
 msgid "An image."
-msgstr ""
+msgstr "Delwedd."
 
 #. Class comment for Dublin Core Type:PhysicalObject
 msgid "An inanimate, three-dimensional object or substance."
@@ -1806,11 +1971,11 @@ msgstr ""
 
 #. Class comment for Friend of a Friend:OnlineAccount
 msgid "An online account."
-msgstr ""
+msgstr "Cyfrif ar-lein."
 
 #. Class comment for Friend of a Friend:OnlineChatAccount
 msgid "An online chat account."
-msgstr ""
+msgstr "Cyfrif sgwrs ar-lein."
 
 #. Class comment for Friend of a Friend:OnlineEcommerceAccount
 msgid "An online e-commerce account."
@@ -1844,7 +2009,7 @@ msgstr ""
 
 #. Class comment for Friend of a Friend:Organization
 msgid "An organization."
-msgstr ""
+msgstr "Sefydliad."
 
 #. Dublin Core: Identifier element description
 msgid "An unambiguous reference to the resource within a given context"
@@ -1860,6 +2025,24 @@ msgid ""
 "publication."
 msgstr ""
 
+msgid "Annotations"
+msgstr "Anodiadau"
+
+msgid "Any other type of form or document"
+msgstr "Unrhyw fath arall o ffurflen neu ddogfen"
+
+msgid "Appeal cases, [1916-1918]"
+msgstr "Achosion Apêl, [1916-1918]"
+
+msgid "Appeal cases, [1916-1918] (15r-32r)"
+msgstr "Achosion apêl, [1916-1918] (15r-32r)"
+
+msgid "Appeal cases, [1916-1918] (1r-14r)"
+msgstr "Achosion apêl, [1916-1918] (1r-14r)"
+
+msgid "Appeal cases, [1916-1918] (33r-46v)"
+msgstr "Achosion apêl, [1916-1918] (33r-46v)"
+
 #: admin/themes/default/appearance/edit-navigation.php:3
 #: admin/themes/default/appearance/edit-settings.php:2
 #: admin/themes/default/common/global-nav.php:11
@@ -1867,6 +2050,15 @@ msgstr ""
 #: admin/themes/default/themes/config.php:3
 msgid "Appearance"
 msgstr "Golwg"
+
+msgid "Appellant details"
+msgstr "Manylion yr apelydd"
+
+msgid "Applicant Occupation"
+msgstr "Galwedigaeth yr Ymgeisydd"
+
+msgid "Applicant details"
+msgstr "Manylion yr ymgeisydd"
 
 #: application/view/omeka/site-admin/page/edit.phtml:52
 msgid "Apply changes"
@@ -1887,6 +2079,13 @@ msgid ""
 "Are you sure you want to delete this asset? It will no longer be available "
 "to any resources currently using it."
 msgstr ""
+
+msgid ""
+"Are you sure you want to delete this asset? It will no longer be available "
+"to any sites currently using it."
+msgstr ""
+"Ydych chi'n siŵr eich bod am ddileu'r ased hwn? Ni fydd ar gael wedyn ar "
+"gyfer unrhyw safle sy'n ei ddefnyddio."
 
 #: admin/themes/default/plugins/confirm-uninstall.php:7
 #, php-format
@@ -1917,11 +2116,11 @@ msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:158
 msgid "Are you sure you would like to delete the selected item sets?"
-msgstr ""
+msgstr "Ydych chi'n siwr eich bod am ddileu'r setiau eitemau a ddewiswyd?"
 
 #: application/view/omeka/admin/item/browse.phtml:156
 msgid "Are you sure you would like to delete the selected items?"
-msgstr ""
+msgstr "Ydych chi'n siwr eich bod am ddileu'r eitemau a ddewiswyd?"
 
 #: application/view/omeka/admin/media/browse.phtml:168
 msgid "Are you sure you would like to delete the selected medias?"
@@ -1953,15 +2152,15 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Article
 msgid "Article"
-msgstr ""
+msgstr "Erthygl"
 
 #: application/view/common/sort-selector.phtml:14
 msgid "Ascending"
-msgstr ""
+msgstr "Esgynnol"
 
 #: application/src/Controller/Admin/AssetController.php:48
 msgid "Asset uploads must be POSTed."
-msgstr ""
+msgstr "Rhaid i asedau lwythwyd i fyny fod yn POSTed."
 
 #: application/src/Form/SiteSettingsForm.php:36
 msgid "Attachment link type"
@@ -1969,7 +2168,7 @@ msgstr ""
 
 #: application/view/common/attachments-form.phtml:20
 msgid "Attachments"
-msgstr ""
+msgstr "Atodiadau"
 
 #: application/src/Controller/Admin/JobController.php:27
 msgid "Attempt Stop"
@@ -1983,6 +2182,15 @@ msgstr ""
 #: application/src/Controller/Admin/JobController.php:56
 msgid "Attempting to stop the job."
 msgstr ""
+
+msgid "Attestation details"
+msgstr "Manylion ardystio"
+
+msgid "Attested"
+msgstr "Ardystiwyd"
+
+msgid "Attested or not attested"
+msgstr "Wedi ardystio neu heb ei ardystio"
 
 #. Property label for Dublin Core:audience
 msgid "Audience"
@@ -2013,6 +2221,16 @@ msgstr ""
 #: admin/themes/default/common/footer.php:6
 msgid "Back to top"
 msgstr ""
+
+msgid ""
+"Barack Obama and his wife Michelle walk through the crowd at a rally in "
+"Reynolds Coliseum"
+msgstr ""
+"Barack Obama a'i wraig Michelle yn cerdded trwy'r dorf mewn rali yn Reynolds "
+"Coliseum"
+
+msgid "Barack Obama speaking at rally at Reynolds Coliseum"
+msgstr "Barack Obama yn annerch rali yn Reynolds Coliseum"
 
 #. Vocabulary comment for Dublin Core
 msgid "Basic resource metadata (DCMI Metadata Terms)"
@@ -2085,7 +2303,7 @@ msgstr ""
 
 #: application/view/omeka/admin/item-set/batch-edit.phtml:7
 msgid "Batch edit item sets"
-msgstr ""
+msgstr "Golygu swp o setiau eitemau"
 
 #: application/view/omeka/admin/item/batch-edit.phtml:7
 msgid "Batch edit items"
@@ -2099,6 +2317,9 @@ msgstr ""
 msgid "Batch edit users"
 msgstr ""
 
+msgid "Become a contributor"
+msgstr "Dewch yn gyfranogwr"
+
 #: install/views/scripts/index/errors.phtml:2
 msgid ""
 "Before installation can continue, the following errors must be resolved:"
@@ -2109,6 +2330,15 @@ msgid ""
 "Begin playing the video at the given number of seconds from the start of the "
 "video."
 msgstr ""
+
+msgid "Beige R41 form, after mid 1916"
+msgstr "Ffurflen llwyd-felyn R41, wedi canol 1916"
+
+msgid "Beige R41 form, before mid 1916"
+msgstr "Ffurflen llwyd-felyn R41, cyn canol 1916"
+
+msgid "Beige form"
+msgstr "Ffurflen llwyd-felyn"
 
 #. Property label for Dublin Core:bibliographicCitation
 msgid "Bibliographic Citation"
@@ -2144,15 +2374,33 @@ msgstr ""
 
 #: application/view/common/block-layout.phtml:10
 msgid "Block to be removed"
-msgstr ""
+msgstr "Bloc i'w dynnu"
+
+msgid "Blue R52/53 form, after mid-1916."
+msgstr "Ffurflen las R52/53, yn dilyn canol-1916."
+
+msgid "Blue R52/53 form, before mid 1916"
+msgstr "Ffurflen las R52/53, cyn canol 1916"
+
+msgid "Blue form"
+msgstr "Ffurflen las"
+
+msgid "Blue/Grey Form"
+msgstr "Ffurflen Laslwyd"
 
 #. Class label for Bibliographic Ontology:Book
 msgid "Book"
-msgstr ""
+msgstr "Llyfr"
 
 #. Class label for Bibliographic Ontology:BookSection
 msgid "Book Section"
 msgstr ""
+
+msgid "Bookmark"
+msgstr "Llyfrnod"
+
+msgid "Bookmarked"
+msgstr "Llyfrnodwyd"
 
 #: application/libraries/globals.php:469
 msgid "Boolean"
@@ -2160,7 +2408,7 @@ msgstr "Boolean"
 
 #: application/src/Site/BlockLayout/LineBreak.php:43
 msgid "Break type"
-msgstr ""
+msgstr "Math o doriad"
 
 #. Class label for Bibliographic Ontology:Brief
 msgid "Brief"
@@ -2168,7 +2416,7 @@ msgstr ""
 
 #: application/src/Api/Adapter/SiteAdapter.php:351
 msgid "Browse"
-msgstr ""
+msgstr "Pori"
 
 #: application/libraries/globals.php:2795
 msgid "Browse All"
@@ -2243,7 +2491,7 @@ msgstr "Pori Defnyddwyr"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:26
 msgid "Browse all"
-msgstr ""
+msgstr "Pori'r cyfan"
 
 #: application/src/Form/SiteSettingsForm.php:169
 msgid "Browse body property"
@@ -2261,9 +2509,38 @@ msgstr ""
 msgid "Browse item sets"
 msgstr ""
 
+msgid "Browse link text"
+msgstr "Pori testun dolen"
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:15
 msgid "Browse preview"
 msgstr ""
+
+msgid ""
+"Bundle of Local Government circulars relating to the work of the Tribunals, "
+"April 1916-Nov. 1918"
+msgstr ""
+"Pecyn o gylchlythyron Llywodraeth Lleol yn ymwneud â gwaith y "
+"Tribiwnlysoedd, Ebrill 1916-Tach. 1918"
+
+msgid ""
+"Bundle of Ministry of National Service circulars relating to the work of the "
+"Tribunals, Nov. 1917-Oct. 1918"
+msgstr ""
+"Pecyn o gylchlythyron Ministry of National Service yn ymwneud â gwaith y "
+"Tribiwnlysoedd, Tach. 1917 - Hyd. 1918"
+
+msgid ""
+"Bundle of miscellaneous government circulars associated with the tribunal's "
+"work, from the Ministry of Food, Board of Agriculture, Army Council ..., "
+"1916-18"
+msgstr ""
+"Pecyn o gylchlythyron amrywiol y llywodraeth yn ymwneud â gwaith y "
+"tribiwnlys, o'r Ministry of Food, Board of Agriculture, Army Council ..., "
+"1916-18"
+
+msgid "Business"
+msgstr "Busnes"
 
 #: admin/themes/default/themes/browse.php:24
 #: admin/themes/default/themes/browse.php:68
@@ -2284,6 +2561,9 @@ msgstr ""
 msgid "CHNM"
 msgstr "CHNM"
 
+msgid "Can't find a relevant tag? Enter your own tags below."
+msgstr "Methu dod o hyd i dag addas? Nodwch eich tag isod."
+
 #: application/src/View/Helper/CancelButton.php:14
 #: application/view/omeka/admin/vocabulary/update.phtml:23
 msgid "Cancel"
@@ -2291,7 +2571,7 @@ msgstr "Diddymu"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:53
 msgid "Cancel delete"
-msgstr ""
+msgstr "Diddymu ased"
 
 #: application/models/Item.php:509
 msgid "Cannot add an existing file to an item!"
@@ -2347,7 +2627,7 @@ msgstr "Captcha"
 
 #: application/view/omeka/site-admin/page/edit.phtml:41
 msgid "Caption"
-msgstr ""
+msgstr "Capsiwn"
 
 #. Omeka Legacy File: Capture Date element
 msgid "Capture Date"
@@ -2361,6 +2641,60 @@ msgstr "Manylion Cipio"
 msgid "Capture Device"
 msgstr "Dyfais Cipio"
 
+msgid "Cardigan Borough District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Bwrdeistref Aberteifi - Achosion Apêl, [1916-1918]"
+
+msgid "Cardigan Borough/Urban District"
+msgstr "Bwrdeistref/Dosbarth Trefol Aberteifi"
+
+msgid "Cardigan Rural District"
+msgstr "Dosbarth Gwledig Aberteifi"
+
+msgid "Cardigan Rural District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Gwledig Aberteifi - Achosion Apêl, [1916-1918]"
+
+msgid "Cardiganshire First World War Tribunal (Appeals) Records"
+msgstr "Cofnodion Tribiwnlys (Apeliadau) y Rhyfel Mawr Sir Aberteifi"
+
+msgid "Cardiganshire Great War Tribunal (Appeals) Records,"
+msgstr "Cofnodion Tribiwnlys y Rhyfel Mawr (Apeliadau) Sir Aberteifi,"
+
+msgid "Cardiganshire Great War Tribunal (Appeals) records"
+msgstr "Cofnodion Tribiwnlys (Apeliadau) y Rhyfel Mawr Sir Aberteifi"
+
+msgid "Cardiganshire Tribunal records"
+msgstr "Cofnodion Tribiwnlys Sir Aberteifi"
+
+msgid "Cardiganshire/Cardigan County"
+msgstr "Sir Aberteifi"
+
+msgid "Carlisle School Annual Reports, 1910"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1910"
+
+msgid "Carlisle School Annual Reports, 1911"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1911"
+
+msgid "Carlisle School Annual Reports, 1912"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1912"
+
+msgid "Carlisle School Annual Reports, 1913"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1913"
+
+msgid "Carlisle School Annual Reports, 1914"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1914"
+
+msgid "Carlisle School Annual Reports, 1915"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1915"
+
+msgid "Carlisle School Annual Reports, 1916"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1916"
+
+msgid "Carlisle School Annual Reports, 1917"
+msgstr "Adroddiadau Blynyddol Ysgol Carlisle, 1917"
+
+msgid "Case"
+msgstr "Achos"
+
 #. Omeka Legacy File: Change History element
 msgid "Change History"
 msgstr "Newid Hanes"
@@ -2372,11 +2706,20 @@ msgstr "Newid Cyfrinair"
 
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:17
 msgid "Change item"
-msgstr ""
+msgstr "Newid eitem"
+
+msgid "Change of conditions or circumstances"
+msgstr "Newid yn amodau neu amgylchiadau"
+
+msgid "Change password"
+msgstr "Newid cyfrinair"
 
 #: application/src/Controller/Admin/VocabularyController.php:198
 msgid "Changes to the vocabulary successfully made"
 msgstr ""
+
+msgid "Changes to this page"
+msgstr "Newidiadau i'r dudalen hon"
 
 #: admin/themes/default/items/batch-edit-all.php:20
 #, php-format
@@ -2403,7 +2746,7 @@ msgstr "Sianelau"
 
 #. Class label for Bibliographic Ontology:Chapter
 msgid "Chapter"
-msgstr ""
+msgstr "Pennod"
 
 #: application/forms/Install.php:170
 msgid "Check box to show metadata elements with no text."
@@ -2443,15 +2786,49 @@ msgstr ""
 
 #: application/src/Controller/LoginController.php:168
 msgid "Check your email for instructions on how to reset your password"
-msgstr ""
+msgstr "Ewch i'ch ebost am gyfarwyddiadau ar sut i ailosod eich cyfrinair"
 
 #: admin/themes/default/items/batch-delete.php:39
 msgid "Checked items will be deleted."
 msgstr "Bydd yr eitemau sydd wedi'u ticio yn cael eu dileu."
 
+msgid "Children"
+msgstr "Plant"
+
+msgid "Choice 1"
+msgstr "Dewis 1"
+
+msgid "Choice for WW1 Tribunal Records using R41 form (beige/yellow)."
+msgstr ""
+"Dewis am Gofnodion Tribiwnlys RhB1 gan ddefnyddio ffurflen R41 (llwyd-felyn)"
+
+msgid "Choose"
+msgstr "Dewiswch"
+
 #: application/src/Form/Element/VocabularyFetch.php:16
 msgid "Choose a RDF vocabulary file. You must choose a file or enter a URL."
 msgstr ""
+
+msgid "Choose date"
+msgstr "Dewiswch ddyddiad"
+
+msgid "Choose the location on a map"
+msgstr "Dewiswch y lleoliad ar fap"
+
+msgid "Choose the type of form that best matches the page you can see. "
+msgstr ""
+"Dewiswch y math o ffurflen sy'n cydweddu orau gyda'r dudalen o'ch blaen. "
+
+msgid "Choose what to record about this"
+msgstr "Dewiswch beth i'w gofnodi am hwn"
+
+msgid "Choose what you want to tag"
+msgstr "Dewiswch beth yr hoffech ei dagio"
+
+msgid ""
+"Choose whether to tag a person within the photograph, or describe the whole "
+"photograph."
+msgstr "Dewiswch i dagio person yn y llun, neu i ddisgrifio y llun cyfan."
 
 #: application/views/scripts/items/show.php:36
 msgid "Citation"
@@ -2477,7 +2854,7 @@ msgstr "Cyfeirio"
 #: application/view/omeka/admin/resource-template/show.phtml:18
 #: application/view/omeka/site/item/browse.phtml:22
 msgid "Class"
-msgstr ""
+msgstr "Dosbarth"
 
 #: application/view/omeka/admin/vocabulary/browse.phtml:15
 #: application/view/omeka/admin/vocabulary/browse.phtml:45
@@ -2495,7 +2872,7 @@ msgstr ""
 
 #: application/view/common/asset-form.phtml:40
 msgid "Clear"
-msgstr ""
+msgstr "Clirio"
 
 #: application/src/Form/ResourceBatchUpdateForm.php:137
 msgid "Clear language"
@@ -2517,9 +2894,18 @@ msgstr ""
 msgid "Click and drag the files into the preferred display order."
 msgstr "Gellir clicio a dragio'r ffeiliau i'w rhoi yn y drefn cywir."
 
+msgid "Click here to login"
+msgstr "Cliciwch yma i fewngofnodi"
+
+msgid "Click here to register"
+msgstr "Cliciwch yma i gofrestru"
+
+msgid "Click here to sign up"
+msgstr "Cliciwch yma i gofrestru"
+
 #: application/view/common/property-selector.phtml:10
 msgid "Click on a property to add it to the edit panel."
-msgstr ""
+msgstr "Cliciwch ar nodwedd i'w hychwanegu at y panel golygu"
 
 #: application/view/common/user-selector.phtml:10
 msgid "Click on a user to add it to the edit panel."
@@ -2571,7 +2957,7 @@ msgstr ""
 #: application/view/omeka/site-admin/page/edit.phtml:38
 #: application/view/omeka/site-admin/page/index.phtml:65
 msgid "Close"
-msgstr ""
+msgstr "Cau"
 
 #: application/config/module.config.php:623
 msgid "Close icon set"
@@ -2579,7 +2965,7 @@ msgstr ""
 
 #: application/view/omeka/admin/item-set/form.phtml:27
 msgid "Close item set"
-msgstr ""
+msgstr "Cau setiau eitemau"
 
 #: application/view/omeka/admin/item-set/show-details.phtml:15
 #: application/view/omeka/admin/item-set/show.phtml:76
@@ -2619,6 +3005,9 @@ msgstr ""
 msgid "Collection Items"
 msgstr ""
 
+msgid "Collection list does not exist yet."
+msgstr "Nid yw'r rhestr casgliad yn bodoli eto"
+
 #: admin/themes/default/common/content-nav.php:13
 msgid "Collections"
 msgstr "Casgliadau"
@@ -2635,7 +3024,7 @@ msgstr ""
 
 #: application/src/Api/Representation/JobRepresentation.php:15
 msgid "Completed"
-msgstr ""
+msgstr "Cwblhawyd"
 
 #. Omeka Legacy File: Compression element
 msgid "Compression"
@@ -2676,7 +3065,7 @@ msgstr "Ffurfweddu'ch Gwefan"
 
 #: application/src/Form/ConfirmForm.php:17
 msgid "Confirm"
-msgstr ""
+msgstr "Cadarnhau"
 
 #: application/src/Controller/Admin/UserController.php:44
 #: application/src/Controller/Admin/UserController.php:49
@@ -2691,19 +3080,19 @@ msgstr "Cadarnhau Dileu"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:79
 msgid "Confirm delete"
-msgstr ""
+msgstr "Cadarnhau dileu"
 
 #: application/src/Form/InstallationForm.php:52
 msgid "Confirm email"
-msgstr ""
+msgstr "Cadarnhau ebost"
 
 #: application/src/Form/UserForm.php:179
 msgid "Confirm new password"
-msgstr ""
+msgstr "Cadarnhau cyfrinair newydd"
 
 #: application/src/Form/Element/PasswordConfirm.php:66
 msgid "Confirm password"
-msgstr ""
+msgstr "Cadarnhau cyfrinair"
 
 #: application/src/Controller/Admin/ModuleController.php:143
 msgid "Confirm uninstall"
@@ -2717,6 +3106,15 @@ msgstr "Cadarnhewch eich cyfrinair."
 msgid "Conforms To"
 msgstr ""
 
+msgid "Contact"
+msgstr "Cyswllt"
+
+msgid "Continued …"
+msgstr "Parhad ..."
+
+msgid "Contribute"
+msgstr "Cyfrannu"
+
 #. Property label for Dublin Core:contributor
 msgid "Contributor"
 msgstr "Cyfrannwr"
@@ -2726,6 +3124,15 @@ msgstr "Cyfrannwr"
 #: application/views/scripts/collections/browse.php:35
 msgid "Contributors"
 msgstr "Cyfrannwyr"
+
+msgid "Contributors' comments"
+msgstr "Sylwadau'r cyfrannwr"
+
+msgid "Copies of Military Service Acts and proclamations, 1916-18"
+msgstr "Copiau o Military Service Acts a datganiadau, 1916-18"
+
+msgid "Copyright"
+msgstr "Hawlfraint"
 
 #: application/libraries/globals.php:1267
 #: application/libraries/globals.php:1288
@@ -2745,9 +3152,15 @@ msgstr ""
 msgid "Count"
 msgstr ""
 
+msgid "Country (of Place)"
+msgstr "Gwlad (Man)"
+
+msgid "County"
+msgstr "Sir"
+
 #. Class label for Bibliographic Ontology:CourtReporter
 msgid "Court Reporter"
-msgstr ""
+msgstr "Gohebydd Llys"
 
 #. Property label for Dublin Core:coverage
 msgid "Coverage"
@@ -2761,11 +3174,11 @@ msgstr "Crëwch gyfrinair"
 
 #: application/view/omeka/login/create-password.phtml:6
 msgid "Create a new password"
-msgstr ""
+msgstr "Creu cyfrinair newydd"
 
 #: application/src/Form/InstallationForm.php:19
 msgid "Create the first user"
-msgstr ""
+msgstr "Creu y defnyddiwr cyntaf"
 
 #: application/view/omeka/admin/item-set/browse.phtml:23
 #: application/view/omeka/admin/item-set/browse.phtml:77
@@ -2790,6 +3203,9 @@ msgstr "Crëwr"
 msgid "Critical or explanatory note for a Document."
 msgstr ""
 
+msgid "Crowd at Obama speech"
+msgstr "Torf yn anerchiad Obama"
+
 #: application/views/scripts/common/pagination_control.php:36
 msgid "Current Page"
 msgstr ""
@@ -2804,11 +3220,14 @@ msgstr "Thema Cyfredol"
 
 #: application/src/Form/UserForm.php:166
 msgid "Current password"
-msgstr ""
+msgstr "Cyfrinair cyfredol"
+
+msgid "Current projects"
+msgstr "Prosiectau cyfredol"
 
 #: application/view/omeka/site-admin/index/theme.phtml:27
 msgid "Current theme"
-msgstr ""
+msgstr "Thema gyfredol"
 
 #: application/src/Site/Navigation/Link/Url.php:11
 msgid "Custom URL"
@@ -2851,6 +3270,9 @@ msgstr ""
 msgid "Date"
 msgstr "Dyddiad"
 
+msgid "Date "
+msgstr "Dyddiad"
+
 #. Property comment for Dublin Core:valid
 msgid "Date (often a range) of validity of a resource."
 msgstr ""
@@ -2881,7 +3303,7 @@ msgstr ""
 
 #. Property label for Dublin Core:created
 msgid "Date Created"
-msgstr ""
+msgstr "Dyddiad Creu"
 
 #. Property label for Dublin Core:issued
 msgid "Date Issued"
@@ -2895,29 +3317,65 @@ msgstr "Dyddiad Addaswyd"
 msgid "Date Submitted"
 msgstr ""
 
+msgid "Date Taken"
+msgstr "Dyddiad Tynnu"
+
 #. Property label for Dublin Core:valid
 msgid "Date Valid"
-msgstr ""
+msgstr "Dyddiad Dilys"
+
+msgid "Date and year of birth"
+msgstr "Dyddiad a blwyddyn geni"
 
 #: admin/themes/default/tags/browse.php:59
 msgid "Date created"
-msgstr ""
+msgstr "Dyddiad creu"
+
+msgid "Date of Application"
+msgstr "Dyddiad y Cais"
+
+msgid "Date of Birth"
+msgstr "Dyddiad Geni"
+
+msgid "Date of Death"
+msgstr "Dyddiad Marwolaeth"
 
 #. Property comment for Dublin Core:dateAccepted
 msgid "Date of acceptance of the resource."
 msgstr ""
 
+msgid "Date of application"
+msgstr "Dyddiad y cais"
+
+msgid "Date of attestation "
+msgstr "Dyddiad ardystio"
+
+msgid "Date of birth"
+msgstr "Dyddiad Geni"
+
+msgid "Date of birth of the person selected"
+msgstr "Dyddiad geni y person a ddetholwyd"
+
+msgid "Date of birthday"
+msgstr "Dyddiad penblwydd"
+
 #. Property comment for Dublin Core:dateCopyrighted
 msgid "Date of copyright."
-msgstr ""
+msgstr "Dyddiad yr hawlfraint"
 
 #. Property comment for Dublin Core:created
 msgid "Date of creation of the resource."
-msgstr ""
+msgstr "Dyddiad creu'r adnodd."
 
 #. Property comment for Dublin Core:issued
 msgid "Date of formal issuance (e.g., publication) of the resource."
 msgstr ""
+
+msgid "Date of last examination"
+msgstr "Dyddiad yr archwiliad olaf"
+
+msgid "Date of marriage"
+msgstr "Dyddiad priodi"
 
 #. Property comment for Dublin Core:dateSubmitted
 msgid "Date of submission of the resource."
@@ -2927,17 +3385,35 @@ msgstr ""
 msgid "Date on which the resource was changed."
 msgstr ""
 
+msgid "Date person born"
+msgstr "Dyddiad geni'r person"
+
+msgid "Date person died"
+msgstr "Dyddiad marw'r person"
+
+msgid "Date this photograph was taken"
+msgstr "Dyddiad y tynnwyd y llun yma"
+
 #: application/src/Form/ModuleStateChangeForm.php:55
 msgid "Deactivate"
 msgstr "Diffodd"
 
 #. Class label for Bibliographic Ontology:LegalDecision
 msgid "Decision"
-msgstr ""
+msgstr "Penderfyniad"
+
+msgid "Decision of Tribunal"
+msgstr "Penderfyniad y Tribiwnlys"
+
+msgid "Decision of the Local Tribunal"
+msgstr "Penderfyniad y Tribiwnlys Lleol"
+
+msgid "Decision of the Tribunal "
+msgstr "Penderfyniad y Tribiwnlys"
 
 #: application/src/Api/Representation/ResourceTemplatePropertyRepresentation.php:105
 msgid "Default"
-msgstr ""
+msgstr "Diofyn"
 
 #: application/forms/Install.php:185
 msgid "Default Superuser Account"
@@ -2994,21 +3470,21 @@ msgstr "Dileu Eitemau"
 #: application/view/omeka/admin/media/browse.phtml:54
 #: application/view/omeka/admin/user/browse.phtml:53
 msgid "Delete all"
-msgstr ""
+msgstr "Dileu'r cyfan"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:49
 msgid "Delete asset"
-msgstr ""
+msgstr "Dileu ased"
 
 #: application/view/common/attachments-form.phtml:11
 #: application/view/common/attachments-form.phtml:52
 msgid "Delete attachment"
-msgstr ""
+msgstr "Dileu atodiad"
 
 #: application/view/omeka/admin/item-set/browse.phtml:157
 #: application/view/omeka/admin/item-set/browse.phtml:175
 msgid "Delete item sets"
-msgstr ""
+msgstr "Dileu setiau eitemau"
 
 #: application/view/omeka/admin/item/browse.phtml:155
 #: application/view/omeka/admin/item/browse.phtml:173
@@ -3022,14 +3498,14 @@ msgstr ""
 
 #: application/view/omeka/site-admin/page/index.phtml:50
 msgid "Delete page"
-msgstr ""
+msgstr "Dileu tudalen"
 
 #: application/view/omeka/admin/item-set/browse.phtml:55
 #: application/view/omeka/admin/item/browse.phtml:54
 #: application/view/omeka/admin/media/browse.phtml:53
 #: application/view/omeka/admin/user/browse.phtml:52
 msgid "Delete selected"
-msgstr ""
+msgstr "Dewiswyd dileu"
 
 #: application/view/omeka/admin/user/browse.phtml:148
 #: application/view/omeka/admin/user/browse.phtml:166
@@ -3056,9 +3532,12 @@ msgstr ""
 msgid "Deletions will be processed in the background item by item."
 msgstr ""
 
+msgid "Denbighshire Archive Service New"
+msgstr "Gwasanaeth Archif Sir Ddinbych Newydd"
+
 #: application/src/Site/BlockLayout/TableOfContents.php:28
 msgid "Depth"
-msgstr ""
+msgstr "Dyfnder"
 
 #: application/forms/AppearanceSettings.php:97
 msgid "Derivative Size Constraints"
@@ -3066,11 +3545,26 @@ msgstr "Cyfyngiadau Maint Deunydd Deilliadol"
 
 #: application/view/common/sort-selector.phtml:15
 msgid "Descending"
-msgstr ""
+msgstr "Disgynnol"
+
+msgid "Describe the contents of this photograph"
+msgstr "Disgrifiwch gynnwys y llun yma"
+
+msgid "Describe this photograph"
+msgstr "Disgrifiwch y llun yma"
 
 #: application/config/module.config.php:631
 msgid "Description"
 msgstr "Disgrifiad"
+
+msgid "Description and data about the whole photo"
+msgstr "Disgrifiad a data am y llun cyfan"
+
+msgid "Description of the person identified"
+msgstr "Disgrifiad o'r person a adnabyddwyd"
+
+msgid "Description of the person selected"
+msgstr "Disgrifiad o'r person a ddetholwyd"
 
 #: application/view/omeka/admin/item-set/browse.phtml:124
 #: application/view/omeka/admin/item/browse.phtml:122
@@ -3087,7 +3581,7 @@ msgstr "Manylion"
 
 #: application/view/error/index.phtml:11
 msgid "Details:"
-msgstr ""
+msgstr "Manylion:"
 
 #: admin/themes/default/files/show.php:40
 msgid "Direct Links"
@@ -3122,20 +3616,23 @@ msgstr "Gosodiadau'r Dangosydd"
 
 #: application/view/omeka/admin/user/show.phtml:23
 msgid "Display name"
-msgstr ""
+msgstr "Arddangos enw"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:49
 msgid "Display resources using this search query"
-msgstr ""
+msgstr "Dangos adnoddau drwy ddefnyddio'r ymholiad chwilio hwn"
 
 #. Property comment for Bibliographic Ontology:distributor
 msgid "Distributor of a document or a collection of documents."
 msgstr ""
 
+msgid "Districts"
+msgstr "Dosbarthiadau"
+
 #. Class label for Bibliographic Ontology:Document
 #. Class label for Friend of a Friend:Document
 msgid "Document"
-msgstr ""
+msgstr "Dogfen"
 
 #. Class label for Bibliographic Ontology:DocumentStatus
 msgid "Document Status"
@@ -3163,7 +3660,7 @@ msgstr "Hyd"
 
 #. Class label for Bibliographic Ontology:Email
 msgid "EMail"
-msgstr ""
+msgstr "EBost"
 
 #: application/models/Option.php:50 application/models/Option.php:54
 msgid "Each option must have a unique name."
@@ -3240,7 +3737,7 @@ msgstr "Golygu Defnyddiwr #%s"
 #: application/view/omeka/admin/media/browse.phtml:50
 #: application/view/omeka/admin/user/browse.phtml:49
 msgid "Edit all"
-msgstr ""
+msgstr "Golygu'r cyfan"
 
 #: application/view/omeka/admin/item/show.phtml:21
 msgid "Edit item"
@@ -3253,6 +3750,9 @@ msgstr ""
 #: application/view/omeka/admin/media/show.phtml:14
 msgid "Edit media"
 msgstr ""
+
+msgid "Edit my profile"
+msgstr "Golygu fy mhroffil"
 
 #: application/view/omeka/admin/resource-template/show-property-row.phtml:32
 msgid "Edit property"
@@ -3267,7 +3767,7 @@ msgstr ""
 #: application/view/omeka/admin/media/browse.phtml:49
 #: application/view/omeka/admin/user/browse.phtml:48
 msgid "Edit selected"
-msgstr ""
+msgstr "Dewiswyd golygu"
 
 #: application/view/omeka/site-admin/index/theme.phtml:43
 msgid "Edit theme settings"
@@ -3281,6 +3781,9 @@ msgstr "Golygu'r Defnyddiwr Yma"
 msgid "Edit user"
 msgstr ""
 
+msgid "Edited"
+msgstr "Golygwyd"
+
 #. Class label for Bibliographic Ontology:EditedBook
 msgid "Edited Book"
 msgstr ""
@@ -3288,6 +3791,9 @@ msgstr ""
 #: admin/themes/default/tags/browse.php:42
 msgid "Editing Tags"
 msgstr "Golygu Tagiau"
+
+msgid "Editing complete"
+msgstr "Wedi cwblhau golygu"
 
 #: application/src/Controller/Admin/ItemSetController.php:314
 msgid "Editing item sets. This may take a while."
@@ -3300,6 +3806,12 @@ msgstr ""
 #: application/src/Controller/Admin/MediaController.php:282
 msgid "Editing medias. This may take a while."
 msgstr ""
+
+msgid "Editing not started"
+msgstr "Heb gychwyn golygu"
+
+msgid "Editing started"
+msgstr "Wedi cychwyn golygu"
 
 #: application/src/Controller/Admin/UserController.php:444
 msgid "Editing users. This may take a while."
@@ -3348,7 +3860,7 @@ msgstr "Rhaid cael ebost."
 
 #: application/src/Controller/LoginController.php:65
 msgid "Email or password is invalid"
-msgstr ""
+msgstr "Nid yw'r ebost neu gyfrinair yn ddilys"
 
 #: application/src/Form/SiteSettingsForm.php:52
 msgid "Embed media on item pages"
@@ -3357,6 +3869,12 @@ msgstr ""
 #: admin/themes/default/files/show.php:87
 msgid "Embedded Metadata"
 msgstr "Metadata wedi'i mewnblannu"
+
+msgid "Employer Address"
+msgstr "Cyfeiriad Cyflogwr"
+
+msgid "Employer address "
+msgstr "Cyfeiriad cyflogwr"
 
 #: admin/themes/default/settings/edit-api.php:11
 msgid "Enable API"
@@ -3396,7 +3914,7 @@ msgstr ""
 
 #: application/view/omeka/admin/job/show.phtml:37
 msgid "Ended"
-msgstr ""
+msgstr "Gorffennwyd"
 
 #. Property comment for Bibliographic Ontology:pageEnd
 msgid "Ending page number within a continuous page range."
@@ -3405,6 +3923,9 @@ msgstr ""
 #: application/src/Form/Element/VocabularyFetch.php:27
 msgid "Enter a RDF vocabulary URL. You must enter a URL or choose a file."
 msgstr ""
+
+msgid "Enter any other information about this person."
+msgstr "Nodwch unrhyw wybodaeth arall am y person yma."
 
 #: application/forms/SecuritySettings.php:60
 #, php-format
@@ -3426,6 +3947,9 @@ msgid ""
 "language tag. Defaults to the first available."
 msgstr ""
 
+msgid "Enter whatever information you have about this photograph"
+msgstr "Nodwch pa bynnag wybodaeth sydd gennych am y llun yma"
+
 #: admin/themes/default/users/forgot-password.php:11
 #: application/views/scripts/users/forgot-password.php:10
 msgid "Enter your email address to retrieve your password."
@@ -3433,7 +3957,7 @@ msgstr "Teipiwch eich cyfeiriad ebost er mwyn adfer eich cyfrinair."
 
 #: application/src/Controller/Admin/ModuleController.php:73
 msgid "Error"
-msgstr ""
+msgstr "Gwall"
 
 #: application/src/File/Downloader.php:71
 #, php-format
@@ -3494,7 +4018,7 @@ msgstr ""
 #. Class label for Dublin Core Type:Event
 #. Class label for Bibliographic Ontology:Event
 msgid "Event"
-msgstr ""
+msgstr "Digwyddiad"
 
 #: application/libraries/globals.php:470
 msgid "Exact match"
@@ -3532,6 +4056,9 @@ msgstr ""
 msgid "Extent"
 msgstr ""
 
+msgid "External resource"
+msgstr "Adnodd allanol"
+
 #: application/config/module.config.php:626
 msgid "Failed loading resource template from API"
 msgstr ""
@@ -3539,6 +4066,9 @@ msgstr ""
 #: install/views/scripts/index/fatal-error.phtml:1
 msgid "Fatal Error"
 msgstr "Gwall Marwol"
+
+msgid "Fax"
+msgstr "Ffacs"
 
 #: admin/themes/default/collections/add.php:19
 #: admin/themes/default/collections/edit.php:37
@@ -3630,6 +4160,9 @@ msgid ""
 msgstr ""
 "Ni ellir ychwanegu ffeil at eitem sydd ddim yn barhaol yn y gronfa ddata."
 
+msgid "Fill in any extra information you have about this photo or leave blank"
+msgstr "Nodwch unrhyw wybodaeth ychwanegol am y llun yma neu gadewch yn wag"
+
 #. Class label for Bibliographic Ontology:Film
 msgid "Film"
 msgstr ""
@@ -3680,11 +4213,11 @@ msgstr ""
 
 #: application/view/common/property-selector.phtml:12
 msgid "Filter properties"
-msgstr ""
+msgstr "Hidlo nodweddion"
 
 #: application/view/omeka/admin/item/sidebar-select.phtml:28
 msgid "Filter search"
-msgstr ""
+msgstr "Hidlo chwiliad"
 
 #: application/view/common/user-selector.phtml:13
 msgid "Filter users"
@@ -3694,9 +4227,36 @@ msgstr ""
 msgid "Find a File"
 msgstr "Cael hyd i Ffeil"
 
+msgid "Find out more"
+msgstr "I ddarganfod mwy"
+
 #: application/src/Controller/SiteAdmin/IndexController.php:207
 msgid "First page in navigation"
 msgstr ""
+
+msgid "First page of beige R. 186 form"
+msgstr "Tudalen gyntaf ffurflen lwydfelyn R. 186"
+
+msgid "First page of beige R41 form, post mid-1916."
+msgstr "Tudalen gyntaf y ffurflen llwyd-felyn R41, wedi canol-1916."
+
+msgid "First page of beige R41 form, pre mid-1916."
+msgstr "Tudalen gyntaf ffurflen llwyd-felyn R41, cyn canol-1916."
+
+msgid "First page of blue R52/53 form, post mid-1916."
+msgstr "Tudalen gyntaf y ffurflen las R52/53, wedi canol-1916"
+
+msgid "First page of blue R52/53 form, pre mid-1916."
+msgstr "Tudalen cyntaf ffurflen las R52/53, cyn canol-1916"
+
+msgid "First page of pink form (R43 / R44)"
+msgstr "Tudalen gyntaf y ffurflen binc (R43 / R44)"
+
+msgid "Flag"
+msgstr "Fflagio"
+
+msgid "Flag as inappropriate"
+msgstr "Fflagio fel anaddas"
 
 #: application/src/Controller/Admin/UserController.php:371
 msgid "For security reasons, you can’t batch edit yourself."
@@ -3704,7 +4264,7 @@ msgstr ""
 
 #: application/view/error/403.phtml:4
 msgid "Forbidden"
-msgstr ""
+msgstr "Gwaharddedig"
 
 #: admin/themes/default/users/forgot-password.php:2
 #: application/views/scripts/users/forgot-password.php:2
@@ -3713,15 +4273,18 @@ msgstr "Wedi anghofio Cyfrinair"
 
 #: application/view/omeka/login/forgot-password.phtml:6
 msgid "Forgot password"
-msgstr ""
+msgstr "Wedi anghofio cyfrinair"
 
 #: application/view/omeka/login/login.phtml:7
 msgid "Forgot password?"
-msgstr ""
+msgstr "Anghofio cyfrinair?"
 
 #: install/views/scripts/index/index.phtml:16
 msgid "Form Validation Errors"
 msgstr "Gwallau wrth ddilysu Ffurflenni"
+
+msgid "Form for voluntary attested men (IS Label)"
+msgstr "Form for Voluntarily Attested Men (Label IS)"
 
 #. Property label for Dublin Core:format
 msgid "Format"
@@ -3742,7 +4305,7 @@ msgstr ""
 
 #. Vocabulary label for Friend of a Friend
 msgid "Friend of a Friend"
-msgstr ""
+msgstr "Ffrind i Ffrind"
 
 #: admin/themes/default/files/show.php:44
 msgid "Fullsize"
@@ -3753,10 +4316,19 @@ msgstr "Maintllawn"
 msgid "Fullsize Image Size"
 msgstr "Maint Delwedd Maintllawn"
 
+msgid "GLE Collection (SSL)"
+msgstr "Casgliad GLE (SSL)"
+
+msgid "Gender"
+msgstr "Rhywedd"
+
 #: application/src/Form/SiteSettingsForm.php:28
 #: application/src/Form/SettingForm.php:105
 msgid "General"
 msgstr "Cyffredinol"
+
+msgid "Get started"
+msgstr "Cychwyn"
 
 #: admin/themes/default/collections/browse.php:85
 msgid "Get started by adding your first collection."
@@ -3781,7 +4353,7 @@ msgstr ""
 #. Property label for Friend of a Friend:givenName
 #. Property label for Friend of a Friend:givenname
 msgid "Given name"
-msgstr ""
+msgstr "Enw a roddwyd"
 
 #: application/src/Permissions/Acl.php:21
 msgid "Global Administrator"
@@ -3866,9 +4438,24 @@ msgid ""
 "Your reset link will expire on %4$s."
 msgstr ""
 
+msgid "Grounds"
+msgstr "Rhesymau"
+
+msgid "Grounds for application"
+msgstr "Rhesymau am y cais"
+
+msgid "Grounds on which application is made"
+msgstr "Rhesymau dros gyflwyno'r cais"
+
 #. Class label for Friend of a Friend:Group
 msgid "Group"
-msgstr ""
+msgstr "Grŵp"
+
+msgid "Group and Class Systems: Notes on Administration, Feb, 1916"
+msgstr "Group and Class Systems: Notes on Administration, Chwefror, 1916"
+
+msgid "Gwilym Livingstone Evans Photography Collection"
+msgstr "Casgliad Ffotograffau Gwilym Livingstone Evans"
 
 #: application/src/Media/Ingester/Html.php:36
 #: application/src/Media/Ingester/Html.php:79
@@ -3896,6 +4483,9 @@ msgstr ""
 msgid "Has Version"
 msgstr ""
 
+msgid "Has everything been annotated?"
+msgstr "Ydi popeth wedi'i anodi?"
+
 #: application/src/View/Helper/SearchUserFilters.php:71
 #: application/view/common/advanced-search/users.phtml:53
 msgid "Has permission in site"
@@ -3904,6 +4494,9 @@ msgstr ""
 #: application/forms/AppearanceSettings.php:73
 msgid "Have item files link to the file metadata instead of the file directly."
 msgstr ""
+
+msgid "Heading above resource list"
+msgstr "Pennawd uwchlaw'r rhestr adnoddau"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:66
 msgid "Heading above resource list, if any."
@@ -3923,6 +4516,29 @@ msgstr "Uchder"
 msgid "Hello %s. Your username is %s"
 msgstr ""
 
+msgid "Help & Tutorials"
+msgstr "Cymorth a hyfforddiant"
+
+msgid ""
+"Help us to unlock a hidden history from The First World War and make part of "
+"the war’s secret heritage which is held at The National Library of Wales "
+"accessible to the people of Wales and the world, now and in the future. Your "
+"contributions will enable others to research the Cardiganshire First World "
+"War Tribunal Records."
+msgstr ""
+"Helpwch ni i ddatgloi hanes cudd o gyfnod y Rhyfel Byd Cyntaf, a gwneud rhan "
+"o dreftadaeth ddirgel y rhyfel sy'n cael ei chadw yn Llyfrgell Genedlaethol "
+"Cymru yn hygyrch i bobl Cymru a'r byd, yn awr ac i’r dyfodol. Bydd eich "
+"cyfraniadau chi yn cynorthwyo pobl eraill i ymchwilio Cofnodion Tribiwnlys y "
+"Rhyfel Byd Cyntaf Sir Aberteifi."
+
+msgid ""
+"Help us to unlock the hidden histories of the First World War contained in "
+"these documents"
+msgstr ""
+"Helpwch ni i ddatgloi hanesion cudd o'r Rhyfel Byd Cyntaf sydd yn y "
+"dogfennau hyn"
+
 #: admin/themes/default/items/browse.php:157
 msgid "Hide Details"
 msgstr "Cuddio Manylion"
@@ -3934,6 +4550,9 @@ msgstr ""
 #: application/src/Controller/SiteAdmin/IndexController.php:201
 msgid "Homepage"
 msgstr ""
+
+msgid "How long employed in the same or similar oocupation before August 1915"
+msgstr "Pa hyd y cafodd ei gyflogi yn yr un neu gyflogaeth tebyg cyn Awst 1915"
 
 #. Property label for Friend of a Friend:icqChatID
 msgid "ICQ chat ID"
@@ -3973,16 +4592,41 @@ msgstr "Llinyn IPTC"
 msgid "Identifier"
 msgstr "Dynodwr"
 
+msgid "Identify the document type (IS Label)"
+msgstr "Adnabyddwch y math o ddogfen (Label IS)"
+
+msgid ""
+"If appellant is not the military representative, why appelant acts for the "
+"man"
+msgstr ""
+"Os nad y cynrychiolydd milwrol yw'r apeliwr, pam mae'r apeliwr yn "
+"cynrychioli'r dyn"
+
 #: application/src/Form/SettingForm.php:246
 msgid ""
 "If checked, all items, item sets and sites newly created will have their "
 "visibility set to private by default."
 msgstr ""
 
+msgid "If married, date of marriage"
+msgstr "Os yn briod, dyddiad priodi"
+
+msgid "If the application is for renewal, any change in conditions?"
+msgstr "Os yw'r cais ar gyfer adnewyddu, unrhyw newid mewn amodau?"
+
+msgid "If the case number is known, please include the details here"
+msgstr "Os yw rhif yr achos yn hysbys, nodwch y manylion yma"
+
+msgid "If the name of Local Tribunal is known, please include the details here"
+msgstr "Os yw enw'r Tribiwnlys Lleol yn hysbys, nodwch y manylion yma"
+
 #: admin/themes/default/error/404.php:10
 #, php-format
 msgid "If this does not help, try contacting the %s."
 msgstr "Os nad yw hyn yn gweithio, cysylltwch â %s."
+
+msgid "If voluntarily attested, state so"
+msgstr "Os ardystiwyd yn wirfoddol, nodwch hyn"
 
 #: admin/themes/default/upgrade/migrate.php:31
 msgid ""
@@ -3999,15 +4643,31 @@ msgstr ""
 msgid "If you think you should have permission, try contacting the %s."
 msgstr "Os ydych yn meddwl y ddylai'r hawl fod ganddoch, cysylltwch â %s."
 
+msgid ""
+"If you would like to change your password please enter a new password here, "
+"otherwise leave blank."
+msgstr ""
+"Os hoffech newid eich cyfrinair rhowch gyfrinair newydd yn y fan hon, neu "
+"fel arall gadewch hwn yn wag."
+
 #. Class label for Dublin Core Type:Image
 #. Class label for Bibliographic Ontology:Image
 #. Class label for Friend of a Friend:Image
 msgid "Image"
-msgstr ""
+msgstr "Delwedd"
 
 #: application/forms/GeneralSettings.php:59 application/forms/Install.php:174
 msgid "ImageMagick Directory Path"
 msgstr "Llwybr Cyfarwyddol ImageMagick"
+
+msgid "Images"
+msgstr "Delweddau"
+
+msgid "Images annotated"
+msgstr "Delweddau anodwyd"
+
+msgid "Images waiting"
+msgstr "Delweddau sy'n aros"
 
 #: application/view/omeka/admin/resource-template/browse.phtml:28
 #: application/view/omeka/admin/resource-template/import.phtml:5
@@ -4017,16 +4677,16 @@ msgstr ""
 
 #: application/src/Controller/Admin/VocabularyController.php:101
 msgid "Import another vocabulary?"
-msgstr ""
+msgstr "Ychwanegu geirfa arall?"
 
 #: application/view/omeka/admin/index/browse.phtml:29
 #: application/view/omeka/admin/vocabulary/browse.phtml:29
 msgid "Import new vocabulary"
-msgstr ""
+msgstr "Llwytho geirfa newydd"
 
 #: application/src/Api/Representation/JobRepresentation.php:14
 msgid "In Progress"
-msgstr ""
+msgstr "Ar waith"
 
 #: application/view/common/advanced-search/site-pool.phtml:12
 msgid "In site pool"
@@ -4039,6 +4699,16 @@ msgstr ""
 #: application/forms/User.php:137
 msgid "Inactive users cannot log in to the site."
 msgstr "Ni all ddefnyddwyr anactif fewngofnodi i'r safle."
+
+msgid ""
+"Includes the title 'Application as to Exemption from Military Service' and "
+"R186 or R187 in the header"
+msgstr ""
+"Yn cynnwys y teitl 'Application as to Exemption from Military Service' a "
+"R186 neu R187 yn y pennawd"
+
+msgid "Index Page"
+msgstr "Tudalen Mynegai"
 
 #: admin/themes/default/settings/edit-search.php:23
 #: admin/themes/default/settings/edit-search.php:42
@@ -4092,6 +4762,9 @@ msgstr ""
 msgid "Indicates the name (identifier) associated with this online account."
 msgstr ""
 
+msgid "Information about a person depicted in the illustration"
+msgstr "Gwybodaeth am berson a ddarlunir"
+
 #. Dublin Core: Rights element description
 msgid "Information about rights held in and over the resource"
 msgstr "Gwybodaeth am yr hawliau a ddelir o gwmpas yr adnodd"
@@ -4128,7 +4801,7 @@ msgstr "Rhybudd Gosod"
 
 #: application/src/Controller/InstallController.php:52
 msgid "Installation successful. Please log in."
-msgstr ""
+msgstr "Arsefydlwyd yn llwyddiannus.  Mewngofnodwch os gwelwch yn dda."
 
 #: application/src/Form/InstallationForm.php:80
 #: application/src/Form/SettingForm.php:127
@@ -4145,15 +4818,15 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Interview
 msgid "Interview"
-msgstr ""
+msgstr "Cyfweliad"
 
 #: application/src/Controller/Admin/ModuleController.php:82
 msgid "Invalid INI"
-msgstr ""
+msgstr "INI annilys"
 
 #: application/src/Controller/Admin/ModuleController.php:83
 msgid "Invalid Omeka S version"
-msgstr ""
+msgstr "Fersiwn Omeka S annilys"
 
 #: application/forms/Navigation.php:343
 #, php-format
@@ -4227,7 +4900,7 @@ msgstr "Math o eitem annilys."
 
 #: application/src/Controller/Admin/ModuleController.php:81
 msgid "Invalid module"
-msgstr ""
+msgstr "Modiwl annilys"
 
 #: application/src/Api/Adapter/SiteAdapter.php:314
 msgid "Invalid navigation: invalid link data"
@@ -4327,6 +5000,9 @@ msgstr ""
 msgid "Is active"
 msgstr ""
 
+msgid "Is this page complete?"
+msgstr "Ydi'r dudalen hon wedi'i chwblhau?"
+
 #. Class label for Bibliographic Ontology:Issue
 msgid "Issue"
 msgstr ""
@@ -4346,7 +5022,10 @@ msgstr "Metadata'r Eitem"
 
 #: application/src/DataType/Resource/ItemSet.php:13
 msgid "Item Set"
-msgstr ""
+msgstr "Set eitemau"
+
+msgid "Item Set TItle"
+msgstr "Teitl Set Eitem"
 
 #: admin/themes/default/items/batch-edit-common.php:33
 #: admin/themes/default/items/item-type-form.php:3
@@ -4390,7 +5069,7 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:156
 #: application/view/omeka/site/item/browse.phtml:34
 msgid "Item set"
-msgstr ""
+msgstr "Set eitemau"
 
 #: application/src/Controller/Admin/ItemSetController.php:31
 #, php-format
@@ -4421,12 +5100,12 @@ msgstr ""
 #: application/view/omeka/site/item-set/browse.phtml:8
 #: application/view/omeka/site/item/show.phtml:24
 msgid "Item sets"
-msgstr ""
+msgstr "Setiau eitemau"
 
 #: application/view/omeka/admin/index/browse.phtml:21
 #, php-format
 msgid "Item sets (%s)"
-msgstr ""
+msgstr "Setiau eitemau (%s)"
 
 #: application/src/Api/Adapter/ItemAdapter.php:107
 msgid "Item sets must be an array"
@@ -4451,11 +5130,11 @@ msgstr ""
 
 #: application/src/Controller/Admin/ItemController.php:130
 msgid "Item successfully deleted"
-msgstr ""
+msgstr "Eitem wedi ei dileu yn llwyddiannus"
 
 #: application/src/Controller/Admin/ItemController.php:243
 msgid "Item successfully updated"
-msgstr ""
+msgstr "Eitem wedi ei diweddaru yn llwyddiannus"
 
 #: application/models/ItemType.php:336
 #, php-format
@@ -4490,7 +5169,7 @@ msgstr "Eitemau"
 #: application/view/omeka/admin/index/browse.phtml:15
 #, php-format
 msgid "Items (%s)"
-msgstr ""
+msgstr "Eitemau (%s)"
 
 #: application/forms/Install.php:152
 msgid "Items Per Page (admin)"
@@ -4502,11 +5181,11 @@ msgstr "Eitemau Fesul Tudalen (cyhoeddus)"
 
 #: application/src/Controller/Admin/ItemController.php:160
 msgid "Items successfully deleted"
-msgstr ""
+msgstr "Eitemau wedi eu dileu yn llwyddiannus"
 
 #: application/src/Controller/Admin/ItemController.php:290
 msgid "Items successfully edited"
-msgstr ""
+msgstr "Eitemau wedi eu golygu yn llwyddiannus"
 
 #: application/src/Form/Element/VocabularyFetch.php:40
 msgid "JSON-LD (.jsonld)"
@@ -4562,6 +5241,24 @@ msgstr "Label"
 msgid "Label Property"
 msgstr ""
 
+msgid "Label for person"
+msgstr "Label am y person"
+
+msgid "Lamp"
+msgstr "Lamp"
+
+msgid "Lampeter Borough/Urban District"
+msgstr "Bwrdeistref/Dosbarth Trefol Llambed"
+
+msgid "Lampeter Rural District"
+msgstr "Dosbarth Gwledig Llambed"
+
+msgid "Lampeter Rural District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Gwledig Llambed - Achosion Apêl, [1916-1918]"
+
+msgid "Lampeter Urban District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Trefol Llambed - Achosion Apêl, [1916-1918]"
+
 #: application/view/common/data-type/literal.phtml:5
 msgid "Language"
 msgstr "Iaith"
@@ -4574,29 +5271,38 @@ msgstr "IP diwethaf"
 msgid "Last accessed"
 msgstr "Tro diwetha y gwelwyd"
 
+msgid "Latest annotated images NLW"
+msgstr "Lluniau LlGC a anodwyd mwyaf diweddar"
+
 #: application/view/common/form-row.phtml:20
 msgid "Learn more"
 msgstr ""
 
+msgid "Leave blank if you don't know."
+msgstr "Os na wyddoch y flwyddyn, peidiwch a llenwi’r blwch."
+
 #. Class label for Bibliographic Ontology:LegalCaseDocument
 msgid "Legal Case Document"
-msgstr ""
+msgstr "Dogfen Achos Cyfreithiol"
 
 #. Class label for Bibliographic Ontology:LegalDocument
 msgid "Legal Document"
-msgstr ""
+msgstr "Dogfen Gyfreithiol"
 
 #. Class label for Bibliographic Ontology:Legislation
 msgid "Legislation"
 msgstr ""
 
+msgid "Length of occupation before 15 August 1915"
+msgstr "Hyd y galwedigaeth cyn 15 Awst 1915"
+
 #. Class label for Bibliographic Ontology:Letter
 msgid "Letter"
-msgstr ""
+msgstr "Llythyr"
 
 #. Property label for Dublin Core:license
 msgid "License"
-msgstr ""
+msgstr "Trwydded"
 
 #. Class label for Dublin Core:LicenseDocument
 msgid "License Document"
@@ -4643,11 +5349,17 @@ msgstr ""
 msgid "Link to File Metadata"
 msgstr ""
 
+msgid "Link to wikipaedia"
+msgstr "Dolen i Wicipedia"
+
 #: application/view/omeka/admin/item-set/show.phtml:22
 #: application/view/omeka/admin/item/show.phtml:13
 #: application/view/omeka/site/item/show.phtml:45
 msgid "Linked resources"
 msgstr ""
+
+msgid "Links, e.g. Wikipedia page"
+msgstr "Dolenni, e.e tudalen Wicipedia"
 
 #: application/forms/SecuritySettings.php:82
 msgid "List of allowed HTML attributes in form input"
@@ -4675,6 +5387,12 @@ msgid "List of tags to add to all checked items, separated by %s."
 msgstr ""
 "Rhestr y tagiau i'w hychwanegu at yr eitemau a farciwyd, wedi'u gwahanu â %s."
 
+msgid "Llandysul Rural District"
+msgstr "Dosbarth Gwledig Llandysul"
+
+msgid "Llandysul rural District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Gwledig Llandysul - Achosion Apêl, [1916-1918]"
+
 #: application/src/Form/SiteSettingsForm.php:103
 #: application/src/Form/InstallationForm.php:112
 #: application/src/Form/UserForm.php:129
@@ -4692,9 +5410,18 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+msgid "Location (of Place)"
+msgstr "Lleoliad (Man)"
+
+msgid "Location where man attested"
+msgstr "Lleoliad ardystio"
+
 #. Class label for Dublin Core:LocationPeriodOrJurisdiction
 msgid "Location, Period, or Jurisdiction"
 msgstr ""
+
+msgid "Location:"
+msgstr "Lleoliad:"
 
 #: application/view/omeka/admin/job/show.phtml:58
 msgid "Log"
@@ -4713,16 +5440,22 @@ msgstr "Allgofnodi"
 #: application/view/common/user-bar.phtml:28
 #: application/view/omeka/login/login.phtml:5
 msgid "Log in"
-msgstr ""
+msgstr "Mewngofnodi"
+
+msgid "Login"
+msgstr "Mewngofnodi"
 
 #: application/controllers/UsersController.php:486
 msgid "Login information incorrect. Please try again."
 msgstr "Manylion mewngofnodi anghywir. Ceisiwch eto."
 
+msgid "Login with NLW Reader's Ticket"
+msgstr "Mewngofnodwch gyda thocyn darllen LLGC"
+
 #: application/view/common/user-bar.phtml:25
 #: application/view/layout/layout-admin.phtml:52
 msgid "Logout"
-msgstr ""
+msgstr "Allgofnodi"
 
 #: application/views/scripts/users/login.php:9
 msgid "Lost your password?"
@@ -4765,17 +5498,23 @@ msgstr ""
 msgid "Make public"
 msgstr ""
 
+msgid "Male / Female"
+msgstr "Gwryw / Benyw"
+
+msgid "Man in respect of whom the application is made"
+msgstr "Y dyn y gwneir y cais amdano"
+
 #: admin/themes/default/common/global-nav.php:1
 msgid "Manage Site"
 msgstr ""
 
 #: application/view/omeka/admin/index/browse.phtml:12
 msgid "Manage resources"
-msgstr ""
+msgstr "Rheoli adnoddau"
 
 #: application/view/omeka/admin/index/browse.phtml:42
 msgid "Manage sites"
-msgstr ""
+msgstr "Rheoli safleoedd"
 
 #. Class label for Bibliographic Ontology:Manual
 msgid "Manual"
@@ -4783,11 +5522,36 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Manuscript
 msgid "Manuscript"
-msgstr ""
+msgstr "Llawysgrif"
 
 #. Class label for Bibliographic Ontology:Map
 msgid "Map"
+msgstr "Map"
+
+msgid "Map Page"
+msgstr "Tudalen Map"
+
+msgid "Mark as complete"
+msgstr "Wedi ei gwblhau"
+
+msgid "Mark page as complete"
+msgstr "Marciwch y dudalen fel un wedi ei chwblhau"
+
+msgid "Mark page as incomplete"
+msgstr "Marciwch y dudalen fel un heb ei chwblhau"
+
+msgid ""
+"Marking this page as complete helps us to understand the progress of "
+"annotations."
 msgstr ""
+"Mae marcio'r dudalen hon fel un wedi'i chwblhau yn ein cynorthwyo i fesur "
+"cynnydd."
+
+msgid "Married or single"
+msgstr "Priod neu sengl"
+
+msgid "Married or single?"
+msgstr "Priod neu sengl?"
 
 #: application/src/Site/BlockLayout/ListOfSites.php:50
 msgid "Max number of sites"
@@ -4838,7 +5602,7 @@ msgstr "Uchafswm maint mân-lun (mewn picseli)"
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:32
 #: application/view/omeka/site/media/show.phtml:7
 msgid "Media"
-msgstr ""
+msgstr "Cyfrwng"
 
 #. Class label for Dublin Core:MediaType
 msgid "Media Type"
@@ -4892,9 +5656,21 @@ msgstr ""
 msgid "Mediator"
 msgstr ""
 
+msgid "Medical grade category "
+msgstr "Categori gradd meddygol"
+
+msgid "Medical grade or category"
+msgstr "Dosbarth neu gategori meddygol"
+
 #. Property label for Dublin Core:medium
 msgid "Medium"
 msgstr ""
+
+msgid "Memories"
+msgstr "Atgofion"
+
+msgid "Menu"
+msgstr "Dewislen"
 
 #: application/view/omeka/admin/item-set/show.phtml:21
 #: application/view/omeka/admin/item/show.phtml:12
@@ -4912,7 +5688,7 @@ msgstr ""
 
 #: application/src/Db/Migration/Manager.php:112
 msgid "Migration file did not contain the expected class"
-msgstr ""
+msgstr "Doedd y ffeil mudo ddim yn cynnwys y dosbarth disgwyliedig"
 
 #: application/src/Controller/MigrateController.php:40
 msgid "Migration successful"
@@ -4954,12 +5730,12 @@ msgstr ""
 #: application/src/Module/Manager.php:170
 #, php-format
 msgid "Module \"%s\" is marked as \"%s\" and cannot be activated"
-msgstr ""
+msgstr "Marciwyd modiwl \"%s\" fel \"%s\" ac ni ellir ei fywiogi"
 
 #: application/src/Module/Manager.php:202
 #, php-format
 msgid "Module \"%s\" is marked as \"%s\" and cannot be deactivated"
-msgstr ""
+msgstr "Marciwyd modiwl \"%s\" fel \"%s\" ac ni ellir ei ddadfywiogi"
 
 #: application/src/Module/Manager.php:233
 #, php-format
@@ -4974,7 +5750,7 @@ msgstr ""
 #: application/src/Module/Manager.php:309
 #, php-format
 msgid "Module \"%s\" is marked as \"%s\" and cannot be upgraded"
-msgstr ""
+msgstr "Mae modiwl \"%s\" wedi ei farcio fel \"%s\" ac ni ellir ei uwchraddio"
 
 #: application/src/Module/Manager.php:288
 #, php-format
@@ -4984,32 +5760,42 @@ msgstr ""
 #: application/src/Module/Manager.php:331
 #, php-format
 msgid "Module \"%s\" not found in database during upgrade"
-msgstr ""
+msgstr "Ni ddarganfyddwyd modiwl \"%s\" yn y gronfa ddata wrth uwchraddio"
 
 #: application/src/Module/Manager.php:181
 #, php-format
 msgid "Module \"%s\" not in database during activation"
-msgstr ""
+msgstr "Doedd modiwl \"%s\" ddim yn y gronfa ddata wrth ei fywiogi"
 
 #: application/src/Module/Manager.php:213
 #, php-format
 msgid "Module \"%s\" not in database during deactivation"
-msgstr ""
+msgstr "Doedd modiwl \"%s\" ddim yn y gronfa ddata wrth ei dadfywiogi"
 
 #: application/view/layout/layout-admin.phtml:93
 #: application/view/omeka/admin/module/browse.phtml:11
 #: application/view/omeka/admin/module/configure.phtml:6
 msgid "Modules"
-msgstr ""
+msgstr "Modylau"
+
+msgid "Monday - Friday"
+msgstr "Llun - Gwener"
 
 #: application/view/common/item-set-selector.phtml:30
 #: application/view/common/property-selector.phtml:33
 msgid "More info"
+msgstr "Mwy o wybodaeth"
+
+msgid ""
+"Move the red box to highlight one person, and enter information about them "
+"below. You can repeat this for as many people as you recognise."
 msgstr ""
+"Symudwch y blwch coch i amlygu un person a nodwch isod wybodaeth am y "
+"person. Cewch ailadrodd hyn am pob person rydych yn ei adnabod."
 
 #. Class label for Dublin Core Type:MovingImage
 msgid "Moving Image"
-msgstr ""
+msgstr "Delwedd Symudol"
 
 #. Class label for Bibliographic Ontology:MultiVolumeBook
 msgid "Multivolume Book"
@@ -5027,13 +5813,41 @@ msgstr "Rhaid enwi'r math o drosglwyddiad ffeil wrth ychwanegu ffeil at eitem!"
 msgid "N-Triples (.nt)"
 msgstr ""
 
+msgid "NLW Proof"
+msgstr "Prawf LlGC"
+
+msgid "NLW Tribunal Cases"
+msgstr "Achosion Tribiwnlys LlGC"
+
+msgid "NLW Tribunal Cases SSL"
+msgstr "Achosion Tribiwnlys LlGC SSL"
+
 #: application/src/View/Helper/SearchUserFilters.php:54
 msgid "Name"
 msgstr "Enw"
 
+msgid "Name "
+msgstr "Enw"
+
+msgid "Name (in full) of man in respect of whom the application is made"
+msgstr "Enw (llawn) y dyn y gwneir y cais amdano"
+
+msgid "Name and address of last employer before 15 August 1915"
+msgstr "Enw a chyfeiriad y cyflogwr diwethaf cyn 15 Awst 1915"
+
+msgid "Name and address of last employer when so employed before that date"
+msgstr ""
+"Enw a chyfeiriad y cyflogwr diwethaf pan mewn cyflogaeth cyn y dyddiad hwnnw"
+
 #: application/forms/User.php:82
 msgid "Name as it should be displayed on the site"
 msgstr "Yr enw fel ag y dylai ddangos ar y safle"
+
+msgid "Name of Local Tribunal"
+msgstr "Enw'r Tribiwnlys Lleol"
+
+msgid "Name of Tribunal "
+msgstr "Enw'r Tribiwnlys"
 
 #: application/models/ElementSet.php:144
 msgid "Name of element set must be unique."
@@ -5042,6 +5856,21 @@ msgstr "Rhaid i'r set elfen gael enw unigryw."
 #: application/models/ElementSet.php:148
 msgid "Name of element set must not be empty."
 msgstr "Ni all enw'r set elfen fod yn wag."
+
+msgid "Name of employer"
+msgstr "Enw'r cyflogwr"
+
+msgid "Name of employer, if employed person"
+msgstr "Enw'r cyflogwr, os yn berson cyflogedig"
+
+msgid "Name of man in respect of whom the application is made"
+msgstr "Enw'r dyn y gwneir cais amdano"
+
+msgid "Name of present employer"
+msgstr "Enw'r cyflogwr presennol"
+
+msgid "Name of present employer, if any"
+msgstr "Enw'r cyflogwr presennol, os yn berthnasol"
 
 #: application/models/Plugin.php:133
 msgid "Names of plugins must not be blank"
@@ -5062,6 +5891,15 @@ msgstr ""
 msgid "Narrow by Specific Fields"
 msgstr "Cyfyngu yn ôl Meysydd Penodol"
 
+msgid "Nature of Application"
+msgstr "Natur y Cais"
+
+msgid "Nature of Application, e.g. Conditional, Absolute, Temporary."
+msgstr "Natur y Cais, e.e. Amodol, Terfynol, Annherfynol."
+
+msgid "Nature of application"
+msgstr "Natur y cais"
+
 #: application/view/omeka/site-admin/index/navigation.phtml:10
 msgid "Navigation"
 msgstr "Llywio"
@@ -5072,7 +5910,7 @@ msgstr "Ni ellir dileu dolenni llywio sydd â is-ddolenni wedi'u hamddiffyn."
 
 #: application/view/layout/layout-admin.phtml:42
 msgid "Navigation menu"
-msgstr ""
+msgstr "Dewislen llywio"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:223
 msgid "Navigation successfully updated"
@@ -5081,7 +5919,7 @@ msgstr ""
 #: application/src/Controller/Admin/ModuleController.php:72
 #: application/src/Controller/Admin/ModuleController.php:79
 msgid "Needs upgrade"
-msgstr ""
+msgstr "Angen diweddaru"
 
 #: application/src/Form/SiteSettingsForm.php:77
 msgid "Never"
@@ -5095,13 +5933,16 @@ msgstr "Newydd"
 msgid "New Password"
 msgstr "Cyfrinair Newydd"
 
+msgid "New Quay District"
+msgstr "Dosbarth Cei Newydd"
+
 #: application/view/omeka/admin/item/add.phtml:6
 msgid "New item"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/add.phtml:6
 msgid "New item set"
-msgstr ""
+msgstr "Set eitemau newydd"
 
 #: application/src/Form/UserForm.php:188
 msgid "New key label"
@@ -5109,11 +5950,11 @@ msgstr "Label allwedd newydd"
 
 #: application/view/omeka/site-admin/index/add-page.phtml:6
 msgid "New page"
-msgstr ""
+msgstr "Tudalen newydd"
 
 #: application/src/Form/UserForm.php:178
 msgid "New password"
-msgstr ""
+msgstr "Cyfrinair newydd"
 
 #: application/forms/ChangePassword.php:59
 msgid "New password must be at least %min% characters long."
@@ -5130,7 +5971,7 @@ msgstr "Rhaid i'r cyfrinair newydd gael ei deipio'n gywir ddwy-waith."
 
 #: application/view/omeka/admin/resource-template/add.phtml:6
 msgid "New resource template"
-msgstr ""
+msgstr "Adnodd templed newydd"
 
 #: application/view/omeka/site-admin/index/add.phtml:13
 msgid "New site"
@@ -5138,7 +5979,7 @@ msgstr ""
 
 #: application/view/omeka/admin/user/add.phtml:7
 msgid "New user"
-msgstr ""
+msgstr "Defnyddiwr newydd"
 
 #: application/view/omeka/admin/vocabulary/import.phtml:7
 msgid "New vocabulary"
@@ -5148,15 +5989,18 @@ msgstr ""
 msgid "Newest first"
 msgstr ""
 
+msgid "Newquay District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Cei Newydd - Achosion Apêl, [1916-1918]"
+
 #. Class label for Bibliographic Ontology:Newspaper
 msgid "Newspaper"
-msgstr ""
+msgstr "Papur newydd"
 
 #: application/view/common/pagination.phtml:19
 #: application/view/common/sidebar-pagination.phtml:15
 #: application/view/common/site-page-pagination.phtml:4
 msgid "Next"
-msgstr ""
+msgstr "Nesaf"
 
 #: admin/themes/default/items/show.php:33
 msgid "Next Item"
@@ -5215,7 +6059,7 @@ msgstr ""
 #: application/view/common/attachments-form.phtml:8
 #: application/view/common/attachments-form.phtml:28
 msgid "No item selected"
-msgstr ""
+msgstr "Dim eitem wedi'i ddewis"
 
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:59
 msgid "No item selected."
@@ -5254,7 +6098,7 @@ msgstr "Does dim eitemau diweddar ar gael."
 
 #: application/view/common/data-type/resource.phtml:14
 msgid "No resource selected"
-msgstr ""
+msgstr "Dim adnodd wedi'i ddewis"
 
 #: application/view/omeka/admin/item-set/show.phtml:58
 msgid "No resources link to this item set."
@@ -5267,6 +6111,12 @@ msgstr ""
 #: application/libraries/globals.php:3079
 msgid "No tags are available."
 msgstr "Does dim tagiau i gael."
+
+msgid "No. of group"
+msgstr "Rhif y grŵp"
+
+msgid "No. on group card"
+msgstr "Rhif ar y cerdyn grŵp"
 
 #: application/src/Form/SettingForm.php:173
 msgid "None"
@@ -5284,28 +6134,34 @@ msgstr "Ddim yn Gyhoeddus"
 #: application/src/Controller/Admin/ModuleController.php:77
 #: application/view/common/advanced-search/users.phtml:48
 msgid "Not active"
-msgstr ""
+msgstr "Ddim yn weithredol"
 
 #: application/src/Controller/Admin/ModuleController.php:80
 #: application/view/error/404.phtml:4
 msgid "Not found"
-msgstr ""
+msgstr "Heb ei ganfod"
 
 #: application/src/Controller/Admin/ModuleController.php:71
 #: application/src/Controller/Admin/ModuleController.php:78
 msgid "Not installed"
-msgstr ""
+msgstr "Heb ei osod"
 
 #: application/src/Form/ResourceBatchUpdateForm.php:53
 msgid "Not open"
-msgstr ""
+msgstr "Ddim ar agor"
 
 #: application/view/common/property-form-batch-edit.phtml:18
 #: application/view/common/property-form-batch-edit.phtml:32
 #: application/view/common/property-form-batch-edit.phtml:47
 #: application/view/common/property-form-batch-edit.phtml:67
 msgid "Not public"
-msgstr ""
+msgstr "Ddim yn gyhoeddus"
+
+msgid "Not started"
+msgstr "Heb gychwyn"
+
+msgid "Not yet registered"
+msgstr "Heb gofrestru eto"
 
 #: application/src/Form/Element/VocabularyFetch.php:42
 msgid "Notation3 (.n3)"
@@ -5313,20 +6169,58 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Note
 msgid "Note"
-msgstr ""
+msgstr "Nodyn"
 
 #. Class comment for Bibliographic Ontology:Note
 msgid "Notes or annotations about a resource."
-msgstr ""
+msgstr "Nodiadau neu anodiadau am adnodd."
+
+msgid "Number of Case"
+msgstr "Rhif yr Achos"
+
+msgid "Number of Group"
+msgstr "Rhif y Grŵp"
 
 #: application/src/Site/BlockLayout/TableOfContents.php:29
 msgid "Number of child page levels to display"
-msgstr ""
+msgstr "Nifer o lefelau tudalennau plant i'w harddangos"
+
+msgid "Number of group"
+msgstr "Rhif y grŵp"
+
+msgid "Number on group card"
+msgstr "Rhif ar y cerdyn grŵp"
 
 #: application/src/View/Helper/SearchFilters.php:113
 #: application/view/common/advanced-search/properties.phtml:50
 msgid "OR"
-msgstr ""
+msgstr "NEU"
+
+msgid "Object"
+msgstr "Gwrthrych"
+
+msgid "Occupation"
+msgstr "Galwedigaeth"
+
+msgid "Occupation of the person making the application"
+msgstr "Galwedigaeth y person sy'n ymgeisio"
+
+msgid "Occupation, profession or business"
+msgstr "Galwedigaeth, proffesiwn neu fusnes"
+
+msgid "Occupation, profession or business."
+msgstr "Galwedigaeth, proffesiwn neu fusnes."
+
+msgid ""
+"Occupation, profession, or business of man on behalf of whom the application "
+"is made"
+msgstr "Galwedigaeth, proffesiwn neu fusnes y dyn y gwneir y cais drosto"
+
+msgid "Occuption, profession or business"
+msgstr "Galwedigaeth, proffesiwn neu fusnes"
+
+msgid "Official Handbooks, Circulars And Statutes,"
+msgstr "Llawlyfrau Swyddogol, Cylchlythyrau a Statudau"
 
 #: admin/themes/default/settings/edit-item-type-elements.php:51
 msgid "Ok"
@@ -5368,7 +6262,7 @@ msgstr "Ffrwd RSS Omeka"
 
 #: application/view/layout/layout-admin.phtml:111
 msgid "Omeka S"
-msgstr ""
+msgstr "Omeka S"
 
 #: application/view/common/resource-fields.phtml:40
 msgid ""
@@ -5379,7 +6273,7 @@ msgstr ""
 
 #: application/view/error/index.phtml:4
 msgid "Omeka S encountered an error"
-msgstr ""
+msgstr "Omeka S wedi dod ar draws gwall"
 
 #. Omeka Video File
 msgid "Omeka Video File"
@@ -5451,15 +6345,15 @@ msgstr ""
 
 #: application/view/common/resource-form-templates.phtml:23
 msgid "Omeka resource"
-msgstr ""
+msgstr "Adnodd Omeka"
 
 #. Class label for Friend of a Friend:OnlineAccount
 msgid "Online Account"
-msgstr ""
+msgstr "Cyfrif Ar-lein"
 
 #. Class label for Friend of a Friend:OnlineChatAccount
 msgid "Online Chat Account"
-msgstr ""
+msgstr "Cyfrif Sgwrs Ar-lein"
 
 #. Class label for Friend of a Friend:OnlineEcommerceAccount
 msgid "Online E-commerce Account"
@@ -5495,12 +6389,12 @@ msgstr ""
 
 #: application/src/Form/ResourceBatchUpdateForm.php:52
 msgid "Open"
-msgstr ""
+msgstr "Agor"
 
 #: application/view/common/attachments-form.phtml:10
 #: application/view/common/attachments-form.phtml:51
 msgid "Open attachment options"
-msgstr ""
+msgstr "Agor dewsiadau atodiad"
 
 #: application/config/module.config.php:624
 msgid "Open icon set"
@@ -5508,7 +6402,7 @@ msgstr ""
 
 #: application/view/omeka/admin/item-set/form.phtml:33
 msgid "Open item set"
-msgstr ""
+msgstr "Agor setiau eitemau"
 
 #: application/view/omeka/admin/item-set/show-details.phtml:15
 #: application/view/omeka/admin/item-set/show.phtml:76
@@ -5517,12 +6411,15 @@ msgstr ""
 
 #: application/src/Media/Renderer/IIIF.php:14
 msgid "OpenSeadragon is not available unless JavaScript is enabled."
-msgstr ""
+msgstr "Nid yw OpenSeadragon ar gael onibai bod JavaScript wedi'i alluogi."
+
+msgid "Opening hours"
+msgstr "Oriau agor"
 
 #: application/src/Site/BlockLayout/ItemShowcase.php:22
 #: application/src/Site/BlockLayout/Media.php:22
 msgid "Options"
-msgstr ""
+msgstr "Dewisiadau"
 
 #. Class label for Friend of a Friend:Organization
 msgid "Organization"
@@ -5543,9 +6440,15 @@ msgstr "Enw Gwreiddiol y Ffeil"
 msgid "Original label"
 msgstr ""
 
+msgid "Other"
+msgstr "Arall"
+
 #: application/view/omeka/admin/resource-template/form.phtml:69
 msgid "Other options"
 msgstr ""
+
+msgid "Other projects"
+msgstr "Prosiectau eraill"
 
 #: admin/themes/default/collections/show.php:62
 #: admin/themes/default/files/show.php:93
@@ -5574,7 +6477,7 @@ msgstr "Fformat yr Allbwn"
 #: application/view/omeka/site-admin/index/index.phtml:41
 #: application/view/omeka/site-admin/index/resources.phtml:63
 msgid "Owner"
-msgstr ""
+msgstr "Perchennog"
 
 #. Property comment for Bibliographic Ontology:owner
 msgid "Owner of a document or a collection of documents."
@@ -5584,7 +6487,7 @@ msgstr ""
 #: application/view/common/pagination.phtml:8
 #: application/view/common/sidebar-pagination.phtml:5
 msgid "Page"
-msgstr ""
+msgstr "Tudalen"
 
 #: application/tests/suite/Omeka/NavigationTest.php:982
 #: application/tests/suite/Omeka/NavigationTest.php:990
@@ -5601,6 +6504,9 @@ msgstr "Tudalen"
 #: application/tests/suite/Omeka/NavigationTest.php:1255
 msgid "Page 1"
 msgstr "Tudalen 1"
+
+msgid "Page 1 of R.41 (pre mid 1916)"
+msgstr "Tudalen 1 o R.41 (cyn canol 1916)"
 
 #: application/tests/suite/Omeka/NavigationTest.php:1015
 #: application/tests/suite/Omeka/NavigationTest.php:1021
@@ -5654,6 +6560,9 @@ msgstr "Tudalen 5"
 msgid "Page 6"
 msgstr "Tudalen 6"
 
+msgid "Page Number"
+msgstr "Rhif Tudalen"
+
 #: application/controllers/ErrorController.php:63
 msgid "Page not found."
 msgstr "Tudalen Heb Ei Ddarganfod"
@@ -5672,7 +6581,7 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/PageTitle.php:13
 msgid "Page title"
-msgstr ""
+msgstr "Teitl tudalen"
 
 #: application/view/omeka/site-admin/index/add-page.phtml:6
 #: application/view/omeka/site-admin/page/edit.phtml:11
@@ -5680,7 +6589,7 @@ msgstr ""
 #: application/view/omeka/site/index/search.phtml:3
 #: application/view/omeka/site/page/browse.phtml:5
 msgid "Pages"
-msgstr ""
+msgstr "Tudalennau"
 
 #: application/src/Site/BlockLayout/ListOfSites.php:63
 msgid "Pagination"
@@ -5706,13 +6615,16 @@ msgstr "Nid yw'r cyfrinair yn gallu bod yn wag."
 msgid "Password changed!"
 msgstr "Cyfrinair wedi'i newid!"
 
+msgid "Password confirmation must match new password"
+msgstr "Rhaid i'r ddau gyfrinair gydweddu"
+
 #: application/src/Controller/LoginController.php:113
 msgid "Password creation key expired."
 msgstr ""
 
 #: application/src/Controller/LoginController.php:132
 msgid "Password creation unsuccessful"
-msgstr ""
+msgstr "Creu cyfrinair yn aflwyddiannus"
 
 #: application/forms/ResetPassword.php:27
 msgid "Password is required."
@@ -5754,7 +6666,7 @@ msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:206
 msgid "Password successfully changed"
-msgstr ""
+msgstr "Cyfrinair wedi ei newid yn llwyddiannus"
 
 #: application/controllers/UsersController.php:137
 msgid "Password: The passwords do not match."
@@ -5771,7 +6683,7 @@ msgstr "Mae'r llywbr i plugin.ini ar gyfer \"%s\" yn anghywir."
 
 #. Class label for Bibliographic Ontology:Performance
 msgid "Performance"
-msgstr ""
+msgstr "Perfformiad"
 
 #. Class label for Dublin Core:PeriodOfTime
 msgid "Period of Time"
@@ -5784,7 +6696,7 @@ msgstr ""
 #: application/src/Module/Manager.php:410
 #, php-format
 msgid "Permission denied for the current user to %s the %s module."
-msgstr ""
+msgstr "Gwrthodwyd caniatad i'r defnyddiwr presennol i %s ym modiwl %s."
 
 #: application/src/Api/Adapter/AbstractEntityAdapter.php:586
 #: application/src/Api/Manager.php:209
@@ -5801,7 +6713,10 @@ msgstr ""
 
 #. Class label for Friend of a Friend:Person
 msgid "Person"
-msgstr ""
+msgstr "Person"
+
+msgid "Person depicted"
+msgstr "Person a ddarlunir"
 
 #. Class label for Bibliographic Ontology:PersonalCommunication
 msgid "Personal Communication"
@@ -5811,9 +6726,24 @@ msgstr ""
 msgid "Personal Communication Document"
 msgstr ""
 
+msgid "Personal Memory"
+msgstr "Atgof Personol"
+
+msgid "Personal details"
+msgstr "Manylion personol"
+
+msgid "Personal memory or experience of the events in this photograph"
+msgstr "Atgof neu brofiad personol o'r digwyddiadau o fewn y llun"
+
 #. Class label for Friend of a Friend:PersonalProfileDocument
 msgid "PersonalProfileDocument"
 msgstr ""
+
+msgid "Phone"
+msgstr "Ffôn"
+
+msgid "Photo"
+msgstr "Llun"
 
 #. Class label for Dublin Core:PhysicalMedium
 msgid "Physical Medium"
@@ -5830,6 +6760,45 @@ msgstr ""
 #: admin/themes/default/items/item-type-form.php:15
 msgid "Pick this type"
 msgstr "Dewis y Math yma"
+
+msgid "Pink form"
+msgstr "Ffurflen binc"
+
+msgid "Place"
+msgstr "Man"
+
+msgid "Place Address"
+msgstr "Cyfeiriad Man"
+
+msgid "Place Taken"
+msgstr "Man tynnu'r llun"
+
+msgid "Place in this photograph"
+msgstr "Man yn y llun yma"
+
+msgid "Place of Birth"
+msgstr "Man Geni"
+
+msgid "Place of Death"
+msgstr "Man Marw"
+
+msgid "Place of Residence"
+msgstr "Man Preswylio"
+
+msgid "Place of residence of the person selected"
+msgstr "Man preswylio y person detholedig"
+
+msgid "Place person born"
+msgstr "Man lle ganwyd y person"
+
+msgid "Place person died"
+msgstr "Man y bu farw'r person"
+
+msgid "Place this photograph was taken"
+msgstr "Y man lle tynnwyd y llun"
+
+msgid "Please add any additional information about the person."
+msgstr "Ychwanegwch unrhyw wybodaeth arall am y person."
 
 #: admin/themes/default/upgrade/index.php:35
 msgid ""
@@ -5848,9 +6817,15 @@ msgid ""
 "available until the problem is resolved or you select another theme below."
 msgstr ""
 
+msgid "Please describe the contents of this document"
+msgstr "Disgrifiwch cynnwys y ddogfen yma"
+
 #: application/config/module.config.php:629
 msgid "Please enter a valid language tag"
 msgstr ""
+
+msgid "Please enter first names and or surnames."
+msgstr "Nodwch enwau cyntaf a / neu gyfenw"
 
 #: application/controllers/UsersController.php:110
 msgid "Please follow this link to reset your password:"
@@ -5862,7 +6837,33 @@ msgstr "Ail-osodwch o'ch cronfa ddata a cheisiwch eto."
 
 #: application/src/Controller/Admin/VocabularyController.php:170
 msgid "Please review these changes before you accept them."
-msgstr ""
+msgstr "Adolygwch y newidadau yma cyn eu derbyn."
+
+msgid "Please select a region on the page"
+msgstr "Dewiswch fan ar y dudalen"
+
+msgid "Please select the name of the Tribunal from the below dropdown."
+msgstr "Dewiswch enw'r Tribiwnlys o'r rhestr dewis isod"
+
+msgid ""
+"Please select which of the types of information you would want to capture "
+"about this photograph"
+msgstr "Dewiswch pa fathau o wybodaeth yr hoffech ei gyfrannu am y llun"
+
+msgid "Please select..."
+msgstr "Dewiswch..."
+
+msgid "Please transcribe as much as you can of this document"
+msgstr "Trawsgrifiwch cymaint ag y medrwch o'r ddogfen yma"
+
+msgid "Please transcribe the occupation as it is written"
+msgstr "Trawsgrifiwch yr alwedigaeth fel mae wedi ei ysgrifennu"
+
+msgid "Please transcribe the official caption"
+msgstr "Trawsgrifiwch y capsiwn swyddogol os gwelwch yn dda"
+
+msgid "Please try to find your tag in the list above first."
+msgstr "Ceisiwch ddewis tag o’r rhestr uchod os gwelwch yn dda."
 
 #: application/libraries/Omeka/Plugin/Installer.php:112
 msgid "Plugin must have a valid directory name before it can be installed."
@@ -5891,6 +6892,15 @@ msgstr "Gyrrwyd gan Omeka"
 msgid "Powered by Omeka S"
 msgstr ""
 
+msgid "Precise location"
+msgstr "Union leoliad"
+
+msgid "Precise location of employment before 15 August 1915"
+msgstr "Union lleoliad cyflogaeth cyn Awst 1915"
+
+msgid "Precise occupation before 15 August 1915"
+msgstr "Union alwedigaeth cyn 15 Awst 1915"
+
 #: application/view/omeka/admin/vocabulary/browse.phtml:11
 #: application/view/omeka/admin/vocabulary/browse.phtml:44
 msgid "Prefix"
@@ -5901,9 +6911,15 @@ msgstr ""
 msgid "Prefix:"
 msgstr ""
 
+msgid "Present address"
+msgstr "Cyfeiriad presennol"
+
+msgid "Present employer"
+msgstr "Cyflogwr presennol"
+
 #: application/view/common/site-page-pagination.phtml:3
 msgid "Prev"
-msgstr ""
+msgstr "Blaen"
 
 #: admin/themes/default/items/show.php:28
 msgid "Prev Item"
@@ -5911,16 +6927,28 @@ msgstr "Eitem Blaenorol"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:65
 msgid "Preview title"
-msgstr ""
+msgstr "Rhagolwg teitl"
 
 #: application/view/common/pagination.phtml:13
 #: application/view/common/sidebar-pagination.phtml:9
 msgid "Previous"
-msgstr ""
+msgstr "Blaenorol"
 
 #: application/views/scripts/common/pagination_control.php:11
 msgid "Previous Page"
 msgstr ""
+
+msgid "Previous application"
+msgstr "Ceisiadau blaenorol"
+
+msgid "Previous applications"
+msgstr "Ceisiadau blaenorol"
+
+msgid "Previous applications?"
+msgstr "Ceisiadau blaenorol?"
+
+msgid "Privacy & Cookies"
+msgstr "Preifatrwydd a 'Cookies'"
 
 #: application/view/omeka/admin/item-set/browse.phtml:103
 #: application/view/omeka/admin/item-set/show-details.phtml:14
@@ -5955,7 +6983,7 @@ msgstr ""
 
 #. Class label for Friend of a Friend:Project
 msgid "Project"
-msgstr ""
+msgstr "Prosiect"
 
 #: application/view/omeka/admin/vocabulary/browse.phtml:19
 #: application/view/omeka/admin/vocabulary/browse.phtml:46
@@ -6023,7 +7051,7 @@ msgstr "Cyhoeddwr"
 
 #: application/view/common/navigation-link-form/browse.phtml:9
 msgid "Query"
-msgstr ""
+msgstr "Ymholiad"
 
 #: application/view/common/advanced-search/properties.phtml:33
 msgid "Query text"
@@ -6054,6 +7082,46 @@ msgstr ""
 msgid "Quote"
 msgstr ""
 
+msgid "R. 41: Application as to exemption"
+msgstr "R.41 Application As To Exemption"
+
+msgid "R. 43 / R. 44 Pink form"
+msgstr "Ffurflen Binc R. 43 / R. 44"
+
+msgid "R. 52 / 53, earlier version (pre-mid-1916)"
+msgstr "R. 52 / 53, fersiwn cynharach (cyn-canol-1916)"
+
+msgid "R. 52 / 53, later version (post mid-1916)"
+msgstr "R. 52 / 53, fersiwn diweddarach (wedi canol-1916)"
+
+msgid "R. 52: Form for Voluntarily Attested Men (blue)"
+msgstr "R. 52: ffurflen (las) Form For Voluntarily Attested Men"
+
+msgid "R.186 – Application as to Exemption from Military Service (beige)"
+msgstr ""
+"R.186 - Application as to Exemption from Military Service (llwyd-felyn)"
+
+msgid "R.41 Application as to exemption"
+msgstr "R.41 Application As To Exemption"
+
+msgid "R.41 post- mid-1916"
+msgstr "R.41 wedi- canol-1916"
+
+msgid "R.41 pre- mid-1916"
+msgstr "R.41 cyn- canol-1916"
+
+msgid "R.52/53 post- mid-1916"
+msgstr "R.52/53 wedi-canol-1916"
+
+msgid "R.52/53 pre- mid-1916"
+msgstr "R.52/53 cyn- canol-1916"
+
+msgid "R41. (Beige/Yellow form)"
+msgstr "R41. (Ffurflen Llwyd/Felyn)"
+
+msgid "R43 / R44 pink form"
+msgstr "ffurflen binc R43 / R44"
+
 #: application/src/Form/Element/VocabularyFetch.php:43
 msgid "RDF/XML (.rdf)"
 msgstr ""
@@ -6068,14 +7136,49 @@ msgstr "RSS"
 msgid "Re-type the Password"
 msgstr "Ail-deipiwch y Cyfrinair"
 
+msgid ""
+"Ready to get started on contributing to the collection? Click below to view "
+"all the images in the collection."
+msgstr ""
+"Yn barod i gychwyn cyfrannu at y casgliad? Cliciwch isod i weld yr holl "
+"ddelweddau yn y casgliad."
+
 #: application/forms/User.php:88 application/models/User.php:168
 msgid "Real Name is required."
 msgstr "Mae'n rhaid cael Enw Go Iawn"
 
+msgid "Reason for application"
+msgstr "Rheswm am y cais"
+
+msgid ""
+"Reason for application (if not made by man or his employer or military "
+"representative)"
+msgstr ""
+"Rheswm am y cais (os nad yw'n cael ei gyflwyno gan y dyn na'i gyflogwr na "
+"chynrychiolydd milwrol)"
+
+msgid "Reason for application (if not made by man or his employer)"
+msgstr "Rheswm am y cais (os na gyflwynwyd gan y dyn na'i gyflogwr)"
+
+msgid "Reason for decision of Local Tribunal"
+msgstr "Rheswm dros benderfyniad y Tribiwnlys Lleol"
+
 #: application/view/error/404.phtml:12
 #, php-format
 msgid "Reason: %s"
-msgstr ""
+msgstr "Rheswm: %s"
+
+msgid "Reasons"
+msgstr "Rhesymau"
+
+msgid "Reasons for the decision of the Local Tribunal"
+msgstr "Rhesymau dros benderfyniad y Tribiwnlys Lleol"
+
+msgid "Reasons in support of application "
+msgstr "Rhesymau i gefnogi'r cais"
+
+msgid "Reasons in support of the application "
+msgstr "Rhesymau i gefnogi'r cais"
 
 #: admin/themes/default/error/404.php:36 admin/themes/default/index.php:70
 msgid "Recent Collections"
@@ -6113,6 +7216,33 @@ msgstr ""
 #. Property label for Dublin Core:references
 msgid "References"
 msgstr ""
+
+msgid "Region"
+msgstr "Rhanbarth"
+
+msgid "Region (of Place)"
+msgstr "Rhanbarth (Man)"
+
+msgid "Region of Interest"
+msgstr "Maes Diddordeb"
+
+msgid "Regional Number, if known"
+msgstr "Rhif Rhanbarthol, os yn hysbys"
+
+msgid "Regional number"
+msgstr "Rhif rhanbarthol"
+
+msgid "Register"
+msgstr "Cofrestrwch"
+
+msgid "Register of appeal cases, [1916-1918]"
+msgstr "Cofrestr yr achosion apêl, [1916-1918]"
+
+msgid "Registration complete"
+msgstr "Cofrestru wedi'i gwblhau"
+
+msgid "Related link"
+msgstr "Dolen gysylltiedig"
 
 #. Property comment for Bibliographic Ontology:presentedAt
 msgid "Relates a document to an event; for example, a paper to a conference."
@@ -6198,7 +7328,7 @@ msgstr ""
 #: application/view/common/media-field-wrapper.phtml:13
 #: application/view/omeka/admin/item/manage-media.phtml:49
 msgid "Remove value"
-msgstr ""
+msgstr "Tynnu gwerth"
 
 #: admin/themes/default/items/batch-edit-common.php:42
 #: admin/themes/default/items/batch-edit-common.php:57
@@ -6268,24 +7398,27 @@ msgstr ""
 #: application/src/Stdlib/Mailer.php:193
 #, php-format
 msgid "Reset your password for %s"
-msgstr ""
+msgstr "Ailosod eich cyfrinair ar gyfer %s"
 
 #: application/src/DataType/Resource/AbstractResource.php:16
 msgid "Resource"
-msgstr ""
+msgstr "Adnodd"
 
 #: application/view/common/property-form-batch-edit.phtml:30
 msgid "Resource ID"
 msgstr ""
 
+msgid "Resource class"
+msgstr "Dosbarth adnodd"
+
 #: application/src/DataType/Resource/AbstractResource.php:51
 #, php-format
 msgid "Resource not found with id %s."
-msgstr ""
+msgstr "Heb ganfod adnodd gyda id %s."
 
 #: application/src/Form/ResourceForm.php:34
 msgid "Resource template"
-msgstr ""
+msgstr "Templed adnodd"
 
 #: application/src/Controller/Admin/ResourceTemplateController.php:353
 #: application/src/Controller/Admin/ResourceTemplateController.php:356
@@ -6316,25 +7449,25 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/review-import.phtml:5
 #: application/view/omeka/admin/resource-template/show.phtml:7
 msgid "Resource templates"
-msgstr ""
+msgstr "~Templedi adnodd"
 
 #: application/view/omeka/admin/index/browse.phtml:33
 #, php-format
 msgid "Resource templates (%s)"
-msgstr ""
+msgstr "Templedi adnoddau (%s)"
 
 #: application/view/layout/layout-admin.phtml:64
 msgid "Resource type"
-msgstr ""
+msgstr "Math o adnodd"
 
 #: application/view/layout/layout-admin.phtml:23
 #: application/view/omeka/site-admin/index/resources.phtml:21
 msgid "Resources"
-msgstr ""
+msgstr "Adnoddau"
 
 #: application/view/omeka/site-admin/index/users.phtml:8
 msgid "Restore"
-msgstr ""
+msgstr "Adfer"
 
 #: admin/themes/default/settings/edit-security.php:38
 msgid "Restore Default Attributes"
@@ -6355,7 +7488,7 @@ msgstr "Adfer Mathau Diofyn"
 #: application/view/common/attachments-form.phtml:12
 #: application/view/common/attachments-form.phtml:53
 msgid "Restore attachment"
-msgstr ""
+msgstr "Adfer atodiad"
 
 #: application/view/omeka/site-admin/index/resources.phtml:15
 msgid "Restore item set"
@@ -6370,7 +7503,7 @@ msgstr ""
 #: application/view/omeka/admin/item/manage-media.phtml:53
 #: application/view/omeka/admin/resource-template/show-property-row.phtml:40
 msgid "Restore value"
-msgstr ""
+msgstr "Adfer gwerth"
 
 #: application/src/Form/SiteSettingsForm.php:126
 msgid "Restrict browse to attached items"
@@ -6399,11 +7532,14 @@ msgstr "Canlyniadau fesul Tudalen"
 #: application/src/Form/SiteSettingsForm.php:137
 #: application/src/Form/SettingForm.php:156
 msgid "Results per page"
-msgstr ""
+msgstr "Canlyniadau yn ôl tudalen"
 
 #: admin/themes/default/upgrade/migrate.php:24
 msgid "Return to Dashboard"
 msgstr "Dychwelyd at y Dangosfwrdd"
+
+msgid "Return to the"
+msgstr "Dychwelwch i'r"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:5
 msgid "Review"
@@ -6458,6 +7594,9 @@ msgstr "Gwall SQL tra'n mudo."
 msgid "Sample Rate"
 msgstr "Cyfradd Samplu"
 
+msgid "Saturday"
+msgstr "Sadwrn"
+
 #: application/view/omeka/admin/item-set/batch-edit.phtml:19
 #: application/view/omeka/admin/item-set/edit.phtml:20
 #: application/view/omeka/admin/item-set/form.phtml:54
@@ -6479,7 +7618,7 @@ msgstr "Cyfradd Samplu"
 #: application/view/omeka/site-admin/index/users.phtml:23
 #: application/view/omeka/site-admin/page/edit.phtml:18
 msgid "Save"
-msgstr ""
+msgstr "Cadw"
 
 #: admin/themes/default/appearance/edit-navigation.php:31
 #: admin/themes/default/appearance/edit-settings.php:21
@@ -6592,7 +7731,7 @@ msgstr ""
 
 #: application/view/common/advanced-search/resource-class.phtml:15
 msgid "Search by class"
-msgstr ""
+msgstr "Chwilio yn ôl dosbarth"
 
 #: application/view/common/advanced-search/users.phtml:17
 msgid "Search by email"
@@ -6600,7 +7739,7 @@ msgstr ""
 
 #: application/view/common/advanced-search/item-sets.phtml:15
 msgid "Search by item set"
-msgstr ""
+msgstr "Chwiliwch yn ôl set eitemau"
 
 #: application/view/common/advanced-search/users.phtml:25
 msgid "Search by name"
@@ -6616,7 +7755,7 @@ msgstr ""
 
 #: application/view/common/advanced-search/properties.phtml:39
 msgid "Search by value"
-msgstr ""
+msgstr "Chwilio yn ôl gwerth"
 
 #: admin/themes/default/items/search-form.php:14
 #: application/views/scripts/items/search-form.php:13
@@ -6635,19 +7774,22 @@ msgstr ""
 
 #: application/view/layout/layout-admin.phtml:70
 msgid "Search item sets"
-msgstr ""
+msgstr "Chwilio setiau eitemau"
 
 #: application/view/layout/layout-admin.phtml:66
 msgid "Search items"
-msgstr ""
+msgstr "Chwilio eitemau"
 
 #: application/view/layout/layout-admin.phtml:74
 msgid "Search media"
-msgstr ""
+msgstr "Chwilio cyfryngau"
 
 #: application/views/scripts/search/search-form.php:11
 msgid "Search only these record types:"
 msgstr "Chwilio'r cofnodion hyn yn unig:"
+
+msgid "Search places"
+msgstr "Chwilio lleoedd"
 
 #: application/view/omeka/site/index/search.phtml:1
 #, php-format
@@ -6656,7 +7798,7 @@ msgstr ""
 
 #: application/view/layout/layout-admin.phtml:43
 msgid "Search site"
-msgstr ""
+msgstr "Chwilio'r safle"
 
 #: admin/themes/default/tags/browse.php:18
 msgid "Search tags"
@@ -6682,13 +7824,34 @@ msgstr ""
 msgid "Searches for items that use any of these templates."
 msgstr ""
 
+msgid "Second page of beige R. 186 form"
+msgstr "Ail dudalen ffurflen lwydfelyn R. 186"
+
+msgid "Second page of beige R41 form, post mid-1916."
+msgstr "Ail dudalen ffurflen llwyd-felyn R41, wedi canol-1916."
+
+msgid "Second page of beige R41 form, pre mid-1916."
+msgstr "Ail dudalen y ffurflen R41 llwyd-felyn, cyn canol-1916. "
+
+msgid "Second page of blue R52/53 form, post mid-1916."
+msgstr "Ail dudalen ffurflen las R52/53, wedi canol-1916."
+
+msgid "Second page of blue R52/53 form, pre mid-1916."
+msgstr "Ail dudalen y ffurflen las R52/53, cyn canol-1916."
+
+msgid "Second page of pink form (R43 / R44)"
+msgstr "Ail dudalen y ffurflen binc (R43 / R44)"
+
+msgid "Second page or supplementary page (Pink form R43/33)"
+msgstr "Ail dudalen neu atodiad (ffurflen binc R43/33)"
+
 #: application/src/Form/SettingForm.php:272
 msgid "Security"
 msgstr "Diogelwch"
 
 #: application/view/common/asset-form.phtml:37
 msgid "Select"
-msgstr ""
+msgstr "Dewis"
 
 #: admin/themes/default/items/batch-edit-common.php:9
 #: admin/themes/default/items/batch-edit-common.php:23
@@ -6723,7 +7886,7 @@ msgstr ""
 #: application/src/Form/ResourceBatchUpdateForm.php:69
 #: application/src/Form/UserForm.php:144
 msgid "Select a template"
-msgstr ""
+msgstr "Dewis templed"
 
 #: application/view/omeka/admin/item-set/browse.phtml:72
 #: application/view/omeka/admin/item/browse.phtml:72
@@ -6743,7 +7906,7 @@ msgstr ""
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:17
 msgid "Select asset"
-msgstr ""
+msgstr "Dewis ased"
 
 #: application/src/View/Helper/ResourceClassSelect.php:39
 msgid "Select class…"
@@ -6752,7 +7915,7 @@ msgstr ""
 #: application/view/omeka/admin/item/browse.phtml:97
 #: application/view/omeka/admin/item/sidebar-select.phtml:10
 msgid "Select item"
-msgstr ""
+msgstr "Dewis eitem"
 
 #: admin/themes/default/items/browse.php:63
 #, php-format
@@ -6789,7 +7952,7 @@ msgstr ""
 
 #: application/view/common/property-form-batch-edit.phtml:7
 msgid "Select property"
-msgstr ""
+msgstr "Dewis nodwedd"
 
 #: application/src/View/Helper/PropertySelect.php:39
 msgid "Select property…"
@@ -6797,7 +7960,7 @@ msgstr ""
 
 #: application/view/common/resource-select-sidebar.phtml:20
 msgid "Select resource"
-msgstr ""
+msgstr "Dewis adnodd"
 
 #: application/src/View/Helper/RoleSelect.php:39
 #: application/src/Service/Form/Element/RoleSelectFactory.php:16
@@ -6843,7 +8006,7 @@ msgstr ""
 
 #: application/view/omeka/login/forgot-password.phtml:11
 msgid "Send password reset email"
-msgstr ""
+msgstr "Anfon ebost ailosod cyfrinair"
 
 #: application/forms/Install.php:114
 msgid "Separate tags using this character or string."
@@ -6869,7 +8032,7 @@ msgstr ""
 
 #. Class label for Dublin Core Type:Service
 msgid "Service"
-msgstr ""
+msgstr "Gwasanaeth"
 
 #: application/src/Form/UserBatchUpdateForm.php:39
 msgid "Set activity"
@@ -6885,7 +8048,7 @@ msgstr ""
 
 #: application/view/common/data-type/literal.phtml:4
 msgid "Set language"
-msgstr ""
+msgstr "Gosod iaith"
 
 #: application/src/Form/ResourceBatchUpdateForm.php:50
 msgid "Set openness"
@@ -6897,11 +8060,11 @@ msgstr ""
 
 #: application/src/Form/ResourceBatchUpdateForm.php:73
 msgid "Set template"
-msgstr ""
+msgstr "Gosod templed"
 
 #: application/src/Form/ResourceBatchUpdateForm.php:33
 msgid "Set visibility"
-msgstr ""
+msgstr "Gosod gwelededd"
 
 #: application/config/navigation.config.php:181
 #: application/config/navigation.config.php:250
@@ -6937,7 +8100,7 @@ msgstr ""
 
 #: application/src/View/Helper/BlockShowTitleSelect.php:33
 msgid "Show attachment title"
-msgstr ""
+msgstr "Dangos teitl atodiad"
 
 #: application/src/Form/SiteSettingsForm.php:63
 msgid "Show page pagination"
@@ -6960,15 +8123,42 @@ msgstr ""
 msgid "Show user bar on public views"
 msgstr ""
 
+msgid "Signature"
+msgstr "Llofnod"
+
+msgid "Signature of appellant"
+msgstr "Llofnod yr apelydd"
+
+msgid "Signature of man"
+msgstr "Llofnod y dyn"
+
+msgid "Signature of person by whom application made"
+msgstr "Llofnod y person sy'n cyflwyno'r cais"
+
+msgid "Signature of the Person by whom application made"
+msgstr "Llofnod y Person sy'n cyflwyno'r cais"
+
+msgid "Signature of the Person making the application"
+msgstr "Llofnod y person sy'n gwneud cais"
+
+msgid "Signature of the applicant"
+msgstr "Llofnod yr ymgeisydd"
+
+msgid "Signature of the applicant if other than the man himself"
+msgstr "Llofnod yr ymgeisydd os arall heblaw'r dyn ei hun"
+
+msgid "Signature of the man "
+msgstr "Llofnod y dyn"
+
 #: application/view/common/user-bar.phtml:22
 #: application/view/layout/layout-admin.phtml:48
 #, php-format
 msgid "Signed in as %s"
-msgstr ""
+msgstr "Wedi mewngofnodi fel %s"
 
 #: application/src/View/Helper/SearchFilters.php:178
 msgid "Site"
-msgstr ""
+msgstr "Safle"
 
 #: application/src/Permissions/Acl.php:22
 msgid "Site Administrator"
@@ -6996,7 +8186,7 @@ msgstr "Teitl Gwefan"
 
 #: application/config/navigation.config.php:192
 msgid "Site info"
-msgstr ""
+msgstr "Gwybodaeth safle"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:256
 msgid "Site resources successfully updated"
@@ -7020,7 +8210,7 @@ msgstr ""
 
 #: application/view/omeka/maintenance/index.phtml:4
 msgid "Site under maintenance"
-msgstr ""
+msgstr "Gwaith cynnal a chadw ar y safle"
 
 #: application/view/omeka/index/index.phtml:6
 #: application/view/omeka/site-admin/index/add.phtml:13
@@ -7067,7 +8257,7 @@ msgstr ""
 
 #. Class label for Dublin Core Type:Software
 msgid "Software"
-msgstr ""
+msgstr "Meddalwedd"
 
 #: application/view/omeka/install/index.phtml:14
 msgid "Some installation requirements were not satisfied."
@@ -7084,7 +8274,7 @@ msgstr ""
 
 #: application/config/module.config.php:616
 msgid "Something went wrong"
-msgstr ""
+msgstr "Aeth rhywbeth o'i le"
 
 #: admin/themes/default/error/403.php:6
 msgid "Sorry, you do not have permission to access this page."
@@ -7092,7 +8282,7 @@ msgstr "Ymddiheuriadau, does dim hawl i chi gael mynediad at y dudalen yma"
 
 #: application/view/common/sort-selector.phtml:17
 msgid "Sort"
-msgstr ""
+msgstr "Trefnu"
 
 #: application/view/common/sort-selector.phtml:7
 msgid "Sort by"
@@ -7101,7 +8291,7 @@ msgstr ""
 #: application/view/common/sort-link.phtml:8
 #, php-format
 msgid "Sort by %s"
-msgstr ""
+msgstr "Trefnu yn ôl %s"
 
 #: application/views/scripts/collections/browse.php:14
 #: application/views/scripts/items/browse.php:24
@@ -7114,7 +8304,7 @@ msgstr ""
 
 #. Class label for Dublin Core Type:Sound
 msgid "Sound"
-msgstr ""
+msgstr "Sain"
 
 #: application/view/omeka/admin/media/show.phtml:62
 msgid "Source"
@@ -7127,6 +8317,9 @@ msgstr ""
 #. Property comment for Dublin Core:spatial
 msgid "Spatial characteristics of the resource."
 msgstr ""
+
+msgid "Sponsored by Welsh Government"
+msgstr "Noddir gan Lywodraeth Cymru"
 
 #: admin/themes/default/files/show.php:46
 msgid "Square Thumbnail"
@@ -7144,19 +8337,25 @@ msgstr ""
 
 #: application/src/Media/Ingester/Youtube.php:99
 msgid "Start"
-msgstr ""
+msgstr "Cychwyn"
+
+msgid "Start typing to find a relevant tag."
+msgstr "Cychwynnwch deipio i ddod o hyd i dag perthnasol."
 
 #: application/view/omeka/admin/job/show.phtml:33
 msgid "Started"
-msgstr ""
+msgstr "Cychwynnwyd"
 
 #: application/src/Api/Representation/JobRepresentation.php:12
 msgid "Starting"
-msgstr ""
+msgstr "Cychwyn"
 
 #. Property comment for Bibliographic Ontology:pageStart
 msgid "Starting page number within a continuous page range."
 msgstr ""
+
+msgid "Starts with: 'Continued...'"
+msgstr "Yn cychwyn gyda 'Contined...'"
 
 #: application/view/omeka/admin/job/browse.phtml:15
 #: application/view/omeka/admin/job/browse.phtml:39
@@ -7175,15 +8374,15 @@ msgstr ""
 
 #. Class label for Dublin Core Type:StillImage
 msgid "Still Image"
-msgstr ""
+msgstr "Delwedd Llonydd"
 
 #: application/src/Api/Representation/JobRepresentation.php:16
 msgid "Stopped"
-msgstr ""
+msgstr "Wedi atal"
 
 #: application/src/Api/Representation/JobRepresentation.php:13
 msgid "Stopping"
-msgstr ""
+msgstr "Ataliad"
 
 #. Property label for Dublin Core:subject
 msgid "Subject"
@@ -7199,15 +8398,15 @@ msgstr "Llwyddiant!"
 
 #: application/src/Controller/LoginController.php:129
 msgid "Successfully created your password. Please log in."
-msgstr ""
+msgstr "Wedi creu cyfrinair yn llwyddiannus.  Mewngofnodwch."
 
 #: application/src/Controller/LoginController.php:56
 msgid "Successfully logged in"
-msgstr ""
+msgstr "Mewngofnodwyd yn llwyddiannus"
 
 #: application/src/Controller/LoginController.php:88
 msgid "Successfully logged out"
-msgstr ""
+msgstr "Allgofnodwyd yn llwyddiannus"
 
 #: application/src/Form/ResourceTemplateForm.php:27
 msgid "Suggested class"
@@ -7231,15 +8430,15 @@ msgstr ""
 
 #. Property label for Friend of a Friend:surname
 msgid "Surname"
-msgstr ""
+msgstr "Cyfenw"
 
 #: application/view/common/sort-link.phtml:6
 msgid "Switch to ascending order"
-msgstr ""
+msgstr "Newid i drefn esgynnol"
 
 #: application/view/common/sort-link.phtml:4
 msgid "Switch to descending order"
-msgstr ""
+msgstr "Newid i drefn disgynnol"
 
 #: admin/themes/default/common/footer.php:10
 #: admin/themes/default/system-info/index.php:2
@@ -7249,19 +8448,35 @@ msgstr "Gwybodaeth Systemol"
 #: application/view/layout/layout-admin.phtml:112
 #: application/view/omeka/admin/system-info/browse.phtml:4
 msgid "System information"
-msgstr ""
+msgstr "Gwybodaeth system"
 
 #. Property label for Dublin Core:tableOfContents
 msgid "Table Of Contents"
-msgstr ""
+msgstr "Tabl y Cynnwys"
 
 #: application/src/Site/BlockLayout/TableOfContents.php:15
 msgid "Table of contents"
-msgstr ""
+msgstr "Tabl cynnwys"
+
+msgid "Tag"
+msgstr "Tagiwch"
 
 #: application/forms/GeneralSettings.php:45 application/forms/Install.php:113
 msgid "Tag Delimiter"
 msgstr "Amffinydd Tagiau"
+
+msgid "Tag and identify a person"
+msgstr "Tagio ac adnabod person"
+
+msgid ""
+"Tagging photographs will help people to search the collection. Please use "
+"tags/suggestions from the autocomplete list whenever possible. If you cannot "
+"find a matching suggestion, then enter your own tags in the additional tags "
+"box."
+msgstr ""
+"Bydd tagio lluniau yn help i bobl sy’n chwilio’r casgliad. Os yn bosib, "
+"defnyddiwch dagiau/awgrymiadau o’r rhestr a ddarperir. Os na fedrwch ddod o "
+"hyd i dag addas, nodwch eich tag eich hun yn y blwch tagiau ychwanegol."
 
 #: admin/themes/default/common/content-nav.php:21
 #: admin/themes/default/items/browse.php:107
@@ -7274,6 +8489,9 @@ msgstr "Tagiau"
 #: application/models/Tag.php:57
 msgid "Tags must be given a name."
 msgstr "Rhaid cael enw i bob tag."
+
+msgid "Tags:"
+msgstr "Tagiau:"
 
 #: application/src/View/Helper/SearchFilters.php:137
 msgid "Template"
@@ -7305,11 +8523,23 @@ msgstr "Profi"
 
 #: application/view/common/resource-form-templates.phtml:22
 msgid "Text"
-msgstr ""
+msgstr "Testun"
+
+msgid "Text Page"
+msgstr "Tudalen Testun"
+
+msgid "Text for link to full browse view"
+msgstr "Testun y ddolen i bori golwg lawn"
 
 #: application/src/Site/BlockLayout/BrowsePreview.php:74
 msgid "Text for link to full browse view, if any."
 msgstr ""
+
+msgid "Text value"
+msgstr "Gwerth testun"
+
+msgid "Thank you for registering"
+msgstr "Diolch am gofrestru"
 
 #: application/models/Tag.php:61
 msgid "That name is already taken for this tag."
@@ -7424,7 +8654,10 @@ msgstr "Newidiwyd cyfluniad yr API yn llwyddiannus!"
 #: application/src/Api/Manager.php:201
 #, php-format
 msgid "The API does not support the \"%s\" resource."
-msgstr ""
+msgstr "Nid yw'r API yn cefnogi adnodd \"%s\"."
+
+msgid "The Case Number which should appear in the top corner"
+msgstr "Rhif yr Achos a ddylai ymddangos yn y cornel uchaf"
 
 #. Dublin Core description
 msgid ""
@@ -7452,9 +8685,22 @@ msgstr ""
 msgid "The ImageMagick directory path works."
 msgstr "Mae'r llwybr ImageMagick yn gweithio."
 
+msgid ""
+"The Law and Practice of Military Conscription under the Military Service "
+"Acts, 1917"
+msgstr ""
+"The Law and Practice of Military Conscription under the Military Service "
+"Acts, 1917"
+
+msgid "The National Library of Wales"
+msgstr "Llyfrgell Genedlaethol Cymru"
+
+msgid "The Recruiting Guide, Jan, 1918"
+msgstr "The Recruiting Guide, Ionawr, 1918"
+
 #. Property comment for Bibliographic Ontology:shortTitle
 msgid "The abbreviation of a title."
-msgstr ""
+msgstr "Talfyriad teitl"
 
 #. Class comment for Bibliographic Ontology:ThesisDegree
 msgid "The academic degree of a Thesis"
@@ -7527,7 +8773,7 @@ msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:202
 msgid "The current password entered was invalid"
-msgstr ""
+msgstr "Nid yw'r cyfrinair cyfredol a gyflwynwyd yn ddilys"
 
 #: application/view/omeka/site-admin/index/theme-settings.phtml:17
 msgid "The current theme has no configuration options."
@@ -7572,7 +8818,7 @@ msgstr ""
 
 #: application/src/Form/InstallationForm.php:128
 msgid "The emails did not match"
-msgstr ""
+msgstr "Nid oedd yr ebyst yn cydweddu"
 
 #. Class comment for Dublin Core:Jurisdiction
 msgid "The extent or range of judicial, law enforcement, or other authority."
@@ -7581,7 +8827,7 @@ msgstr ""
 #. Property comment for Friend of a Friend:family_name
 #. Property comment for Friend of a Friend:familyName
 msgid "The family name of some person."
-msgstr ""
+msgstr "Enw teulu person."
 
 #. Dublin Core: Format element description
 msgid "The file format, physical medium, or dimensions of the resource"
@@ -7597,7 +8843,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:firstName
 msgid "The first name of a person."
-msgstr ""
+msgstr "Enw cyntaf person."
 
 #: application/controllers/PluginsController.php:150
 #, php-format
@@ -7659,7 +8905,7 @@ msgstr "Mae'r gosodiadau cyffredinol wedi'u huwchraddio."
 #. Property comment for Friend of a Friend:givenName
 #. Property comment for Friend of a Friend:givenname
 msgid "The given name of some person."
-msgstr ""
+msgstr "Enw a roddwyd ar berson."
 
 #: application/src/Stdlib/Environment.php:89
 #, php-format
@@ -7791,7 +9037,7 @@ msgstr ""
 #: application/src/Api/Adapter/ResourceTemplateAdapter.php:89
 #: application/src/Api/Adapter/VocabularyAdapter.php:214
 msgid "The label cannot be empty."
-msgstr ""
+msgstr "Ni all y label fod yn wag"
 
 #: application/src/Api/Adapter/ResourceTemplateAdapter.php:92
 msgid "The label is already taken."
@@ -7799,7 +9045,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:lastName
 msgid "The last name of a person."
-msgstr ""
+msgstr "Enw olaf person."
 
 #: application/src/Api/Adapter/ResourceClassAdapter.php:155
 #: application/src/Api/Adapter/PropertyAdapter.php:165
@@ -7812,7 +9058,7 @@ msgstr ""
 #: application/src/Api/Adapter/ResourceClassAdapter.php:137
 #: application/src/Api/Adapter/PropertyAdapter.php:147
 msgid "The local name cannot be empty."
-msgstr ""
+msgstr "Ni all yr enw lleol fod yn wag"
 
 #. Property comment for Dublin Core:medium
 msgid "The material or physical carrier of the resource."
@@ -7836,7 +9082,7 @@ msgstr ""
 #: application/src/View/Helper/UploadLimit.php:26
 #, php-format
 msgid "The maximum upload size is %s MB."
-msgstr ""
+msgstr "Y mwyafswm maint uwchlwytho yw %s MB."
 
 #. Omeka Image File description
 msgid ""
@@ -7904,7 +9150,7 @@ msgstr ""
 
 #: application/src/Api/Adapter/UserAdapter.php:120
 msgid "The name cannot be empty."
-msgstr ""
+msgstr "Ni all yr enw fod yn wag"
 
 #. Property comment for Bibliographic Ontology:edition
 msgid ""
@@ -7915,6 +9161,9 @@ msgstr ""
 #: application/forms/ItemTypes.php:142
 msgid "The name of the item type."
 msgstr "Enw'r math o eitem."
+
+msgid "The name of the person that appears on the document"
+msgstr "Enw'r person sy'n ymddangos ar y ddogfen"
 
 #: application/src/Api/Adapter/VocabularyAdapter.php:186
 #, php-format
@@ -7951,7 +9200,7 @@ msgstr ""
 
 #. Property comment for Bibliographic Ontology:numPages
 msgid "The number of pages contained in a document"
-msgstr ""
+msgstr "Nifer o dudalennau yn y ddogfen"
 
 #. Property comment for Bibliographic Ontology:numVolumes
 msgid ""
@@ -7984,7 +9233,7 @@ msgstr ""
 
 #: application/src/Form/Element/PasswordConfirm.php:100
 msgid "The passwords did not match"
-msgstr ""
+msgstr "Nid oedd y cyfrineiriau yn cydweddu"
 
 #: application/controllers/PluginsController.php:383
 #, php-format
@@ -7999,6 +9248,15 @@ msgstr "Ni ellir dod o hyd i'r ategyn yn y cyfeiriadur '%s'!"
 #. Property comment for Dublin Core:accrualPolicy
 msgid "The policy governing the addition of items to a collection."
 msgstr ""
+
+msgid "The precise occupation"
+msgstr "Yr union alwedigaeth"
+
+msgid ""
+"The precise occupation whether engaged in same or similar occupation before "
+"August 1915"
+msgstr ""
+"Yr union alwedigaeth p'un ai yr un neu'n debyg i'r alwedigaeth cyn Awst 1915"
 
 #: application/src/Api/Adapter/VocabularyAdapter.php:198
 #, php-format
@@ -8088,7 +9346,7 @@ msgstr ""
 
 #. Property comment for Friend of a Friend:surname
 msgid "The surname of some person."
-msgstr ""
+msgstr "Cyfenw person."
 
 #: application/controllers/ThemesController.php:61
 msgid "The theme has been successfully changed."
@@ -8109,6 +9367,9 @@ msgstr "Pwnc yr adnodd"
 #. Property comment for Dublin Core:subject
 msgid "The topic of the resource."
 msgstr ""
+
+msgid "The two given tokens do not match"
+msgstr "Dydi'r ddau gyfrinair ddim yn cyfateb"
 
 #. Property comment for Friend of a Friend:focus
 msgid ""
@@ -8158,7 +9419,7 @@ msgstr ""
 #: application/view/omeka/site-admin/index/theme-settings.phtml:6
 #: application/view/omeka/site-admin/index/theme.phtml:11
 msgid "Theme"
-msgstr ""
+msgstr "Thema"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:401
 msgid "Theme settings successfully updated"
@@ -8269,6 +9530,13 @@ msgid "There were errors found in your form. Please edit and resubmit."
 msgstr ""
 "Darganfuwyd gwallau yn y ffurflen. Gofynnir i chi olygu ac ail-gyflwyno."
 
+msgid ""
+"These are annotations created by the community and may need extra work to "
+"complete."
+msgstr ""
+"Crewyd yr anodiadau yma gan y gymuned, mae'n bosib y bydd angen gwaith "
+"ychwanegol i'w cwblhau."
+
 #. Class label for Bibliographic Ontology:Thesis
 msgid "Thesis"
 msgstr ""
@@ -8297,7 +9565,7 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/Fallback.php:37
 msgid "This layout is invalid."
-msgstr ""
+msgstr "Mae'r cynllun hwn yn annilys"
 
 #: application/tests/suite/Omeka/Db/Migration/_files/migrations/20080717013526_foobar.php:18
 msgid "This migration should have been run previously (should not run again)."
@@ -8306,6 +9574,13 @@ msgstr "Mi ddyliai'r mudo hyn wedi digwydd eisoes (ni ddylid rhedeg eto)."
 #: application/tests/suite/Omeka/Db/Migration/_files/migrations/50000101120000_notRunYet.php:18
 msgid "This migration should not be run."
 msgstr "Ni ddylai'r mudo hyn cael ei redeg."
+
+msgid ""
+"This page has been marked as completed.<br/>You can mark as incomplete if it "
+"needs more work."
+msgstr ""
+"Marciwyd y dudalen hon fel un wedi'i chwblhau.<br/>Gallwch ei marcio fel un "
+"heb ei chwblhau os oes angen mwy o waith arni."
 
 #. Property comment for Bibliographic Ontology:content
 msgid ""
@@ -8334,6 +9609,13 @@ msgid ""
 "for\n"
 "more information."
 msgstr ""
+
+msgid ""
+"This site is down for maintenance. Please contact the site administrator for "
+"more information."
+msgstr ""
+"Mae gwaith cynnal a chadw yn mynd rhagddo ar y safle. Cysylltwch â "
+"gweinyddwr y safle am ragor o wybodaeth."
 
 #: application/view/omeka/site-admin/index/theme-selector.phtml:28
 #, php-format
@@ -8444,7 +9726,7 @@ msgstr ""
 
 #: application/src/View/Helper/BlockThumbnailTypeSelect.php:42
 msgid "Thumbnail type"
-msgstr ""
+msgstr "Math o fân-lun"
 
 #: application/src/Form/InstallationForm.php:98
 #: application/src/Form/SettingForm.php:142
@@ -8470,7 +9752,10 @@ msgstr "Teitl"
 
 #. Property comment for Friend of a Friend:title
 msgid "Title (Mr, Mrs, Ms, Dr. etc)"
-msgstr ""
+msgstr "Teitl (Mr, Mrs, Ms, Athro, ayb.)"
+
+msgid "Title of Place"
+msgstr "Teitl y Man"
 
 #: admin/themes/default/users/api-keys.php:21
 msgid ""
@@ -8511,6 +9796,12 @@ msgstr ""
 msgid "To view all items with a tag, click the number."
 msgstr "Er mwyn gweld pob eitem efo tag, cliciwch ar y rhif."
 
+msgid "Top 10 contributors"
+msgstr "Y 10 cyfranogwr uchaf"
+
+msgid "Top level choice"
+msgstr "Dewis lefel uchaf"
+
 #: admin/themes/default/item-types/browse.php:31
 msgid "Total Items"
 msgstr "Cyfanswm Eitemau"
@@ -8521,13 +9812,34 @@ msgstr "Cyfanswm Eitemau"
 msgid "Total Number of Items"
 msgstr "Cyfanswm yr Eitemau"
 
+msgid "Transcribe the address as it is written."
+msgstr "Trawsgrifiwch y cyfeiriad fel mae wedi ei ysgrifennu."
+
+msgid "Transcribe the exact wording next to this field."
+msgstr "Trawsgrifiwch yr union eiriad wrth ymyl y maes yma."
+
 #. Omeka Legacy File: Transcriber element
 msgid "Transcriber"
 msgstr "Trawsgrifwr"
 
+msgid "Transcription"
+msgstr "Trawsgrifiad"
+
 #: application/src/Site/BlockLayout/LineBreak.php:34
 msgid "Transparent"
 msgstr ""
+
+msgid "Trawsfynydd Carnival"
+msgstr "Carnifal Trawsfynydd"
+
+msgid "Tregaron District"
+msgstr "Dosbarth Tregaron"
+
+msgid "Tregaron District - Appeal cases, [1916-1918]"
+msgstr "Dosbarth Tregaron - Achosion Apêl, [1916-1918]"
+
+msgid "Tribunal application decision"
+msgstr "Penderfyniad y Tribiwnlys am y cais"
 
 #: application/src/Form/Element/VocabularyFetch.php:44
 msgid "Turtle (.ttl)"
@@ -8547,6 +9859,17 @@ msgstr "Metadata'r Math"
 #: admin/themes/default/item-types/browse.php:29
 msgid "Type Name"
 msgstr "Enw'r Math"
+
+msgid ""
+"Type a town or village, then use the map to pinpoint more exact location."
+msgstr ""
+"Teipiwch enw tref neu bentref, yna defnyddiwch y map i ddynodi’r union fan"
+
+msgid "Type of business of employer"
+msgstr "Natur busnes y cyflogwr"
+
+msgid "Type of business of present employer"
+msgstr "Math o fusnes y cyflogwr presennol"
 
 #: application/forms/ResetPassword.php:33
 msgid "Typed passwords do not match."
@@ -8614,7 +9937,7 @@ msgstr ""
 #: application/src/Media/Ingester/Fallback.php:33
 #: application/view/common/navigation-link-form/fallback.phtml:4
 msgid "Unknown"
-msgstr ""
+msgstr "Anhysbys"
 
 #: application/src/Site/BlockLayout/Fallback.php:28
 #, php-format
@@ -8627,11 +9950,14 @@ msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:160
 msgid "Unknown item set"
-msgstr ""
+msgstr "Set eitemau anhysbys"
 
 #: application/src/View/Helper/SearchFilters.php:102
 msgid "Unknown property"
-msgstr ""
+msgstr "Nodwedd anhysbys"
+
+msgid "Unknown resource template"
+msgstr "Templed adnodd anhysbys"
 
 #: application/src/View/Helper/SearchUserFilters.php:62
 msgid "Unknown role"
@@ -8640,7 +9966,7 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:182
 #: application/src/View/Helper/SearchUserFilters.php:75
 msgid "Unknown site"
-msgstr ""
+msgstr "Safle anhysbys"
 
 #: application/src/View/Helper/SearchFilters.php:141
 msgid "Unknown template"
@@ -8648,7 +9974,7 @@ msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:172
 msgid "Unknown user"
-msgstr ""
+msgstr "Defnyddiwr anhysbys"
 
 #: application/src/Site/BlockLayout/ListOfSites.php:55
 msgid "Unlimited"
@@ -8666,6 +9992,9 @@ msgstr ""
 #: application/view/omeka/migrate/index.phtml:7
 msgid "Update database"
 msgstr ""
+
+msgid "Update vocabulary"
+msgstr "Diweddaru geirfa"
 
 #: application/src/Form/ModuleStateChangeForm.php:64
 msgid "Upgrade"
@@ -8686,15 +10015,15 @@ msgstr "Uwchraddio i %s"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:12
 msgid "Upload"
-msgstr ""
+msgstr "Llwytho"
 
 #: application/src/Media/Ingester/Upload.php:69
 msgid "Upload file"
-msgstr ""
+msgstr "Llwytho ffeil"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:9
 msgid "Upload new asset"
-msgstr ""
+msgstr "Llwytho ased newydd"
 
 #: application/views/helpers/ElementInput.php:130
 msgid "Use HTML"
@@ -8745,7 +10074,7 @@ msgstr "Defnyddio'r thema yma"
 #: application/src/View/Helper/SearchFilters.php:168
 #: application/view/omeka/site-admin/index/users.phtml:30
 msgid "User"
-msgstr ""
+msgstr "Defnyddiwr"
 
 #: admin/themes/default/users/show.php:8
 #, php-format
@@ -8768,7 +10097,7 @@ msgstr ""
 #: application/src/Stdlib/Mailer.php:233
 #, php-format
 msgid "User activation for %s"
-msgstr ""
+msgstr "Bywiogi defnyddiwr ar gyfer %s"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:115
 msgid "User does not have permission to edit site settings"
@@ -8776,7 +10105,7 @@ msgstr ""
 
 #: application/view/omeka/admin/user/edit.phtml:6
 msgid "User information"
-msgstr ""
+msgstr "Gwybodaeth defnyddiwr"
 
 #: application/controllers/ItemsController.php:318
 msgid "User is not allowed to delete selected items."
@@ -8826,7 +10155,7 @@ msgstr "Ni all ddefnyddiwr newid rôl."
 
 #: application/view/layout/layout-admin.phtml:44
 msgid "User menu"
-msgstr ""
+msgstr "Dewislen defnyddiwr"
 
 #: application/view/omeka/site-admin/index/users.phtml:16
 msgid "User permissions"
@@ -8834,24 +10163,27 @@ msgstr ""
 
 #: application/src/Controller/SiteAdmin/IndexController.php:297
 msgid "User permissions successfully updated"
-msgstr ""
+msgstr "Lefel caniatad y defnyddiwr wedi ei ddiweddaru yn llwyddiannus"
 
 #: application/view/omeka/admin/user/edit.phtml:7
 msgid "User settings"
 msgstr ""
 
+msgid "User submitted annotations"
+msgstr "Anodiadau gan ddefnyddwyr"
+
 #: application/src/Controller/Admin/UserController.php:113
-#, php-format
+#, fuzzy, php-format
 msgid "User successfully created. %s"
-msgstr ""
+msgstr "Defnyddiwr wedi ei greu yn llwyddiannus"
 
 #: application/src/Controller/Admin/UserController.php:281
 msgid "User successfully deleted"
-msgstr ""
+msgstr "Defnyddiwr wedi ei ddileu yn llwyddiannus"
 
 #: application/src/Controller/Admin/UserController.php:187
 msgid "User successfully updated"
-msgstr ""
+msgstr "Defnyddiwr wedi ei ddiweddaru yn llwyddiannus"
 
 #: application/view/omeka/site-admin/index/users.phtml:43
 #: application/view/omeka/site-admin/index/users.phtml:83
@@ -8908,7 +10240,7 @@ msgstr ""
 
 #: application/view/common/data-type-wrapper.phtml:10
 msgid "Value to be removed"
-msgstr ""
+msgstr "Gwerth i'w dynnu"
 
 #: application/view/omeka/admin/item-set/form.phtml:12
 #: application/view/omeka/admin/item/form.phtml:13
@@ -8959,6 +10291,9 @@ msgstr "Gweld Metadata'r Ffeil"
 msgid "View Public Page"
 msgstr "Gweld y Tudalen Gyhoeddus"
 
+msgid "View all collections"
+msgstr "Gweld pob casgliad"
+
 #: application/view/omeka/site/index/search.phtml:11
 #: application/view/omeka/site/index/search.phtml:32
 #, php-format
@@ -8978,6 +10313,9 @@ msgstr[3] ""
 msgid "View items"
 msgstr ""
 
+msgid "View on map"
+msgstr "Gweld ar fap"
+
 #: application/view/omeka/site-admin/page/index.phtml:39
 msgid "View public page"
 msgstr ""
@@ -8985,12 +10323,15 @@ msgstr ""
 #: application/view/layout/layout-admin.phtml:87
 #: application/view/omeka/site-admin/index/index.phtml:70
 msgid "View public site"
-msgstr ""
+msgstr "Gweld safle gyhoeddus"
 
 #: application/views/scripts/collections/browse.php:41
 #, php-format
 msgid "View the items in %s"
 msgstr "Gweld yr eitemau yn %s"
+
+msgid "View whole collection"
+msgstr "Gweld y casgliad cyfan"
 
 #: application/view/omeka/site-admin/index/show.phtml:6
 #: application/view/omeka/site-admin/index/users.phtml:10
@@ -9018,7 +10359,7 @@ msgstr ""
 #: application/view/omeka/admin/index/browse.phtml:27
 #, php-format
 msgid "Vocabularies (%s)"
-msgstr ""
+msgstr "Geirfaoedd (%s)"
 
 #: application/view/omeka/admin/property/show-details.phtml:6
 #: application/view/omeka/admin/resource-class/show-details.phtml:6
@@ -9046,6 +10387,19 @@ msgstr ""
 msgid "Vocabulary successfully updated"
 msgstr ""
 
+msgid "Voluntarily attested"
+msgstr "Ardystiwyd yn wirfoddol"
+
+msgid ""
+"Volunteers from all over Wales and beyond are able to contribute to our work "
+"from their homes or from community centres, such as public libraries."
+msgstr ""
+"Mae gwirfoddolwyr ar draws Cymru a thu hwnt yn medru cyfrannu at ein gwaith "
+"o'u cartrefi neu o ganolfannau cymunedol, fel llyfrgelloedd cyhoeddus."
+
+msgid "WW1 Top Level Choice"
+msgstr "Dewis Lefel Uchaf RhB1"
+
 #: application/view/omeka/admin/item-set/browse.phtml:161
 #: application/view/omeka/admin/item-set/browse.phtml:179
 #: application/view/omeka/admin/item/browse.phtml:159
@@ -9055,7 +10409,7 @@ msgstr ""
 #: application/view/omeka/admin/user/browse.phtml:152
 #: application/view/omeka/admin/user/browse.phtml:170
 msgid "Warning"
-msgstr ""
+msgstr "Rhybudd"
 
 #: admin/themes/default/plugins/confirm-uninstall.php:11
 msgid ""
@@ -9067,6 +10421,10 @@ msgstr ""
 msgid "Watermark"
 msgstr "Dyfrnod"
 
+msgid "We'd love to hear any stories you have about this photograph."
+msgstr ""
+"Byddem wrth ein bodd yn clywed unrhyw storïau sydd gennych am y llun yma."
+
 #. Class label for Bibliographic Ontology:Webpage
 msgid "Webpage"
 msgstr ""
@@ -9077,16 +10435,16 @@ msgstr ""
 
 #: application/src/Api/Adapter/SiteAdapter.php:136
 msgid "Welcome"
-msgstr ""
+msgstr "Croeso"
 
 #: application/view/omeka/admin/index/browse.phtml:9
 #, php-format
 msgid "Welcome to the %s admin dashboard!"
-msgstr ""
+msgstr "Croeso i'r dangosfwrdd gweinyddu %s !"
 
 #: application/src/Api/Adapter/SiteAdapter.php:141
 msgid "Welcome to your new site. This is an example page."
-msgstr ""
+msgstr "Croeso i'ch safle newydd. Tudalen enghreifftiol yw hon."
 
 #: application/controllers/UsersController.php:386
 msgid "Welcome!"
@@ -9098,9 +10456,36 @@ msgstr "Croeso!"
 msgid "Welcome, %s"
 msgstr "Croeso, %s"
 
+msgid "What is the exact date this photograph was taken? (DD/MM/YYYY)"
+msgstr "Beth yw’r union ddyddiad y tynnwyd y llun yma? (DD/MM/BBBB)"
+
+msgid "What is this person’s name?"
+msgstr "Beth yw enw y person yma?"
+
+msgid "What year was this photograph taken?"
+msgstr "Ym mha flwyddyn y tynnwyd y llun yma?"
+
 #: application/src/Form/SiteSettingsForm.php:78
 msgid "When logged in"
 msgstr ""
+
+msgid "Where Attested"
+msgstr "Ble yr Ardystiwyd"
+
+msgid "Where attested"
+msgstr "Man ardystio"
+
+msgid "Where was this photograph taken?"
+msgstr "Ym mhle tynnwyd y llun yma?"
+
+msgid "Whether any previous application has been made"
+msgstr "A wnaed unrhyw gais o'r blaen"
+
+msgid "Whether he is attested or not"
+msgstr "A yw'n cael ei ardystio ai peidio"
+
+msgid "Whether he is attested or not attested"
+msgstr "A yw'n cael ei ardystio ai peidio"
 
 #: application/forms/Install.php:39 application/forms/User.php:46
 #: application/models/User.php:188
@@ -9109,9 +10494,34 @@ msgid ""
 "Whitespace is not allowed. Only these special characters may be used: %s"
 msgstr ""
 
+msgid "Whole Photograph"
+msgstr "Y Llun Cyfan"
+
+msgid "Whole photograph"
+msgstr "Y llun cyfan"
+
+msgid "Whole photograph (training)"
+msgstr "Y Llun Cyfan (hyfforddiant)"
+
+msgid "Why appellant acts for the man"
+msgstr "Pam mae'r apeliwr yn cynrychioli'r dyn"
+
+msgid "Why application made by applicant for the man "
+msgstr "Pam bod yr ymgeisydd yn gwneud cais dros y dyn"
+
 #. Omeka Image File: Width element
 msgid "Width"
 msgstr "Lled"
+
+msgid "Wikipedia event link:"
+msgstr "Dolen digwyddiad Wicipedia:"
+
+msgid ""
+"Wm. Carey Jones, Isfryn, 4, Gwaenydd Terr. Rhiw-S Snar Traws. Part Marian "
+"Bryfdir Wedding."
+msgstr ""
+"Wm. Carey Jones, Isfryn, 4 Gwaenydd Terr. Rhiw-S Snar Traws. Rhan o briodas "
+"Marian Bryfdir."
 
 #. Class label for Bibliographic Ontology:Workshop
 msgid "Workshop"
@@ -9125,6 +10535,12 @@ msgstr "Hoffech chi %s?"
 #. Property label for Friend of a Friend:yahooChatID
 msgid "Yahoo chat ID"
 msgstr ""
+
+msgid "Year:"
+msgstr "Blwyddyn:"
+
+msgid "Years of age last birthday"
+msgstr "Oed ar y penblwydd diwethaf"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:75
 #: application/view/omeka/admin/resource-template/review-import.phtml:76
@@ -9226,9 +10642,15 @@ msgstr "Does dim casgliadau gennych."
 msgid "You have no items."
 msgstr "Does dim eitem gennych."
 
+msgid "You have succesfully logged in"
+msgstr "Rydych wedi mewngofnodi yn llwyddiannus"
+
+msgid "You have successfully logged in."
+msgstr "Rydych wedi mewngofnodi yn llwyddiannus."
+
 #: application/config/module.config.php:621
 msgid "You have unsaved changes."
-msgstr ""
+msgstr "Mae gennych newidiadau heb eu harbed"
 
 #: application/controllers/UsersController.php:145
 msgid "You may now log in to Omeka."
@@ -9329,10 +10751,16 @@ msgstr ""
 "Nid yw'ch cyfrif ar gyfer cadwrfa %s wedi ei greu. Cliciwch ar y linc i "
 "fywiogi'ch cyfrif."
 
+msgid "Your annotated images"
+msgstr "Delweddau a anodwyd gennych"
+
 #: admin/themes/default/search/index.php:39
 #: application/views/scripts/search/index.php:40
 msgid "Your query returned no results."
 msgstr "Ni ddarganfuwyd unrhyw ganlyniadau."
+
+msgid "Your saved Images"
+msgstr "Delweddau a arbedwyd gennych"
 
 #: application/controllers/UsersController.php:116
 #, php-format
@@ -9346,11 +10774,11 @@ msgstr ""
 
 #: application/view/common/advanced-search/properties.phtml:60
 msgid "[Any Property]"
-msgstr ""
+msgstr "[Unrhyw Nodwedd]"
 
 #: application/src/View/Helper/SearchFilters.php:105
 msgid "[Any property]"
-msgstr ""
+msgstr "[Unrhyw nodwedd]"
 
 #: application/src/Form/Element/VocabularyFetch.php:39
 msgid "[Autodetect]"
@@ -9360,9 +10788,12 @@ msgstr ""
 msgid "[Default]"
 msgstr "[Rhagosodiad]"
 
+msgid "[Mr. and Mrs. Carr, Marian and Husband Jeffrey, Talweunydd]"
+msgstr "[Mr a Mrs Carr,  Marian a'i gŵr Jeffrey, Talweunydd]"
+
 #: application/view/common/asset-form.phtml:34
 msgid "[No asset selected]"
-msgstr ""
+msgstr "[Dim ased wedi'i ddewis]"
 
 #: application/src/Form/UserBatchUpdateForm.php:31
 #: application/src/Form/UserBatchUpdateForm.php:43
@@ -9374,7 +10805,16 @@ msgstr ""
 #: application/src/Form/ResourceBatchUpdateForm.php:74
 #: application/src/Form/ResourceBatchUpdateForm.php:97
 msgid "[No change]"
-msgstr ""
+msgstr "[Dim newid]"
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas - New SSL]"
+msgstr "[Carnifal Trawsfynydd, Lluniau o O'Brien a John Douglas - SSL Newydd]"
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas - SSL]"
+msgstr "[Carnifal Trawsfynydd, Lluniau o O'Brien a John Douglas - SSL]"
+
+msgid "[Trawsfynydd Carnival, Images of O'Brien and John Douglas]"
+msgstr "[Carnifal Trawsfynydd, Lluniau o O'Brien a John Douglas]"
 
 #: application/src/Form/ResourceBatchUpdateForm.php:96
 msgid "[Unset class]"
@@ -9416,7 +10856,7 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/browse.phtml:61
 #: application/view/omeka/site-admin/index/index.phtml:57
 msgid "[no owner]"
-msgstr ""
+msgstr "[dim perchennog]"
 
 #: application/views/helpers/AllElementTexts.php:107
 msgid "[no text]"
@@ -9424,11 +10864,11 @@ msgstr "[dim testun]"
 
 #: application/view/omeka/admin/job/show.phtml:13
 msgid "[not ended]"
-msgstr ""
+msgstr "[heb ei orffen]"
 
 #: application/view/omeka/admin/job/show.phtml:8
 msgid "[not started]"
-msgstr ""
+msgstr "[heb gychwyn]"
 
 #. Class comment for Bibliographic Ontology:DocumentPart
 msgid "a distinct part of a larger document or collected document."
@@ -9447,11 +10887,11 @@ msgstr "aeth at %1$s, %2$s."
 #. Property label for Friend of a Friend:account
 #. Property label for Friend of a Friend:holdsAccount
 msgid "account"
-msgstr ""
+msgstr "cyfrif"
 
 #. Property label for Friend of a Friend:accountName
 msgid "account name"
-msgstr ""
+msgstr "enw cyfrif"
 
 #. Property label for Friend of a Friend:accountServiceHomepage
 msgid "account service homepage"
@@ -9463,11 +10903,14 @@ msgstr ""
 
 #. Property label for Friend of a Friend:age
 msgid "age"
-msgstr ""
+msgstr "oed"
 
 #. Class comment for Bibliographic Ontology:Film
 msgid "aka movie."
 msgstr ""
+
+msgid "am"
+msgstr "am"
 
 #. Property label for Bibliographic Ontology:annotates
 msgid "annotates"
@@ -9479,15 +10922,15 @@ msgstr ""
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:73
 msgid "assets"
-msgstr ""
+msgstr "asedau"
 
 #. Class label for Bibliographic Ontology:AudioDocument
 msgid "audio document"
-msgstr ""
+msgstr "dogfen sain"
 
 #. Class label for Bibliographic Ontology:AudioVisualDocument
 msgid "audio-visual document"
-msgstr ""
+msgstr "dogfen clyweledol"
 
 #. Property label for Friend of a Friend:based_near
 msgid "based near"
@@ -9500,7 +10943,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:birthday
 msgid "birthday"
-msgstr ""
+msgstr "penblwydd"
 
 #: application/view/omeka/admin/module/browse.phtml:44
 #: application/view/omeka/admin/module/browse.phtml:46
@@ -9527,14 +10970,14 @@ msgstr ""
 #: admin/themes/default/index.php:11
 msgid "collection"
 msgid_plural "collections"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "casgliad"
+
+msgid "comments"
+msgstr "sylwadau"
 
 #: application/src/Entity/Job.php:26
 msgid "completed"
-msgstr ""
+msgstr "cwblhawyd"
 
 #: application/src/Form/Element/PasswordConfirm.php:24
 #, php-format
@@ -9563,15 +11006,15 @@ msgstr "cynnwys"
 
 #. Property label for Bibliographic Ontology:content
 msgid "content"
-msgstr ""
+msgstr "cynnwys"
 
 #. Property label for Bibliographic Ontology:court
 msgid "court"
-msgstr ""
+msgstr "llys"
 
 #. Property label for Friend of a Friend:currentProject
 msgid "current project"
-msgstr ""
+msgstr "prosiect cyfredol"
 
 #. Property label for Bibliographic Ontology:argued
 msgid "date argued"
@@ -9583,7 +11026,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:depiction
 msgid "depiction"
-msgstr ""
+msgstr "darluniad"
 
 #. Property label for Friend of a Friend:depicts
 msgid "depicts"
@@ -9591,7 +11034,10 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:director
 msgid "director"
-msgstr ""
+msgstr "cyfarwyddwr"
+
+msgid "discussions"
+msgstr "sgyrsiau"
 
 #. Property label for Bibliographic Ontology:distributor
 msgid "distributor"
@@ -9605,6 +11051,9 @@ msgstr ""
 #: application/view/common/advanced-search/properties.phtml:68
 msgid "does not contain"
 msgstr "ddim yn cynnwys"
+
+msgid "does not have resource"
+msgstr "heb adnodd"
 
 #: admin/themes/default/items/search-form.php:94
 msgid "does not match"
@@ -9624,15 +11073,18 @@ msgstr "golygu math o eitem sbesiffig"
 
 #. Property label for Bibliographic Ontology:edition
 msgid "edition"
-msgstr ""
+msgstr "argraffiad"
 
 #. Property label for Bibliographic Ontology:editor
 msgid "editor"
-msgstr ""
+msgstr "golygydd"
 
 #. Property label for Bibliographic Ontology:eissn
 msgid "eissn"
 msgstr ""
+
+msgid "elephant"
+msgstr "eliffant"
 
 #: admin/themes/default/items/search-form.php:92
 #: application/views/scripts/items/search-form.php:87
@@ -9641,19 +11093,22 @@ msgstr ""
 
 #: application/src/Entity/Job.php:28
 msgid "error"
-msgstr ""
+msgstr "gwall"
 
 #. Property label for Friend of a Friend:familyName
 msgid "familyName"
-msgstr ""
+msgstr "Enw teulu"
 
 #. Property label for Friend of a Friend:family_name
 msgid "family_name"
-msgstr ""
+msgstr "enw_teulu"
+
+msgid "file name"
+msgstr "enw ffeil"
 
 #. Property label for Friend of a Friend:firstName
 msgid "firstName"
-msgstr ""
+msgstr "Enw cyntaf"
 
 #. Property label for Friend of a Friend:focus
 msgid "focus"
@@ -9661,7 +11116,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:fundedBy
 msgid "funded by"
-msgstr ""
+msgstr "ariannwyd gan"
 
 #. Property label for Friend of a Friend:geekcode
 msgid "geekcode"
@@ -9669,7 +11124,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:gender
 msgid "gender"
-msgstr ""
+msgstr "rhywedd"
 
 #. Property label for Bibliographic Ontology:gtin14
 msgid "gtin14"
@@ -9682,12 +11137,15 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:38
 #: application/view/common/advanced-search/properties.phtml:71
 msgid "has any value"
-msgstr ""
+msgstr "ag unrhyw werth"
 
 #: application/src/View/Helper/SearchFilters.php:39
 #: application/view/common/advanced-search/properties.phtml:72
 msgid "has no values"
-msgstr ""
+msgstr "heb unrhyw werth"
+
+msgid "has resource"
+msgstr "ag adnodd"
 
 #. Property label for Friend of a Friend:homepage
 msgid "homepage"
@@ -9699,11 +11157,14 @@ msgstr ""
 
 #. Property label for Friend of a Friend:img
 msgid "image"
-msgstr ""
+msgstr "delwedd"
+
+msgid "images"
+msgstr "delweddau"
 
 #: application/src/Entity/Job.php:25
 msgid "in_progress"
-msgstr ""
+msgstr "ar_waith"
 
 #: admin/themes/default/users/browse.php:60
 msgid "inactive"
@@ -9711,7 +11172,7 @@ msgstr "segur"
 
 #. Property label for Friend of a Friend:interest
 msgid "interest"
-msgstr ""
+msgstr "diddordeb"
 
 #. Property label for Bibliographic Ontology:interviewee
 msgid "interviewee"
@@ -9739,7 +11200,7 @@ msgstr "ddim yn wag"
 #: application/src/View/Helper/SearchFilters.php:33
 #: application/view/common/advanced-search/properties.phtml:66
 msgid "is not exactly"
-msgstr ""
+msgstr "ddim yn union"
 
 #: application/src/View/Helper/SearchFilters.php:37
 #: application/view/common/advanced-search/properties.phtml:70
@@ -9781,7 +11242,7 @@ msgstr ""
 
 #: application/src/Controller/Admin/ItemController.php:114
 msgid "item"
-msgstr ""
+msgstr "eitem"
 
 #: application/src/Controller/Admin/ItemSetController.php:153
 msgid "item set"
@@ -9793,11 +11254,11 @@ msgstr ""
 
 #: application/src/View/Helper/BlockShowTitleSelect.php:24
 msgid "item title"
-msgstr ""
+msgstr "Teitl eitem"
 
 #: application/view/omeka/admin/item/sidebar-select.phtml:98
 msgid "items"
-msgstr ""
+msgstr "eitemau"
 
 #: admin/themes/default/items/browse.php:26
 #: admin/themes/default/items/browse.php:129
@@ -9812,13 +11273,16 @@ msgstr ""
 msgid "knows"
 msgstr ""
 
+msgid "label"
+msgstr "label"
+
 #: application/view/omeka/admin/media/show.phtml:73
 msgid "large"
 msgstr ""
 
 #. Property label for Friend of a Friend:lastName
 msgid "lastName"
-msgstr ""
+msgstr "Enw olaf"
 
 #. Property label for Bibliographic Ontology:lccn
 msgid "lccn"
@@ -9830,15 +11294,21 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:contributorList
 msgid "list of contributors"
-msgstr ""
+msgstr "rhestr cyfranogwyr"
 
 #. Property label for Bibliographic Ontology:editorList
 msgid "list of editors"
-msgstr ""
+msgstr "rhestr golygyddion"
 
 #. Property label for Bibliographic Ontology:locator
 msgid "locator"
 msgstr ""
+
+msgid "login"
+msgstr "mewngofnodi"
+
+msgid "login or register to contribute."
+msgstr "mewngofnodwch neu gofrestru er mwyn cyfrannu."
 
 #. Property label for Friend of a Friend:logo
 msgid "logo"
@@ -9890,7 +11360,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:name
 msgid "name"
-msgstr ""
+msgstr "enw"
 
 #: application/view/omeka/admin/module/browse.phtml:36
 msgid "name not found"
@@ -9898,7 +11368,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:nick
 msgid "nickname"
-msgstr ""
+msgstr "llysenw"
 
 #: application/src/View/Helper/SearchUserFilters.php:67
 #: application/view/omeka/admin/user/show.phtml:37
@@ -9907,11 +11377,11 @@ msgstr ""
 
 #: application/src/View/Helper/BlockShowTitleSelect.php:26
 msgid "no title"
-msgstr ""
+msgstr "dim teitl"
 
 #: application/view/layout/layout-admin.phtml:54
 msgid "not logged in"
-msgstr ""
+msgstr "heb fewngofnodi"
 
 #. Property label for Bibliographic Ontology:number
 msgid "number"
@@ -9919,11 +11389,11 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:numPages
 msgid "number of pages"
-msgstr ""
+msgstr "nifer o dudalennau"
 
 #. Property label for Bibliographic Ontology:numVolumes
 msgid "number of volumes"
-msgstr ""
+msgstr "nifer o gyfrolau"
 
 #: application/src/Media/Ingester/OEmbed.php:41
 msgid "oEmbed"
@@ -9941,7 +11411,7 @@ msgstr ""
 #: application/view/common/sidebar-pagination.phtml:6
 #, php-format
 msgid "of %s"
-msgstr ""
+msgstr "o %s"
 
 #. Property label for Friend of a Friend:openid
 msgid "openid"
@@ -9950,6 +11420,9 @@ msgstr ""
 #: admin/themes/default/plugins/confirm-uninstall.php:19
 msgid "or"
 msgstr "neu"
+
+msgid "or Login"
+msgstr "neu Mewngofnodwch"
 
 #. Property label for Bibliographic Ontology:organizer
 msgid "organizer"
@@ -9961,23 +11434,29 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:owner
 msgid "owner"
-msgstr ""
+msgstr "perchennog"
 
 #: application/src/Controller/SiteAdmin/PageController.php:81
 msgid "page"
-msgstr ""
+msgstr "tudalen"
+
+msgid "page 1"
+msgstr "tudalen 1"
+
+msgid "page 2"
+msgstr "tudalen 2"
 
 #. Property label for Bibliographic Ontology:pageEnd
 msgid "page end"
-msgstr ""
+msgstr "diwedd y dudalen"
 
 #. Property label for Bibliographic Ontology:pageStart
 msgid "page start"
-msgstr ""
+msgstr "dechrau'r dudalen"
 
 #. Property label for Bibliographic Ontology:pages
 msgid "pages"
-msgstr ""
+msgstr "tudalennau"
 
 #. Property label for Friend of a Friend:pastProject
 msgid "past project"
@@ -9993,7 +11472,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:phone
 msgid "phone"
-msgstr ""
+msgstr "ffôn"
 
 #. Property label for Friend of a Friend:plan
 msgid "plan"
@@ -10059,6 +11538,9 @@ msgstr ""
 msgid "refine your search"
 msgstr "mireinio'r chwiliad"
 
+msgid "register"
+msgstr "cofrestrwch"
+
 #. Property label for Bibliographic Ontology:reproducedIn
 msgid "reproducedIn"
 msgstr ""
@@ -10081,7 +11563,7 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:reviewOf
 msgid "review of"
-msgstr ""
+msgstr "adolygiad o"
 
 #. Property label for Friend of a Friend:schoolHomepage
 msgid "schoolHomepage"
@@ -10101,11 +11583,11 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:shortTitle
 msgid "short title"
-msgstr ""
+msgstr "teitl byr"
 
 #. Property label for Bibliographic Ontology:shortDescription
 msgid "shortDescription"
-msgstr ""
+msgstr "Disgrifiad byr"
 
 #. Property label for Bibliographic Ontology:sici
 msgid "sici"
@@ -10132,7 +11614,7 @@ msgstr ""
 
 #: application/src/Entity/Job.php:23
 msgid "starting"
-msgstr ""
+msgstr "cychwyn"
 
 #: admin/themes/default/items/search-form.php:91
 #: application/views/scripts/items/search-form.php:86
@@ -10142,15 +11624,15 @@ msgstr ""
 #. Property label for Bibliographic Ontology:status
 #. Property label for Friend of a Friend:status
 msgid "status"
-msgstr ""
+msgstr "statws"
 
 #: application/src/Entity/Job.php:27
 msgid "stopped"
-msgstr ""
+msgstr "Wedi atal"
 
 #: application/src/Entity/Job.php:24
 msgid "stopping"
-msgstr ""
+msgstr "ataliad"
 
 #. Property label for Bibliographic Ontology:subsequentLegalDecision
 msgid "subsequentLegalDecision"
@@ -10172,13 +11654,16 @@ msgstr[3] ""
 msgid "theme"
 msgstr "themâu"
 
+msgid "these are a bunch of nice people"
+msgstr "criw o bobl neis"
+
 #: application/src/Form/Element/ColorPicker.php:10
 msgid "three- or six-digit hexadecimal color, or \"transparent\""
 msgstr ""
 
 #. Property label for Friend of a Friend:thumbnail
 msgid "thumbnail"
-msgstr ""
+msgstr "'thumbnail'"
 
 #. Property label for Friend of a Friend:tipjar
 msgid "tipjar"
@@ -10186,7 +11671,7 @@ msgstr ""
 
 #. Property label for Friend of a Friend:title
 msgid "title"
-msgstr ""
+msgstr "teitl"
 
 #. Property label for Friend of a Friend:topic
 msgid "topic"
@@ -10198,15 +11683,15 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:transcriptOf
 msgid "transcript of"
-msgstr ""
+msgstr "trawsysgrif o"
 
 #. Property label for Bibliographic Ontology:translationOf
 msgid "translation of"
-msgstr ""
+msgstr "cyfieithiad o"
 
 #. Property label for Bibliographic Ontology:translator
 msgid "translator"
-msgstr ""
+msgstr "cyfieithydd"
 
 #. Property label for Bibliographic Ontology:upc
 msgid "upc"
@@ -10218,7 +11703,7 @@ msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:268
 msgid "user"
-msgstr ""
+msgstr "defnyddiwr"
 
 #: application/view/layout/layout-admin.phtml:111
 #: application/view/omeka/admin/module/browse.phtml:39
@@ -10226,19 +11711,22 @@ msgstr ""
 #: application/view/omeka/site-admin/index/theme.phtml:35
 #, php-format
 msgid "version %s"
-msgstr ""
+msgstr "fersiwn %s"
 
 #: application/view/omeka/admin/job/show.phtml:61
 msgid "view log"
 msgstr ""
 
+msgid "views"
+msgstr "golygfeydd"
+
 #: application/src/Controller/Admin/VocabularyController.php:60
 msgid "vocabulary"
-msgstr ""
+msgstr "geirfa"
 
 #. Property label for Bibliographic Ontology:volume
 msgid "volume"
-msgstr ""
+msgstr "cyfrol"
 
 #. Property label for Friend of a Friend:weblog
 msgid "weblog"
