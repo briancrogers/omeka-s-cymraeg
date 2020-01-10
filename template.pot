@@ -17,6 +17,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: application/models/File.php:452
+#, php-format
+msgid "\"%s\" is not a valid file derivative."
+msgstr ""
+
+#. / Chicago-style item citation: two authors
+#: application/models/Item.php:466
+#, php-format
+msgid "%1$s and %2$s"
+msgstr ""
+
+#: admin/themes/default/plugins/browse.php:32
+#, php-format
+msgid ""
+"%1$s requires the following plugins to be installed, activated, and loaded: "
+"%2$s"
+msgstr ""
+
+#. / Chicago-style item citation: three authors
+#: application/models/Item.php:470
+#, php-format
+msgid "%1$s, %2$s, and %3$s"
+msgstr ""
+
+#: application/controllers/UsersController.php:112
+#: application/controllers/UsersController.php:115
+#: application/controllers/UsersController.php:390
+#, php-format
+msgid "%s Administrator"
+msgstr ""
+
+#: application/views/helpers/MaxFileSize.php:44
+#, php-format
+msgid "%s MB"
+msgstr ""
+
 #: application/view/omeka/admin/media/show-details.phtml:32
 #: application/view/omeka/admin/media/show.phtml:53
 #, php-format
@@ -27,6 +63,49 @@ msgstr ""
 #, php-format
 msgid "%s entity with criteria %s not found"
 msgstr ""
+
+#. / Chicago-style item citation: more than three authors
+#: application/models/Item.php:474
+#, php-format
+msgid "%s et al."
+msgstr ""
+
+#: admin/themes/default/users/api-keys.php:33
+#, php-format
+msgid "%s has no API keys. Use the form above to create one."
+msgstr ""
+
+#: application/views/scripts/error/404.php:6
+#, php-format
+msgid "%s is not a valid URL."
+msgstr ""
+
+#: application/views/scripts/common/pagination_control.php:39
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+#: application/controllers/UsersController.php:362
+#, php-format
+msgid ""
+"%s will be deleted from the system. Items, collections, and tags created by "
+"this user will remain in the system, but will no longer be associated with "
+"this user."
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:17
+#, php-format
+msgid "%s%d item%s has no collection."
+msgid_plural "%s%d items%s aren't in a collection."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/themes/default/item-types/browse.php:18
+#, php-format
+msgid "%s%d item%s has no type."
+msgid_plural "%s%d items%s have no type."
+msgstr[0] ""
+msgstr[1] ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:160
 #: application/view/omeka/admin/item-set/browse.phtml:178
@@ -64,12 +143,75 @@ msgstr ""
 msgid "%s–%s of %s"
 msgstr ""
 
+#: application/libraries/globals.php:2614
+msgid "&larr; Previous Item"
+msgstr ""
+
+#: application/models/User.php:190
+#, php-format
+msgid "'%s' is already in use. Please choose another username."
+msgstr ""
+
+#: application/libraries/Omeka/Record/AbstractRecord.php:351
+#, php-format
+msgid "'%s' is an invalid special value."
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:2
+#: admin/themes/default/item-types/browse.php:2
+#: admin/themes/default/items/browse.php:3
+#: admin/themes/default/plugins/browse.php:5
+#: admin/themes/default/search/index.php:2
+#: admin/themes/default/tags/browse.php:6
+#: admin/themes/default/users/browse.php:2
+#: application/views/scripts/collections/browse.php:6
+#: application/views/scripts/items/browse.php:6
+#: application/views/scripts/search/index.php:2
+#, php-format
+msgid "(%s total)"
+msgstr ""
+
+#: admin/themes/default/users/login.php:17
+msgid "(Lost your password?)"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:48
+#: admin/themes/default/items/browse.php:85
+msgid "(Private)"
+msgstr ""
+
 #: application/view/omeka/admin/user/show-details.phtml:7
 msgid "(inactive)"
 msgstr ""
 
 #: application/view/common/pagination.phtml:30
 msgid "0 results"
+msgstr ""
+
+#: application/views/scripts/error/403.php:2
+msgid "403 Page Forbidden"
+msgstr ""
+
+#: admin/themes/default/error/403.php:2
+msgid "403: Forbidden"
+msgstr ""
+
+#: application/views/scripts/error/404.dc.php:1
+#: application/views/scripts/error/404.php:2
+#: application/views/scripts/error/404.xml.php:1
+msgid "404 Page Not Found"
+msgstr ""
+
+#: admin/themes/default/error/404.php:2
+msgid "404: Page Not Found"
+msgstr ""
+
+#: application/views/scripts/error/405.php:2
+msgid "405 Method Not Allowed"
+msgstr ""
+
+#: admin/themes/default/error/405.php:2
+msgid "405: Method Not Allowed"
 msgstr ""
 
 #. Property comment for Friend of a Friend:mbox
@@ -187,6 +329,11 @@ msgstr ""
 msgid ""
 "A court associated with a legal document; for example, that which issues a "
 "decision."
+msgstr ""
+
+#: application/views/helpers/GetCurrentRecord.php:27
+#, php-format
+msgid "A current %s variable has not been set to this view."
 msgstr ""
 
 #. Property comment for Friend of a Friend:currentProject
@@ -339,6 +486,10 @@ msgstr ""
 msgid "A jabber ID for something."
 msgstr ""
 
+#. Dublin Core: Language element description
+msgid "A language of the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:language
 msgid "A language of the resource."
 msgstr ""
@@ -398,6 +549,11 @@ msgstr ""
 msgid "A logo representing some thing."
 msgstr ""
 
+#: application/views/helpers/GetLoopRecords.php:30
+#, php-format
+msgid "A loop %s variable has not been set to this view."
+msgstr ""
+
 #. Class comment for Bibliographic Ontology:MultiVolumeBook
 #. Class comment for Bibliographic Ontology:Series
 msgid "A loose, thematic, collection of Documents, often Books."
@@ -423,13 +579,25 @@ msgstr ""
 msgid "A name for some thing."
 msgstr ""
 
+#. Dublin Core: Title element description
+msgid "A name given to the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:title
 msgid "A name given to the resource."
+msgstr ""
+
+#: application/controllers/UsersController.php:322
+msgid "A new API key was successfully created."
 msgstr ""
 
 #: application/view/common/version-notification.phtml:8
 #, php-format
 msgid "A new version of Omeka S is available. %s"
+msgstr ""
+
+#: admin/themes/default/index.php:35
+msgid "A new version of Omeka is available for download."
 msgstr ""
 
 #: application/view/omeka/admin/module/browse.phtml:58
@@ -534,6 +702,12 @@ msgid ""
 "determine decisions, actions, and other matters."
 msgstr ""
 
+#. Dublin Core: Date element description
+msgid ""
+"A point or period of time associated with an event in the lifecycle of the "
+"resource"
+msgstr ""
+
 #. Property comment for Dublin Core:date
 msgid ""
 "A point or period of time associated with an event in the lifecycle of the "
@@ -574,6 +748,14 @@ msgstr ""
 
 #. Class comment for Dublin Core:Frequency
 msgid "A rate at which something recurs."
+msgstr ""
+
+#. Dublin Core: Relation element description
+msgid "A related resource"
+msgstr ""
+
+#. Dublin Core: Source element description
+msgid "A related resource from which the described resource is derived"
 msgstr ""
 
 #. Property comment for Dublin Core:source
@@ -901,6 +1083,15 @@ msgstr ""
 msgid "AND"
 msgstr ""
 
+#: admin/themes/default/common/settings-nav.php:32
+msgid "API"
+msgstr ""
+
+#: admin/themes/default/common/users-nav.php:17
+#: admin/themes/default/users/api-keys.php:14
+msgid "API Keys"
+msgstr ""
+
 #: application/src/Controller/Admin/UserController.php:242
 #, php-format
 msgid ""
@@ -930,6 +1121,10 @@ msgstr ""
 msgid "Access Rights"
 msgstr ""
 
+#: application/controllers/ErrorController.php:78
+msgid "Access denied."
+msgstr ""
+
 #. Property label for Dublin Core:accrualMethod
 msgid "Accrual Method"
 msgstr ""
@@ -946,6 +1141,16 @@ msgstr ""
 msgid "Activate"
 msgstr ""
 
+#: application/controllers/UsersController.php:391
+#, php-format
+msgid "Activate your account with the %s repository"
+msgstr ""
+
+#: application/forms/User.php:139
+#, php-format
+msgid "Activation has been pending since %s."
+msgstr ""
+
 #: application/src/Controller/LoginController.php:171
 msgid "Activation unsuccessful"
 msgstr ""
@@ -956,6 +1161,10 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
+#: application/forms/User.php:142
+msgid "Active?"
+msgstr ""
+
 #: application/view/omeka/admin/item/add.phtml:13
 #: application/view/omeka/admin/resource-template/add.phtml:14
 #: application/view/omeka/admin/user/add.phtml:13
@@ -964,9 +1173,81 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
+#: admin/themes/default/items/form.php:23
+msgid "Add Another File"
+msgstr ""
+
+#: admin/themes/default/collections/add.php:11
+msgid "Add Collection"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:80
+#: admin/themes/default/item-types/form.php:87
+msgid "Add Element"
+msgstr ""
+
+#: application/views/helpers/ElementForm.php:65
+msgid "Add Input"
+msgstr ""
+
+#: admin/themes/default/items/add.php:12
+msgid "Add Item"
+msgstr ""
+
+#: admin/themes/default/item-types/add.php:2
+#: admin/themes/default/item-types/add.php:11
+msgid "Add Item Type"
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:25
+msgid "Add Link"
+msgstr ""
+
+#: admin/themes/default/items/files-form.php:22
+msgid "Add New Files"
+msgstr ""
+
+#: admin/themes/default/users/add.php:2
+msgid "Add New User"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:63
+#: admin/themes/default/items/tag-form.php:8
+#: admin/themes/default/items/tag-form.php:11
+msgid "Add Tags"
+msgstr ""
+
 #: application/view/common/property-form-batch-edit.phtml:40
 #: application/view/common/property-form-batch-edit.phtml:78
 msgid "Add URI value"
+msgstr ""
+
+#: admin/themes/default/users/add.php:13
+msgid "Add User"
+msgstr ""
+
+#: admin/themes/default/collections/add.php:2
+#: admin/themes/default/collections/browse.php:12
+#: admin/themes/default/collections/browse.php:76
+#: admin/themes/default/collections/browse.php:86
+msgid "Add a Collection"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:28
+#: application/views/scripts/items/search-form.php:105
+msgid "Add a Field"
+msgstr ""
+
+#: admin/themes/default/items/show.php:76
+msgid "Add a File"
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:19
+msgid "Add a Link to the Navigation"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:8
+msgid "Add a User"
 msgstr ""
 
 #: application/view/omeka/site-admin/index/navigation.phtml:32
@@ -978,8 +1259,28 @@ msgstr ""
 msgid "Add a link to a site page"
 msgstr ""
 
+#: admin/themes/default/error/404.php:50 admin/themes/default/index.php:84
+msgid "Add a new collection"
+msgstr ""
+
+#: admin/themes/default/error/404.php:29 admin/themes/default/index.php:65
+msgid "Add a new item"
+msgstr ""
+
 #: application/view/omeka/admin/user/edit.phtml:57
 msgid "Add a new key"
+msgstr ""
+
+#: admin/themes/default/items/add.php:2
+#: admin/themes/default/items/browse.php:17
+#: admin/themes/default/items/browse.php:142
+#: admin/themes/default/items/browse.php:168
+msgid "Add an Item"
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:10
+#: admin/themes/default/item-types/browse.php:55
+msgid "Add an Item Type"
 msgstr ""
 
 #: application/src/Controller/Admin/ItemSetController.php:35
@@ -1043,6 +1344,14 @@ msgstr ""
 msgid "Add new template"
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:46
+msgid ""
+"Add new themes by downloading them from the <a href=\"http://omeka.org/add-"
+"ons/themes/\" target=\"_blank\">Omeka Theme Directory</a>, or <a href="
+"\"http://omeka.org/codex/Theme_Writing_Best_Practices\" target=\"_blank"
+"\">design your own</a>!"
+msgstr ""
+
 #: application/view/omeka/admin/user/browse.phtml:36
 #: application/view/omeka/site-admin/index/users.phtml:75
 msgid "Add new user"
@@ -1097,10 +1406,26 @@ msgstr ""
 msgid "Add value"
 msgstr ""
 
+#. Omeka Legacy File: Additional Creator element
+msgid "Additional Creator"
+msgstr ""
+
 #: application/view/layout/layout-admin.phtml:24
 #: application/view/omeka/site-admin/index/add.phtml:7
 #: application/view/omeka/site-admin/index/users.phtml:12
 msgid "Admin"
+msgstr ""
+
+#: install/views/scripts/index/installed.phtml:3
+msgid "Admin Dashboard"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:83
+msgid "Admin Theme"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:113
+msgid "Admin Themes"
 msgstr ""
 
 #: application/view/omeka/admin/index/browse.phtml:4
@@ -1108,8 +1433,16 @@ msgstr ""
 msgid "Admin dashboard"
 msgstr ""
 
+#: application/forms/GeneralSettings.php:31 application/forms/Install.php:99
+msgid "Administrator Email"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:114
 msgid "Administrator email"
+msgstr ""
+
+#: application/views/scripts/search/search-form.php:19
+msgid "Advanced Search (Items only)"
 msgstr ""
 
 #: application/view/omeka/site/item/search.phtml:6
@@ -1153,6 +1486,16 @@ msgstr ""
 msgid "Affected users"
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:45
+#, php-format
+msgid ""
+"After enabling the API, applications may be able to show, browse, add, edit, "
+"and delete your site resources. Viewing protected content, as well as "
+"adding, editing, and deleting content, is protected and requires key "
+"authentication. Each key corresponds to, and has all permissions of, an "
+"existing Omeka user. You can create keys on each user's %sedit page%s."
+msgstr ""
+
 #. Class label for Dublin Core:Agent
 #. Class label for Friend of a Friend:Agent
 msgid "Agent"
@@ -1166,21 +1509,77 @@ msgstr ""
 msgid "All"
 msgstr ""
 
+#: admin/themes/default/items/batch-delete-all.php:18
+#, php-format
+msgid "All %d items matching the search filters above will be deleted."
+msgstr ""
+
+#: admin/themes/default/items/batch-delete-all.php:20
+#, php-format
+msgid "All %d items will be deleted."
+msgstr ""
+
+#: admin/themes/default/items/tag-form.php:15
+msgid "All Tags"
+msgstr ""
+
 #: application/src/Api/Adapter/SitePageAdapter.php:166
 msgid "All blocks must have a layout."
+msgstr ""
+
+#: admin/themes/default/appearance/reset-navigation-confirm.php:10
+msgid ""
+"All customizations will be lost. Order and labels will revert to Omeka "
+"defaults. Custom links will be lost."
+msgstr ""
+
+#: application/models/ElementText.php:62
+msgid "All element texts must have a record type."
 msgstr ""
 
 #: application/view/common/item-set-selector.phtml:10
 msgid "All item sets"
 msgstr ""
 
+#: admin/themes/default/collections/browse.php:20
+msgid "All items are in a collection."
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:21
+msgid "All items have a type."
+msgstr ""
+
 #: application/view/omeka/admin/module/browse.phtml:15
 msgid "All modules"
+msgstr ""
+
+#: application/forms/Navigation.php:324
+msgid "All navigation links must have URIs."
+msgstr ""
+
+#: application/forms/Navigation.php:337
+msgid "All navigation links must have different URIs."
 msgstr ""
 
 #: application/view/common/user-selector.phtml:15
 #, php-format
 msgid "All users (%s)"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:31
+msgid "Allowed File Extensions"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:41
+msgid "Allowed File Types"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:81
+msgid "Allowed HTML Attributes"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:73
+msgid "Allowed HTML Elements"
 msgstr ""
 
 #: application/src/Form/SettingForm.php:317
@@ -1235,6 +1634,10 @@ msgstr ""
 msgid "An OpenID for an Agent."
 msgstr ""
 
+#. Dublin Core: Description element description
+msgid "An account of the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:description
 msgid "An account of the resource."
 msgstr ""
@@ -1267,6 +1670,10 @@ msgstr ""
 msgid "An alternative name for the resource."
 msgstr ""
 
+#: application/views/helpers/Loop.php:27
+msgid "An array of records is not available for the loop."
+msgstr ""
+
 #. Class comment for Bibliographic Ontology:AudioDocument
 msgid "An audio document; aka record."
 msgstr ""
@@ -1283,8 +1690,17 @@ msgstr ""
 msgid "An edited book."
 msgstr ""
 
+#: application/models/Element.php:184
+#, php-format
+msgid "An element named \"%s\" already exists for the \"%s\" element set."
+msgstr ""
+
 #: application/src/Site/BlockLayout/ListOfSites.php:51
 msgid "An empty value means no limit."
+msgstr ""
+
+#. Dublin Core: Creator element description
+msgid "An entity primarily responsible for making the resource"
 msgstr ""
 
 #. Property comment for Dublin Core:creator
@@ -1297,8 +1713,16 @@ msgid ""
 "as press releases, reports, etc."
 msgstr ""
 
+#. Dublin Core: Contributor element description
+msgid "An entity responsible for making contributions to the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:contributor
 msgid "An entity responsible for making contributions to the resource."
+msgstr ""
+
+#. Dublin Core: Publisher element description
+msgid "An entity responsible for making the resource available"
 msgstr ""
 
 #. Property comment for Dublin Core:publisher
@@ -1311,12 +1735,21 @@ msgid ""
 "intended or useful."
 msgstr ""
 
+#: application/models/Job/ItemBatchEditAll.php:153
+#, php-format
+msgid "An error occured when the item was updated: %s"
+msgstr ""
+
 #. Property comment for Dublin Core:conformsTo
 msgid "An established standard to which the described resource conforms."
 msgstr ""
 
 #. Class comment for Bibliographic Ontology:Quote
 msgid "An excerpted collection of words."
+msgstr ""
+
+#: application/controllers/UsersController.php:329
+msgid "An existing API key was successfully rescinded."
 msgstr ""
 
 #. Property comment for Friend of a Friend:img
@@ -1343,6 +1776,10 @@ msgstr ""
 #. Class comment for Dublin Core:PeriodOfTime
 msgid ""
 "An interval of time that is named or defined by its start and end dates."
+msgstr ""
+
+#: application/libraries/Omeka/Record/Iterator.php:49
+msgid "An invalid value was detected during record iteration."
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:issue
@@ -1391,6 +1828,10 @@ msgstr ""
 msgid "An organization."
 msgstr ""
 
+#. Dublin Core: Identifier element description
+msgid "An unambiguous reference to the resource within a given context"
+msgstr ""
+
 #. Property comment for Dublin Core:identifier
 msgid "An unambiguous reference to the resource within a given context."
 msgstr ""
@@ -1401,14 +1842,34 @@ msgid ""
 "publication."
 msgstr ""
 
+#: admin/themes/default/appearance/edit-navigation.php:3
+#: admin/themes/default/appearance/edit-settings.php:2
+#: admin/themes/default/common/global-nav.php:11
+#: admin/themes/default/themes/browse.php:5
+#: admin/themes/default/themes/config.php:3
+msgid "Appearance"
+msgstr ""
+
 #: application/view/omeka/site-admin/page/edit.phtml:52
 msgid "Apply changes"
+msgstr ""
+
+#: admin/themes/default/settings/edit-item-type-elements.php:44
+msgid ""
+"Are you sure you want to delete the selected item type elements from the "
+"database? You will lose all text related to the selected elements. This "
+"cannot be undone."
 msgstr ""
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:78
 msgid ""
 "Are you sure you want to delete this asset? It will no longer be available "
 "to any resources currently using it."
+msgstr ""
+
+#: admin/themes/default/plugins/confirm-uninstall.php:7
+#, php-format
+msgid "Are you sure you want to uninstall %s?"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:176
@@ -1510,12 +1971,26 @@ msgstr ""
 msgid "Audience Education Level"
 msgstr ""
 
+#: admin/themes/default/files/show.php:70
+#: application/views/scripts/files/show.php:39
+msgid "Authentication"
+msgstr ""
+
 #: application/src/Permissions/Acl.php:25
 msgid "Author"
 msgstr ""
 
+#: admin/themes/default/users/forgot-password.php:25
+#: application/views/scripts/users/forgot-password.php:7
+msgid "Back to Log In"
+msgstr ""
+
 #: application/view/omeka/site-admin/index/show.phtml:20
 msgid "Back to site list"
+msgstr ""
+
+#: admin/themes/default/common/footer.php:6
+msgid "Back to top"
 msgstr ""
 
 #. Vocabulary comment for Dublin Core
@@ -1525,6 +2000,52 @@ msgstr ""
 #. Vocabulary comment for Dublin Core Type
 msgid "Basic resource types (DCMI Type Vocabulary)"
 msgstr ""
+
+#: admin/themes/default/items/batch-delete-all.php:2
+msgid "Batch Delete All Searched Items"
+msgstr ""
+
+#: admin/themes/default/items/batch-delete.php:2
+msgid "Batch Delete Items"
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:40
+msgid "Batch Edit All Items: No item matches the specified filters."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-all.php:2
+msgid "Batch Edit All Searched Items"
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:176
+#, php-format
+msgid "Batch Edit Item #%d [%d/%d]: %s"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit.php:2
+msgid "Batch Edit Items"
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:66
+#, php-format
+msgid ""
+"Batch Edit: A total of %d errors occurred during the batch process of %d "
+"items."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:47
+#, php-format
+msgid "Batch Edit: Starting processing 1 item."
+msgid_plural "Batch Edit: Starting processing %d items."
+msgstr[0] ""
+msgstr[1] ""
+
+#: application/models/Job/ItemBatchEditAll.php:73
+#, php-format
+msgid "Batch Edit: The item has been processed successfully."
+msgid_plural "Batch Edit: All %d items have been processed successfully."
+msgstr[0] ""
+msgstr[1] ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:51
 #: application/view/omeka/admin/item-set/browse.phtml:52
@@ -1553,6 +2074,11 @@ msgstr ""
 msgid "Batch edit users"
 msgstr ""
 
+#: install/views/scripts/index/errors.phtml:2
+msgid ""
+"Before installation can continue, the following errors must be resolved:"
+msgstr ""
+
 #: application/src/Media/Ingester/Youtube.php:100
 msgid ""
 "Begin playing the video at the given number of seconds from the start of the "
@@ -1579,6 +2105,14 @@ msgstr ""
 msgid "Bill"
 msgstr ""
 
+#. Omeka Image File: Bit Depth element
+msgid "Bit Depth"
+msgstr ""
+
+#. Omeka Video File: Bitrate element
+msgid "Bitrate"
+msgstr ""
+
 #: application/src/Api/Adapter/SitePageAdapter.php:170
 msgid "Block data must not be a scalar value."
 msgstr ""
@@ -1595,6 +2129,10 @@ msgstr ""
 msgid "Book Section"
 msgstr ""
 
+#: application/libraries/globals.php:469
+msgid "Boolean"
+msgstr ""
+
 #: application/src/Site/BlockLayout/LineBreak.php:43
 msgid "Break type"
 msgstr ""
@@ -1607,12 +2145,87 @@ msgstr ""
 msgid "Browse"
 msgstr ""
 
+#: application/libraries/globals.php:2795
+msgid "Browse All"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:2
+#: application/libraries/Omeka/Navigation.php:149
+#: application/tests/suite/Omeka/NavigationTest.php:747
+#: application/tests/suite/Omeka/NavigationTest.php:816
+#: application/tests/suite/Omeka/NavigationTest.php:831
+#: application/tests/suite/Omeka/NavigationTest.php:950
+#: application/views/scripts/collections/browse.php:2
+msgid "Browse Collections"
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:2
+msgid "Browse Item Types"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:3
+#: application/libraries/Omeka/Navigation.php:142
+#: application/tests/suite/Omeka/NavigationTest.php:37
+#: application/tests/suite/Omeka/NavigationTest.php:56
+#: application/tests/suite/Omeka/NavigationTest.php:79
+#: application/tests/suite/Omeka/NavigationTest.php:97
+#: application/tests/suite/Omeka/NavigationTest.php:120
+#: application/tests/suite/Omeka/NavigationTest.php:139
+#: application/tests/suite/Omeka/NavigationTest.php:162
+#: application/tests/suite/Omeka/NavigationTest.php:185
+#: application/tests/suite/Omeka/NavigationTest.php:214
+#: application/tests/suite/Omeka/NavigationTest.php:236
+#: application/tests/suite/Omeka/NavigationTest.php:265
+#: application/tests/suite/Omeka/NavigationTest.php:288
+#: application/tests/suite/Omeka/NavigationTest.php:317
+#: application/tests/suite/Omeka/NavigationTest.php:339
+#: application/tests/suite/Omeka/NavigationTest.php:367
+#: application/tests/suite/Omeka/NavigationTest.php:388
+#: application/tests/suite/Omeka/NavigationTest.php:416
+#: application/tests/suite/Omeka/NavigationTest.php:438
+#: application/tests/suite/Omeka/NavigationTest.php:466
+#: application/tests/suite/Omeka/NavigationTest.php:483
+#: application/tests/suite/Omeka/NavigationTest.php:511
+#: application/tests/suite/Omeka/NavigationTest.php:527
+#: application/tests/suite/Omeka/NavigationTest.php:555
+#: application/tests/suite/Omeka/NavigationTest.php:572
+#: application/tests/suite/Omeka/NavigationTest.php:600
+#: application/tests/suite/Omeka/NavigationTest.php:621
+#: application/tests/suite/Omeka/NavigationTest.php:647
+#: application/tests/suite/Omeka/NavigationTest.php:667
+#: application/tests/suite/Omeka/NavigationTest.php:693
+#: application/tests/suite/Omeka/NavigationTest.php:714
+#: application/tests/suite/Omeka/NavigationTest.php:740
+#: application/tests/suite/Omeka/NavigationTest.php:815
+#: application/tests/suite/Omeka/NavigationTest.php:845
+#: application/tests/suite/Omeka/NavigationTest.php:949
+#: application/views/scripts/items/browse.php:2
+#: application/views/scripts/items/tags.php:2
+msgid "Browse Items"
+msgstr ""
+
+#: admin/themes/default/items/tags.php:2
+msgid "Browse Items by Tag"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:5
+msgid "Browse Tags"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:2
+msgid "Browse Users"
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:26
 msgid "Browse all"
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:169
 msgid "Browse body property"
+msgstr ""
+
+#: application/libraries/globals.php:2800
+msgid "Browse by Tag"
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:152
@@ -1627,12 +2240,23 @@ msgstr ""
 msgid "Browse preview"
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:24
+#: admin/themes/default/themes/browse.php:68
+#, php-format
+msgid "By %s"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:91
 #: application/src/Form/SettingForm.php:233
 msgid ""
 "By default, Omeka embeds JSON-LD in resource browse and show pages for the "
 "purpose of machine-readable metadata discovery. Check this to disable "
 "embedding."
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:825
+#: application/tests/suite/Omeka/NavigationTest.php:951
+msgid "CHNM"
 msgstr ""
 
 #: application/src/View/Helper/CancelButton.php:14
@@ -1644,8 +2268,78 @@ msgstr ""
 msgid "Cancel delete"
 msgstr ""
 
+#: application/models/Item.php:509
+msgid "Cannot add an existing file to an item!"
+msgstr ""
+
+#: application/models/Collection.php:118
+msgid "Cannot associate the collection with an unsaved user."
+msgstr ""
+
+#: application/models/UsersActivations.php:54
+msgid "Cannot create a user activation for non-existent user."
+msgstr ""
+
+#: application/models/Mixin/ElementText.php:311
+#, php-format
+msgid "Cannot find an element with an ID of '%s'!"
+msgstr ""
+
+#: application/models/ItemType.php:295
+#, php-format
+msgid "Cannot find element with ID %s!"
+msgstr ""
+
+#: application/forms/Navigation.php:244
+msgid "Cannot find parent navigation page."
+msgstr ""
+
+#: application/models/File.php:235
+msgid "Cannot get the local path for a stored file."
+msgstr ""
+
+#: application/models/ItemType.php:286
+msgid ""
+"Cannot remove elements from an item type that is not persistent in the "
+"database!"
+msgstr ""
+
+#: application/models/Mixin/ElementText.php:648
+msgid "Cannot save element text for records that are not yet persistent!"
+msgstr ""
+
+#: application/models/Element.php:215
+#, php-format
+msgid "Cannot set element set ID: set named \"%s\" does not exist."
+msgstr ""
+
+#: application/forms/SecuritySettings.php:105
+msgid "Captcha"
+msgstr ""
+
 #: application/view/omeka/site-admin/page/edit.phtml:41
 msgid "Caption"
+msgstr ""
+
+#. Omeka Legacy File: Capture Date element
+msgid "Capture Date"
+msgstr ""
+
+#. Omeka Legacy File: Capture Details element
+msgid "Capture Details"
+msgstr ""
+
+#. Omeka Legacy File: Capture Device element
+msgid "Capture Device"
+msgstr ""
+
+#. Omeka Legacy File: Change History element
+msgid "Change History"
+msgstr ""
+
+#: admin/themes/default/common/users-nav.php:11
+#: application/forms/ChangePassword.php:80
+msgid "Change Password"
 msgstr ""
 
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:17
@@ -1656,8 +2350,60 @@ msgstr ""
 msgid "Changes to the vocabulary successfully made"
 msgstr ""
 
+#: admin/themes/default/items/batch-edit-all.php:20
+#, php-format
+msgid ""
+"Changes will be applied to all %d items matching the search filters above."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-all.php:22
+#, php-format
+msgid "Changes will be applied to all %d items."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit.php:37
+msgid "Changes will be applied to checked items."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-all.php:27
+msgid "Changes will be processed in the background item by item."
+msgstr ""
+
+#. Omeka Image File: Channels element
+msgid "Channels"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Chapter
 msgid "Chapter"
+msgstr ""
+
+#: application/forms/Install.php:170
+msgid "Check box to show metadata elements with no text."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit.php:48
+msgid "Check if you wish to delete selected items."
+msgstr ""
+
+#: application/controllers/ItemsController.php:430
+msgid "Check logs for success and errors."
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:14
+msgid ""
+"Check the links to display them in the main navigation. Click and drag the "
+"links into the preferred display order."
+msgstr ""
+
+#: application/forms/SecuritySettings.php:25
+msgid ""
+"Check this field if you would like to allow any file to be uploaded to Omeka."
+msgstr ""
+
+#: application/forms/SecuritySettings.php:67
+msgid ""
+"Check this field if you would like to filter HTML elements or attributes "
+"from form input."
 msgstr ""
 
 #: application/src/Form/SettingForm.php:295
@@ -1668,8 +2414,16 @@ msgstr ""
 msgid "Check your email for instructions on how to reset your password"
 msgstr ""
 
+#: admin/themes/default/items/batch-delete.php:39
+msgid "Checked items will be deleted."
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:16
 msgid "Choose a RDF vocabulary file. You must choose a file or enter a URL."
+msgstr ""
+
+#: application/views/scripts/items/show.php:36
+msgid "Citation"
 msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:60
@@ -1720,6 +2474,16 @@ msgstr ""
 msgid "Clear property values"
 msgstr ""
 
+#: admin/themes/default/element-sets/edit.php:17
+msgid ""
+"Click and drag the elements into the preferred display order. Click the "
+"right arrows to add customized comments to element descriptions."
+msgstr ""
+
+#: admin/themes/default/items/files-form.php:2
+msgid "Click and drag the files into the preferred display order."
+msgstr ""
+
 #: application/view/common/property-selector.phtml:10
 msgid "Click on a property to add it to the edit panel."
 msgstr ""
@@ -1734,6 +2498,10 @@ msgstr ""
 
 #: application/view/common/item-set-selector.phtml:7
 msgid "Click on an item set to add it to the edit panel."
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:26
+msgid "Click on the \"Index Records\" button to re-index your records."
 msgstr ""
 
 #: application/view/common/delete-confirm.phtml:8
@@ -1788,6 +2556,10 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
+#. Omeka Video File: Codec element
+msgid "Codec"
+msgstr ""
+
 #: application/view/common/resource-form-templates.phtml:10
 #: application/view/omeka/admin/item/sidebar-select.phtml:28
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:35
@@ -1804,6 +2576,19 @@ msgstr ""
 msgid "Collection"
 msgstr ""
 
+#: admin/themes/default/collections/show.php:8
+#, php-format
+msgid "Collection #%s"
+msgstr ""
+
+#: application/views/scripts/collections/show.php:13
+msgid "Collection Items"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:13
+msgid "Collections"
+msgstr ""
+
 #: application/view/omeka/admin/property/show-details.phtml:14
 #: application/view/omeka/admin/resource-class/show-details.phtml:14
 #: application/view/omeka/admin/resource-template/form.phtml:62
@@ -1818,8 +2603,16 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
+#. Omeka Legacy File: Compression element
+msgid "Compression"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Conference
 msgid "Conference"
+msgstr ""
+
+#: admin/themes/default/themes/config.php:11
+msgid "Configurations apply to this theme only."
 msgstr ""
 
 #: application/view/omeka/admin/module/browse.phtml:75
@@ -1827,6 +2620,24 @@ msgstr ""
 #: application/view/omeka/admin/module/configure.phtml:6
 #: application/view/omeka/site-admin/index/theme-settings.phtml:6
 msgid "Configure"
+msgstr ""
+
+#: admin/themes/default/plugins/config.php:2
+#, php-format
+msgid "Configure Plugin: %s"
+msgstr ""
+
+#: admin/themes/default/themes/browse.php:19
+msgid "Configure Theme"
+msgstr ""
+
+#: admin/themes/default/themes/config.php:10
+#, php-format
+msgid "Configure Theme: %s"
+msgstr ""
+
+#: install/views/scripts/index/index.phtml:14
+msgid "Configure Your Site"
 msgstr ""
 
 #: application/src/Form/ConfirmForm.php:17
@@ -1864,6 +2675,10 @@ msgstr ""
 msgid "Confirm uninstall"
 msgstr ""
 
+#: application/forms/Install.php:72
+msgid "Confirm your password."
+msgstr ""
+
 #. Property label for Dublin Core:conformsTo
 msgid "Conforms To"
 msgstr ""
@@ -1872,8 +2687,28 @@ msgstr ""
 msgid "Contributor"
 msgstr ""
 
+#: admin/themes/default/collections/browse.php:31
+#: admin/themes/default/collections/show.php:51
+#: application/views/scripts/collections/browse.php:35
+msgid "Contributors"
+msgstr ""
+
+#: application/libraries/globals.php:1267
+#: application/libraries/globals.php:1288
+#, php-format
+msgid "Could not find file %s!"
+msgstr ""
+
+#: install/controllers/IndexController.php:25
+msgid "Could not load database resource!"
+msgstr ""
+
 #: application/src/Form/Element/Recaptcha.php:108
 msgid "Could not verify that you are a human."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:58
+msgid "Count"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:CourtReporter
@@ -1882,6 +2717,12 @@ msgstr ""
 
 #. Property label for Dublin Core:coverage
 msgid "Coverage"
+msgstr ""
+
+#: admin/themes/default/users/activate.php:17
+#: application/forms/ResetPassword.php:23
+#: application/views/scripts/users/activate.php:14
+msgid "Create a Password"
 msgstr ""
 
 #: application/view/omeka/login/create-password.phtml:6
@@ -1915,6 +2756,18 @@ msgstr ""
 msgid "Critical or explanatory note for a Document."
 msgstr ""
 
+#: application/views/scripts/common/pagination_control.php:36
+msgid "Current Page"
+msgstr ""
+
+#: application/forms/ChangePassword.php:25
+msgid "Current Password"
+msgstr ""
+
+#: admin/themes/default/themes/browse.php:22
+msgid "Current Theme"
+msgstr ""
+
 #: application/src/Form/UserForm.php:166
 msgid "Current password"
 msgstr ""
@@ -1927,8 +2780,22 @@ msgstr ""
 msgid "Custom URL"
 msgstr ""
 
+#: admin/themes/default/settings/edit-item-type-elements.php:11
+#, php-format
+msgid "Customize the element descriptions below. To re-order the elements, %s."
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:13
+msgid "Customize which types of records will be searchable in Omeka."
+msgstr ""
+
 #. Property label for Friend of a Friend:dnaChecksum
 msgid "DNA checksum"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:5
+#: admin/themes/default/index.php:2
+msgid "Dashboard"
 msgstr ""
 
 #. Class comment for Dublin Core Type:Dataset
@@ -1961,6 +2828,14 @@ msgstr ""
 msgid "Date Accepted"
 msgstr ""
 
+#: admin/themes/default/collections/browse.php:32
+#: admin/themes/default/files/show.php:66
+#: admin/themes/default/items/browse.php:48
+#: application/views/scripts/collections/browse.php:11
+#: application/views/scripts/items/browse.php:21
+msgid "Date Added"
+msgstr ""
+
 #. Property label for Dublin Core:available
 msgid "Date Available"
 msgstr ""
@@ -1987,6 +2862,10 @@ msgstr ""
 
 #. Property label for Dublin Core:valid
 msgid "Date Valid"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:59
+msgid "Date created"
 msgstr ""
 
 #. Property comment for Dublin Core:dateAccepted
@@ -2025,6 +2904,10 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
+#: application/forms/Install.php:185
+msgid "Default Superuser Account"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:245
 msgid "Default content visibility to Private"
 msgstr ""
@@ -2056,9 +2939,19 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
+#: admin/themes/default/items/files-form.php:13
+msgid "Delete "
+msgstr ""
+
 #: application/view/common/delete-confirm.phtml:12
 #, php-format
 msgid "Delete %s"
+msgstr ""
+
+#: admin/themes/default/items/batch-delete-all.php:36
+#: admin/themes/default/items/batch-delete.php:47
+#: admin/themes/default/items/batch-edit.php:47
+msgid "Delete Items"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:56
@@ -2124,8 +3017,16 @@ msgstr ""
 msgid "Deleting users. This may take a while."
 msgstr ""
 
+#: admin/themes/default/items/batch-delete-all.php:25
+msgid "Deletions will be processed in the background item by item."
+msgstr ""
+
 #: application/src/Site/BlockLayout/TableOfContents.php:28
 msgid "Depth"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:97
+msgid "Derivative Size Constraints"
 msgstr ""
 
 #: application/view/common/sort-selector.phtml:15
@@ -2153,8 +3054,16 @@ msgstr ""
 msgid "Details:"
 msgstr ""
 
+#: admin/themes/default/files/show.php:40
+msgid "Direct Links"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:40
 msgid "Direct link to file"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:23
+msgid "Disable File Upload Validation"
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:90
@@ -2164,6 +3073,16 @@ msgstr ""
 
 #: application/src/Form/SettingForm.php:294
 msgid "Disable file validation"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:37
+#: admin/themes/default/users/browse.php:48
+#: admin/themes/default/users/show.php:20 application/forms/User.php:81
+msgid "Display Name"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:105
+msgid "Display Settings"
 msgstr ""
 
 #: application/view/omeka/admin/user/show.phtml:23
@@ -2187,6 +3106,10 @@ msgstr ""
 msgid "Document Status"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:6
+msgid "Documentation"
+msgstr ""
+
 #. Class comment for Bibliographic Ontology:Bill
 msgid "Draft legislation presented for discussion to a legal body."
 msgstr ""
@@ -2199,8 +3122,16 @@ msgstr ""
 msgid "Dublin Core Type"
 msgstr ""
 
+# Omeka Video File: Duration element
+msgid "Duration"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Email
 msgid "EMail"
+msgstr ""
+
+#: application/models/Option.php:50 application/models/Option.php:54
+msgid "Each option must have a unique name."
 msgstr ""
 
 #: application/src/View/Helper/UserBar.php:118
@@ -2222,6 +3153,51 @@ msgstr ""
 #: application/view/omeka/site-admin/page/edit.phtml:11
 #: application/view/omeka/site-admin/page/index.phtml:44
 msgid "Edit"
+msgstr ""
+
+#: admin/themes/default/collections/edit.php:8
+#, php-format
+msgid "Edit Collection #%s"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:758
+#: application/tests/suite/Omeka/NavigationTest.php:818
+#: application/tests/suite/Omeka/NavigationTest.php:856
+#: application/tests/suite/Omeka/NavigationTest.php:953
+msgid "Edit Collections"
+msgstr ""
+
+#: admin/themes/default/element-sets/edit.php:5
+msgid "Edit Element Set"
+msgstr ""
+
+#: admin/themes/default/files/edit.php:8
+#, php-format
+msgid "Edit File #%s"
+msgstr ""
+
+#: admin/themes/default/items/edit.php:8
+#, php-format
+msgid "Edit Item #%s"
+msgstr ""
+
+#: admin/themes/default/item-types/edit.php:8
+#, php-format
+msgid "Edit Item Type #%s"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:752
+#: application/tests/suite/Omeka/NavigationTest.php:817
+#: application/tests/suite/Omeka/NavigationTest.php:839
+#: application/tests/suite/Omeka/NavigationTest.php:952
+msgid "Edit Items"
+msgstr ""
+
+#: admin/themes/default/users/api-keys.php:8
+#: admin/themes/default/users/change-password.php:8
+#: admin/themes/default/users/edit.php:8
+#, php-format
+msgid "Edit User #%s"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:54
@@ -2262,12 +3238,20 @@ msgstr ""
 msgid "Edit theme settings"
 msgstr ""
 
+#: admin/themes/default/users/show.php:15
+msgid "Edit this User"
+msgstr ""
+
 #: application/view/omeka/admin/user/show.phtml:11
 msgid "Edit user"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:EditedBook
 msgid "Edited Book"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:42
+msgid "Editing Tags"
 msgstr ""
 
 #: application/src/Controller/Admin/ItemSetController.php:314
@@ -2291,11 +3275,40 @@ msgstr ""
 msgid "Editor"
 msgstr ""
 
+#: admin/themes/default/item-types/add-new-element.php:22
+msgid "Element Description"
+msgstr ""
+
+#: admin/themes/default/item-types/add-new-element.php:6
+msgid "Element Name"
+msgstr ""
+
+#: admin/themes/default/common/settings-nav.php:20
+msgid "Element Sets"
+msgstr ""
+
+#: application/models/Mixin/ElementText.php:430
+msgid "Element texts are not formatted correctly!"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:25
+#: admin/themes/default/item-types/show.php:16
+msgid "Elements"
+msgstr ""
+
 #: application/src/View/Helper/SearchUserFilters.php:49
 #: application/view/omeka/admin/user/browse.phtml:10
 #: application/view/omeka/admin/user/browse.phtml:78
 #: application/view/omeka/admin/user/show.phtml:17
 msgid "Email"
+msgstr ""
+
+#: application/forms/RecoverPassword.php:36
+msgid "Email address is required."
+msgstr ""
+
+#: application/forms/User.php:102
+msgid "Email is required."
 msgstr ""
 
 #: application/src/Controller/LoginController.php:65
@@ -2306,14 +3319,34 @@ msgstr ""
 msgid "Embed media on item pages"
 msgstr ""
 
+#: admin/themes/default/files/show.php:87
+msgid "Embedded Metadata"
+msgstr ""
+
+#: admin/themes/default/settings/edit-api.php:11
+msgid "Enable API"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:68
+msgid "Enable HTML Filtering"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:220
 msgid ""
 "Enable notifications when a new version of Omeka S, modules, or themes are "
 "available."
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:15
+msgid "Enable or disable the API by checking or unchecking the box below."
+msgstr ""
+
 #: application/src/Form/SettingForm.php:219
 msgid "Enable version notifications"
+msgstr ""
+
+#. Omeka Legacy File: Encryption element
+msgid "Encryption"
 msgstr ""
 
 #: application/src/Media/Ingester/Youtube.php:104
@@ -2338,10 +3371,29 @@ msgstr ""
 msgid "Enter a RDF vocabulary URL. You must enter a URL or choose a file."
 msgstr ""
 
+#: application/forms/SecuritySettings.php:60
+#, php-format
+msgid ""
+"Enter secret key from %s. Both this and the public key must be filled in to "
+"secure public forms. Keys must be for reCAPTCHA v2."
+msgstr ""
+
+#: application/forms/SecuritySettings.php:52
+#, php-format
+msgid ""
+"Enter site key from %s. Both this and the private key must be filled in to "
+"secure public forms. Keys must be for reCAPTCHA v2."
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:57
 msgid ""
 "Enter the preferred language of the labels and comments using an IETF "
 "language tag. Defaults to the first available."
+msgstr ""
+
+#: admin/themes/default/users/forgot-password.php:11
+#: application/views/scripts/users/forgot-password.php:10
+msgid "Enter your email address to retrieve your password."
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:73
@@ -2356,6 +3408,17 @@ msgstr ""
 #: application/src/File/Downloader.php:83
 #, php-format
 msgid "Error downloading %s: %s %s"
+msgstr ""
+
+#: application/controllers/PluginsController.php:43
+#, php-format
+msgid ""
+"Error in configuring plugin named \"%s\". Missing config and/or config_form "
+"hook(s)."
+msgstr ""
+
+#: application/controllers/TagsController.php:108
+msgid "Error occurred."
 msgstr ""
 
 #: application/src/File/Validator.php:65
@@ -2396,8 +3459,24 @@ msgstr ""
 msgid "Event"
 msgstr ""
 
+#: application/libraries/globals.php:470
+msgid "Exact match"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Excerpt
 msgid "Excerpt"
+msgstr ""
+
+#. Omeka Image File: Exif Array element
+msgid "Exif Array"
+msgstr ""
+
+#. Omeka Image File: Exif String element
+msgid "Exif String"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:84
+msgid "Existing"
 msgstr ""
 
 #: application/view/common/advanced-search/item-sets.phtml:16
@@ -2420,6 +3499,48 @@ msgstr ""
 msgid "Failed loading resource template from API"
 msgstr ""
 
+#: install/views/scripts/index/fatal-error.phtml:1
+msgid "Fatal Error"
+msgstr ""
+
+#: admin/themes/default/collections/add.php:19
+#: admin/themes/default/collections/edit.php:37
+#: admin/themes/default/collections/show.php:42
+#: admin/themes/default/items/add.php:25
+#: admin/themes/default/items/batch-edit-common.php:24
+#: admin/themes/default/items/edit.php:36
+#: admin/themes/default/items/quick-filters.php:8
+#: admin/themes/default/items/show.php:53
+msgid "Featured"
+msgstr ""
+
+#: application/views/scripts/index.php:18
+msgid "Featured Collection"
+msgstr ""
+
+#: application/views/scripts/index.php:10
+msgid "Featured Item"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:215
+#: application/views/scripts/items/search-form.php:196
+msgid "Featured/Non-Featured"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:20
+msgid "Featured?"
+msgstr ""
+
+#: application/libraries/globals.php:410
+msgid "File"
+msgstr ""
+
+#: admin/themes/default/files/show.php:9
+#: application/views/scripts/files/show.php:9
+#, php-format
+msgid "File #%s"
+msgstr ""
+
 #: application/view/omeka/admin/media/show.phtml:68
 msgid "File Derivatives"
 msgstr ""
@@ -2428,8 +3549,47 @@ msgstr ""
 msgid "File Format"
 msgstr ""
 
+#: admin/themes/default/files/show.php:64
+msgid "File History"
+msgstr ""
+
+#: admin/themes/default/items/show.php:73
+msgid "File Metadata"
+msgstr ""
+
+#: admin/themes/default/files/show.php:58
+#: application/views/scripts/files/show.php:34
+msgid "File Size"
+msgstr ""
+
+#: admin/themes/default/files/show.php:80
+#: application/views/scripts/files/show.php:51
+msgid "File Type / OS"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:97
+msgid "File Validation"
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:37
 msgid "File format"
+msgstr ""
+
+#: application/models/Item.php:513
+msgid "File must be valid before it can be associated with an item!"
+msgstr ""
+
+#: admin/themes/default/files/show.php:54
+msgid "Filename"
+msgstr ""
+
+#: application/views/scripts/items/show.php:13
+msgid "Files"
+msgstr ""
+
+#: application/models/Item.php:331
+msgid ""
+"Files cannot be attached to an item that is not persistent in the database!"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Film
@@ -2439,6 +3599,10 @@ msgstr ""
 #: application/view/common/filter-selector.phtml:13
 #: application/view/omeka/admin/module/browse.phtml:14
 msgid "Filter"
+msgstr ""
+
+#: admin/themes/default/settings/edit-api.php:22
+msgid "Filter Element Texts"
 msgstr ""
 
 #: application/view/omeka/admin/item/sidebar-select.phtml:41
@@ -2461,6 +3625,13 @@ msgstr ""
 msgid "Filter by property"
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:26
+msgid ""
+"Filter element texts by checking the box below. When checked, the API will "
+"respect the display element and element text filters when outputting element "
+"text representations."
+msgstr ""
+
 #: application/view/common/item-set-selector.phtml:8
 msgid "Filter item sets"
 msgstr ""
@@ -2481,6 +3652,10 @@ msgstr ""
 msgid "Filter users"
 msgstr ""
 
+#: admin/themes/default/items/files-form.php:27
+msgid "Find a File"
+msgstr ""
+
 #: application/src/Controller/SiteAdmin/IndexController.php:207
 msgid "First page in navigation"
 msgstr ""
@@ -2493,6 +3668,11 @@ msgstr ""
 msgid "Forbidden"
 msgstr ""
 
+#: admin/themes/default/users/forgot-password.php:2
+#: application/views/scripts/users/forgot-password.php:2
+msgid "Forgot Password"
+msgstr ""
+
 #: application/view/omeka/login/forgot-password.phtml:6
 msgid "Forgot password"
 msgstr ""
@@ -2501,8 +3681,21 @@ msgstr ""
 msgid "Forgot password?"
 msgstr ""
 
+#: install/views/scripts/index/index.phtml:16
+msgid "Form Validation Errors"
+msgstr ""
+
 #. Property label for Dublin Core:format
 msgid "Format"
+msgstr ""
+
+#. Format (Legacy) Metadata element set
+msgid "Format (Legacy) Metadata"
+msgstr ""
+
+#: admin/themes/default/files/show.php:52
+#: application/views/scripts/files/show.php:27
+msgid "Format Metadata"
 msgstr ""
 
 #. Class label for Dublin Core:Frequency
@@ -2513,9 +3706,32 @@ msgstr ""
 msgid "Friend of a Friend"
 msgstr ""
 
+#: admin/themes/default/files/show.php:44
+msgid "Fullsize"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:27
+#: application/forms/Install.php:128
+msgid "Fullsize Image Size"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:28
 #: application/src/Form/SettingForm.php:105
 msgid "General"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:85
+msgid "Get started by adding your first collection."
+msgstr ""
+
+#: admin/themes/default/items/browse.php:167
+msgid "Get started by adding your first item."
+msgstr ""
+
+#: admin/themes/default/plugins/browse.php:68
+#: admin/themes/default/themes/browse.php:26
+#: admin/themes/default/themes/browse.php:69
+msgid "Get support"
 msgstr ""
 
 #: application/view/common/version-notification.phtml:12
@@ -2565,9 +3781,21 @@ msgstr ""
 msgid "Go"
 msgstr ""
 
+#: application/views/scripts/users/login.php:9
+msgid "Go to Home Page"
+msgstr ""
+
+#: application/views/scripts/search/search-form.php:17
+msgid "Go to search settings to select record types to use."
+msgstr ""
+
 #: application/view/omeka/index/index.phtml:25
 #, php-format
 msgid "Go to the %s to start working with %s."
+msgstr ""
+
+#: admin/themes/default/users/login.php:8
+msgid "Go to the public site"
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:209
@@ -2610,6 +3838,10 @@ msgstr ""
 msgid "HTML"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:114
+msgid "HTML Filtering"
+msgstr ""
+
 #: application/src/Media/Ingester/Html.php:80
 msgid "HTML or plain text."
 msgstr ""
@@ -2631,12 +3863,30 @@ msgstr ""
 msgid "Has permission in site"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:73
+msgid "Have item files link to the file metadata instead of the file directly."
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:66
 msgid "Heading above resource list, if any."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Hearing
 msgid "Hearing"
+msgstr ""
+
+#. Omeka Image File: Height element
+msgid "Height"
+msgstr ""
+
+#: admin/themes/default/users/activate.php:12
+#: application/views/scripts/users/activate.php:8
+#, php-format
+msgid "Hello %s. Your username is %s"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:157
+msgid "Hide Details"
 msgstr ""
 
 #: application/src/Site/Navigation/Translator.php:60
@@ -2670,6 +3920,14 @@ msgstr ""
 msgid "IIIF image URL"
 msgstr ""
 
+#. Omeka Image File: IPTC Array element
+msgid "IPTC Array"
+msgstr ""
+
+#. Omeka Image File: IPTC String element
+msgid "IPTC String"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/browse.phtml:11
 #: application/view/omeka/admin/item/browse.phtml:11
 #: application/view/omeka/admin/media/browse.phtml:13
@@ -2683,10 +3941,31 @@ msgid ""
 "visibility set to private by default."
 msgstr ""
 
+#: admin/themes/default/error/404.php:10
+#, php-format
+msgid "If this does not help, try contacting the %s."
+msgstr ""
+
+#: admin/themes/default/upgrade/migrate.php:31
+msgid ""
+"If you have any questions please refer to <a href=\"http://omeka.org/codex"
+"\">Omeka documentation</a> or post a message on the <a href=\"http://omeka."
+"org/forums\">Omeka forums</a>."
+msgstr ""
+
+#: admin/themes/default/error/403.php:11
+#, php-format
+msgid "If you think you should have permission, try contacting the %s."
+msgstr ""
+
 #. Class label for Dublin Core Type:Image
 #. Class label for Bibliographic Ontology:Image
 #. Class label for Friend of a Friend:Image
 msgid "Image"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:59 application/forms/Install.php:174
+msgid "ImageMagick Directory Path"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/browse.phtml:28
@@ -2716,8 +3995,32 @@ msgstr ""
 msgid "Inactive"
 msgstr ""
 
+#: application/forms/User.php:137
+msgid "Inactive users cannot log in to the site."
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:23
+#: admin/themes/default/settings/edit-search.php:42
+msgid "Index Records"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:258
 msgid "Index full-text search"
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:28
+msgid ""
+"Indexing means to collect, parse, and store data to facilitate fast and "
+"accurate searches. Omeka will automatically index individual records as they "
+"are saved, but there are circumstances when your records are not indexed; "
+"for instance, when updating from an earlier version of Omeka or after you "
+"customize which records will be searchable."
+msgstr ""
+
+#: application/controllers/SettingsController.php:121
+msgid ""
+"Indexing records. This may take a while. You may continue administering your "
+"site."
 msgstr ""
 
 #. Property comment for Friend of a Friend:accountServiceHomepage
@@ -2741,6 +4044,10 @@ msgstr ""
 msgid "Indicates the name (identifier) associated with this online account."
 msgstr ""
 
+#. Dublin Core: Rights element description
+msgid "Information about rights held in and over the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:rights
 msgid "Information about rights held in and over the resource."
 msgstr ""
@@ -2761,6 +4068,14 @@ msgstr ""
 
 #: application/view/omeka/install/index.phtml:11
 msgid "Install Omeka S"
+msgstr ""
+
+#: install/views/scripts/index/errors.phtml:1
+msgid "Installation Error"
+msgstr ""
+
+#: install/views/scripts/index/index.phtml:2
+msgid "Installation Warning"
 msgstr ""
 
 #: application/src/Controller/InstallController.php:52
@@ -2792,8 +4107,72 @@ msgstr ""
 msgid "Invalid Omeka S version"
 msgstr ""
 
+#: application/forms/Navigation.php:343
+#, php-format
+msgid "Invalid URI for \"%s\" navigation link:  \"%s\""
+msgstr ""
+
+#: application/libraries/Omeka/Navigation/Page/Uri.php:128
+#, php-format
+msgid "Invalid URI for Omeka_Navigation_Page_Uri object: %s"
+msgstr ""
+
+#: application/views/helpers/RecordUrl.php:44
+msgid "Invalid action passed while getting record URL."
+msgstr ""
+
+#: application/controllers/UsersController.php:128
+msgid "Invalid activation code given."
+msgstr ""
+
+#: application/models/Item.php:541
+msgid "Invalid collection."
+msgstr ""
+
 #: application/src/Form/Element/ColorPicker.php:29
 msgid "Invalid color format"
+msgstr ""
+
+#: application/forms/ChangePassword.php:28
+msgid "Invalid current password"
+msgstr ""
+
+#: application/models/ElementText.php:65
+msgid "Invalid element ID."
+msgstr ""
+
+#: application/models/ItemType.php:222
+msgid ""
+"Invalid element data. To add elements, you must either pass an element "
+"objects or an array of element metadata."
+msgstr ""
+
+#: application/models/Element.php:178
+msgid "Invalid element set."
+msgstr ""
+
+#: application/forms/RecoverPassword.php:66
+msgid "Invalid email address"
+msgstr ""
+
+#: application/forms/RecoverPassword.php:46
+msgid "Invalid email address given."
+msgstr ""
+
+#: application/controllers/ThemesController.php:32
+msgid "Invalid form submission."
+msgstr ""
+
+#: application/forms/RecoverPassword.php:48
+msgid "Invalid format given for email address."
+msgstr ""
+
+#: application/forms/RecoverPassword.php:50
+msgid "Invalid hostname given for email address."
+msgstr ""
+
+#: application/models/Item.php:538
+msgid "Invalid item type."
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:81
@@ -2828,8 +4207,34 @@ msgstr ""
 msgid "Invalid or missing CSRF token"
 msgstr ""
 
+#: application/models/ItemType.php:357
+msgid ""
+"Invalid parameter. The hasElement function requires either an element object "
+"or an element id to determine if an item type has an element."
+msgstr ""
+
 #: application/src/Controller/LoginController.php:104
 msgid "Invalid password creation key."
+msgstr ""
+
+#: application/models/ElementText.php:59
+msgid "Invalid record ID."
+msgstr ""
+
+#: application/views/helpers/RecordUrl.php:34
+msgid "Invalid record passed while getting record URL."
+msgstr ""
+
+#: application/views/helpers/RecordUrl.php:75
+msgid "Invalid return value while getting record URL."
+msgstr ""
+
+#: application/models/Table/Item.php:143
+msgid "Invalid search type given!"
+msgstr ""
+
+#: application/controllers/TagsController.php:42
+msgid "Invalid tagType given."
 msgstr ""
 
 #: application/view/omeka/site-admin/index/theme-selector.phtml:26
@@ -2877,8 +4282,47 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
+#: admin/themes/default/items/show.php:8
+#, php-format
+msgid "Item #%s"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:2
+msgid "Item Metadata"
+msgstr ""
+
 #: application/src/DataType/Resource/ItemSet.php:13
 msgid "Item Set"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:33
+#: admin/themes/default/items/item-type-form.php:3
+msgid "Item Type"
+msgstr ""
+
+#: admin/themes/default/item-types/show.php:8
+#, php-format
+msgid "Item Type #%s"
+msgstr ""
+
+#: admin/themes/default/common/settings-nav.php:26
+msgid "Item Type Elements"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:14
+msgid "Item Type Information"
+msgstr ""
+
+#. Item Type Metadata
+msgid "Item Type Metadata"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:17
+msgid "Item Types"
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:90
+msgid "Item does not exist: it may have been deleted before processing."
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:38
@@ -2960,6 +4404,11 @@ msgstr ""
 msgid "Item successfully updated"
 msgstr ""
 
+#: application/models/ItemType.php:336
+#, php-format
+msgid "Item type does not contain an element with the ID %s!"
+msgstr ""
+
 #: application/src/Site/BlockLayout/ItemWithMetadata.php:13
 msgid "Item with metadata"
 msgstr ""
@@ -2990,6 +4439,14 @@ msgstr ""
 msgid "Items (%s)"
 msgstr ""
 
+#: application/forms/Install.php:152
+msgid "Items Per Page (admin)"
+msgstr ""
+
+#: application/forms/Install.php:160
+msgid "Items Per Page (public)"
+msgstr ""
+
 #: application/src/Controller/Admin/ItemController.php:160
 msgid "Items successfully deleted"
 msgstr ""
@@ -3015,12 +4472,20 @@ msgstr ""
 msgid "Jurisdiction"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:41
+msgid "Key"
+msgstr ""
+
 #: application/src/Controller/Admin/UserController.php:234
 msgid "Key(s) successfully deleted"
 msgstr ""
 
 #: application/view/omeka/admin/user/edit.phtml:34
 msgid "Keys"
+msgstr ""
+
+#: application/libraries/globals.php:468
+msgid "Keyword"
 msgstr ""
 
 #: application/view/common/data-type/uri.phtml:12
@@ -3046,6 +4511,14 @@ msgstr ""
 
 #: application/view/common/data-type/literal.phtml:5
 msgid "Language"
+msgstr ""
+
+#: admin/themes/default/users/api-keys.php:42
+msgid "Last IP"
+msgstr ""
+
+#: admin/themes/default/users/api-keys.php:43
+msgid "Last accessed"
 msgstr ""
 
 #: application/view/common/form-row.phtml:20
@@ -3080,6 +4553,25 @@ msgstr ""
 msgid "Limit"
 msgstr ""
 
+#: application/forms/Install.php:153
+msgid ""
+"Limit the number of items displayed per page in the administrative interface."
+msgstr ""
+
+#: application/forms/Install.php:161
+msgid "Limit the number of items displayed per page in the public interface."
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:49
+msgid ""
+"Limit the number of results displayed per page in the administrative "
+"interface."
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:56
+msgid "Limit the number of results displayed per page in the public interface."
+msgstr ""
+
 #: application/src/Site/BlockLayout/LineBreak.php:14
 msgid "Line break"
 msgstr ""
@@ -3092,14 +4584,39 @@ msgstr ""
 msgid "Link text"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:72
+msgid "Link to File Metadata"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/show.phtml:22
 #: application/view/omeka/admin/item/show.phtml:13
 #: application/view/omeka/site/item/show.phtml:45
 msgid "Linked resources"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:82
+msgid "List of allowed HTML attributes in form input"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:74
+msgid "List of allowed HTML elements in form input"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:42
+msgid "List of allowed MIME types for file uploads"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:32
+msgid "List of allowed extensions for file uploads"
+msgstr ""
+
 #: application/src/Site/BlockLayout/ListOfSites.php:22
 msgid "List of sites"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:66
+#, php-format
+msgid "List of tags to add to all checked items, separated by %s."
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:103
@@ -3127,14 +4644,32 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
+#: admin/themes/default/users/login.php:3 application/forms/Login.php:55
+#: application/views/scripts/users/login.php:3
+msgid "Log In"
+msgstr ""
+
+#: admin/themes/default/common/header.php:62
+#: application/views/scripts/common/admin-bar.php:14
+msgid "Log Out"
+msgstr ""
+
 #: application/view/common/user-bar.phtml:28
 #: application/view/omeka/login/login.phtml:5
 msgid "Log in"
 msgstr ""
 
+#: application/controllers/UsersController.php:486
+msgid "Login information incorrect. Please try again."
+msgstr ""
+
 #: application/view/common/user-bar.phtml:25
 #: application/view/layout/layout-admin.phtml:52
 msgid "Logout"
+msgstr ""
+
+#: application/views/scripts/users/login.php:9
+msgid "Lost your password?"
 msgstr ""
 
 #: application/view/omeka/admin/media/show-details.phtml:24
@@ -3148,6 +4683,10 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Magazine
 msgid "Magazine"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:1
+msgid "Main Menu"
 msgstr ""
 
 #: application/view/common/data-type-wrapper.phtml:15
@@ -3168,6 +4707,10 @@ msgstr ""
 #: application/view/omeka/site-admin/index/add.phtml:21
 #: application/view/omeka/site-admin/index/edit.phtml:21
 msgid "Make public"
+msgstr ""
+
+#: admin/themes/default/common/global-nav.php:1
+msgid "Manage Site"
 msgstr ""
 
 #: application/view/omeka/admin/index/browse.phtml:12
@@ -3194,8 +4737,36 @@ msgstr ""
 msgid "Max number of sites"
 msgstr ""
 
+#: application/forms/Install.php:129
+msgid "Maximum fullsize image size constraint (in pixels)"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:28
+msgid "Maximum fullsize image size constraint (in pixels)."
+msgstr ""
+
+#: admin/themes/default/settings/edit-api.php:39
+msgid "Maximum number of API results displayed per page."
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:58
 msgid "Maximum number of resources to display in the preview."
+msgstr ""
+
+#: application/forms/Install.php:145
+msgid "Maximum square thumbnail size constraint (in pixels)"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:42
+msgid "Maximum square thumbnail size constraint (in pixels)."
+msgstr ""
+
+#: application/forms/Install.php:137
+msgid "Maximum thumbnail size constraint (in pixels)"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:35
+msgid "Maximum thumbnail size constraint (in pixels)."
 msgstr ""
 
 #: application/view/common/data-type/resource.phtml:36
@@ -3289,6 +4860,11 @@ msgstr ""
 
 #: application/src/Controller/MigrateController.php:40
 msgid "Migration successful"
+msgstr ""
+
+#: admin/themes/default/files/show.php:78
+#: application/views/scripts/files/show.php:47
+msgid "Mime Type"
 msgstr ""
 
 #: application/src/File/ThumbnailManager.php:113
@@ -3387,12 +4963,32 @@ msgstr ""
 msgid "Must provide a vocabulary file or a vocabulary URL"
 msgstr ""
 
+#: application/models/Builder/Item.php:261
+msgid "Must specify a file transfer type when attaching files to an item!"
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:41
 msgid "N-Triples (.nt)"
 msgstr ""
 
 #: application/src/View/Helper/SearchUserFilters.php:54
 msgid "Name"
+msgstr ""
+
+#: application/forms/User.php:82
+msgid "Name as it should be displayed on the site"
+msgstr ""
+
+#: application/models/ElementSet.php:144
+msgid "Name of element set must be unique."
+msgstr ""
+
+#: application/models/ElementSet.php:148
+msgid "Name of element set must not be empty."
+msgstr ""
+
+#: application/models/Plugin.php:133
+msgid "Names of plugins must not be blank"
 msgstr ""
 
 #: application/src/Form/VocabularyImportForm.php:32
@@ -3405,8 +5001,17 @@ msgstr ""
 msgid "Namespace URI:"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:27
+#: application/views/scripts/items/search-form.php:25
+msgid "Narrow by Specific Fields"
+msgstr ""
+
 #: application/view/omeka/site-admin/index/navigation.phtml:10
 msgid "Navigation"
+msgstr ""
+
+#: application/forms/Navigation.php:376
+msgid "Navigation links that have undeleteable sublinks cannot be deleted."
 msgstr ""
 
 #: application/view/layout/layout-admin.phtml:42
@@ -3424,6 +5029,14 @@ msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:77
 msgid "Never"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:85
+msgid "New"
+msgstr ""
+
+#: application/forms/ChangePassword.php:34
+msgid "New Password"
 msgstr ""
 
 #: application/view/omeka/admin/item/add.phtml:6
@@ -3444,6 +5057,19 @@ msgstr ""
 
 #: application/src/Form/UserForm.php:178
 msgid "New password"
+msgstr ""
+
+#: application/forms/ChangePassword.php:59
+msgid "New password must be at least %min% characters long."
+msgstr ""
+
+#: application/forms/ChangePassword.php:41
+msgid "New password must be entered."
+msgstr ""
+
+#: application/forms/ChangePassword.php:50
+#: application/forms/ChangePassword.php:70
+msgid "New password must be typed correctly twice."
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/add.phtml:6
@@ -3476,6 +5102,18 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
+#: admin/themes/default/items/show.php:33
+msgid "Next Item"
+msgstr ""
+
+#: application/libraries/globals.php:2594
+msgid "Next Item &rarr;"
+msgstr ""
+
+#: application/views/scripts/common/pagination_control.php:48
+msgid "Next Page"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/review-import.phtml:75
 #: application/view/omeka/admin/resource-template/review-import.phtml:76
 #: application/view/omeka/admin/resource-template/show.phtml:51
@@ -3484,8 +5122,34 @@ msgstr ""
 msgid "No"
 msgstr ""
 
+#: application/libraries/globals.php:2458
+#: application/models/Table/Collection.php:87
+#: application/views/helpers/ItemSearchFilters.php:49
+msgid "No Collection"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:108
+msgid "No Tags"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:60
+msgid "No contributors"
+msgstr ""
+
+#: admin/themes/default/collections/show.php:56
+msgid "No contributors."
+msgstr ""
+
 #: application/src/Form/SettingForm.php:194
 msgid "No default (show index of sites)"
+msgstr ""
+
+#: application/libraries/globals.php:1304
+msgid "No featured collections are available."
+msgstr ""
+
+#: application/libraries/globals.php:2335
+msgid "No featured items are available."
 msgstr ""
 
 #: application/view/common/filter-selector.phtml:6
@@ -3505,6 +5169,12 @@ msgstr ""
 msgid "No item sets are assigned to this site."
 msgstr ""
 
+#: application/controllers/ItemsController.php:235
+#: application/controllers/ItemsController.php:368
+#: application/controllers/ItemsController.php:434
+msgid "No item to batch edit."
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:41
 msgid "No items found"
 msgstr ""
@@ -3516,6 +5186,14 @@ msgstr ""
 #: application/view/omeka/site/index/search.phtml:20
 #: application/view/omeka/site/page/browse.phtml:18
 msgid "No pages found"
+msgstr ""
+
+#: application/controllers/PluginsController.php:370
+msgid "No plugin name given."
+msgstr ""
+
+#: application/libraries/globals.php:2309
+msgid "No recent items available."
 msgstr ""
 
 #: application/view/common/data-type/resource.phtml:14
@@ -3530,8 +5208,20 @@ msgstr ""
 msgid "No resources link to this item."
 msgstr ""
 
+#: application/libraries/globals.php:3079
+msgid "No tags are available."
+msgstr ""
+
 #: application/src/Form/SettingForm.php:173
 msgid "None"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:25
+msgid "Not Featured"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:11
+msgid "Not Public"
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:70
@@ -3582,8 +5272,42 @@ msgstr ""
 msgid "OR"
 msgstr ""
 
+#: admin/themes/default/settings/edit-item-type-elements.php:51
+msgid "Ok"
+msgstr ""
+
 #: application/src/Site/BlockLayout/ListOfSites.php:38
 msgid "Oldest first"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:764
+#: application/tests/suite/Omeka/NavigationTest.php:819
+#: application/tests/suite/Omeka/NavigationTest.php:862
+#: application/tests/suite/Omeka/NavigationTest.php:954
+#: install/views/scripts/layout.phtml:6 install/views/scripts/layout.phtml:23
+msgid "Omeka"
+msgstr ""
+
+#: admin/themes/default/common/header.php:11
+#: admin/themes/default/upgrade/index.php:6
+#: application/views/scripts/common/admin-bar.php:10
+msgid "Omeka Admin"
+msgstr ""
+
+#: application/libraries/globals.php:1646
+msgid "Omeka Atom Feed"
+msgstr ""
+
+#. Omeka Image File
+msgid "Omeka Image File"
+msgstr ""
+
+#. Omeka Legacy File
+msgid "Omeka Legacy File"
+msgstr ""
+
+#: application/libraries/globals.php:1645
+msgid "Omeka RSS Feed"
 msgstr ""
 
 #: application/view/layout/layout-admin.phtml:111
@@ -3599,6 +5323,10 @@ msgstr ""
 
 #: application/view/error/index.phtml:4
 msgid "Omeka S encountered an error"
+msgstr ""
+
+#. Omeka Video File
+msgid "Omeka Video File"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:216
@@ -3637,6 +5365,29 @@ msgstr ""
 msgid "Omeka could not find any vocabularies."
 msgstr ""
 
+#: admin/themes/default/upgrade/migrate.php:5
+msgid "Omeka encountered an error when upgrading your installation."
+msgstr ""
+
+#: application/views/scripts/error/index.php:4
+msgid "Omeka has encountered an error"
+msgstr ""
+
+#: admin/themes/default/upgrade/migrate.php:3
+msgid "Omeka has upgraded successfully."
+msgstr ""
+
+#: install/views/scripts/index/installed.phtml:2
+msgid "Omeka is installed."
+msgstr ""
+
+#: application/controllers/UpgradeController.php:66
+#, php-format
+msgid ""
+"Omeka requires PHP version %1$s or higher, but this server is running PHP "
+"version %2$s. Please update the installed version of PHP and try again."
+msgstr ""
+
 #: application/src/Stdlib/Environment.php:62
 #, php-format
 msgid "Omeka requires the PHP extension %s, but it is not loaded."
@@ -3660,6 +5411,26 @@ msgstr ""
 
 #. Class label for Friend of a Friend:OnlineGamingAccount
 msgid "Online Gaming Account"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:224
+#: application/views/scripts/items/search-form.php:204
+msgid "Only Featured Items"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:225
+#: application/views/scripts/items/search-form.php:205
+msgid "Only Non-Featured Items"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:205
+#: application/views/scripts/items/search-form.php:187
+msgid "Only Non-Public Items"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:204
+#: application/views/scripts/items/search-form.php:186
+msgid "Only Public Items"
 msgstr ""
 
 #: application/src/Site/BlockLayout/LineBreak.php:35
@@ -3706,6 +5477,11 @@ msgstr ""
 msgid "Original"
 msgstr ""
 
+#: admin/themes/default/files/show.php:56
+#: application/views/scripts/files/show.php:29
+msgid "Original Filename"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/review-import.phtml:36
 #: application/view/omeka/admin/resource-template/show.phtml:26
 msgid "Original label"
@@ -3713,6 +5489,15 @@ msgstr ""
 
 #: application/view/omeka/admin/resource-template/form.phtml:69
 msgid "Other options"
+msgstr ""
+
+#: admin/themes/default/collections/show.php:62
+#: admin/themes/default/files/show.php:93
+#: admin/themes/default/items/browse.php:149
+#: admin/themes/default/items/show.php:88
+#: application/views/scripts/items/browse.php:60
+#: application/views/scripts/items/show.php:41
+msgid "Output Formats"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:19
@@ -3743,6 +5528,78 @@ msgstr ""
 #: application/view/common/pagination.phtml:8
 #: application/view/common/sidebar-pagination.phtml:5
 msgid "Page"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:982
+#: application/tests/suite/Omeka/NavigationTest.php:990
+#: application/tests/suite/Omeka/NavigationTest.php:1127
+#: application/tests/suite/Omeka/NavigationTest.php:1135
+msgid "Page "
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1008
+#: application/tests/suite/Omeka/NavigationTest.php:1012
+#: application/tests/suite/Omeka/NavigationTest.php:1070
+#: application/tests/suite/Omeka/NavigationTest.php:1075
+#: application/tests/suite/Omeka/NavigationTest.php:1155
+#: application/tests/suite/Omeka/NavigationTest.php:1255
+msgid "Page 1"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1015
+#: application/tests/suite/Omeka/NavigationTest.php:1021
+#: application/tests/suite/Omeka/NavigationTest.php:1078
+#: application/tests/suite/Omeka/NavigationTest.php:1081
+#: application/tests/suite/Omeka/NavigationTest.php:1162
+#: application/tests/suite/Omeka/NavigationTest.php:1181
+#: application/tests/suite/Omeka/NavigationTest.php:1199
+#: application/tests/suite/Omeka/NavigationTest.php:1231
+msgid "Page 2"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1024
+#: application/tests/suite/Omeka/NavigationTest.php:1028
+#: application/tests/suite/Omeka/NavigationTest.php:1084
+#: application/tests/suite/Omeka/NavigationTest.php:1088
+#: application/tests/suite/Omeka/NavigationTest.php:1163
+#: application/tests/suite/Omeka/NavigationTest.php:1182
+#: application/tests/suite/Omeka/NavigationTest.php:1192
+#: application/tests/suite/Omeka/NavigationTest.php:1254
+msgid "Page 3"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1031
+#: application/tests/suite/Omeka/NavigationTest.php:1040
+#: application/tests/suite/Omeka/NavigationTest.php:1091
+#: application/tests/suite/Omeka/NavigationTest.php:1095
+#: application/tests/suite/Omeka/NavigationTest.php:1164
+#: application/tests/suite/Omeka/NavigationTest.php:1183
+#: application/tests/suite/Omeka/NavigationTest.php:1200
+#: application/tests/suite/Omeka/NavigationTest.php:1221
+#: application/tests/suite/Omeka/NavigationTest.php:1239
+#: application/tests/suite/Omeka/NavigationTest.php:1249
+msgid "Page 4"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1043
+#: application/tests/suite/Omeka/NavigationTest.php:1047
+#: application/tests/suite/Omeka/NavigationTest.php:1098
+#: application/tests/suite/Omeka/NavigationTest.php:1102
+#: application/tests/suite/Omeka/NavigationTest.php:1165
+#: application/tests/suite/Omeka/NavigationTest.php:1174
+#: application/tests/suite/Omeka/NavigationTest.php:1222
+#: application/tests/suite/Omeka/NavigationTest.php:1240
+msgid "Page 5"
+msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:1050
+#: application/tests/suite/Omeka/NavigationTest.php:1054
+#: application/tests/suite/Omeka/NavigationTest.php:1214
+msgid "Page 6"
+msgstr ""
+
+#: application/controllers/ErrorController.php:63
+msgid "Page not found."
 msgstr ""
 
 #: application/src/Controller/SiteAdmin/IndexController.php:172
@@ -3785,6 +5642,14 @@ msgstr ""
 msgid "Password"
 msgstr ""
 
+#: application/forms/Login.php:40
+msgid "Password cannot be empty."
+msgstr ""
+
+#: application/controllers/UsersController.php:293
+msgid "Password changed!"
+msgstr ""
+
 #: application/src/Controller/LoginController.php:113
 msgid "Password creation key expired."
 msgstr ""
@@ -3793,9 +5658,18 @@ msgstr ""
 msgid "Password creation unsuccessful"
 msgstr ""
 
+#: application/forms/ResetPassword.php:27
+msgid "Password is required."
+msgstr ""
+
 #: application/src/View/Helper/PasswordRequirements.php:40
 #, php-format
 msgid "Password must be a minimum of %s characters in length."
+msgstr ""
+
+#: application/forms/ChangePassword.php:26
+#: application/forms/ChangePassword.php:36
+msgid "Password must be at least 6 characters long."
 msgstr ""
 
 #: application/src/View/Helper/PasswordRequirements.php:46
@@ -3826,8 +5700,17 @@ msgstr ""
 msgid "Password successfully changed"
 msgstr ""
 
+#: application/controllers/UsersController.php:137
+msgid "Password: The passwords do not match."
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Patent
 msgid "Patent"
+msgstr ""
+
+#: application/libraries/Omeka/Plugin/Ini.php:63
+#, php-format
+msgid "Path to plugin.ini for \"%s\" is not correct."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Performance
@@ -3888,6 +5771,19 @@ msgstr ""
 msgid "Physical Resource"
 msgstr ""
 
+#: admin/themes/default/items/item-type-form.php:15
+msgid "Pick this type"
+msgstr ""
+
+#: admin/themes/default/upgrade/index.php:35
+msgid ""
+"Please back up your existing database and then click the button to upgrade."
+msgstr ""
+
+#: application/controllers/UsersController.php:119
+msgid "Please check your email for a link to reset your password."
+msgstr ""
+
 #: application/view/omeka/site-admin/index/theme.phtml:64
 msgid ""
 "Please contact the Omeka S administrator. This site will not be publicly "
@@ -3898,12 +5794,38 @@ msgstr ""
 msgid "Please enter a valid language tag"
 msgstr ""
 
+#: application/controllers/UsersController.php:110
+msgid "Please follow this link to reset your password:"
+msgstr ""
+
+#: admin/themes/default/upgrade/migrate.php:30
+msgid "Please restore from your database backup and try again."
+msgstr ""
+
 #: application/src/Controller/Admin/VocabularyController.php:170
 msgid "Please review these changes before you accept them."
 msgstr ""
 
+#: application/libraries/Omeka/Plugin/Installer.php:112
+msgid "Plugin must have a valid directory name before it can be installed."
+msgstr ""
+
+#: admin/themes/default/common/global-nav.php:5
+#: admin/themes/default/plugins/browse.php:5
+msgid "Plugins"
+msgstr ""
+
 #. Class label for Dublin Core:Policy
 msgid "Policy"
+msgstr ""
+
+#. Omeka Legacy File: Post Processing element
+msgid "Post Processing"
+msgstr ""
+
+#: admin/themes/default/common/footer.php:6
+#: admin/themes/default/common/login-footer.php:7
+msgid "Powered by Omeka"
 msgstr ""
 
 #: application/view/layout/layout.phtml:30
@@ -3924,6 +5846,10 @@ msgstr ""
 msgid "Prev"
 msgstr ""
 
+#: admin/themes/default/items/show.php:28
+msgid "Prev Item"
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:65
 msgid "Preview title"
 msgstr ""
@@ -3931,6 +5857,10 @@ msgstr ""
 #: application/view/common/pagination.phtml:13
 #: application/view/common/sidebar-pagination.phtml:9
 msgid "Previous"
+msgstr ""
+
+#: application/views/scripts/common/pagination_control.php:11
+msgid "Previous Page"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:103
@@ -3954,6 +5884,10 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Proceedings
 msgid "Proceedings"
+msgstr ""
+
+#. Omeka Legacy File: Producer element
+msgid "Producer"
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:producer
@@ -3986,6 +5920,10 @@ msgstr ""
 msgid "Property term for development use"
 msgstr ""
 
+#: application/views/scripts/common/footer.php:14
+msgid "Proudly powered by <a href=\"http://omeka.org\">Omeka</a>."
+msgstr ""
+
 #. Property label for Dublin Core:provenance
 msgid "Provenance"
 msgstr ""
@@ -4007,6 +5945,19 @@ msgstr ""
 msgid "Public"
 msgstr ""
 
+#: install/views/scripts/index/installed.phtml:3
+msgid "Public Site"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:195
+#: application/views/scripts/items/search-form.php:178
+msgid "Public/Non-Public"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:6
+msgid "Public?"
+msgstr ""
+
 #. Property label for Dublin Core:publisher
 msgid "Publisher"
 msgstr ""
@@ -4023,6 +5974,19 @@ msgstr ""
 msgid "Query type"
 msgstr ""
 
+#: application/views/scripts/search/search-filters.php:4
+msgid "Query type:"
+msgstr ""
+
+#: application/views/scripts/search/search-filters.php:3
+msgid "Query:"
+msgstr ""
+
+#: admin/themes/default/items/quick-filters.php:2
+#: admin/themes/default/items/quick-filters.php:4
+msgid "Quick Filter"
+msgstr ""
+
 #: application/view/omeka/admin/item/sidebar-select.phtml:67
 msgid "Quick add"
 msgstr ""
@@ -4035,9 +5999,52 @@ msgstr ""
 msgid "RDF/XML (.rdf)"
 msgstr ""
 
+#: application/libraries/globals.php:2577
+msgid "RSS"
+msgstr ""
+
+#: admin/themes/default/users/activate.php:23 application/forms/Install.php:71
+#: application/forms/ResetPassword.php:44
+#: application/views/scripts/users/activate.php:20
+msgid "Re-type the Password"
+msgstr ""
+
+#: application/forms/User.php:88 application/models/User.php:168
+msgid "Real Name is required."
+msgstr ""
+
 #: application/view/error/404.phtml:12
 #, php-format
 msgid "Reason: %s"
+msgstr ""
+
+#: admin/themes/default/error/404.php:36 admin/themes/default/index.php:70
+msgid "Recent Collections"
+msgstr ""
+
+#: admin/themes/default/error/404.php:16 admin/themes/default/index.php:52
+msgid "Recent Items"
+msgstr ""
+
+#: admin/themes/default/collections/show.php:18
+#: admin/themes/default/item-types/show.php:30
+#: application/views/scripts/index.php:40
+msgid "Recently Added Items"
+msgstr ""
+
+#: admin/themes/default/search/index.php:12
+#: admin/themes/default/tags/browse.php:26
+#: application/views/scripts/search/index.php:13
+msgid "Record Type"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:74
+#: admin/themes/default/tags/browse.php:76
+msgid "Record Types"
+msgstr ""
+
+#: application/views/scripts/search/search-filters.php:5
+msgid "Record types:"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:ReferenceSource
@@ -4090,10 +6097,19 @@ msgstr ""
 msgid "Relationships between people and organizations (FOAF)"
 msgstr ""
 
+#: application/forms/Login.php:48
+msgid "Remember Me?"
+msgstr ""
+
 #: application/view/common/property-form-batch-edit.phtml:20
 #: application/view/common/property-form-batch-edit.phtml:34
 #: application/view/common/property-form-batch-edit.phtml:49
 msgid "Remove"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:108
+#: application/views/scripts/items/search-form.php:101
+msgid "Remove field"
 msgstr ""
 
 #: application/src/Form/ResourceBatchUpdateForm.php:127
@@ -4125,6 +6141,23 @@ msgstr ""
 msgid "Remove value"
 msgstr ""
 
+#: admin/themes/default/items/batch-edit-common.php:42
+#: admin/themes/default/items/batch-edit-common.php:57
+msgid "Remove?"
+msgstr ""
+
+#. Omeka Legacy File: Render Details element
+msgid "Render Details"
+msgstr ""
+
+#. Omeka Legacy File: Render Device element
+msgid "Render Device"
+msgstr ""
+
+#: application/forms/ChangePassword.php:68
+msgid "Repeat New Password"
+msgstr ""
+
 #. Property label for Dublin Core:replaces
 msgid "Replaces"
 msgstr ""
@@ -4146,14 +6179,31 @@ msgstr ""
 msgid "Requires"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:44
+msgid "Rescind"
+msgstr ""
+
 #: application/src/Permissions/Acl.php:26
 msgid "Researcher"
+msgstr ""
+
+#: admin/themes/default/users/edit.php:23
+msgid "Resend Activation Email"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/search.phtml:12
 #: application/view/omeka/admin/item/search.phtml:12
 #: application/view/omeka/admin/media/search.phtml:12
 msgid "Reset"
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:35
+#: admin/themes/default/appearance/reset-navigation-confirm.php:2
+msgid "Reset Navigation"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:29
+msgid "Reset results"
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:193
@@ -4227,6 +6277,22 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
+#: admin/themes/default/settings/edit-security.php:38
+msgid "Restore Default Attributes"
+msgstr ""
+
+#: admin/themes/default/settings/edit-security.php:33
+msgid "Restore Default Elements"
+msgstr ""
+
+#: admin/themes/default/settings/edit-security.php:23
+msgid "Restore Default Extensions"
+msgstr ""
+
+#: admin/themes/default/settings/edit-security.php:28
+msgid "Restore Default Types"
+msgstr ""
+
 #: application/view/common/attachments-form.phtml:12
 #: application/view/common/attachments-form.phtml:53
 msgid "Restore attachment"
@@ -4259,9 +6325,25 @@ msgstr ""
 msgid "Restrict to templates"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:48
+msgid "Results Per Page (admin)"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:55
+msgid "Results Per Page (public)"
+msgstr ""
+
+#: admin/themes/default/settings/edit-api.php:35
+msgid "Results per Page"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:137
 #: application/src/Form/SettingForm.php:156
 msgid "Results per page"
+msgstr ""
+
+#: admin/themes/default/upgrade/migrate.php:24
+msgid "Return to Dashboard"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:5
@@ -4297,6 +6379,24 @@ msgstr ""
 msgid "Role"
 msgstr ""
 
+#: application/forms/User.php:130
+msgid ""
+"Roles describe the permissions a user has. See <a href='http://omeka.org/"
+"codex/User_Roles' target='_blank'>documentation</a> for details."
+msgstr ""
+
+#: application/views/scripts/error/404.rss2.php:1
+msgid "Rss2.0 Feed Not Found!"
+msgstr ""
+
+#: application/controllers/UpgradeController.php:53
+msgid "SQL error in migration: "
+msgstr ""
+
+#. Omeka Video File: Sample Rate element
+msgid "Sample Rate"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/batch-edit.phtml:19
 #: application/view/omeka/admin/item-set/edit.phtml:20
 #: application/view/omeka/admin/item-set/form.phtml:54
@@ -4320,6 +6420,37 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+#: admin/themes/default/appearance/edit-navigation.php:31
+#: admin/themes/default/appearance/edit-settings.php:21
+#: admin/themes/default/collections/edit.php:22
+#: admin/themes/default/element-sets/edit.php:41
+#: admin/themes/default/files/edit.php:35
+#: admin/themes/default/item-types/edit.php:18
+#: admin/themes/default/items/batch-edit-all.php:41
+#: admin/themes/default/items/batch-edit.php:61
+#: admin/themes/default/items/edit.php:19
+#: admin/themes/default/plugins/config.php:14
+#: admin/themes/default/settings/edit-api.php:82
+#: admin/themes/default/settings/edit-item-type-elements.php:39
+#: admin/themes/default/settings/edit-search.php:41
+#: admin/themes/default/settings/edit-security.php:15
+#: admin/themes/default/settings/edit-settings.php:15
+#: admin/themes/default/themes/config.php:16
+#: admin/themes/default/users/edit.php:21
+#: application/libraries/Omeka/Form/Decorator/SavePanelAction.php:66
+msgid "Save Changes"
+msgstr ""
+
+#: admin/themes/default/users/change-password.php:20
+msgid "Save Password"
+msgstr ""
+
+#: admin/themes/default/themes/browse.php:18
+#: admin/themes/default/themes/browse.php:63
+#, php-format
+msgid "Screenshot for %s Theme"
+msgstr ""
+
 #: application/src/View/Helper/SearchFilters.php:124
 #: application/view/common/search-form.phtml:7
 #: application/view/common/search-form.phtml:8
@@ -4334,6 +6465,64 @@ msgstr ""
 #: application/view/omeka/site/item-set/search.phtml:13
 #: application/view/omeka/site/item/search.phtml:13
 msgid "Search"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:130
+#: application/views/scripts/items/search-form.php:120
+msgid "Search By Collection"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:180
+#: application/views/scripts/items/search-form.php:165
+msgid "Search By Tags"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:146
+#: application/views/scripts/items/search-form.php:134
+msgid "Search By Type"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:163
+#: application/views/scripts/items/search-form.php:150
+msgid "Search By User"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:67
+#: application/views/scripts/items/search-form.php:63
+msgid "Search Field"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:19
+#: admin/themes/default/items/browse.php:144
+#: admin/themes/default/items/search.php:2
+#: application/libraries/globals.php:2414
+#: application/libraries/globals.php:2805
+#: application/views/scripts/items/search.php:2
+msgid "Search Items"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:54
+#: application/views/scripts/items/search-form.php:50
+msgid "Search Joiner"
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:10
+msgid "Search Record Types"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:102
+#: application/views/scripts/items/search-form.php:95
+msgid "Search Terms"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:80
+#: application/views/scripts/items/search-form.php:76
+msgid "Search Type"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:116
+#: application/views/scripts/items/search-form.php:109
+msgid "Search by a range of ID#s (example: 1-4, 156, 79)"
 msgstr ""
 
 #: application/view/common/advanced-search/users.phtml:44
@@ -4368,6 +6557,16 @@ msgstr ""
 msgid "Search by value"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:14
+#: application/views/scripts/items/search-form.php:13
+msgid "Search for Keywords"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:233
+#: application/views/scripts/items/search-form.php:215
+msgid "Search for items"
+msgstr ""
+
 #: application/src/View/Helper/SearchFilters.php:47
 #: application/view/common/advanced-search/fulltext.phtml:6
 msgid "Search full-text"
@@ -4385,6 +6584,10 @@ msgstr ""
 msgid "Search media"
 msgstr ""
 
+#: application/views/scripts/search/search-form.php:11
+msgid "Search only these record types:"
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:1
 #, php-format
 msgid "Search results for “%s”"
@@ -4392,6 +6595,18 @@ msgstr ""
 
 #: application/view/layout/layout-admin.phtml:43
 msgid "Search site"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:18
+msgid "Search tags"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:35
+msgid "Search users"
+msgstr ""
+
+#: application/views/scripts/search/search-form.php:6
+msgid "Search using this query type:"
 msgstr ""
 
 #: application/view/common/advanced-search/resource-class.phtml:18
@@ -4412,6 +6627,21 @@ msgstr ""
 
 #: application/view/common/asset-form.phtml:37
 msgid "Select"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:9
+#: admin/themes/default/items/batch-edit-common.php:23
+#: admin/themes/default/items/batch-edit-common.php:37
+#: admin/themes/default/items/batch-edit-common.php:52
+msgid "Select Below"
+msgstr ""
+
+#: application/libraries/globals.php:1602
+msgid "Select Below "
+msgstr ""
+
+#: application/forms/Navigation.php:163
+msgid "Select a Homepage"
 msgstr ""
 
 #: application/src/Form/ResourceForm.php:53
@@ -4440,6 +6670,16 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:25
+#: admin/themes/default/items/browse.php:128
+#, php-format
+msgid "Select all %s results"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:42
+msgid "Select all rows"
+msgstr ""
+
 #: application/view/omeka/admin/asset/sidebar-select.phtml:17
 msgid "Select asset"
 msgstr ""
@@ -4451,6 +6691,11 @@ msgstr ""
 #: application/view/omeka/admin/item/browse.phtml:97
 #: application/view/omeka/admin/item/sidebar-select.phtml:10
 msgid "Select item"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:63
+#, php-format
+msgid "Select item \"%s\""
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:99
@@ -4539,6 +6784,21 @@ msgstr ""
 msgid "Send password reset email"
 msgstr ""
 
+#: application/forms/Install.php:114
+msgid "Separate tags using this character or string."
+msgstr ""
+
+#: application/forms/GeneralSettings.php:46
+msgid ""
+"Separate tags using this character or string. Be careful when changing this "
+"setting. You run the risk of splitting tags that contain the old delimiter."
+msgstr ""
+
+#: admin/themes/default/items/tag-form.php:10
+#, php-format
+msgid "Separate tags with %s"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Series
 msgid "Series"
 msgstr ""
@@ -4590,6 +6850,19 @@ msgstr ""
 msgid "Settings successfully updated"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:156
+msgid "Show Details"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:67
+msgid "Show Element Set Headings"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:62
+#: application/forms/Install.php:168
+msgid "Show Empty Elements"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:175
 msgid "Show Term"
 msgstr ""
@@ -4635,6 +6908,26 @@ msgstr ""
 
 #: application/src/Permissions/Acl.php:22
 msgid "Site Administrator"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:41 application/forms/Install.php:109
+msgid "Site Author Information"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:37 application/forms/Install.php:105
+msgid "Site Copyright Information"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:26 application/forms/Install.php:95
+msgid "Site Description"
+msgstr ""
+
+#: application/forms/Install.php:195
+msgid "Site Settings"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:22 application/forms/Install.php:90
+msgid "Site Title"
 msgstr ""
 
 #: application/config/navigation.config.php:192
@@ -4716,12 +7009,21 @@ msgstr ""
 msgid "Some installation requirements were not satisfied."
 msgstr ""
 
+#: admin/themes/default/items/batch-delete.php:36
+msgid ""
+"Some items were excluded because you do not have permission to delete them."
+msgstr ""
+
 #. Property comment for Friend of a Friend:made
 msgid "Something that was made by this agent."
 msgstr ""
 
 #: application/config/module.config.php:616
 msgid "Something went wrong"
+msgstr ""
+
+#: admin/themes/default/error/403.php:6
+msgid "Sorry, you do not have permission to access this page."
 msgstr ""
 
 #: application/view/common/sort-selector.phtml:17
@@ -4735,6 +7037,11 @@ msgstr ""
 #: application/view/common/sort-link.phtml:8
 #, php-format
 msgid "Sort by %s"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:14
+#: application/views/scripts/items/browse.php:24
+msgid "Sort by: "
 msgstr ""
 
 #: application/view/common/sort-selector.phtml:13
@@ -4755,6 +7062,15 @@ msgstr ""
 
 #. Property comment for Dublin Core:spatial
 msgid "Spatial characteristics of the resource."
+msgstr ""
+
+#: admin/themes/default/files/show.php:46
+msgid "Square Thumbnail"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:41
+#: application/forms/Install.php:144
+msgid "Square Thumbnail Size"
 msgstr ""
 
 #. Class label for Dublin Core:Standard
@@ -4813,6 +7129,10 @@ msgstr ""
 msgid "Submit"
 msgstr ""
 
+#: install/views/scripts/index/installed.phtml:1
+msgid "Success!"
+msgstr ""
+
 #: application/src/Controller/LoginController.php:129
 msgid "Successfully created your password. Please log in."
 msgstr ""
@@ -4833,6 +7153,14 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
+#. User role: Super
+msgid "Super"
+msgstr ""
+
+#: admin/themes/default/common/footer.php:6
+msgid "Support Forums"
+msgstr ""
+
 #: application/view/layout/layout-admin.phtml:114
 msgid "Support forums"
 msgstr ""
@@ -4849,6 +7177,11 @@ msgstr ""
 msgid "Switch to descending order"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:10
+#: admin/themes/default/system-info/index.php:2
+msgid "System Information"
+msgstr ""
+
 #: application/view/layout/layout-admin.phtml:112
 #: application/view/omeka/admin/system-info/browse.phtml:4
 msgid "System information"
@@ -4860,6 +7193,22 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/TableOfContents.php:15
 msgid "Table of contents"
+msgstr ""
+
+#: application/forms/GeneralSettings.php:45 application/forms/Install.php:113
+msgid "Tag Delimiter"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:21
+#: admin/themes/default/items/browse.php:107
+#: admin/themes/default/items/show.php:65
+#: application/views/scripts/items/browse.php:46
+#: application/views/scripts/items/show.php:29
+msgid "Tags"
+msgstr ""
+
+#: application/models/Tag.php:57
+msgid "Tags must be given a name."
 msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:137
@@ -4886,6 +7235,10 @@ msgstr ""
 msgid "Term"
 msgstr ""
 
+#: admin/themes/default/settings/edit-settings.php:23
+msgid "Test"
+msgstr ""
+
 #: application/view/common/resource-form-templates.phtml:22
 msgid "Text"
 msgstr ""
@@ -4894,9 +7247,23 @@ msgstr ""
 msgid "Text for link to full browse view, if any."
 msgstr ""
 
+#: application/models/Tag.php:61
+msgid "That name is already taken for this tag."
+msgstr ""
+
+#: application/models/Mixin/ElementText.php:578
+#, php-format
+msgid "The \"%s\" field has at least one invalid value!"
+msgstr ""
+
 #: application/src/Api/Adapter/AbstractEntityAdapter.php:241
 #, php-format
 msgid "The \"%s\" field is not available in the %s entity class."
+msgstr ""
+
+#: application/libraries/Omeka/Plugin/Installer.php:76
+#, php-format
+msgid "The \"%s\" plugin must be installed and have newer files to upgrade it."
 msgstr ""
 
 #: application/src/Api/Adapter/AbstractResourceEntityAdapter.php:168
@@ -4944,9 +7311,76 @@ msgstr ""
 msgid "The %1$s adapter does not implement the update operation."
 msgstr ""
 
+#: application/controllers/PluginsController.php:87
+#, php-format
+msgid "The %s plugin has already been installed."
+msgstr ""
+
+#: application/controllers/PluginsController.php:165
+#, php-format
+msgid "The %s plugin was activated, but could not be loaded: "
+msgstr ""
+
+#: application/controllers/PluginsController.php:160
+#, php-format
+msgid "The %s plugin was successfully activated!"
+msgstr ""
+
+#: application/controllers/PluginsController.php:57
+#, php-format
+msgid "The %s plugin was successfully configured!"
+msgstr ""
+
+#: application/controllers/PluginsController.php:198
+#, php-format
+msgid "The %s plugin was successfully deactivated!"
+msgstr ""
+
+#: application/controllers/PluginsController.php:97
+#, php-format
+msgid "The %s plugin was successfully installed!"
+msgstr ""
+
+#: application/controllers/PluginsController.php:331
+#, php-format
+msgid "The %s plugin was successfully uninstalled!"
+msgstr ""
+
+#: application/controllers/PluginsController.php:233
+#, php-format
+msgid "The %s plugin was successfully upgraded!"
+msgstr ""
+
+#: application/controllers/SettingsController.php:183
+msgid "The API configuration was successfully changed!"
+msgstr ""
+
 #: application/src/Api/Manager.php:201
 #, php-format
 msgid "The API does not support the \"%s\" resource."
+msgstr ""
+
+#. Dublin Core description
+msgid ""
+"The Dublin Core metadata element set is common to all Omeka records, "
+"including items, files, and collections. For more information see, http://"
+"dublincore.org/documents/dces/."
+msgstr ""
+
+#: application/controllers/SettingsController.php:207
+msgid "The ImageMagick directory path does not work."
+msgstr ""
+
+#: application/controllers/ItemsController.php:86
+#: application/controllers/ItemsController.php:146
+msgid ""
+"The ImageMagick directory path has not been set. No derivative images will "
+"be created. If you would like Omeka to create derivative images, please set "
+"the path in Settings."
+msgstr ""
+
+#: application/controllers/SettingsController.php:206
+msgid "The ImageMagick directory path works."
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:shortTitle
@@ -4965,9 +7399,60 @@ msgstr ""
 msgid "The age in years of some agent."
 msgstr ""
 
+#: application/controllers/AppearanceController.php:48
+msgid "The appearance settings have been updated."
+msgstr ""
+
 #. Property comment for Friend of a Friend:birthday
 msgid ""
 "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+msgstr ""
+
+#: application/controllers/CollectionsController.php:59
+#, php-format
+msgid "The collection \"%s\" was successfully added!"
+msgstr ""
+
+#: application/controllers/CollectionsController.php:69
+#, php-format
+msgid "The collection \"%s\" was successfully changed!"
+msgstr ""
+
+#: application/controllers/CollectionsController.php:79
+#, php-format
+msgid "The collection \"%s\" was successfully deleted!"
+msgstr ""
+
+#: application/controllers/CollectionsController.php:61
+#, php-format
+msgid "The collection #%s was successfully added!"
+msgstr ""
+
+#: application/controllers/CollectionsController.php:71
+#, php-format
+msgid "The collection #%s was successfully changed!"
+msgstr ""
+
+#: application/controllers/CollectionsController.php:81
+#, php-format
+msgid "The collection #%s was successfully deleted!"
+msgstr ""
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:124
+#, php-format
+msgid "The configured PHP path (%s) does not point to a PHP-CLI binary."
+msgstr ""
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:114
+#, php-format
+msgid "The configured PHP path (%s) is invalid."
+msgstr ""
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:126
+#, php-format
+msgid ""
+"The configured PHP path (%s) points to a PHP-CLI binary with an invalid "
+"version (%s)"
 msgstr ""
 
 #: application/src/Controller/Admin/UserController.php:202
@@ -4994,6 +7479,22 @@ msgid ""
 "xsd:date"
 msgstr ""
 
+#: application/controllers/ItemsController.php:242
+msgid "The deletion of all items is forbidden."
+msgstr ""
+
+#: application/forms/ItemTypes.php:151
+msgid "The description of the item type."
+msgstr ""
+
+#: application/models/Element.php:174
+msgid "The element name must not be empty."
+msgstr ""
+
+#: application/controllers/ElementSetsController.php:70
+msgid "The element set was successfully changed!"
+msgstr ""
+
 #: application/src/Api/Adapter/UserAdapter.php:130
 #, php-format
 msgid "The email %s is already taken."
@@ -5012,12 +7513,54 @@ msgstr ""
 msgid "The family name of some person."
 msgstr ""
 
+#. Dublin Core: Format element description
+msgid "The file format, physical medium, or dimensions of the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:format
 msgid "The file format, physical medium, or dimensions of the resource."
 msgstr ""
 
+#: application/controllers/FilesController.php:72
+msgid "The file was successfully deleted."
+msgstr ""
+
 #. Property comment for Friend of a Friend:firstName
 msgid "The first name of a person."
+msgstr ""
+
+#: application/controllers/PluginsController.php:150
+#, php-format
+msgid "The following error occurred while activating the %s plugin: "
+msgstr ""
+
+#: application/controllers/PluginsController.php:203
+#, php-format
+msgid "The following error occurred while deactivating the %s plugin: "
+msgstr ""
+
+#: application/controllers/PluginsController.php:109
+#: application/controllers/PluginsController.php:114
+#, php-format
+msgid "The following error occurred while installing the %s plugin: "
+msgstr ""
+
+#: application/controllers/PluginsController.php:336
+#: application/controllers/PluginsController.php:341
+#, php-format
+msgid "The following error occurred while uninstalling the %s plugin: "
+msgstr ""
+
+#: application/controllers/PluginsController.php:242
+#: application/controllers/PluginsController.php:248
+#, php-format
+msgid "The following error occurred while upgrading the %s plugin: "
+msgstr ""
+
+#: install/views/scripts/index/index.phtml:4
+msgid ""
+"The following issues will not affect installation, but they may negatively "
+"affect the behavior of Omeka:"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/show.phtml:54
@@ -5035,6 +7578,10 @@ msgstr ""
 #. Property comment for Friend of a Friend:gender
 msgid ""
 "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+msgstr ""
+
+#: application/controllers/SettingsController.php:52
+msgid "The general settings have been updated."
 msgstr ""
 
 #. Property comment for Friend of a Friend:givenName
@@ -5061,6 +7608,101 @@ msgstr ""
 msgid ""
 "The installed PHP version (%s) is too low. Omeka requires at least version "
 "%s."
+msgstr ""
+
+#: application/controllers/ItemsController.php:95
+#, php-format
+msgid "The item \"%s\" was successfully added!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:105
+#, php-format
+msgid "The item \"%s\" was successfully changed!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:115
+#, php-format
+msgid "The item \"%s\" was successfully deleted!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:97
+#, php-format
+msgid "The item #%s was successfully added!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:107
+#, php-format
+msgid "The item #%s was successfully changed!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:117
+#, php-format
+msgid "The item #%s was successfully deleted!"
+msgstr ""
+
+#: application/controllers/ItemTypesController.php:158
+#, php-format
+msgid ""
+"The item type \"%s\" was successfully added!  You may now add elements to "
+"your new item type."
+msgstr ""
+
+#: application/controllers/ItemTypesController.php:28
+#, php-format
+msgid "The item type \"%s\" was successfully added."
+msgstr ""
+
+#: application/controllers/ItemTypesController.php:55
+#, php-format
+msgid "The item type \"%s\" was successfully updated."
+msgstr ""
+
+#: application/forms/ItemTypes.php:173 application/forms/ItemTypes.php:182
+#, php-format
+msgid "The item type cannot have more than one \"%s\" element."
+msgstr ""
+
+#: application/controllers/SettingsController.php:156
+msgid "The item type elements were successfully changed!"
+msgstr ""
+
+#. Item Type Metadata description
+msgid ""
+"The item type metadata element set, consisting of all item type elements "
+"bundled with Omeka and all item type elements created by an administrator."
+msgstr ""
+
+#: application/models/ItemType.php:106
+msgid "The item type name must be unique."
+msgstr ""
+
+#: application/models/ItemType.php:102
+#, php-format
+msgid "The item type name must have between %1$s and %2$s characters."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:158
+msgid "The item was successfully batch-edited."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:141
+msgid "The item was successfully deleted."
+msgstr ""
+
+#: application/controllers/ItemsController.php:428
+msgid "The items are checked and changed one by one in the background."
+msgstr ""
+
+#: application/controllers/ItemsController.php:426
+msgid "The items are checked and deleted one by one in the background."
+msgstr ""
+
+#: application/controllers/ItemsController.php:363
+msgid "The items were successfully changed!"
+msgstr ""
+
+#: application/controllers/ItemsController.php:361
+msgid "The items were successfully deleted!"
 msgstr ""
 
 #: application/src/Controller/Admin/JobController.php:58
@@ -5099,6 +7741,11 @@ msgstr ""
 msgid "The material or physical carrier of the resource."
 msgstr ""
 
+#: admin/themes/default/items/files-form.php:24
+#, php-format
+msgid "The maximum file size is %s."
+msgstr ""
+
 #: application/src/Form/SettingForm.php:157
 msgid "The maximum number of results per page on browse pages."
 msgstr ""
@@ -5114,8 +7761,33 @@ msgstr ""
 msgid "The maximum upload size is %s MB."
 msgstr ""
 
+#. Omeka Image File description
+msgid ""
+"The metadata element set that was included in the `files_images` table in "
+"previous versions of Omeka. These elements are common to all image files."
+msgstr ""
+
+#. Omeka Video File description
+msgid ""
+"The metadata element set that was included in the `files_videos` table in "
+"previous versions of Omeka. These elements are common to all video files."
+msgstr ""
+
+#. Omeka Legacy File description
+msgid ""
+"The metadata element set that, in addition to the Dublin Core element set, "
+"was included in the `files` table in previous versions of Omeka. These "
+"elements are common to all Omeka files. This set may be deprecated in future "
+"versions."
+msgstr ""
+
 #. Property comment for Dublin Core:accrualMethod
 msgid "The method by which items are added to a collection."
+msgstr ""
+
+#: application/views/scripts/error/405.php:6
+#, php-format
+msgid "The method used to access this URL (%s) is not valid."
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:198
@@ -5152,6 +7824,10 @@ msgid ""
 "value composed of a version number and words."
 msgstr ""
 
+#: application/forms/ItemTypes.php:142
+msgid "The name of the item type."
+msgstr ""
+
 #: application/src/Api/Adapter/VocabularyAdapter.php:186
 #, php-format
 msgid "The namespace URI \"%s\" is already taken."
@@ -5161,8 +7837,26 @@ msgstr ""
 msgid "The namespace URI cannot be empty."
 msgstr ""
 
+#. Dublin Core: Type element description
+msgid "The nature or genre of the resource"
+msgstr ""
+
 #. Property comment for Dublin Core:type
 msgid "The nature or genre of the resource."
+msgstr ""
+
+#: application/controllers/AppearanceController.php:97
+msgid "The navigation settings have been reset."
+msgstr ""
+
+#: application/controllers/AppearanceController.php:66
+msgid "The navigation settings have been updated."
+msgstr ""
+
+#: application/controllers/AppearanceController.php:69
+msgid ""
+"The navigation settings were not saved because of missing or invalid "
+"values.  All changed values have been restored."
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:numPages
@@ -5182,12 +7876,32 @@ msgid ""
 "hearings."
 msgstr ""
 
+#: application/libraries/Omeka/Navigation.php:213
+msgid "The page must be normalized and have a valid uid."
+msgstr ""
+
+#: application/libraries/Omeka/Navigation.php:225
+msgid ""
+"The parent container must either be the navigation object or a descendant "
+"subpage of the navigation object."
+msgstr ""
+
 #: application/src/Form/Element/PasswordConfirm.php:85
 msgid "The password is invalid"
 msgstr ""
 
 #: application/src/Form/Element/PasswordConfirm.php:100
 msgid "The passwords did not match"
+msgstr ""
+
+#: application/controllers/PluginsController.php:383
+#, php-format
+msgid "The plugin %s must be installed."
+msgstr ""
+
+#: application/controllers/PluginsController.php:299
+#, php-format
+msgid "The plugin could not be found in the '%s' directory!"
 msgstr ""
 
 #. Property comment for Dublin Core:accrualPolicy
@@ -5220,8 +7934,19 @@ msgstr ""
 msgid "The publication status of (typically academic) content."
 msgstr ""
 
+#: admin/themes/default/items/browse.php:172
+#, php-format
+msgid "The query searched 1 item and returned no results."
+msgid_plural "The query searched %s items and returned no results."
+msgstr[0] ""
+msgstr[1] ""
+
 #. Property comment for Bibliographic Ontology:reproducedIn
 msgid "The resource in which another resource is reproduced."
+msgstr ""
+
+#: application/controllers/SettingsController.php:85
+msgid "The security settings have been updated."
 msgstr ""
 
 #. Property comment for Friend of a Friend:mbox_sha1sum
@@ -5245,6 +7970,12 @@ msgstr ""
 msgid "The slug cannot be empty."
 msgstr ""
 
+#. Dublin Core: Coverage element description
+msgid ""
+"The spatial or temporal topic of the resource, the spatial applicability of "
+"the resource, or the jurisdiction under which the resource is relevant"
+msgstr ""
+
 #. Property comment for Dublin Core:coverage
 msgid ""
 "The spatial or temporal topic of the resource, the spatial applicability of "
@@ -5263,8 +7994,20 @@ msgstr ""
 msgid "The surname of some person."
 msgstr ""
 
+#: application/controllers/ThemesController.php:61
+msgid "The theme has been successfully changed."
+msgstr ""
+
+#: application/controllers/ThemesController.php:86
+msgid "The theme settings were successfully saved!"
+msgstr ""
+
 #. Property comment for Bibliographic Ontology:degree
 msgid "The thesis degree."
+msgstr ""
+
+#. Dublin Core: Subject element description
+msgid "The topic of the resource"
 msgstr ""
 
 #. Property comment for Dublin Core:subject
@@ -5282,6 +8025,35 @@ msgid ""
 "classes and properties."
 msgstr ""
 
+#: application/controllers/UsersController.php:181
+#, php-format
+msgid "The user \"%s\" was added, but the activation email could not be sent."
+msgstr ""
+
+#: application/controllers/UsersController.php:177
+#, php-format
+msgid "The user \"%s\" was successfully added!"
+msgstr ""
+
+#: application/controllers/UsersController.php:356
+#, php-format
+msgid "The user \"%s\" was successfully deleted!"
+msgstr ""
+
+#: application/controllers/UsersController.php:257
+#, php-format
+msgid "The user %s was successfully changed!"
+msgstr ""
+
+#: application/models/User.php:181 application/models/User.php:229
+msgid "The user must be assigned a role."
+msgstr ""
+
+#: application/models/User.php:186
+#, php-format
+msgid "The username \"%1$s\" must be between %2$s and %3$s characters."
+msgstr ""
+
 #: application/view/omeka/site-admin/index/add.phtml:8
 #: application/view/omeka/site-admin/index/show.phtml:32
 #: application/view/omeka/site-admin/index/theme-settings.phtml:6
@@ -5293,9 +8065,17 @@ msgstr ""
 msgid "Theme settings successfully updated"
 msgstr ""
 
+#: admin/themes/default/common/appearance-nav.php:5
+msgid "Themes"
+msgstr ""
+
 #: application/view/omeka/site-admin/index/resources.phtml:37
 #, php-format
 msgid "There are currently %s items in this site’s pool."
+msgstr ""
+
+#: application/views/scripts/collections/show.php:35
+msgid "There are currently no items within this collection."
 msgstr ""
 
 #: application/view/omeka/migrate/index.phtml:10
@@ -5306,6 +8086,40 @@ msgstr ""
 
 #: application/view/omeka/site-admin/index/navigation.phtml:60
 msgid "There are no available pages."
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:80
+msgid "There are no collections on this page."
+msgstr ""
+
+#: admin/themes/default/item-types/show.php:25
+msgid "There are no elements."
+msgstr ""
+
+#: admin/themes/default/items/show.php:76
+msgid "There are no files for this item yet."
+msgstr ""
+
+#: admin/themes/default/item-types/show.php:39
+msgid "There are no recently added items."
+msgstr ""
+
+#: admin/themes/default/items/tags.php:9
+#: admin/themes/default/tags/browse.php:108
+msgid "There are no tags to display. You must first tag some items."
+msgstr ""
+
+#: application/models/ItemType.php:185
+msgid "There are too few values in the element ordering array."
+msgstr ""
+
+#: application/models/ItemType.php:183
+msgid "There are too many values in the element ordering array."
+msgstr ""
+
+#: application/models/Mixin/ElementText.php:292
+#, php-format
+msgid "There is no element \"%1$s\", \"%2$s\"!"
 msgstr ""
 
 #: application/src/Controller/Admin/ModuleController.php:276
@@ -5319,8 +8133,40 @@ msgid ""
 "below."
 msgstr ""
 
+#: application/controllers/ElementSetsController.php:51
+#: application/controllers/PluginsController.php:49
+#: application/controllers/PluginsController.php:77
+#: application/controllers/PluginsController.php:135
+#: application/controllers/PluginsController.php:184
+#: application/controllers/PluginsController.php:217
+#: application/controllers/PluginsController.php:325
+#: application/controllers/SettingsController.php:104
+#: application/controllers/SettingsController.php:140
+#: application/controllers/SettingsController.php:177
+#: application/controllers/ThemesController.php:89
+#: application/controllers/UsersController.php:312
+#: application/libraries/Omeka/Controller/AbstractActionController.php:183
+#: application/libraries/Omeka/Controller/AbstractActionController.php:224
+msgid "There was an error on the form. Please try again."
+msgstr ""
+
+#: application/controllers/UsersController.php:169
+#: application/controllers/UsersController.php:235
+#: application/controllers/UsersController.php:286
+msgid "There was an invalid entry on the form. Please try again."
+msgstr ""
+
 #: application/src/Controller/InstallController.php:56
 msgid "There were errors during installation."
+msgstr ""
+
+#: application/controllers/AppearanceController.php:51
+#: application/controllers/ItemTypesController.php:35
+#: application/controllers/ItemTypesController.php:61
+#: application/controllers/SettingsController.php:55
+#: application/controllers/SettingsController.php:88
+#: install/views/scripts/index/index.phtml:17
+msgid "There were errors found in your form. Please edit and resubmit."
 msgstr ""
 
 #. Class label for Bibliographic Ontology:Thesis
@@ -5331,6 +8177,18 @@ msgstr ""
 msgid "Thesis degree"
 msgstr ""
 
+#: application/forms/User.php:121
+msgid "This email address is already in use."
+msgstr ""
+
+#: application/forms/User.php:94
+msgid "This email address is invalid."
+msgstr ""
+
+#: admin/themes/default/plugins/browse.php:35
+msgid "This is not a valid plugin."
+msgstr ""
+
 #: application/view/omeka/admin/item/manage-item-sets.phtml:40
 msgid ""
 "This item is part of no item sets. Add it to an item set using the interface "
@@ -5339,6 +8197,14 @@ msgstr ""
 
 #: application/src/Site/BlockLayout/Fallback.php:37
 msgid "This layout is invalid."
+msgstr ""
+
+#: application/tests/suite/Omeka/Db/Migration/_files/migrations/20080717013526_foobar.php:18
+msgid "This migration should have been run previously (should not run again)."
+msgstr ""
+
+#: application/tests/suite/Omeka/Db/Migration/_files/migrations/50000101120000_notRunYet.php:18
+msgid "This migration should not be run."
 msgstr ""
 
 #. Property comment for Bibliographic Ontology:content
@@ -5374,6 +8240,20 @@ msgstr ""
 msgid "This theme requires Omeka S %s"
 msgstr ""
 
+#: application/controllers/ThemesController.php:47
+#, php-format
+msgid "This theme requires a newer version of Omeka (%s)."
+msgstr ""
+
+#: application/forms/User.php:72
+msgid "This username is already in use."
+msgstr ""
+
+#: admin/themes/default/plugins/browse.php:29
+#, php-format
+msgid "This version of %1$s requires at least Omeka %2$s."
+msgstr ""
+
 #: application/view/omeka/admin/vocabulary/classes.phtml:75
 msgid "This vocabulary has no classes."
 msgstr ""
@@ -5382,10 +8262,63 @@ msgstr ""
 msgid "This vocabulary has no properties."
 msgstr ""
 
+#: application/controllers/ItemTypesController.php:150
+#, php-format
+msgid ""
+"This will delete the \"%s\" item type but will not delete the elements "
+"assigned to the item type. Items that are assigned to this item type will "
+"lose all metadata that is specific to the item type."
+msgstr ""
+
+#: application/controllers/CollectionsController.php:89
+#, php-format
+msgid ""
+"This will delete the collection \"%s\" and its associated metadata. This "
+"will not delete any items in this collection, but will delete the reference "
+"to this collection in each item."
+msgstr ""
+
+#: application/controllers/CollectionsController.php:93
+#, php-format
+msgid ""
+"This will delete the collection #%s and its associated metadata. This will "
+"not delete any items in this collection, but will delete the reference to "
+"this collection in each item."
+msgstr ""
+
+#: application/controllers/ElementSetsController.php:21
+msgid ""
+"This will delete the element set and all elements assigned to the element "
+"set. Items will lose all metadata that is specific to this element set."
+msgstr ""
+
+#: application/controllers/FilesController.php:66
+msgid "This will delete the file and its associated metadata."
+msgstr ""
+
+#: application/controllers/ItemsController.php:125
+#, php-format
+msgid ""
+"This will delete the item \"%s\" and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+
+#: application/controllers/ItemsController.php:129
+#, php-format
+msgid ""
+"This will delete the item #%s and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+
 #: application/view/omeka/admin/item-set/form.phtml:13
 #: application/view/omeka/admin/item/form.phtml:16
 #: application/view/omeka/admin/media/edit.phtml:13
 msgid "Thumbnail"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:34
+#: application/forms/Install.php:136
+msgid "Thumbnail Size"
 msgstr ""
 
 #: application/src/Site/BlockLayout/Media.php:60
@@ -5422,6 +8355,50 @@ msgstr ""
 msgid "Title (Mr, Mrs, Ms, Dr. etc)"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:21
+msgid ""
+"To create a new API key, enter a label for the key below. For example, "
+"describe for what purpose it will be used. This key will have all your "
+"permissions; treat it as you would your password."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:47
+msgid ""
+"To delete a tag, click the X. Deleting a tag will not delete the tagged "
+"items."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:46
+msgid ""
+"To edit the tag name, click the name and begin editing, and hit \"enter\" to "
+"save. To cancel an edit, click the ESC key or click away from the tag."
+msgstr ""
+
+#: application/views/scripts/error/index.php:33
+msgid ""
+"To learn how to see more detailed information about this error, see the "
+"Omeka Codex page on <a href=\"http://omeka.org/classic/docs/Troubleshooting/"
+"Retrieving_Error_Messages/\">retrieving error messages</a>."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:45
+msgid "To view all items with a tag, click the number."
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:31
+msgid "Total Items"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:33
+#: admin/themes/default/collections/show.php:46
+#: admin/themes/default/item-types/show.php:42
+msgid "Total Number of Items"
+msgstr ""
+
+#. Omeka Legacy File: Transcriber element
+msgid "Transcriber"
+msgstr ""
+
 #: application/src/Site/BlockLayout/LineBreak.php:34
 msgid "Transparent"
 msgstr ""
@@ -5434,6 +8411,19 @@ msgstr ""
 #: application/view/common/navigation-link-form/page.phtml:13
 #: application/view/common/navigation-link-form/url.phtml:7
 msgid "Type"
+msgstr ""
+
+#: admin/themes/default/files/show.php:76
+#: application/views/scripts/files/show.php:45
+msgid "Type Metadata"
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:29
+msgid "Type Name"
+msgstr ""
+
+#: application/forms/ResetPassword.php:33
+msgid "Typed passwords do not match."
 msgstr ""
 
 #: application/view/common/data-type/uri.phtml:6
@@ -5464,8 +8454,25 @@ msgstr ""
 msgid "URL slug"
 msgstr ""
 
+#: application/controllers/UsersController.php:72
+msgid ""
+"Unable to reset password. Please verify that the information is correct and "
+"contact an administrator if necessary."
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:42
+#: admin/themes/default/items/tag-form.php:22
+#: admin/themes/default/settings/edit-item-type-elements.php:22
+msgid "Undo"
+msgstr ""
+
 #: application/view/omeka/admin/module/browse.phtml:127
 msgid "Uninstall"
+msgstr ""
+
+#: admin/themes/default/plugins/confirm-uninstall.php:2
+#, php-format
+msgid "Uninstall Plugin: %s"
 msgstr ""
 
 #: application/view/omeka/admin/module/uninstall-confirm.phtml:5
@@ -5523,6 +8530,10 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:61
+msgid "Update API Keys"
+msgstr ""
+
 #: application/view/omeka/migrate/index.phtml:4
 #: application/view/omeka/migrate/index.phtml:7
 msgid "Update database"
@@ -5530,6 +8541,19 @@ msgstr ""
 
 #: application/src/Form/ModuleStateChangeForm.php:64
 msgid "Upgrade"
+msgstr ""
+
+#: admin/themes/default/upgrade/index.php:37
+msgid "Upgrade Database"
+msgstr ""
+
+#: admin/themes/default/upgrade/index.php:32
+msgid "Upgrade Your Omeka Database"
+msgstr ""
+
+#: admin/themes/default/index.php:36
+#, php-format
+msgid "Upgrade to %s"
 msgstr ""
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:12
@@ -5544,8 +8568,16 @@ msgstr ""
 msgid "Upload new asset"
 msgstr ""
 
+#: application/views/helpers/ElementInput.php:130
+msgid "Use HTML"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:281
 msgid "Use HTMLPurifier"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:21
+msgid "Use Square Thumbnails"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/form.phtml:78
@@ -5560,6 +8592,12 @@ msgstr ""
 msgid "Use global setting"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:22
+msgid ""
+"Use square-cropped images by default wherever thumbnails appear in the "
+"public interface."
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:170
 msgid ""
 "Use this property for the body of each resource on a browse page. Keep "
@@ -5572,9 +8610,31 @@ msgid ""
 "unselected to use the default title property of each resource."
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:65
+msgid "Use this theme"
+msgstr ""
+
 #: application/src/View/Helper/SearchFilters.php:168
 #: application/view/omeka/site-admin/index/users.phtml:30
 msgid "User"
+msgstr ""
+
+#: admin/themes/default/users/show.php:8
+#, php-format
+msgid "User #%s"
+msgstr ""
+
+#: admin/themes/default/users/activate.php:2
+#: application/views/scripts/users/activate.php:2
+msgid "User Activation"
+msgstr ""
+
+#: application/controllers/UsersController.php:219
+msgid "User activation email could not be sent."
+msgstr ""
+
+#: application/controllers/UsersController.php:217
+msgid "User activation email has been sent."
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:233
@@ -5590,8 +8650,50 @@ msgstr ""
 msgid "User information"
 msgstr ""
 
+#: application/controllers/ItemsController.php:318
+msgid "User is not allowed to delete selected items."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:105
+msgid "User is not allowed to delete this item."
+msgstr ""
+
+#: application/controllers/ItemsController.php:324
+msgid "User is not allowed to edit selected items."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:112
+msgid "User is not allowed to edit this item."
+msgstr ""
+
+#: application/controllers/ItemsController.php:311
+#: application/controllers/ItemsController.php:407
+msgid "User is not allowed to modify featured status of items."
+msgstr ""
+
+#: application/controllers/ItemsController.php:306
+#: application/controllers/ItemsController.php:402
+msgid "User is not allowed to modify visibility of items."
+msgstr ""
+
+#: application/controllers/ItemsController.php:329
+msgid "User is not allowed to tag selected items."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:118
+msgid "User is not allowed to tag this item."
+msgstr ""
+
 #: application/view/layout/layout-admin.phtml:113
 msgid "User manual"
+msgstr ""
+
+#: application/models/User.php:109
+msgid "User may not change permissions to super-user"
+msgstr ""
+
+#: application/models/User.php:112
+msgid "User may not change roles."
 msgstr ""
 
 #: application/view/layout/layout-admin.phtml:44
@@ -5628,6 +8730,34 @@ msgstr ""
 msgid "User to be removed"
 msgstr ""
 
+#: admin/themes/default/users/browse.php:20
+#: admin/themes/default/users/browse.php:36
+#: admin/themes/default/users/browse.php:47
+#: admin/themes/default/users/show.php:18 application/forms/Install.php:30
+#: application/forms/Login.php:21 application/forms/User.php:29
+msgid "Username"
+msgstr ""
+
+#: application/forms/Login.php:27
+msgid "Username cannot be empty."
+msgstr ""
+
+#: application/forms/User.php:37
+msgid "Username is required."
+msgstr ""
+
+#: application/forms/User.php:30
+msgid "Username must be 30 characters or fewer. Whitespace is not allowed."
+msgstr ""
+
+#: application/forms/User.php:56
+msgid "Username must be at least %min% characters long."
+msgstr ""
+
+#: application/forms/User.php:58
+msgid "Username must be at most %max% characters long."
+msgstr ""
+
 #: application/view/omeka/admin/user/add.phtml:7
 #: application/view/omeka/admin/user/browse.phtml:24
 #: application/view/omeka/admin/user/edit.phtml:14
@@ -5658,6 +8788,13 @@ msgstr ""
 msgid "Values"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:8
+#: admin/themes/default/common/login-footer.php:8
+#: admin/themes/default/plugins/browse.php:55
+#, php-format
+msgid "Version %s"
+msgstr ""
+
 #: application/src/Media/Ingester/Youtube.php:90
 msgid "Video URL"
 msgstr ""
@@ -5668,11 +8805,44 @@ msgstr ""
 msgid "View"
 msgstr ""
 
+#: admin/themes/default/items/quick-filters.php:5
+msgid "View All"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:80
+msgid "View All Collections"
+msgstr ""
+
+#: application/views/scripts/index.php:42
+msgid "View All Items"
+msgstr ""
+
+#: admin/themes/default/items/show.php:80
+msgid "View File Metadata"
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:43
+#: admin/themes/default/collections/edit.php:23
+#: admin/themes/default/collections/show.php:34
+#: admin/themes/default/files/show.php:28
+#: admin/themes/default/items/edit.php:20
+#: admin/themes/default/items/show.php:45
+#: application/libraries/Omeka/Form/Decorator/SavePanelAction.php:72
+msgid "View Public Page"
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:11
 #: application/view/omeka/site/index/search.phtml:32
 #, php-format
 msgid "View all results (%s total)"
 msgstr ""
+
+#: application/views/scripts/collections/show.php:33
+#, php-format
+msgid "View item"
+msgid_plural "View all %s items"
+msgstr[0] ""
+msgstr[1] ""
 
 #: application/view/omeka/admin/item-set/show.phtml:32
 msgid "View items"
@@ -5685,6 +8855,11 @@ msgstr ""
 #: application/view/layout/layout-admin.phtml:87
 #: application/view/omeka/site-admin/index/index.phtml:70
 msgid "View public site"
+msgstr ""
+
+#: application/views/scripts/collections/browse.php:41
+#, php-format
+msgid "View the items in %s"
 msgstr ""
 
 #: application/view/omeka/site-admin/index/show.phtml:6
@@ -5752,6 +8927,16 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
+#: admin/themes/default/plugins/confirm-uninstall.php:11
+msgid ""
+"Warning: data associated with this plugin may be permanently deleted from "
+"the database."
+msgstr ""
+
+#. Omeka Legacy File: Watermark element
+msgid "Watermark"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Webpage
 msgid "Webpage"
 msgstr ""
@@ -5773,12 +8958,38 @@ msgstr ""
 msgid "Welcome to your new site. This is an example page."
 msgstr ""
 
+#: application/controllers/UsersController.php:386
+msgid "Welcome!"
+msgstr ""
+
+#: admin/themes/default/common/header.php:61
+#: application/views/scripts/common/admin-bar.php:6
+#, php-format
+msgid "Welcome, %s"
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:78
 msgid "When logged in"
 msgstr ""
 
+#: application/forms/Install.php:39 application/forms/User.php:46
+#: application/models/User.php:188
+#, php-format
+msgid ""
+"Whitespace is not allowed. Only these special characters may be used: %s"
+msgstr ""
+
+#. Omeka Image File: Width element
+msgid "Width"
+msgstr ""
+
 #. Class label for Bibliographic Ontology:Workshop
 msgid "Workshop"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:173
+#, php-format
+msgid "Would you like to %s?"
 msgstr ""
 
 #. Property label for Friend of a Friend:yahooChatID
@@ -5791,6 +9002,10 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/show.phtml:52
 #: application/view/omeka/admin/system-info/browse.phtml:18
 msgid "Yes"
+msgstr ""
+
+#: admin/themes/default/plugins/confirm-uninstall.php:14
+msgid "Yes, I want to uninstall this plugin."
 msgstr ""
 
 #: application/view/omeka/admin/item-set/batch-edit.phtml:36
@@ -5837,14 +9052,63 @@ msgstr ""
 msgid "You can’t delete yourself."
 msgstr ""
 
+#: admin/themes/default/plugins/browse.php:162
+msgid ""
+"You do not have any plugins installed. Add them to the plugins directory to "
+"see them listed here."
+msgstr ""
+
+#: application/views/scripts/error/403.php:8
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: admin/themes/default/plugins/browse.php:72
+#, php-format
+msgid "You have a new version of %s. Please upgrade!"
+msgstr ""
+
+#: application/controllers/SettingsController.php:114
+msgid ""
+"You have changed which records are searchable in Omeka. Please re-index the "
+"records using the form below."
+msgstr ""
+
+#: application/controllers/ThemesController.php:40
+msgid "You have chosen an illegal theme name. Please select another theme."
+msgstr ""
+
+#: admin/themes/default/users/api-keys.php:31
+msgid "You have no API keys. Use the form above to create one."
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:83
+msgid "You have no collections."
+msgstr ""
+
+#: admin/themes/default/items/browse.php:165
+msgid "You have no items."
+msgstr ""
+
 #: application/config/module.config.php:621
 msgid "You have unsaved changes."
+msgstr ""
+
+#: application/controllers/UsersController.php:145
+msgid "You may now log in to Omeka."
 msgstr ""
 
 #: application/view/omeka/admin/vocabulary/edit.phtml:19
 msgid ""
 "You may update this vocabulary to a newer version. You will be able to "
 "review the changes before you accept."
+msgstr ""
+
+#: application/controllers/ItemsController.php:259
+msgid "You must choose some items to batch edit."
+msgstr ""
+
+#: application/controllers/PluginsController.php:312
+msgid "You must confirm the uninstall before proceeding."
 msgstr ""
 
 #: application/src/Controller/Admin/ItemSetController.php:189
@@ -5886,12 +9150,48 @@ msgid ""
 "version %s. You are currently on version %s."
 msgstr ""
 
+#: admin/themes/default/error/405.php:9
+#, php-format
+msgid ""
+"You must use a different method to access this URL. If you reached this page "
+"by following a link or clicking a button in Omeka, please contact the %s."
+msgstr ""
+
 #: application/src/Form/Element/Recaptcha.php:99
 msgid "You must verify that you are human by completing the CAPTCHA."
 msgstr ""
 
+#: admin/themes/default/error/404.php:6
+msgid ""
+"You&#8217;ve tried to access a page that does not seem to exist. Sometimes "
+"this happens. Below is a quick break-down of the items, collections, and "
+"exhibits on this site."
+msgstr ""
+
 #: application/src/Media/Ingester/Youtube.php:27
 msgid "YouTube"
+msgstr ""
+
+#: admin/themes/default/upgrade/index.php:34
+msgid ""
+"Your Omeka database is not compatible with your current version of Omeka."
+msgstr ""
+
+#: application/controllers/UsersController.php:388
+#, php-format
+msgid ""
+"Your account for the %s repository has been created. Please click the "
+"following link to activate your account:"
+msgstr ""
+
+#: admin/themes/default/search/index.php:39
+#: application/views/scripts/search/index.php:40
+msgid "Your query returned no results."
+msgstr ""
+
+#: application/controllers/UsersController.php:116
+#, php-format
+msgid "[%s] Reset Your Password"
 msgstr ""
 
 #: application/src/Form/UserBatchUpdateForm.php:61
@@ -5909,6 +9209,10 @@ msgstr ""
 
 #: application/src/Form/Element/VocabularyFetch.php:39
 msgid "[Autodetect]"
+msgstr ""
+
+#: application/forms/Navigation.php:157
+msgid "[Default]"
 msgstr ""
 
 #: application/view/common/asset-form.phtml:34
@@ -5942,6 +9246,11 @@ msgstr ""
 msgid "[Untitled]"
 msgstr ""
 
+#: application/models/Table/Collection.php:80
+#, php-format
+msgid "[Untitled] #%s"
+msgstr ""
+
 #: application/view/omeka/admin/job/show.phtml:54
 msgid "[no args]"
 msgstr ""
@@ -5964,6 +9273,10 @@ msgstr ""
 msgid "[no owner]"
 msgstr ""
 
+#: application/views/helpers/AllElementTexts.php:107
+msgid "[no text]"
+msgstr ""
+
 #: application/view/omeka/admin/job/show.phtml:13
 msgid "[not ended]"
 msgstr ""
@@ -5978,6 +9291,12 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:abstract
 msgid "abstract"
+msgstr ""
+
+#. / Chicago-style item citation: access date and URL
+#: application/models/Item.php:492
+#, php-format
+msgid "accessed %1$s, %2$s."
 msgstr ""
 
 #. Property label for Friend of a Friend:account
@@ -6060,6 +9379,12 @@ msgstr ""
 msgid "coden"
 msgstr ""
 
+#: admin/themes/default/index.php:11
+msgid "collection"
+msgid_plural "collections"
+msgstr[0] ""
+msgstr[1] ""
+
 #: application/src/Entity/Job.php:26
 msgid "completed"
 msgstr ""
@@ -6134,12 +9459,20 @@ msgstr ""
 msgid "does not contain"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:94
+msgid "does not match"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:doi
 msgid "doi"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:eanucc13
 msgid "eanucc13"
+msgstr ""
+
+#: admin/themes/default/settings/edit-item-type-elements.php:12
+msgid "edit a specific item type"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:edition
@@ -6152,6 +9485,11 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:eissn
 msgid "eissn"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:92
+#: application/views/scripts/items/search-form.php:87
+msgid "ends with"
 msgstr ""
 
 #: application/src/Entity/Job.php:28
@@ -6220,6 +9558,10 @@ msgstr ""
 msgid "in_progress"
 msgstr ""
 
+#: admin/themes/default/users/browse.php:60
+msgid "inactive"
+msgstr ""
+
 #. Property label for Friend of a Friend:interest
 msgid "interest"
 msgstr ""
@@ -6232,9 +9574,19 @@ msgstr ""
 msgid "interviewer"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:89
+#: application/views/scripts/items/search-form.php:84
+msgid "is empty"
+msgstr ""
+
 #: application/src/View/Helper/SearchFilters.php:32
 #: application/view/common/advanced-search/properties.phtml:65
 msgid "is exactly"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:90
+#: application/views/scripts/items/search-form.php:85
+msgid "is not empty"
 msgstr ""
 
 #: application/src/View/Helper/SearchFilters.php:33
@@ -6300,6 +9652,11 @@ msgstr ""
 msgid "items"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:26
+#: admin/themes/default/items/browse.php:129
+msgid "items selected"
+msgstr ""
+
 #. Property label for Friend of a Friend:jabberID
 msgid "jabber ID"
 msgstr ""
@@ -6348,6 +9705,10 @@ msgstr ""
 msgid "maker"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:93
+msgid "matches"
+msgstr ""
+
 #: application/view/omeka/admin/media/sidebar-select.phtml:38
 msgid "media"
 msgstr ""
@@ -6366,6 +9727,14 @@ msgstr ""
 
 #. Property label for Friend of a Friend:membershipClass
 msgid "membershipClass"
+msgstr ""
+
+#: application/forms/Install.php:31
+msgid "must be 30 characters or fewer with no whitespace"
+msgstr ""
+
+#: application/forms/Install.php:49
+msgid "must be at least 6 characters"
 msgstr ""
 
 #. Property label for Friend of a Friend:myersBriggs
@@ -6431,6 +9800,10 @@ msgstr ""
 msgid "openid"
 msgstr ""
 
+#: admin/themes/default/plugins/confirm-uninstall.php:19
+msgid "or"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:organizer
 msgid "organizer"
 msgstr ""
@@ -6479,6 +9852,12 @@ msgstr ""
 msgid "plan"
 msgstr ""
 
+#: admin/themes/default/index.php:16
+msgid "plugin"
+msgid_plural "plugins"
+msgstr[0] ""
+msgstr[1] ""
+
 #. Property label for Bibliographic Ontology:pmid
 msgid "pmid"
 msgstr ""
@@ -6507,6 +9886,14 @@ msgstr ""
 msgid "publications"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:59
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:51
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:343
 msgid "reCAPTCHA secret key"
 msgstr ""
@@ -6519,8 +9906,20 @@ msgstr ""
 msgid "recipient"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:173
+msgid "refine your search"
+msgstr ""
+
 #. Property label for Bibliographic Ontology:reproducedIn
 msgid "reproducedIn"
+msgstr ""
+
+#: admin/themes/default/item-types/form.php:15
+#: admin/themes/default/users/add.php:7
+#: admin/themes/default/users/change-password.php:15
+#: admin/themes/default/users/edit.php:15
+#: install/views/scripts/index/index.phtml:14
+msgid "required field"
 msgstr ""
 
 #: application/src/Controller/Admin/ResourceTemplateController.php:338
@@ -6567,6 +9966,11 @@ msgstr ""
 msgid "site"
 msgstr ""
 
+#: admin/themes/default/error/403.php:10 admin/themes/default/error/404.php:9
+#: admin/themes/default/error/405.php:8
+msgid "site administrator"
+msgstr ""
+
 #. Class comment for Bibliographic Ontology:Issue
 msgid ""
 "something that is printed or published and distributed, esp. a given number "
@@ -6579,6 +9983,11 @@ msgstr ""
 
 #: application/src/Entity/Job.php:23
 msgid "starting"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:91
+#: application/views/scripts/items/search-form.php:86
+msgid "starts with"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:status
@@ -6601,6 +10010,12 @@ msgstr ""
 #. Property label for Bibliographic Ontology:suffixName
 msgid "suffix name"
 msgstr ""
+
+#: admin/themes/default/index.php:12
+msgid "tag"
+msgid_plural "tags"
+msgstr[0] ""
+msgstr[1] ""
 
 #. Property label for Friend of a Friend:theme
 msgid "theme"

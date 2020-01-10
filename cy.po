@@ -17,16 +17,104 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: application/models/File.php:452
+#, php-format
+msgid "\"%s\" is not a valid file derivative."
+msgstr "Nid yw \"%s\" yn ffeil ddeilliadol ddilys."
+
+#. / Chicago-style item citation: two authors
+#: application/models/Item.php:466
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s a %2$s"
+
+#: admin/themes/default/plugins/browse.php:32
+#, php-format
+msgid ""
+"%1$s requires the following plugins to be installed, activated, and loaded: "
+"%2$s"
+msgstr "Mae %1$s angen gosod, cychwyn a llwytho yr ategion canlynol: %2$s"
+
+#. / Chicago-style item citation: three authors
+#: application/models/Item.php:470
+#, php-format
+msgid "%1$s, %2$s, and %3$s"
+msgstr "%1$s, %2$s, a %3$s"
+
+#: application/controllers/UsersController.php:112
+#: application/controllers/UsersController.php:115
+#: application/controllers/UsersController.php:390
+#, php-format
+msgid "%s Administrator"
+msgstr "Gweinyddwr %s"
+
+#: application/views/helpers/MaxFileSize.php:44
+#, php-format
+msgid "%s MB"
+msgstr ""
+
 #: application/view/omeka/admin/media/show-details.phtml:32
 #: application/view/omeka/admin/media/show.phtml:53
 #, php-format
 msgid "%s bytes"
-msgstr ""
+msgstr "%s beit"
 
 #: application/src/Api/Adapter/AbstractEntityAdapter.php:628
 #, php-format
 msgid "%s entity with criteria %s not found"
 msgstr ""
+
+#. / Chicago-style item citation: more than three authors
+#: application/models/Item.php:474
+#, php-format
+msgid "%s et al."
+msgstr "%s et al."
+
+#: admin/themes/default/users/api-keys.php:33
+#, php-format
+msgid "%s has no API keys. Use the form above to create one."
+msgstr ""
+"Does dim allweddi API gan %s. Gellir creu un trwy ddefnyddio'r ffurlfen "
+"uchod."
+
+#: application/views/scripts/error/404.php:6
+#, php-format
+msgid "%s is not a valid URL."
+msgstr "Nid yw %s yn URL dilys."
+
+#: application/views/scripts/common/pagination_control.php:39
+#, php-format
+msgid "%s of %s"
+msgstr "%s o %s"
+
+#: application/controllers/UsersController.php:362
+#, php-format
+msgid ""
+"%s will be deleted from the system. Items, collections, and tags created by "
+"this user will remain in the system, but will no longer be associated with "
+"this user."
+msgstr ""
+"Bydd %s yn cael ei ddileu o'r system. Bydd eitemau, casgliadau a thagiau gan "
+"y defnyddiwr yn parhau i fod yn y system, ond ni fyddant yn cael eu cysylltu "
+"gyda'r defnyddiwr bellach."
+
+#: admin/themes/default/collections/browse.php:17
+#, php-format
+msgid "%s%d item%s has no collection."
+msgid_plural "%s%d items%s aren't in a collection."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: admin/themes/default/item-types/browse.php:18
+#, php-format
+msgid "%s%d item%s has no type."
+msgid_plural "%s%d items%s have no type."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:160
 #: application/view/omeka/admin/item-set/browse.phtml:178
@@ -64,6 +152,43 @@ msgstr ""
 msgid "%s–%s of %s"
 msgstr ""
 
+#: application/libraries/globals.php:2614
+msgid "&larr; Previous Item"
+msgstr "← Eitem Flaenorol"
+
+#: application/models/User.php:190
+#, php-format
+msgid "'%s' is already in use. Please choose another username."
+msgstr "Mae '%s' wedi ei gymryd. Dewiswch enw arall."
+
+#: application/libraries/Omeka/Record/AbstractRecord.php:351
+#, php-format
+msgid "'%s' is an invalid special value."
+msgstr "Mae '%s' yn werth arbennig annilys."
+
+#: admin/themes/default/collections/browse.php:2
+#: admin/themes/default/item-types/browse.php:2
+#: admin/themes/default/items/browse.php:3
+#: admin/themes/default/plugins/browse.php:5
+#: admin/themes/default/search/index.php:2
+#: admin/themes/default/tags/browse.php:6
+#: admin/themes/default/users/browse.php:2
+#: application/views/scripts/collections/browse.php:6
+#: application/views/scripts/items/browse.php:6
+#: application/views/scripts/search/index.php:2
+#, php-format
+msgid "(%s total)"
+msgstr "(Cyfanswm %s)"
+
+#: admin/themes/default/users/login.php:17
+msgid "(Lost your password?)"
+msgstr "(wedi anghofio'ch cyfrinair?)"
+
+#: admin/themes/default/collections/browse.php:48
+#: admin/themes/default/items/browse.php:85
+msgid "(Private)"
+msgstr "(Preifat)"
+
 #: application/view/omeka/admin/user/show-details.phtml:7
 msgid "(inactive)"
 msgstr ""
@@ -71,6 +196,32 @@ msgstr ""
 #: application/view/common/pagination.phtml:30
 msgid "0 results"
 msgstr ""
+
+#: application/views/scripts/error/403.php:2
+msgid "403 Page Forbidden"
+msgstr "403 Tudalen Wedi'i Wahardd"
+
+#: admin/themes/default/error/403.php:2
+msgid "403: Forbidden"
+msgstr "403: Gwaharddwyd"
+
+#: application/views/scripts/error/404.dc.php:1
+#: application/views/scripts/error/404.php:2
+#: application/views/scripts/error/404.xml.php:1
+msgid "404 Page Not Found"
+msgstr "404 Ni Ellir Ddarganfod y Dudalen"
+
+#: admin/themes/default/error/404.php:2
+msgid "404: Page Not Found"
+msgstr "404: Tudalen Heb Ei Ddarganfod"
+
+#: application/views/scripts/error/405.php:2
+msgid "405 Method Not Allowed"
+msgstr "405 Ni Chaniateir y Dull"
+
+#: admin/themes/default/error/405.php:2
+msgid "405: Method Not Allowed"
+msgstr "405: Ni Chaniateir y Dull"
 
 #. Property comment for Friend of a Friend:mbox
 msgid ""
@@ -188,6 +339,11 @@ msgid ""
 "A court associated with a legal document; for example, that which issues a "
 "decision."
 msgstr ""
+
+#: application/views/helpers/GetCurrentRecord.php:27
+#, php-format
+msgid "A current %s variable has not been set to this view."
+msgstr "Does dim newidyn %s cyfredol wedi ei osod i'r golwg yma."
 
 #. Property comment for Friend of a Friend:currentProject
 msgid "A current project this person works on."
@@ -339,6 +495,10 @@ msgstr ""
 msgid "A jabber ID for something."
 msgstr ""
 
+#. Dublin Core: Language element description
+msgid "A language of the resource"
+msgstr "Iaith yr adnodd"
+
 #. Property comment for Dublin Core:language
 msgid "A language of the resource."
 msgstr ""
@@ -398,6 +558,11 @@ msgstr ""
 msgid "A logo representing some thing."
 msgstr ""
 
+#: application/views/helpers/GetLoopRecords.php:30
+#, php-format
+msgid "A loop %s variable has not been set to this view."
+msgstr "Does dim newidyn %s cylch wedi ei osod ar gyfer y golwg yma."
+
 #. Class comment for Bibliographic Ontology:MultiVolumeBook
 #. Class comment for Bibliographic Ontology:Series
 msgid "A loose, thematic, collection of Documents, often Books."
@@ -423,14 +588,26 @@ msgstr ""
 msgid "A name for some thing."
 msgstr ""
 
+#. Dublin Core: Title element description
+msgid "A name given to the resource"
+msgstr "Yr enw a roddir ar yr adnodd"
+
 #. Property comment for Dublin Core:title
 msgid "A name given to the resource."
 msgstr ""
+
+#: application/controllers/UsersController.php:322
+msgid "A new API key was successfully created."
+msgstr "Cafodd allwedd API newydd ei greu'n llwyddiannus."
 
 #: application/view/common/version-notification.phtml:8
 #, php-format
 msgid "A new version of Omeka S is available. %s"
 msgstr ""
+
+#: admin/themes/default/index.php:35
+msgid "A new version of Omeka is available for download."
+msgstr "Mae yna fersiwn newydd o Omeka ar gael i'w lawrlwytho."
 
 #: application/view/omeka/admin/module/browse.phtml:58
 #, php-format
@@ -534,6 +711,12 @@ msgid ""
 "determine decisions, actions, and other matters."
 msgstr ""
 
+#. Dublin Core: Date element description
+msgid ""
+"A point or period of time associated with an event in the lifecycle of the "
+"resource"
+msgstr "Adeg benodol sy'n ymwneud â digwyddiad o fewn bywyd yr adnodd"
+
 #. Property comment for Dublin Core:date
 msgid ""
 "A point or period of time associated with an event in the lifecycle of the "
@@ -575,6 +758,14 @@ msgstr ""
 #. Class comment for Dublin Core:Frequency
 msgid "A rate at which something recurs."
 msgstr ""
+
+#. Dublin Core: Relation element description
+msgid "A related resource"
+msgstr "Adnodd sy'n perthyn"
+
+#. Dublin Core: Source element description
+msgid "A related resource from which the described resource is derived"
+msgstr "Adnodd arall sy'n ffynhonnell i'r adnodd hon"
 
 #. Property comment for Dublin Core:source
 msgid "A related resource from which the described resource is derived."
@@ -901,6 +1092,15 @@ msgstr ""
 msgid "AND"
 msgstr ""
 
+#: admin/themes/default/common/settings-nav.php:32
+msgid "API"
+msgstr "API"
+
+#: admin/themes/default/common/users-nav.php:17
+#: admin/themes/default/users/api-keys.php:14
+msgid "API Keys"
+msgstr "Allweddi API"
+
 #: application/src/Controller/Admin/UserController.php:242
 #, php-format
 msgid ""
@@ -930,6 +1130,10 @@ msgstr ""
 msgid "Access Rights"
 msgstr ""
 
+#: application/controllers/ErrorController.php:78
+msgid "Access denied."
+msgstr "Dim mynediad."
+
 #. Property label for Dublin Core:accrualMethod
 msgid "Accrual Method"
 msgstr ""
@@ -944,6 +1148,16 @@ msgstr ""
 
 #: application/view/omeka/login/create-password.phtml:11
 msgid "Activate"
+msgstr "Cychwyn"
+
+#: application/controllers/UsersController.php:391
+#, php-format
+msgid "Activate your account with the %s repository"
+msgstr "Bywiogwch eich cyfrif gyda'r cadwrfa %s."
+
+#: application/forms/User.php:139
+#, php-format
+msgid "Activation has been pending since %s."
 msgstr ""
 
 #: application/src/Controller/LoginController.php:171
@@ -956,6 +1170,10 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
+#: application/forms/User.php:142
+msgid "Active?"
+msgstr "Gweithredol?"
+
 #: application/view/omeka/admin/item/add.phtml:13
 #: application/view/omeka/admin/resource-template/add.phtml:14
 #: application/view/omeka/admin/user/add.phtml:13
@@ -964,10 +1182,82 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
+#: admin/themes/default/items/form.php:23
+msgid "Add Another File"
+msgstr "Ychwanegu Ffeil Arall"
+
+#: admin/themes/default/collections/add.php:11
+msgid "Add Collection"
+msgstr "Ychwanegu Casgliad"
+
+#: admin/themes/default/item-types/form.php:80
+#: admin/themes/default/item-types/form.php:87
+msgid "Add Element"
+msgstr "Ychwanegu Elfen"
+
+#: application/views/helpers/ElementForm.php:65
+msgid "Add Input"
+msgstr "Ychwanegu Mewnbwn"
+
+#: admin/themes/default/items/add.php:12
+msgid "Add Item"
+msgstr "Ychwanegu Eitem"
+
+#: admin/themes/default/item-types/add.php:2
+#: admin/themes/default/item-types/add.php:11
+msgid "Add Item Type"
+msgstr "Ychwanegu Math o Eitem"
+
+#: admin/themes/default/appearance/edit-navigation.php:25
+msgid "Add Link"
+msgstr "Ychwanegu Dolen"
+
+#: admin/themes/default/items/files-form.php:22
+msgid "Add New Files"
+msgstr "Ychwanegu Ffeiliau Newydd"
+
+#: admin/themes/default/users/add.php:2
+msgid "Add New User"
+msgstr "Ychwanegu Defnyddiwr Newydd"
+
+#: admin/themes/default/items/batch-edit-common.php:63
+#: admin/themes/default/items/tag-form.php:8
+#: admin/themes/default/items/tag-form.php:11
+msgid "Add Tags"
+msgstr "Ychwanegu Tagiau"
+
 #: application/view/common/property-form-batch-edit.phtml:40
 #: application/view/common/property-form-batch-edit.phtml:78
 msgid "Add URI value"
 msgstr ""
+
+#: admin/themes/default/users/add.php:13
+msgid "Add User"
+msgstr "Ychwanegu Defnyddiwr"
+
+#: admin/themes/default/collections/add.php:2
+#: admin/themes/default/collections/browse.php:12
+#: admin/themes/default/collections/browse.php:76
+#: admin/themes/default/collections/browse.php:86
+msgid "Add a Collection"
+msgstr "Ychwanegu Casgliad"
+
+#: admin/themes/default/items/search-form.php:28
+#: application/views/scripts/items/search-form.php:105
+msgid "Add a Field"
+msgstr "Ychwanegu Maes"
+
+#: admin/themes/default/items/show.php:76
+msgid "Add a File"
+msgstr "Ychwanegu Ffeil"
+
+#: admin/themes/default/appearance/edit-navigation.php:19
+msgid "Add a Link to the Navigation"
+msgstr "Ychwanegu dolen i'r Rhyngwyneb Llywio"
+
+#: admin/themes/default/users/browse.php:8
+msgid "Add a User"
+msgstr "Ychwanegu Defnyddiwr"
 
 #: application/view/omeka/site-admin/index/navigation.phtml:32
 msgid "Add a custom link"
@@ -978,9 +1268,29 @@ msgstr ""
 msgid "Add a link to a site page"
 msgstr ""
 
+#: admin/themes/default/error/404.php:50 admin/themes/default/index.php:84
+msgid "Add a new collection"
+msgstr "Ychwanegu casgliad newydd"
+
+#: admin/themes/default/error/404.php:29 admin/themes/default/index.php:65
+msgid "Add a new item"
+msgstr "Ychwanegu eitem newydd"
+
 #: application/view/omeka/admin/user/edit.phtml:57
 msgid "Add a new key"
 msgstr ""
+
+#: admin/themes/default/items/add.php:2
+#: admin/themes/default/items/browse.php:17
+#: admin/themes/default/items/browse.php:142
+#: admin/themes/default/items/browse.php:168
+msgid "Add an Item"
+msgstr "Ychwanegu Eitem"
+
+#: admin/themes/default/item-types/browse.php:10
+#: admin/themes/default/item-types/browse.php:55
+msgid "Add an Item Type"
+msgstr "Ychwanegu Math o Eitem"
 
 #: application/src/Controller/Admin/ItemSetController.php:35
 msgid "Add another item set?"
@@ -1043,6 +1353,18 @@ msgstr ""
 msgid "Add new template"
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:46
+msgid ""
+"Add new themes by downloading them from the <a href=\"http://omeka.org/add-"
+"ons/themes/\" target=\"_blank\">Omeka Theme Directory</a>, or <a href="
+"\"http://omeka.org/codex/Theme_Writing_Best_Practices\" target=\"_blank"
+"\">design your own</a>!"
+msgstr ""
+"Ychwanegwch themau newydd wrth lawrlwytho o <a href=\"http://omeka.org/add-"
+"ons/themes/\" target=\"_blank\">Cyfeiriadur Themau Omeka</a> neu <a href="
+"\"http://omeka.org/codex/Theme_Writing_Best_Practices\" target=\"_blank"
+"\">dyluniwch rhai'ch hunan</a>!"
+
 #: application/view/omeka/admin/user/browse.phtml:36
 #: application/view/omeka/site-admin/index/users.phtml:75
 msgid "Add new user"
@@ -1097,10 +1419,26 @@ msgstr ""
 msgid "Add value"
 msgstr ""
 
+#. Omeka Legacy File: Additional Creator element
+msgid "Additional Creator"
+msgstr "Crëwr Ychwangeol"
+
 #: application/view/layout/layout-admin.phtml:24
 #: application/view/omeka/site-admin/index/add.phtml:7
 #: application/view/omeka/site-admin/index/users.phtml:12
 msgid "Admin"
+msgstr "Gweinyddwr"
+
+#: install/views/scripts/index/installed.phtml:3
+msgid "Admin Dashboard"
+msgstr "Dangosfwrdd Gweinyddu"
+
+#: application/forms/AppearanceSettings.php:83
+msgid "Admin Theme"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:113
+msgid "Admin Themes"
 msgstr ""
 
 #: application/view/omeka/admin/index/browse.phtml:4
@@ -1108,9 +1446,17 @@ msgstr ""
 msgid "Admin dashboard"
 msgstr ""
 
+#: application/forms/GeneralSettings.php:31 application/forms/Install.php:99
+msgid "Administrator Email"
+msgstr "Ebost Gweinyddwr"
+
 #: application/src/Form/SettingForm.php:114
 msgid "Administrator email"
 msgstr ""
+
+#: application/views/scripts/search/search-form.php:19
+msgid "Advanced Search (Items only)"
+msgstr "Chwilio Uwch (Eitemau yn unig)"
 
 #: application/view/omeka/site/item/search.phtml:6
 msgid "Advanced item search"
@@ -1153,6 +1499,21 @@ msgstr ""
 msgid "Affected users"
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:45
+#, php-format
+msgid ""
+"After enabling the API, applications may be able to show, browse, add, edit, "
+"and delete your site resources. Viewing protected content, as well as "
+"adding, editing, and deleting content, is protected and requires key "
+"authentication. Each key corresponds to, and has all permissions of, an "
+"existing Omeka user. You can create keys on each user's %sedit page%s."
+msgstr ""
+"Ar ôl galluogi'r API, bydd rhaglenni yn medru dangos, pori, golygu a dileu'r "
+"adnoddau ar eich safle. Bydd edrych ar ddeunydd diogel, yn ogystal ag "
+"ychwanegu, golygu a dileu deunydd yn ddibynnol ar ddilysiad allweddol. Mae "
+"pob allwedd yn gyfystyr â, ac yn cario'r un hawliau â defnyddiwr Omeka "
+"presennol. Gellir creu allweddi ar %sdudalen golygu%s pob defnyddiwr."
+
 #. Class label for Dublin Core:Agent
 #. Class label for Friend of a Friend:Agent
 msgid "Agent"
@@ -1166,22 +1527,78 @@ msgstr ""
 msgid "All"
 msgstr ""
 
+#: admin/themes/default/items/batch-delete-all.php:18
+#, php-format
+msgid "All %d items matching the search filters above will be deleted."
+msgstr ""
+
+#: admin/themes/default/items/batch-delete-all.php:20
+#, php-format
+msgid "All %d items will be deleted."
+msgstr ""
+
+#: admin/themes/default/items/tag-form.php:15
+msgid "All Tags"
+msgstr "Pob Tag"
+
 #: application/src/Api/Adapter/SitePageAdapter.php:166
 msgid "All blocks must have a layout."
 msgstr ""
 
+#: admin/themes/default/appearance/reset-navigation-confirm.php:10
+msgid ""
+"All customizations will be lost. Order and labels will revert to Omeka "
+"defaults. Custom links will be lost."
+msgstr ""
+
+#: application/models/ElementText.php:62
+msgid "All element texts must have a record type."
+msgstr "Mae'n rhaid cael math o gofnod ar gyfer pob testun elfen."
+
 #: application/view/common/item-set-selector.phtml:10
 msgid "All item sets"
+msgstr ""
+
+#: admin/themes/default/collections/browse.php:20
+msgid "All items are in a collection."
+msgstr ""
+
+#: admin/themes/default/item-types/browse.php:21
+msgid "All items have a type."
 msgstr ""
 
 #: application/view/omeka/admin/module/browse.phtml:15
 msgid "All modules"
 msgstr ""
 
+#: application/forms/Navigation.php:324
+msgid "All navigation links must have URIs."
+msgstr "Rhaid i bob dolen llywio gael URI."
+
+#: application/forms/Navigation.php:337
+msgid "All navigation links must have different URIs."
+msgstr "Rhaid i bob dolen llywio gael URI gwahanol."
+
 #: application/view/common/user-selector.phtml:15
 #, php-format
 msgid "All users (%s)"
 msgstr ""
+
+#: application/forms/SecuritySettings.php:31
+msgid "Allowed File Extensions"
+msgstr "Caniatau Estyniadau Ffeiliau"
+
+#: application/forms/SecuritySettings.php:41
+msgid "Allowed File Types"
+msgstr "Mathau o Ffeiliau a Ganiatawyd"
+
+#: application/forms/SecuritySettings.php:81
+msgid "Allowed HTML Attributes"
+msgstr "Nodweddion HTML a ganiateir"
+
+#: application/forms/SecuritySettings.php:73
+msgid "Allowed HTML Elements"
+msgstr "Elfennau HTML a ganiateir."
 
 #: application/src/Form/SettingForm.php:317
 msgid "Allowed file extensions"
@@ -1235,6 +1652,10 @@ msgstr ""
 msgid "An OpenID for an Agent."
 msgstr ""
 
+#. Dublin Core: Description element description
+msgid "An account of the resource"
+msgstr "Disgrifiad o'r adnodd"
+
 #. Property comment for Dublin Core:description
 msgid "An account of the resource."
 msgstr ""
@@ -1267,6 +1688,10 @@ msgstr ""
 msgid "An alternative name for the resource."
 msgstr ""
 
+#: application/views/helpers/Loop.php:27
+msgid "An array of records is not available for the loop."
+msgstr "Does dim arae o gofnodion ar gael ar gyfer y ddolen."
+
 #. Class comment for Bibliographic Ontology:AudioDocument
 msgid "An audio document; aka record."
 msgstr ""
@@ -1283,9 +1708,18 @@ msgstr ""
 msgid "An edited book."
 msgstr ""
 
+#: application/models/Element.php:184
+#, php-format
+msgid "An element named \"%s\" already exists for the \"%s\" element set."
+msgstr "Mae elfen o'r enw \"%s\" eisoes yn bodoli yn y set elfen \"%s\"."
+
 #: application/src/Site/BlockLayout/ListOfSites.php:51
 msgid "An empty value means no limit."
 msgstr ""
+
+#. Dublin Core: Creator element description
+msgid "An entity primarily responsible for making the resource"
+msgstr "Yr endid sy'n bennaf gyfrifol am greu'r adnodd."
 
 #. Property comment for Dublin Core:creator
 msgid "An entity primarily responsible for making the resource."
@@ -1297,9 +1731,17 @@ msgid ""
 "as press releases, reports, etc."
 msgstr ""
 
+#. Dublin Core: Contributor element description
+msgid "An entity responsible for making contributions to the resource"
+msgstr "Endid sy'n gyfrifol am wneud cyfranniad i'r adnodd"
+
 #. Property comment for Dublin Core:contributor
 msgid "An entity responsible for making contributions to the resource."
 msgstr ""
+
+#. Dublin Core: Publisher element description
+msgid "An entity responsible for making the resource available"
+msgstr "Yr endid sy'n gyfrifol am sicrhau fod yr adnodd ar gael"
 
 #. Property comment for Dublin Core:publisher
 msgid "An entity responsible for making the resource available."
@@ -1311,6 +1753,11 @@ msgid ""
 "intended or useful."
 msgstr ""
 
+#: application/models/Job/ItemBatchEditAll.php:153
+#, php-format
+msgid "An error occured when the item was updated: %s"
+msgstr ""
+
 #. Property comment for Dublin Core:conformsTo
 msgid "An established standard to which the described resource conforms."
 msgstr ""
@@ -1318,6 +1765,10 @@ msgstr ""
 #. Class comment for Bibliographic Ontology:Quote
 msgid "An excerpted collection of words."
 msgstr ""
+
+#: application/controllers/UsersController.php:329
+msgid "An existing API key was successfully rescinded."
+msgstr "Diddymwyd allwedd API yn llwyddiannus."
 
 #. Property comment for Friend of a Friend:img
 msgid ""
@@ -1344,6 +1795,10 @@ msgstr ""
 msgid ""
 "An interval of time that is named or defined by its start and end dates."
 msgstr ""
+
+#: application/libraries/Omeka/Record/Iterator.php:49
+msgid "An invalid value was detected during record iteration."
+msgstr "Darganfuwyd dyddiad annilys yn ystod iteriad y cofnod."
 
 #. Property comment for Bibliographic Ontology:issue
 msgid "An issue number"
@@ -1391,6 +1846,10 @@ msgstr ""
 msgid "An organization."
 msgstr ""
 
+#. Dublin Core: Identifier element description
+msgid "An unambiguous reference to the resource within a given context"
+msgstr "Cyfeirnod clir yn cyfeirio at yr adnodd"
+
 #. Property comment for Dublin Core:identifier
 msgid "An unambiguous reference to the resource within a given context."
 msgstr ""
@@ -1401,15 +1860,38 @@ msgid ""
 "publication."
 msgstr ""
 
+#: admin/themes/default/appearance/edit-navigation.php:3
+#: admin/themes/default/appearance/edit-settings.php:2
+#: admin/themes/default/common/global-nav.php:11
+#: admin/themes/default/themes/browse.php:5
+#: admin/themes/default/themes/config.php:3
+msgid "Appearance"
+msgstr "Golwg"
+
 #: application/view/omeka/site-admin/page/edit.phtml:52
 msgid "Apply changes"
 msgstr ""
+
+#: admin/themes/default/settings/edit-item-type-elements.php:44
+msgid ""
+"Are you sure you want to delete the selected item type elements from the "
+"database? You will lose all text related to the selected elements. This "
+"cannot be undone."
+msgstr ""
+"Ydych chi'n siwr eich bod am ddileu elfennau'r math o eitem? Byddwch yn "
+"colli'r holl destun sy'n gysylltiedig a'r elfennau sydd wedi'u dewis. Ni "
+"ellir dadwneud hyn."
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:78
 msgid ""
 "Are you sure you want to delete this asset? It will no longer be available "
 "to any resources currently using it."
 msgstr ""
+
+#: admin/themes/default/plugins/confirm-uninstall.php:7
+#, php-format
+msgid "Are you sure you want to uninstall %s?"
+msgstr "Ydych chi'n siwr eich bod eisiau dadosod %s?"
 
 #: application/view/omeka/admin/item-set/browse.phtml:176
 msgid ""
@@ -1463,7 +1945,7 @@ msgstr ""
 #: application/view/omeka/admin/media/browse.phtml:192
 #: application/view/omeka/admin/user/browse.phtml:173
 msgid "Are you sure?"
-msgstr ""
+msgstr "Wyt ti'n siwr?"
 
 #: application/view/omeka/admin/job/show.phtml:49
 msgid "Args"
@@ -1510,12 +1992,26 @@ msgstr ""
 msgid "Audience Education Level"
 msgstr ""
 
+#: admin/themes/default/files/show.php:70
+#: application/views/scripts/files/show.php:39
+msgid "Authentication"
+msgstr "Dilysu"
+
 #: application/src/Permissions/Acl.php:25
 msgid "Author"
 msgstr ""
 
+#: admin/themes/default/users/forgot-password.php:25
+#: application/views/scripts/users/forgot-password.php:7
+msgid "Back to Log In"
+msgstr "Nôl at Mewngofnodi"
+
 #: application/view/omeka/site-admin/index/show.phtml:20
 msgid "Back to site list"
+msgstr ""
+
+#: admin/themes/default/common/footer.php:6
+msgid "Back to top"
 msgstr ""
 
 #. Vocabulary comment for Dublin Core
@@ -1525,6 +2021,56 @@ msgstr ""
 #. Vocabulary comment for Dublin Core Type
 msgid "Basic resource types (DCMI Type Vocabulary)"
 msgstr ""
+
+#: admin/themes/default/items/batch-delete-all.php:2
+msgid "Batch Delete All Searched Items"
+msgstr ""
+
+#: admin/themes/default/items/batch-delete.php:2
+msgid "Batch Delete Items"
+msgstr "Dileu Mwy Nag Un Eitem"
+
+#: application/models/Job/ItemBatchEditAll.php:40
+msgid "Batch Edit All Items: No item matches the specified filters."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-all.php:2
+msgid "Batch Edit All Searched Items"
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:176
+#, php-format
+msgid "Batch Edit Item #%d [%d/%d]: %s"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit.php:2
+msgid "Batch Edit Items"
+msgstr "Golygu Mwy Nag Un Eitem"
+
+#: application/models/Job/ItemBatchEditAll.php:66
+#, php-format
+msgid ""
+"Batch Edit: A total of %d errors occurred during the batch process of %d "
+"items."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:47
+#, php-format
+msgid "Batch Edit: Starting processing 1 item."
+msgid_plural "Batch Edit: Starting processing %d items."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: application/models/Job/ItemBatchEditAll.php:73
+#, php-format
+msgid "Batch Edit: The item has been processed successfully."
+msgid_plural "Batch Edit: All %d items have been processed successfully."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:51
 #: application/view/omeka/admin/item-set/browse.phtml:52
@@ -1553,6 +2099,11 @@ msgstr ""
 msgid "Batch edit users"
 msgstr ""
 
+#: install/views/scripts/index/errors.phtml:2
+msgid ""
+"Before installation can continue, the following errors must be resolved:"
+msgstr "Cyn cychwyn gosod, rhaid adfer y gwallau canlynol yn gyntaf:"
+
 #: application/src/Media/Ingester/Youtube.php:100
 msgid ""
 "Begin playing the video at the given number of seconds from the start of the "
@@ -1561,7 +2112,7 @@ msgstr ""
 
 #. Property label for Dublin Core:bibliographicCitation
 msgid "Bibliographic Citation"
-msgstr ""
+msgstr "Cyfeiriad Llyfryddol"
 
 #. Vocabulary label for Bibliographic Ontology
 msgid "Bibliographic Ontology"
@@ -1579,6 +2130,14 @@ msgstr ""
 msgid "Bill"
 msgstr ""
 
+#. Omeka Image File: Bit Depth element
+msgid "Bit Depth"
+msgstr "Dyfnder Didau"
+
+#. Omeka Video File: Bitrate element
+msgid "Bitrate"
+msgstr "Cyfradd Ddidol"
+
 #: application/src/Api/Adapter/SitePageAdapter.php:170
 msgid "Block data must not be a scalar value."
 msgstr ""
@@ -1595,6 +2154,10 @@ msgstr ""
 msgid "Book Section"
 msgstr ""
 
+#: application/libraries/globals.php:469
+msgid "Boolean"
+msgstr "Boolean"
+
 #: application/src/Site/BlockLayout/LineBreak.php:43
 msgid "Break type"
 msgstr ""
@@ -1607,6 +2170,77 @@ msgstr ""
 msgid "Browse"
 msgstr ""
 
+#: application/libraries/globals.php:2795
+msgid "Browse All"
+msgstr "Pori Popeth"
+
+#: admin/themes/default/collections/browse.php:2
+#: application/libraries/Omeka/Navigation.php:149
+#: application/tests/suite/Omeka/NavigationTest.php:747
+#: application/tests/suite/Omeka/NavigationTest.php:816
+#: application/tests/suite/Omeka/NavigationTest.php:831
+#: application/tests/suite/Omeka/NavigationTest.php:950
+#: application/views/scripts/collections/browse.php:2
+msgid "Browse Collections"
+msgstr "Pori Casgliadau"
+
+#: admin/themes/default/item-types/browse.php:2
+msgid "Browse Item Types"
+msgstr "Pori Mathau o Eitemau"
+
+#: admin/themes/default/items/browse.php:3
+#: application/libraries/Omeka/Navigation.php:142
+#: application/tests/suite/Omeka/NavigationTest.php:37
+#: application/tests/suite/Omeka/NavigationTest.php:56
+#: application/tests/suite/Omeka/NavigationTest.php:79
+#: application/tests/suite/Omeka/NavigationTest.php:97
+#: application/tests/suite/Omeka/NavigationTest.php:120
+#: application/tests/suite/Omeka/NavigationTest.php:139
+#: application/tests/suite/Omeka/NavigationTest.php:162
+#: application/tests/suite/Omeka/NavigationTest.php:185
+#: application/tests/suite/Omeka/NavigationTest.php:214
+#: application/tests/suite/Omeka/NavigationTest.php:236
+#: application/tests/suite/Omeka/NavigationTest.php:265
+#: application/tests/suite/Omeka/NavigationTest.php:288
+#: application/tests/suite/Omeka/NavigationTest.php:317
+#: application/tests/suite/Omeka/NavigationTest.php:339
+#: application/tests/suite/Omeka/NavigationTest.php:367
+#: application/tests/suite/Omeka/NavigationTest.php:388
+#: application/tests/suite/Omeka/NavigationTest.php:416
+#: application/tests/suite/Omeka/NavigationTest.php:438
+#: application/tests/suite/Omeka/NavigationTest.php:466
+#: application/tests/suite/Omeka/NavigationTest.php:483
+#: application/tests/suite/Omeka/NavigationTest.php:511
+#: application/tests/suite/Omeka/NavigationTest.php:527
+#: application/tests/suite/Omeka/NavigationTest.php:555
+#: application/tests/suite/Omeka/NavigationTest.php:572
+#: application/tests/suite/Omeka/NavigationTest.php:600
+#: application/tests/suite/Omeka/NavigationTest.php:621
+#: application/tests/suite/Omeka/NavigationTest.php:647
+#: application/tests/suite/Omeka/NavigationTest.php:667
+#: application/tests/suite/Omeka/NavigationTest.php:693
+#: application/tests/suite/Omeka/NavigationTest.php:714
+#: application/tests/suite/Omeka/NavigationTest.php:740
+#: application/tests/suite/Omeka/NavigationTest.php:815
+#: application/tests/suite/Omeka/NavigationTest.php:845
+#: application/tests/suite/Omeka/NavigationTest.php:949
+#: application/views/scripts/items/browse.php:2
+#: application/views/scripts/items/tags.php:2
+msgid "Browse Items"
+msgstr "Pori'r Eitemau"
+
+#: admin/themes/default/items/tags.php:2
+msgid "Browse Items by Tag"
+msgstr "Pori Eitemau yn ôl Tag"
+
+#: admin/themes/default/tags/browse.php:5
+msgid "Browse Tags"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:2
+msgid "Browse Users"
+msgstr "Pori Defnyddwyr"
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:26
 msgid "Browse all"
 msgstr ""
@@ -1614,6 +2248,10 @@ msgstr ""
 #: application/src/Form/SiteSettingsForm.php:169
 msgid "Browse body property"
 msgstr ""
+
+#: application/libraries/globals.php:2800
+msgid "Browse by Tag"
+msgstr "Pori yn ôl Tagiau"
 
 #: application/src/Form/SiteSettingsForm.php:152
 msgid "Browse heading property"
@@ -1627,6 +2265,12 @@ msgstr ""
 msgid "Browse preview"
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:24
+#: admin/themes/default/themes/browse.php:68
+#, php-format
+msgid "By %s"
+msgstr "Yn ôl %s"
+
 #: application/src/Form/SiteSettingsForm.php:91
 #: application/src/Form/SettingForm.php:233
 msgid ""
@@ -1635,18 +2279,96 @@ msgid ""
 "embedding."
 msgstr ""
 
+#: application/tests/suite/Omeka/NavigationTest.php:825
+#: application/tests/suite/Omeka/NavigationTest.php:951
+msgid "CHNM"
+msgstr "CHNM"
+
 #: application/src/View/Helper/CancelButton.php:14
 #: application/view/omeka/admin/vocabulary/update.phtml:23
 msgid "Cancel"
-msgstr ""
+msgstr "Diddymu"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:53
 msgid "Cancel delete"
 msgstr ""
 
+#: application/models/Item.php:509
+msgid "Cannot add an existing file to an item!"
+msgstr "Ni ellir ychwanegu ffeil sydd eisoes yn bodoli at eitem!"
+
+#: application/models/Collection.php:118
+msgid "Cannot associate the collection with an unsaved user."
+msgstr "Ni ellir perthnasu'r casgliad gyda defnyddiwr sydd heb ei arbed."
+
+#: application/models/UsersActivations.php:54
+msgid "Cannot create a user activation for non-existent user."
+msgstr "Ni ellir bywiogi defnyddiwr sydd ddim yn bodoli."
+
+#: application/models/Mixin/ElementText.php:311
+#, php-format
+msgid "Cannot find an element with an ID of '%s'!"
+msgstr "Ni ellir dod o hyd i elfen gyda'r rhif '%s'!"
+
+#: application/models/ItemType.php:295
+#, php-format
+msgid "Cannot find element with ID %s!"
+msgstr "Ni ellir dod o hyd i elfen gyda'r rhif '%s'!"
+
+#: application/forms/Navigation.php:244
+msgid "Cannot find parent navigation page."
+msgstr "Ni ellir dod o hyd i'r dudalen llywio sy'n rhiant."
+
+#: application/models/File.php:235
+msgid "Cannot get the local path for a stored file."
+msgstr "Ni ellir cyrraedd y llwybr lleol ar gyfer y ffeil."
+
+#: application/models/ItemType.php:286
+msgid ""
+"Cannot remove elements from an item type that is not persistent in the "
+"database!"
+msgstr ""
+"Ni ellir tynnu elfen i ffwrdd o math o eitem sydd ddim yn barhaol yn y "
+"gronfa ddata!"
+
+#: application/models/Mixin/ElementText.php:648
+msgid "Cannot save element text for records that are not yet persistent!"
+msgstr ""
+"Ni ellir arbed testun elfen ar gyfer cofnodion sydd ddim eto'n barhaol!"
+
+#: application/models/Element.php:215
+#, php-format
+msgid "Cannot set element set ID: set named \"%s\" does not exist."
+msgstr "Methu gosod ID y set elfen: nid yw'r set \"%s\" yn bodoli."
+
+#: application/forms/SecuritySettings.php:105
+msgid "Captcha"
+msgstr "Captcha"
+
 #: application/view/omeka/site-admin/page/edit.phtml:41
 msgid "Caption"
 msgstr ""
+
+#. Omeka Legacy File: Capture Date element
+msgid "Capture Date"
+msgstr "Dyddiad Cipio"
+
+#. Omeka Legacy File: Capture Details element
+msgid "Capture Details"
+msgstr "Manylion Cipio"
+
+#. Omeka Legacy File: Capture Device element
+msgid "Capture Device"
+msgstr "Dyfais Cipio"
+
+#. Omeka Legacy File: Change History element
+msgid "Change History"
+msgstr "Newid Hanes"
+
+#: admin/themes/default/common/users-nav.php:11
+#: application/forms/ChangePassword.php:80
+msgid "Change Password"
+msgstr "Newid Cyfrinair"
 
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:17
 msgid "Change item"
@@ -1656,8 +2378,63 @@ msgstr ""
 msgid "Changes to the vocabulary successfully made"
 msgstr ""
 
+#: admin/themes/default/items/batch-edit-all.php:20
+#, php-format
+msgid ""
+"Changes will be applied to all %d items matching the search filters above."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-all.php:22
+#, php-format
+msgid "Changes will be applied to all %d items."
+msgstr ""
+
+#: admin/themes/default/items/batch-edit.php:37
+msgid "Changes will be applied to checked items."
+msgstr "Bydd newidiadau yn cael eu gweithredu i'r eitemau a farciwyd."
+
+#: admin/themes/default/items/batch-edit-all.php:27
+msgid "Changes will be processed in the background item by item."
+msgstr ""
+
+#. Omeka Image File: Channels element
+msgid "Channels"
+msgstr "Sianelau"
+
 #. Class label for Bibliographic Ontology:Chapter
 msgid "Chapter"
+msgstr ""
+
+#: application/forms/Install.php:170
+msgid "Check box to show metadata elements with no text."
+msgstr "Cliciwch y blwch i ddangos y metadata heb destun."
+
+#: admin/themes/default/items/batch-edit.php:48
+msgid "Check if you wish to delete selected items."
+msgstr "Ticiwch os ydych am ddileu'r eitemau."
+
+#: application/controllers/ItemsController.php:430
+msgid "Check logs for success and errors."
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:14
+msgid ""
+"Check the links to display them in the main navigation. Click and drag the "
+"links into the preferred display order."
+msgstr ""
+"Ticiwch y dolenni i'w dangos yn y brif ryngwyneb llywio. Gellir clicio a "
+"dragio'r dolenni er mwyn eu rhoi yn y drefn cywir."
+
+#: application/forms/SecuritySettings.php:25
+msgid ""
+"Check this field if you would like to allow any file to be uploaded to Omeka."
+msgstr ""
+"Ticiwch y maes hwn os hoffech adael i unrhyw ffeil cael i lanlwytho i Omeka."
+
+#: application/forms/SecuritySettings.php:67
+msgid ""
+"Check this field if you would like to filter HTML elements or attributes "
+"from form input."
 msgstr ""
 
 #: application/src/Form/SettingForm.php:295
@@ -1668,9 +2445,17 @@ msgstr ""
 msgid "Check your email for instructions on how to reset your password"
 msgstr ""
 
+#: admin/themes/default/items/batch-delete.php:39
+msgid "Checked items will be deleted."
+msgstr "Bydd yr eitemau sydd wedi'u ticio yn cael eu dileu."
+
 #: application/src/Form/Element/VocabularyFetch.php:16
 msgid "Choose a RDF vocabulary file. You must choose a file or enter a URL."
 msgstr ""
+
+#: application/views/scripts/items/show.php:36
+msgid "Citation"
+msgstr "Cyfeirio"
 
 #: application/src/View/Helper/SearchFilters.php:60
 #: application/view/common/linked-resources.phtml:33
@@ -1720,6 +2505,18 @@ msgstr ""
 msgid "Clear property values"
 msgstr ""
 
+#: admin/themes/default/element-sets/edit.php:17
+msgid ""
+"Click and drag the elements into the preferred display order. Click the "
+"right arrows to add customized comments to element descriptions."
+msgstr ""
+"Cliciwch a llusgwch yr elfennau i'r drefn o'ch dewis. Cliciwch ar y saethau "
+"ar y dde i ychwanegu sylwadau o'ch dewis i ddisgrifiadau'r elfennau."
+
+#: admin/themes/default/items/files-form.php:2
+msgid "Click and drag the files into the preferred display order."
+msgstr "Gellir clicio a dragio'r ffeiliau i'w rhoi yn y drefn cywir."
+
 #: application/view/common/property-selector.phtml:10
 msgid "Click on a property to add it to the edit panel."
 msgstr ""
@@ -1735,6 +2532,11 @@ msgstr ""
 #: application/view/common/item-set-selector.phtml:7
 msgid "Click on an item set to add it to the edit panel."
 msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:26
+msgid "Click on the \"Index Records\" button to re-index your records."
+msgstr ""
+"Cliciwch ar y botwm \"Mynegeio Cofnodion\" i ail-fynegeio'ch cofnodion."
 
 #: application/view/common/delete-confirm.phtml:8
 #: application/view/common/item-set-selector.phtml:6
@@ -1788,6 +2590,10 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
+#. Omeka Video File: Codec element
+msgid "Codec"
+msgstr "Codec"
+
 #: application/view/common/resource-form-templates.phtml:10
 #: application/view/omeka/admin/item/sidebar-select.phtml:28
 #: application/view/omeka/site-admin/page/attachment-item-options.phtml:35
@@ -1802,13 +2608,26 @@ msgstr ""
 #. Class label for Dublin Core Type:Collection
 #. Class label for Bibliographic Ontology:Collection
 msgid "Collection"
+msgstr "Casgliad"
+
+#: admin/themes/default/collections/show.php:8
+#, php-format
+msgid "Collection #%s"
 msgstr ""
+
+#: application/views/scripts/collections/show.php:13
+msgid "Collection Items"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:13
+msgid "Collections"
+msgstr "Casgliadau"
 
 #: application/view/omeka/admin/property/show-details.phtml:14
 #: application/view/omeka/admin/resource-class/show-details.phtml:14
 #: application/view/omeka/admin/resource-template/form.phtml:62
 msgid "Comment"
-msgstr ""
+msgstr "Sylw"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:9
 msgid "Complete import"
@@ -1818,16 +2637,42 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
+#. Omeka Legacy File: Compression element
+msgid "Compression"
+msgstr "Cywasgedd"
+
 #. Class label for Bibliographic Ontology:Conference
 msgid "Conference"
 msgstr ""
+
+#: admin/themes/default/themes/config.php:11
+msgid "Configurations apply to this theme only."
+msgstr "Newidiadau yn effeithio ar y thema yma yn unig."
 
 #: application/view/omeka/admin/module/browse.phtml:75
 #: application/view/omeka/admin/module/browse.phtml:83
 #: application/view/omeka/admin/module/configure.phtml:6
 #: application/view/omeka/site-admin/index/theme-settings.phtml:6
 msgid "Configure"
-msgstr ""
+msgstr "Ffurfweddu"
+
+#: admin/themes/default/plugins/config.php:2
+#, php-format
+msgid "Configure Plugin: %s"
+msgstr "Ffurfweddu'r Ategyn: %s"
+
+#: admin/themes/default/themes/browse.php:19
+msgid "Configure Theme"
+msgstr "Ffurfweddu Thema"
+
+#: admin/themes/default/themes/config.php:10
+#, php-format
+msgid "Configure Theme: %s"
+msgstr "Ffurweddu Thema %s"
+
+#: install/views/scripts/index/index.phtml:14
+msgid "Configure Your Site"
+msgstr "Ffurfweddu'ch Gwefan"
 
 #: application/src/Form/ConfirmForm.php:17
 msgid "Confirm"
@@ -1842,7 +2687,7 @@ msgstr ""
 #: application/src/Controller/Admin/ItemController.php:42
 #: application/src/Controller/Admin/ItemController.php:47
 msgid "Confirm Delete"
-msgstr ""
+msgstr "Cadarnhau Dileu"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:79
 msgid "Confirm delete"
@@ -1864,16 +2709,40 @@ msgstr ""
 msgid "Confirm uninstall"
 msgstr ""
 
+#: application/forms/Install.php:72
+msgid "Confirm your password."
+msgstr "Cadarnhewch eich cyfrinair."
+
 #. Property label for Dublin Core:conformsTo
 msgid "Conforms To"
 msgstr ""
 
 #. Property label for Dublin Core:contributor
 msgid "Contributor"
-msgstr ""
+msgstr "Cyfrannwr"
+
+#: admin/themes/default/collections/browse.php:31
+#: admin/themes/default/collections/show.php:51
+#: application/views/scripts/collections/browse.php:35
+msgid "Contributors"
+msgstr "Cyfrannwyr"
+
+#: application/libraries/globals.php:1267
+#: application/libraries/globals.php:1288
+#, php-format
+msgid "Could not find file %s!"
+msgstr "Methu dod o hyd i'r ffeil %s!"
+
+#: install/controllers/IndexController.php:25
+msgid "Could not load database resource!"
+msgstr "Methu llwytho cronfa ddata'r adnodd!"
 
 #: application/src/Form/Element/Recaptcha.php:108
 msgid "Could not verify that you are a human."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:58
+msgid "Count"
 msgstr ""
 
 #. Class label for Bibliographic Ontology:CourtReporter
@@ -1882,7 +2751,13 @@ msgstr ""
 
 #. Property label for Dublin Core:coverage
 msgid "Coverage"
-msgstr ""
+msgstr "Ymdriniaeth"
+
+#: admin/themes/default/users/activate.php:17
+#: application/forms/ResetPassword.php:23
+#: application/views/scripts/users/activate.php:14
+msgid "Create a Password"
+msgstr "Crëwch gyfrinair"
 
 #: application/view/omeka/login/create-password.phtml:6
 msgid "Create a new password"
@@ -1909,11 +2784,23 @@ msgstr ""
 
 #. Property label for Dublin Core:creator
 msgid "Creator"
-msgstr ""
+msgstr "Crëwr"
 
 #. Property comment for Bibliographic Ontology:annotates
 msgid "Critical or explanatory note for a Document."
 msgstr ""
+
+#: application/views/scripts/common/pagination_control.php:36
+msgid "Current Page"
+msgstr ""
+
+#: application/forms/ChangePassword.php:25
+msgid "Current Password"
+msgstr "Cyfrinair Cyfredol"
+
+#: admin/themes/default/themes/browse.php:22
+msgid "Current Theme"
+msgstr "Thema Cyfredol"
 
 #: application/src/Form/UserForm.php:166
 msgid "Current password"
@@ -1927,9 +2814,24 @@ msgstr ""
 msgid "Custom URL"
 msgstr ""
 
+#: admin/themes/default/settings/edit-item-type-elements.php:11
+#, php-format
+msgid "Customize the element descriptions below. To re-order the elements, %s."
+msgstr ""
+"Gellid addasu disgrifiad yr elfennau isod. I ail-drefnu'r elfennau, %s."
+
+#: admin/themes/default/settings/edit-search.php:13
+msgid "Customize which types of records will be searchable in Omeka."
+msgstr "Addasu pa fathau o gofnodion sy'n chwiliadwy yn Omeka."
+
 #. Property label for Friend of a Friend:dnaChecksum
 msgid "DNA checksum"
 msgstr ""
+
+#: admin/themes/default/common/content-nav.php:5
+#: admin/themes/default/index.php:2
+msgid "Dashboard"
+msgstr "Dangosfwrdd"
 
 #. Class comment for Dublin Core Type:Dataset
 msgid "Data encoded in a defined structure."
@@ -1947,7 +2849,7 @@ msgstr ""
 
 #. Property label for Dublin Core:date
 msgid "Date"
-msgstr ""
+msgstr "Dyddiad"
 
 #. Property comment for Dublin Core:valid
 msgid "Date (often a range) of validity of a resource."
@@ -1960,6 +2862,14 @@ msgstr ""
 #. Property label for Dublin Core:dateAccepted
 msgid "Date Accepted"
 msgstr ""
+
+#: admin/themes/default/collections/browse.php:32
+#: admin/themes/default/files/show.php:66
+#: admin/themes/default/items/browse.php:48
+#: application/views/scripts/collections/browse.php:11
+#: application/views/scripts/items/browse.php:21
+msgid "Date Added"
+msgstr "Dyddiad Ychwanegwyd"
 
 #. Property label for Dublin Core:available
 msgid "Date Available"
@@ -1979,7 +2889,7 @@ msgstr ""
 
 #. Property label for Dublin Core:modified
 msgid "Date Modified"
-msgstr ""
+msgstr "Dyddiad Addaswyd"
 
 #. Property label for Dublin Core:dateSubmitted
 msgid "Date Submitted"
@@ -1987,6 +2897,10 @@ msgstr ""
 
 #. Property label for Dublin Core:valid
 msgid "Date Valid"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:59
+msgid "Date created"
 msgstr ""
 
 #. Property comment for Dublin Core:dateAccepted
@@ -2015,7 +2929,7 @@ msgstr ""
 
 #: application/src/Form/ModuleStateChangeForm.php:55
 msgid "Deactivate"
-msgstr ""
+msgstr "Diffodd"
 
 #. Class label for Bibliographic Ontology:LegalDecision
 msgid "Decision"
@@ -2024,6 +2938,10 @@ msgstr ""
 #: application/src/Api/Representation/ResourceTemplatePropertyRepresentation.php:105
 msgid "Default"
 msgstr ""
+
+#: application/forms/Install.php:185
+msgid "Default Superuser Account"
+msgstr "Cyfrif Diofyn ar gyfer Arch-ddefnyddiwr"
 
 #: application/src/Form/SettingForm.php:245
 msgid "Default content visibility to Private"
@@ -2054,12 +2972,22 @@ msgstr ""
 #: application/view/omeka/site-admin/index/users.phtml:7
 #: application/view/omeka/site-admin/page/edit.phtml:16
 msgid "Delete"
-msgstr ""
+msgstr "Dileu"
+
+#: admin/themes/default/items/files-form.php:13
+msgid "Delete "
+msgstr "Dileu"
 
 #: application/view/common/delete-confirm.phtml:12
 #, php-format
 msgid "Delete %s"
-msgstr ""
+msgstr "Dileu %s"
+
+#: admin/themes/default/items/batch-delete-all.php:36
+#: admin/themes/default/items/batch-delete.php:47
+#: admin/themes/default/items/batch-edit.php:47
+msgid "Delete Items"
+msgstr "Dileu Eitemau"
 
 #: application/view/omeka/admin/item-set/browse.phtml:56
 #: application/view/omeka/admin/item/browse.phtml:55
@@ -2124,9 +3052,17 @@ msgstr ""
 msgid "Deleting users. This may take a while."
 msgstr ""
 
+#: admin/themes/default/items/batch-delete-all.php:25
+msgid "Deletions will be processed in the background item by item."
+msgstr ""
+
 #: application/src/Site/BlockLayout/TableOfContents.php:28
 msgid "Depth"
 msgstr ""
+
+#: application/forms/AppearanceSettings.php:97
+msgid "Derivative Size Constraints"
+msgstr "Cyfyngiadau Maint Deunydd Deilliadol"
 
 #: application/view/common/sort-selector.phtml:15
 msgid "Descending"
@@ -2134,7 +3070,7 @@ msgstr ""
 
 #: application/config/module.config.php:631
 msgid "Description"
-msgstr ""
+msgstr "Disgrifiad"
 
 #: application/view/omeka/admin/item-set/browse.phtml:124
 #: application/view/omeka/admin/item/browse.phtml:122
@@ -2147,15 +3083,23 @@ msgstr ""
 #: application/view/omeka/admin/vocabulary/classes.phtml:52
 #: application/view/omeka/admin/vocabulary/properties.phtml:35
 msgid "Details"
-msgstr ""
+msgstr "Manylion"
 
 #: application/view/error/index.phtml:11
 msgid "Details:"
 msgstr ""
 
+#: admin/themes/default/files/show.php:40
+msgid "Direct Links"
+msgstr "Dolenni Uniongyrchol"
+
 #: application/src/Form/SiteSettingsForm.php:40
 msgid "Direct link to file"
 msgstr ""
+
+#: application/forms/SecuritySettings.php:23
+msgid "Disable File Upload Validation"
+msgstr "Analluogi Dilysu Wrth Lan-lwytho Ffeiliau"
 
 #: application/src/Form/SiteSettingsForm.php:90
 #: application/src/Form/SettingForm.php:232
@@ -2165,6 +3109,16 @@ msgstr ""
 #: application/src/Form/SettingForm.php:294
 msgid "Disable file validation"
 msgstr ""
+
+#: admin/themes/default/users/browse.php:37
+#: admin/themes/default/users/browse.php:48
+#: admin/themes/default/users/show.php:20 application/forms/User.php:81
+msgid "Display Name"
+msgstr "Enw a Ddangosir"
+
+#: application/forms/AppearanceSettings.php:105
+msgid "Display Settings"
+msgstr "Gosodiadau'r Dangosydd"
 
 #: application/view/omeka/admin/user/show.phtml:23
 msgid "Display name"
@@ -2187,6 +3141,10 @@ msgstr ""
 msgid "Document Status"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:6
+msgid "Documentation"
+msgstr "Dogfennaeth"
+
 #. Class comment for Bibliographic Ontology:Bill
 msgid "Draft legislation presented for discussion to a legal body."
 msgstr ""
@@ -2199,9 +3157,17 @@ msgstr ""
 msgid "Dublin Core Type"
 msgstr ""
 
+# Omeka Video File: Duration element
+msgid "Duration"
+msgstr "Hyd"
+
 #. Class label for Bibliographic Ontology:Email
 msgid "EMail"
 msgstr ""
+
+#: application/models/Option.php:50 application/models/Option.php:54
+msgid "Each option must have a unique name."
+msgstr "Mae'n rhaid i bob opsiwn gael enw unigryw."
 
 #: application/src/View/Helper/UserBar.php:118
 #: application/src/View/Helper/UserBar.php:150
@@ -2222,7 +3188,52 @@ msgstr ""
 #: application/view/omeka/site-admin/page/edit.phtml:11
 #: application/view/omeka/site-admin/page/index.phtml:44
 msgid "Edit"
-msgstr ""
+msgstr "Golygu"
+
+#: admin/themes/default/collections/edit.php:8
+#, php-format
+msgid "Edit Collection #%s"
+msgstr "Golygu Casgliad #%s"
+
+#: application/tests/suite/Omeka/NavigationTest.php:758
+#: application/tests/suite/Omeka/NavigationTest.php:818
+#: application/tests/suite/Omeka/NavigationTest.php:856
+#: application/tests/suite/Omeka/NavigationTest.php:953
+msgid "Edit Collections"
+msgstr "Golygu Casgliadau"
+
+#: admin/themes/default/element-sets/edit.php:5
+msgid "Edit Element Set"
+msgstr "Golygu'r Set Elfennau"
+
+#: admin/themes/default/files/edit.php:8
+#, php-format
+msgid "Edit File #%s"
+msgstr "Golygu Ffeil #%s."
+
+#: admin/themes/default/items/edit.php:8
+#, php-format
+msgid "Edit Item #%s"
+msgstr "Golygu Eitem #%s"
+
+#: admin/themes/default/item-types/edit.php:8
+#, php-format
+msgid "Edit Item Type #%s"
+msgstr "Golygu Math o Eitem #%s"
+
+#: application/tests/suite/Omeka/NavigationTest.php:752
+#: application/tests/suite/Omeka/NavigationTest.php:817
+#: application/tests/suite/Omeka/NavigationTest.php:839
+#: application/tests/suite/Omeka/NavigationTest.php:952
+msgid "Edit Items"
+msgstr "Golygu eitemau"
+
+#: admin/themes/default/users/api-keys.php:8
+#: admin/themes/default/users/change-password.php:8
+#: admin/themes/default/users/edit.php:8
+#, php-format
+msgid "Edit User #%s"
+msgstr "Golygu Defnyddiwr #%s"
 
 #: application/view/omeka/admin/item-set/browse.phtml:54
 #: application/view/omeka/admin/item/browse.phtml:53
@@ -2262,6 +3273,10 @@ msgstr ""
 msgid "Edit theme settings"
 msgstr ""
 
+#: admin/themes/default/users/show.php:15
+msgid "Edit this User"
+msgstr "Golygu'r Defnyddiwr Yma"
+
 #: application/view/omeka/admin/user/show.phtml:11
 msgid "Edit user"
 msgstr ""
@@ -2269,6 +3284,10 @@ msgstr ""
 #. Class label for Bibliographic Ontology:EditedBook
 msgid "Edited Book"
 msgstr ""
+
+#: admin/themes/default/tags/browse.php:42
+msgid "Editing Tags"
+msgstr "Golygu Tagiau"
 
 #: application/src/Controller/Admin/ItemSetController.php:314
 msgid "Editing item sets. This may take a while."
@@ -2291,12 +3310,41 @@ msgstr ""
 msgid "Editor"
 msgstr ""
 
+#: admin/themes/default/item-types/add-new-element.php:22
+msgid "Element Description"
+msgstr "Disgrifiad yr Elfen"
+
+#: admin/themes/default/item-types/add-new-element.php:6
+msgid "Element Name"
+msgstr "Enw'r Elfen"
+
+#: admin/themes/default/common/settings-nav.php:20
+msgid "Element Sets"
+msgstr "Setiau Elfen"
+
+#: application/models/Mixin/ElementText.php:430
+msgid "Element texts are not formatted correctly!"
+msgstr "Nid yw testun yr elfen wedi'i fformatio'n gywir!"
+
+#: admin/themes/default/item-types/form.php:25
+#: admin/themes/default/item-types/show.php:16
+msgid "Elements"
+msgstr "Elfennau"
+
 #: application/src/View/Helper/SearchUserFilters.php:49
 #: application/view/omeka/admin/user/browse.phtml:10
 #: application/view/omeka/admin/user/browse.phtml:78
 #: application/view/omeka/admin/user/show.phtml:17
 msgid "Email"
-msgstr ""
+msgstr "Ebost"
+
+#: application/forms/RecoverPassword.php:36
+msgid "Email address is required."
+msgstr "Mae angen cyfeiriad ebost"
+
+#: application/forms/User.php:102
+msgid "Email is required."
+msgstr "Rhaid cael ebost."
 
 #: application/src/Controller/LoginController.php:65
 msgid "Email or password is invalid"
@@ -2306,15 +3354,35 @@ msgstr ""
 msgid "Embed media on item pages"
 msgstr ""
 
+#: admin/themes/default/files/show.php:87
+msgid "Embedded Metadata"
+msgstr "Metadata wedi'i mewnblannu"
+
+#: admin/themes/default/settings/edit-api.php:11
+msgid "Enable API"
+msgstr "Galluogi API"
+
+#: application/forms/SecuritySettings.php:68
+msgid "Enable HTML Filtering"
+msgstr "Galluogi hidlo HTML"
+
 #: application/src/Form/SettingForm.php:220
 msgid ""
 "Enable notifications when a new version of Omeka S, modules, or themes are "
 "available."
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:15
+msgid "Enable or disable the API by checking or unchecking the box below."
+msgstr "Ticiwch neu dad-diciwch y blwch isod i alluogi neu analluogi'r API."
+
 #: application/src/Form/SettingForm.php:219
 msgid "Enable version notifications"
 msgstr ""
+
+#. Omeka Legacy File: Encryption element
+msgid "Encryption"
+msgstr "Amgryptiad"
 
 #: application/src/Media/Ingester/Youtube.php:104
 msgid "End"
@@ -2338,11 +3406,30 @@ msgstr ""
 msgid "Enter a RDF vocabulary URL. You must enter a URL or choose a file."
 msgstr ""
 
+#: application/forms/SecuritySettings.php:60
+#, php-format
+msgid ""
+"Enter secret key from %s. Both this and the public key must be filled in to "
+"secure public forms. Keys must be for reCAPTCHA v2."
+msgstr ""
+
+#: application/forms/SecuritySettings.php:52
+#, php-format
+msgid ""
+"Enter site key from %s. Both this and the private key must be filled in to "
+"secure public forms. Keys must be for reCAPTCHA v2."
+msgstr ""
+
 #: application/src/Form/Element/VocabularyFetch.php:57
 msgid ""
 "Enter the preferred language of the labels and comments using an IETF "
 "language tag. Defaults to the first available."
 msgstr ""
+
+#: admin/themes/default/users/forgot-password.php:11
+#: application/views/scripts/users/forgot-password.php:10
+msgid "Enter your email address to retrieve your password."
+msgstr "Teipiwch eich cyfeiriad ebost er mwyn adfer eich cyfrinair."
 
 #: application/src/Controller/Admin/ModuleController.php:73
 msgid "Error"
@@ -2356,6 +3443,19 @@ msgstr ""
 #: application/src/File/Downloader.php:83
 #, php-format
 msgid "Error downloading %s: %s %s"
+msgstr ""
+
+#: application/controllers/PluginsController.php:43
+#, php-format
+msgid ""
+"Error in configuring plugin named \"%s\". Missing config and/or config_form "
+"hook(s)."
+msgstr ""
+"Gwall wrth ffurfweddu'r ategyn \"%s\". Mae'r bachyn config a/neu'r "
+"config_form ar goll."
+
+#: application/controllers/TagsController.php:108
+msgid "Error occurred."
 msgstr ""
 
 #: application/src/File/Validator.php:65
@@ -2396,9 +3496,25 @@ msgstr ""
 msgid "Event"
 msgstr ""
 
+#: application/libraries/globals.php:470
+msgid "Exact match"
+msgstr "Cydweddiad union"
+
 #. Class label for Bibliographic Ontology:Excerpt
 msgid "Excerpt"
 msgstr ""
+
+#. Omeka Image File: Exif Array element
+msgid "Exif Array"
+msgstr "Trefn Exif"
+
+#. Omeka Image File: Exif String element
+msgid "Exif String"
+msgstr "Llinyn Exif"
+
+#: admin/themes/default/item-types/form.php:84
+msgid "Existing"
+msgstr "Eisoes yn Bodoli"
 
 #: application/view/common/advanced-search/item-sets.phtml:16
 #: application/view/common/advanced-search/resource-class.phtml:16
@@ -2420,6 +3536,48 @@ msgstr ""
 msgid "Failed loading resource template from API"
 msgstr ""
 
+#: install/views/scripts/index/fatal-error.phtml:1
+msgid "Fatal Error"
+msgstr "Gwall Marwol"
+
+#: admin/themes/default/collections/add.php:19
+#: admin/themes/default/collections/edit.php:37
+#: admin/themes/default/collections/show.php:42
+#: admin/themes/default/items/add.php:25
+#: admin/themes/default/items/batch-edit-common.php:24
+#: admin/themes/default/items/edit.php:36
+#: admin/themes/default/items/quick-filters.php:8
+#: admin/themes/default/items/show.php:53
+msgid "Featured"
+msgstr "Wedi'i Amlygu"
+
+#: application/views/scripts/index.php:18
+msgid "Featured Collection"
+msgstr "Casgliad Nodweddiadol"
+
+#: application/views/scripts/index.php:10
+msgid "Featured Item"
+msgstr "Eitem Nodweddiadol"
+
+#: admin/themes/default/items/search-form.php:215
+#: application/views/scripts/items/search-form.php:196
+msgid "Featured/Non-Featured"
+msgstr "Amlygwyd/Heb ei Amlygu"
+
+#: admin/themes/default/items/batch-edit-common.php:20
+msgid "Featured?"
+msgstr "Amlygwyd?"
+
+#: application/libraries/globals.php:410
+msgid "File"
+msgstr "Ffeil"
+
+#: admin/themes/default/files/show.php:9
+#: application/views/scripts/files/show.php:9
+#, php-format
+msgid "File #%s"
+msgstr "Ffeil #%s"
+
 #: application/view/omeka/admin/media/show.phtml:68
 msgid "File Derivatives"
 msgstr ""
@@ -2428,9 +3586,49 @@ msgstr ""
 msgid "File Format"
 msgstr ""
 
+#: admin/themes/default/files/show.php:64
+msgid "File History"
+msgstr "Hanes Ffeil"
+
+#: admin/themes/default/items/show.php:73
+msgid "File Metadata"
+msgstr "Metadata'r Ffeil"
+
+#: admin/themes/default/files/show.php:58
+#: application/views/scripts/files/show.php:34
+msgid "File Size"
+msgstr "Maint Ffeil"
+
+#: admin/themes/default/files/show.php:80
+#: application/views/scripts/files/show.php:51
+msgid "File Type / OS"
+msgstr "Math o Ffeil / OS"
+
+#: application/forms/SecuritySettings.php:97
+msgid "File Validation"
+msgstr "Dilysu Ffeil"
+
 #: application/src/Form/Element/VocabularyFetch.php:37
 msgid "File format"
 msgstr ""
+
+#: application/models/Item.php:513
+msgid "File must be valid before it can be associated with an item!"
+msgstr "Rhaid i'r ffeil fod yn ddilys cyn y gellir ei gysylltu at eitem!"
+
+#: admin/themes/default/files/show.php:54
+msgid "Filename"
+msgstr "Enw ffeil"
+
+#: application/views/scripts/items/show.php:13
+msgid "Files"
+msgstr "Ffeiliau"
+
+#: application/models/Item.php:331
+msgid ""
+"Files cannot be attached to an item that is not persistent in the database!"
+msgstr ""
+"Ni ellir ychwanegu ffeil at eitem sydd ddim yn barhaol yn y gronfa ddata."
 
 #. Class label for Bibliographic Ontology:Film
 msgid "Film"
@@ -2439,6 +3637,10 @@ msgstr ""
 #: application/view/common/filter-selector.phtml:13
 #: application/view/omeka/admin/module/browse.phtml:14
 msgid "Filter"
+msgstr ""
+
+#: admin/themes/default/settings/edit-api.php:22
+msgid "Filter Element Texts"
 msgstr ""
 
 #: application/view/omeka/admin/item/sidebar-select.phtml:41
@@ -2461,6 +3663,13 @@ msgstr ""
 msgid "Filter by property"
 msgstr ""
 
+#: admin/themes/default/settings/edit-api.php:26
+msgid ""
+"Filter element texts by checking the box below. When checked, the API will "
+"respect the display element and element text filters when outputting element "
+"text representations."
+msgstr ""
+
 #: application/view/common/item-set-selector.phtml:8
 msgid "Filter item sets"
 msgstr ""
@@ -2481,6 +3690,10 @@ msgstr ""
 msgid "Filter users"
 msgstr ""
 
+#: admin/themes/default/items/files-form.php:27
+msgid "Find a File"
+msgstr "Cael hyd i Ffeil"
+
 #: application/src/Controller/SiteAdmin/IndexController.php:207
 msgid "First page in navigation"
 msgstr ""
@@ -2493,6 +3706,11 @@ msgstr ""
 msgid "Forbidden"
 msgstr ""
 
+#: admin/themes/default/users/forgot-password.php:2
+#: application/views/scripts/users/forgot-password.php:2
+msgid "Forgot Password"
+msgstr "Wedi anghofio Cyfrinair"
+
 #: application/view/omeka/login/forgot-password.phtml:6
 msgid "Forgot password"
 msgstr ""
@@ -2501,9 +3719,22 @@ msgstr ""
 msgid "Forgot password?"
 msgstr ""
 
+#: install/views/scripts/index/index.phtml:16
+msgid "Form Validation Errors"
+msgstr "Gwallau wrth ddilysu Ffurflenni"
+
 #. Property label for Dublin Core:format
 msgid "Format"
-msgstr ""
+msgstr "Fformat"
+
+#. Format (Legacy) Metadata element set
+msgid "Format (Legacy) Metadata"
+msgstr "Fformatio Metadata (Etifeddol)"
+
+#: admin/themes/default/files/show.php:52
+#: application/views/scripts/files/show.php:27
+msgid "Format Metadata"
+msgstr "Fformatio Metadata"
 
 #. Class label for Dublin Core:Frequency
 msgid "Frequency"
@@ -2513,10 +3744,33 @@ msgstr ""
 msgid "Friend of a Friend"
 msgstr ""
 
+#: admin/themes/default/files/show.php:44
+msgid "Fullsize"
+msgstr "Maintllawn"
+
+#: application/forms/AppearanceSettings.php:27
+#: application/forms/Install.php:128
+msgid "Fullsize Image Size"
+msgstr "Maint Delwedd Maintllawn"
+
 #: application/src/Form/SiteSettingsForm.php:28
 #: application/src/Form/SettingForm.php:105
 msgid "General"
-msgstr ""
+msgstr "Cyffredinol"
+
+#: admin/themes/default/collections/browse.php:85
+msgid "Get started by adding your first collection."
+msgstr "Dechreuwch arni drwy ychwanegu'ch casgliad cyntaf."
+
+#: admin/themes/default/items/browse.php:167
+msgid "Get started by adding your first item."
+msgstr "Dechreuwch arni drwy ychwanegu'ch eitem cyntaf."
+
+#: admin/themes/default/plugins/browse.php:68
+#: admin/themes/default/themes/browse.php:26
+#: admin/themes/default/themes/browse.php:69
+msgid "Get support"
+msgstr "Nôl cymorth"
 
 #: application/view/common/version-notification.phtml:12
 #: application/view/omeka/admin/module/browse.phtml:62
@@ -2565,9 +3819,21 @@ msgstr ""
 msgid "Go"
 msgstr ""
 
+#: application/views/scripts/users/login.php:9
+msgid "Go to Home Page"
+msgstr "Mynd i'r Tudalen Flaen"
+
+#: application/views/scripts/search/search-form.php:17
+msgid "Go to search settings to select record types to use."
+msgstr "Ewch i osodiadau chwilio i ddewis y cofnodion i'w defnyddio."
+
 #: application/view/omeka/index/index.phtml:25
 #, php-format
 msgid "Go to the %s to start working with %s."
+msgstr ""
+
+#: admin/themes/default/users/login.php:8
+msgid "Go to the public site"
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:209
@@ -2610,6 +3876,10 @@ msgstr ""
 msgid "HTML"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:114
+msgid "HTML Filtering"
+msgstr "Hidlo HTML"
+
 #: application/src/Media/Ingester/Html.php:80
 msgid "HTML or plain text."
 msgstr ""
@@ -2631,6 +3901,10 @@ msgstr ""
 msgid "Has permission in site"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:73
+msgid "Have item files link to the file metadata instead of the file directly."
+msgstr ""
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:66
 msgid "Heading above resource list, if any."
 msgstr ""
@@ -2638,6 +3912,20 @@ msgstr ""
 #. Class label for Bibliographic Ontology:Hearing
 msgid "Hearing"
 msgstr ""
+
+#. Omeka Image File: Height element
+msgid "Height"
+msgstr "Uchder"
+
+#: admin/themes/default/users/activate.php:12
+#: application/views/scripts/users/activate.php:8
+#, php-format
+msgid "Hello %s. Your username is %s"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:157
+msgid "Hide Details"
+msgstr "Cuddio Manylion"
 
 #: application/src/Site/Navigation/Translator.php:60
 msgid "Home"
@@ -2670,12 +3958,20 @@ msgstr ""
 msgid "IIIF image URL"
 msgstr ""
 
+#. Omeka Image File: IPTC Array element
+msgid "IPTC Array"
+msgstr "Trefn IPTC"
+
+#. Omeka Image File: IPTC String element
+msgid "IPTC String"
+msgstr "Llinyn IPTC"
+
 #: application/view/omeka/admin/item-set/browse.phtml:11
 #: application/view/omeka/admin/item/browse.phtml:11
 #: application/view/omeka/admin/media/browse.phtml:13
 #: application/view/omeka/site/item/browse.phtml:18
 msgid "Identifier"
-msgstr ""
+msgstr "Dynodwr"
 
 #: application/src/Form/SettingForm.php:246
 msgid ""
@@ -2683,11 +3979,35 @@ msgid ""
 "visibility set to private by default."
 msgstr ""
 
+#: admin/themes/default/error/404.php:10
+#, php-format
+msgid "If this does not help, try contacting the %s."
+msgstr "Os nad yw hyn yn gweithio, cysylltwch â %s."
+
+#: admin/themes/default/upgrade/migrate.php:31
+msgid ""
+"If you have any questions please refer to <a href=\"http://omeka.org/codex"
+"\">Omeka documentation</a> or post a message on the <a href=\"http://omeka."
+"org/forums\">Omeka forums</a>."
+msgstr ""
+"Os oes unrhyw gwestiynau gennych, sbiwch ar <a href=\"http://omeka.org/codex"
+"\">ddogfennaeth Omeka</a>  neu postiwch ar <a href=\"http://omeka.org/forums"
+"\">Negesfyrddau Omeka</a>."
+
+#: admin/themes/default/error/403.php:11
+#, php-format
+msgid "If you think you should have permission, try contacting the %s."
+msgstr "Os ydych yn meddwl y ddylai'r hawl fod ganddoch, cysylltwch â %s."
+
 #. Class label for Dublin Core Type:Image
 #. Class label for Bibliographic Ontology:Image
 #. Class label for Friend of a Friend:Image
 msgid "Image"
 msgstr ""
+
+#: application/forms/GeneralSettings.php:59 application/forms/Install.php:174
+msgid "ImageMagick Directory Path"
+msgstr "Llwybr Cyfarwyddol ImageMagick"
 
 #: application/view/omeka/admin/resource-template/browse.phtml:28
 #: application/view/omeka/admin/resource-template/import.phtml:5
@@ -2716,9 +4036,40 @@ msgstr ""
 msgid "Inactive"
 msgstr ""
 
+#: application/forms/User.php:137
+msgid "Inactive users cannot log in to the site."
+msgstr "Ni all ddefnyddwyr anactif fewngofnodi i'r safle."
+
+#: admin/themes/default/settings/edit-search.php:23
+#: admin/themes/default/settings/edit-search.php:42
+msgid "Index Records"
+msgstr "Mynegeio Cofnodion"
+
 #: application/src/Form/SettingForm.php:258
 msgid "Index full-text search"
 msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:28
+msgid ""
+"Indexing means to collect, parse, and store data to facilitate fast and "
+"accurate searches. Omeka will automatically index individual records as they "
+"are saved, but there are circumstances when your records are not indexed; "
+"for instance, when updating from an earlier version of Omeka or after you "
+"customize which records will be searchable."
+msgstr ""
+"Ystyr mynegeio yw i gasglu, dosrannu a storio data er mwyn sicrhau "
+"chwiliadau cyflym a manwl. Bydd Omeka yn mynegeio pob cofnod unigol pan "
+"fyddant yn cael eu harbed, ond mae yna adegau pan fydd cofnodion ddim yn "
+"cael eu mynegeio; er enghraifft, pan yn uwchraddio o fersiwn cynharach o "
+"Omeka neu wedi i chi addasu pa gofnodion sy'n chwiliadwy."
+
+#: application/controllers/SettingsController.php:121
+msgid ""
+"Indexing records. This may take a while. You may continue administering your "
+"site."
+msgstr ""
+"Mynegeion cofnodion. Gellir hyn gymryd cryn dipyn o amser. Rydych yn rhydd i "
+"gario ymlaen i weinyddu'ch safle."
 
 #. Property comment for Friend of a Friend:accountServiceHomepage
 msgid "Indicates a homepage of the service provide for this online account."
@@ -2741,6 +4092,10 @@ msgstr ""
 msgid "Indicates the name (identifier) associated with this online account."
 msgstr ""
 
+#. Dublin Core: Rights element description
+msgid "Information about rights held in and over the resource"
+msgstr "Gwybodaeth am yr hawliau a ddelir o gwmpas yr adnodd"
+
 #. Property comment for Dublin Core:rights
 msgid "Information about rights held in and over the resource."
 msgstr ""
@@ -2757,11 +4112,19 @@ msgstr ""
 
 #: application/src/Form/ModuleStateChangeForm.php:37
 msgid "Install"
-msgstr ""
+msgstr "Gosod"
 
 #: application/view/omeka/install/index.phtml:11
 msgid "Install Omeka S"
 msgstr ""
+
+#: install/views/scripts/index/errors.phtml:1
+msgid "Installation Error"
+msgstr "Gwall tra'n gosod"
+
+#: install/views/scripts/index/index.phtml:2
+msgid "Installation Warning"
+msgstr "Rhybudd Gosod"
 
 #: application/src/Controller/InstallController.php:52
 msgid "Installation successful. Please log in."
@@ -2792,9 +4155,75 @@ msgstr ""
 msgid "Invalid Omeka S version"
 msgstr ""
 
+#: application/forms/Navigation.php:343
+#, php-format
+msgid "Invalid URI for \"%s\" navigation link:  \"%s\""
+msgstr "URI annilys ar gyfer dolen llywio \"%s\": \"%s\""
+
+#: application/libraries/Omeka/Navigation/Page/Uri.php:128
+#, php-format
+msgid "Invalid URI for Omeka_Navigation_Page_Uri object: %s"
+msgstr "URI annilys ar gyfer gwrthrych Omeka_Navigation_Page_Uri: %s"
+
+#: application/views/helpers/RecordUrl.php:44
+msgid "Invalid action passed while getting record URL."
+msgstr "Gweithred annilys wedi'i basio tra'n nôl URL y cofnod."
+
+#: application/controllers/UsersController.php:128
+msgid "Invalid activation code given."
+msgstr "Côd actifadu annilys."
+
+#: application/models/Item.php:541
+msgid "Invalid collection."
+msgstr "Casgliad annilys."
+
 #: application/src/Form/Element/ColorPicker.php:29
 msgid "Invalid color format"
 msgstr ""
+
+#: application/forms/ChangePassword.php:28
+msgid "Invalid current password"
+msgstr "Cyfrinair cyfredol yn annilys"
+
+#: application/models/ElementText.php:65
+msgid "Invalid element ID."
+msgstr "Mae ID yr elfen yn annilys."
+
+#: application/models/ItemType.php:222
+msgid ""
+"Invalid element data. To add elements, you must either pass an element "
+"objects or an array of element metadata."
+msgstr ""
+"Data elfen annilys. Er mwyn ychwanegu elfenmae'n rhaid naill ai pasio elfen "
+"gwrthrych neu arae o fetadata elfen."
+
+#: application/models/Element.php:178
+msgid "Invalid element set."
+msgstr "Set elfen annilys."
+
+#: application/forms/RecoverPassword.php:66
+msgid "Invalid email address"
+msgstr "Cyfeiriad ebost annilys"
+
+#: application/forms/RecoverPassword.php:46
+msgid "Invalid email address given."
+msgstr "Mae'r cyfeiriad ebost a roddid yn annilys."
+
+#: application/controllers/ThemesController.php:32
+msgid "Invalid form submission."
+msgstr "Cyflwynwyd ffurflen annilys."
+
+#: application/forms/RecoverPassword.php:48
+msgid "Invalid format given for email address."
+msgstr "Fformat annilys ar gyfer y cyfeiriad ebost."
+
+#: application/forms/RecoverPassword.php:50
+msgid "Invalid hostname given for email address."
+msgstr "'Hostname' annilys wedi ei rhoi ar gyfer y cyfeiriad ebost."
+
+#: application/models/Item.php:538
+msgid "Invalid item type."
+msgstr "Math o eitem annilys."
 
 #: application/src/Controller/Admin/ModuleController.php:81
 msgid "Invalid module"
@@ -2828,9 +4257,38 @@ msgstr ""
 msgid "Invalid or missing CSRF token"
 msgstr ""
 
+#: application/models/ItemType.php:357
+msgid ""
+"Invalid parameter. The hasElement function requires either an element object "
+"or an element id to determine if an item type has an element."
+msgstr ""
+"Paramedr annilys. Mae'r ffwythiant hasElement yn gorfod cael naill ai "
+"gwrthrych elfen neu rhif elfen er mwyn penderfynu os oes elfen gan y math o "
+"eitem."
+
 #: application/src/Controller/LoginController.php:104
 msgid "Invalid password creation key."
 msgstr ""
+
+#: application/models/ElementText.php:59
+msgid "Invalid record ID."
+msgstr "ID cofnod annilys."
+
+#: application/views/helpers/RecordUrl.php:34
+msgid "Invalid record passed while getting record URL."
+msgstr "Cofnod annilys wedi'i basio wrth dderbyn URL y cofnod."
+
+#: application/views/helpers/RecordUrl.php:75
+msgid "Invalid return value while getting record URL."
+msgstr "Gwerth dychwelyd annilys tra'n nôl URL y cofnod."
+
+#: application/models/Table/Item.php:143
+msgid "Invalid search type given!"
+msgstr "Chwiliad annilys!"
+
+#: application/controllers/TagsController.php:42
+msgid "Invalid tagType given."
+msgstr "tagType annilys."
 
 #: application/view/omeka/site-admin/index/theme-selector.phtml:26
 msgid "Invalid theme.ini file"
@@ -2875,10 +4333,49 @@ msgstr ""
 
 #: application/view/omeka/site/item/show.phtml:10
 msgid "Item"
-msgstr ""
+msgstr "Eitem"
+
+#: admin/themes/default/items/show.php:8
+#, php-format
+msgid "Item #%s"
+msgstr "Eitem #%s"
+
+#: admin/themes/default/items/batch-edit-common.php:2
+msgid "Item Metadata"
+msgstr "Metadata'r Eitem"
 
 #: application/src/DataType/Resource/ItemSet.php:13
 msgid "Item Set"
+msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:33
+#: admin/themes/default/items/item-type-form.php:3
+msgid "Item Type"
+msgstr "Math o Eitem"
+
+#: admin/themes/default/item-types/show.php:8
+#, php-format
+msgid "Item Type #%s"
+msgstr "Math o Eitem #%s"
+
+#: admin/themes/default/common/settings-nav.php:26
+msgid "Item Type Elements"
+msgstr "Elfennau ar gyfer Math o Eitem"
+
+#: admin/themes/default/item-types/form.php:14
+msgid "Item Type Information"
+msgstr "Gwybodaeth am y Math o Eitem"
+
+#. Item Type Metadata
+msgid "Item Type Metadata"
+msgstr "Metadata'r Math O Eitem"
+
+#: admin/themes/default/common/content-nav.php:17
+msgid "Item Types"
+msgstr "Mathau o Eitemau"
+
+#: application/models/Job/ItemBatchEditAll.php:90
+msgid "Item does not exist: it may have been deleted before processing."
 msgstr ""
 
 #: application/src/Form/SiteSettingsForm.php:38
@@ -2960,6 +4457,11 @@ msgstr ""
 msgid "Item successfully updated"
 msgstr ""
 
+#: application/models/ItemType.php:336
+#, php-format
+msgid "Item type does not contain an element with the ID %s!"
+msgstr "Nid yw'r math o eitem yn cynnwys elfen gyda'r rhif %s!"
+
 #: application/src/Site/BlockLayout/ItemWithMetadata.php:13
 msgid "Item with metadata"
 msgstr ""
@@ -2983,12 +4485,20 @@ msgstr ""
 #: application/view/omeka/site/item/browse.phtml:39
 #: application/view/omeka/site/item/browse.phtml:41
 msgid "Items"
-msgstr ""
+msgstr "Eitemau"
 
 #: application/view/omeka/admin/index/browse.phtml:15
 #, php-format
 msgid "Items (%s)"
 msgstr ""
+
+#: application/forms/Install.php:152
+msgid "Items Per Page (admin)"
+msgstr "Eitemau Fesul Tudalen (gweinyddwr)"
+
+#: application/forms/Install.php:160
+msgid "Items Per Page (public)"
+msgstr "Eitemau Fesul Tudalen (cyhoeddus)"
 
 #: application/src/Controller/Admin/ItemController.php:160
 msgid "Items successfully deleted"
@@ -3015,6 +4525,10 @@ msgstr ""
 msgid "Jurisdiction"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:41
+msgid "Key"
+msgstr "Allwedd"
+
 #: application/src/Controller/Admin/UserController.php:234
 msgid "Key(s) successfully deleted"
 msgstr ""
@@ -3022,6 +4536,10 @@ msgstr ""
 #: application/view/omeka/admin/user/edit.phtml:34
 msgid "Keys"
 msgstr ""
+
+#: application/libraries/globals.php:468
+msgid "Keyword"
+msgstr "Allweddair"
 
 #: application/view/common/data-type/uri.phtml:12
 #: application/view/common/navigation-link-form/browse.phtml:8
@@ -3038,7 +4556,7 @@ msgstr ""
 #: application/view/omeka/admin/vocabulary/classes.phtml:37
 #: application/view/omeka/admin/vocabulary/properties.phtml:20
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. Class label for Friend of a Friend:LabelProperty
 msgid "Label Property"
@@ -3046,7 +4564,15 @@ msgstr ""
 
 #: application/view/common/data-type/literal.phtml:5
 msgid "Language"
-msgstr ""
+msgstr "Iaith"
+
+#: admin/themes/default/users/api-keys.php:42
+msgid "Last IP"
+msgstr "IP diwethaf"
+
+#: admin/themes/default/users/api-keys.php:43
+msgid "Last accessed"
+msgstr "Tro diwetha y gwelwyd"
 
 #: application/view/common/form-row.phtml:20
 msgid "Learn more"
@@ -3080,6 +4606,27 @@ msgstr ""
 msgid "Limit"
 msgstr ""
 
+#: application/forms/Install.php:153
+msgid ""
+"Limit the number of items displayed per page in the administrative interface."
+msgstr "Cyfyngu nifer yr eitemau ar bob tudalen yn rhyngwyneb y gweinyddwr."
+
+#: application/forms/Install.php:161
+msgid "Limit the number of items displayed per page in the public interface."
+msgstr "Cyfyngu nifer yr eitemau ar bob tudalen yn y rhyngwyneb cyhoeddus."
+
+#: application/forms/AppearanceSettings.php:49
+msgid ""
+"Limit the number of results displayed per page in the administrative "
+"interface."
+msgstr ""
+"Cyfyngu'r nifer o ganlyniadau sy'n dangos fesul tudalen yn y rhyngwyneb "
+"gweinyddol."
+
+#: application/forms/AppearanceSettings.php:56
+msgid "Limit the number of results displayed per page in the public interface."
+msgstr "Cyfyngu ar nifer y canlyniadau sy'n dangos yn y rhyngwyneb cyhoeddus."
+
 #: application/src/Site/BlockLayout/LineBreak.php:14
 msgid "Line break"
 msgstr ""
@@ -3092,15 +4639,41 @@ msgstr ""
 msgid "Link text"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:72
+msgid "Link to File Metadata"
+msgstr ""
+
 #: application/view/omeka/admin/item-set/show.phtml:22
 #: application/view/omeka/admin/item/show.phtml:13
 #: application/view/omeka/site/item/show.phtml:45
 msgid "Linked resources"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:82
+msgid "List of allowed HTML attributes in form input"
+msgstr "Rhestr o nodweddion HTML yn y mewnbwn"
+
+#: application/forms/SecuritySettings.php:74
+msgid "List of allowed HTML elements in form input"
+msgstr "Rhestr o elfennau HTML yn y mewnbwn"
+
+#: application/forms/SecuritySettings.php:42
+msgid "List of allowed MIME types for file uploads"
+msgstr "Rhestr o'r mathau MIME a ganiatawyd ar gyfer lan-lwytho"
+
+#: application/forms/SecuritySettings.php:32
+msgid "List of allowed extensions for file uploads"
+msgstr "Rhestr o estyniadau a ganiatawyd ar gyfer lan-lwytho."
+
 #: application/src/Site/BlockLayout/ListOfSites.php:22
 msgid "List of sites"
 msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:66
+#, php-format
+msgid "List of tags to add to all checked items, separated by %s."
+msgstr ""
+"Rhestr y tagiau i'w hychwanegu at yr eitemau a farciwyd, wedi'u gwahanu â %s."
 
 #: application/src/Form/SiteSettingsForm.php:103
 #: application/src/Form/InstallationForm.php:112
@@ -3127,15 +4700,33 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
+#: admin/themes/default/users/login.php:3 application/forms/Login.php:55
+#: application/views/scripts/users/login.php:3
+msgid "Log In"
+msgstr "Mewngofnodi"
+
+#: admin/themes/default/common/header.php:62
+#: application/views/scripts/common/admin-bar.php:14
+msgid "Log Out"
+msgstr "Allgofnodi"
+
 #: application/view/common/user-bar.phtml:28
 #: application/view/omeka/login/login.phtml:5
 msgid "Log in"
 msgstr ""
 
+#: application/controllers/UsersController.php:486
+msgid "Login information incorrect. Please try again."
+msgstr "Manylion mewngofnodi anghywir. Ceisiwch eto."
+
 #: application/view/common/user-bar.phtml:25
 #: application/view/layout/layout-admin.phtml:52
 msgid "Logout"
 msgstr ""
+
+#: application/views/scripts/users/login.php:9
+msgid "Lost your password?"
+msgstr "Wedi colli eich cyfrinair?"
 
 #: application/view/omeka/admin/media/show-details.phtml:24
 #: application/view/omeka/admin/media/show.phtml:46
@@ -3148,6 +4739,10 @@ msgstr ""
 
 #. Class label for Bibliographic Ontology:Magazine
 msgid "Magazine"
+msgstr ""
+
+#: admin/themes/default/common/content-nav.php:1
+msgid "Main Menu"
 msgstr ""
 
 #: application/view/common/data-type-wrapper.phtml:15
@@ -3168,6 +4763,10 @@ msgstr ""
 #: application/view/omeka/site-admin/index/add.phtml:21
 #: application/view/omeka/site-admin/index/edit.phtml:21
 msgid "Make public"
+msgstr ""
+
+#: admin/themes/default/common/global-nav.php:1
+msgid "Manage Site"
 msgstr ""
 
 #: application/view/omeka/admin/index/browse.phtml:12
@@ -3194,9 +4793,37 @@ msgstr ""
 msgid "Max number of sites"
 msgstr ""
 
+#: application/forms/Install.php:129
+msgid "Maximum fullsize image size constraint (in pixels)"
+msgstr "Uchafswm maint delwedd maintllawn (mewn picseli)"
+
+#: application/forms/AppearanceSettings.php:28
+msgid "Maximum fullsize image size constraint (in pixels)."
+msgstr "Uchafswm maint delwedd maintllawn (mewn picseli)"
+
+#: admin/themes/default/settings/edit-api.php:39
+msgid "Maximum number of API results displayed per page."
+msgstr "Uchafswm y canlyniadau API sy'n dangos fesul tudalen."
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:58
 msgid "Maximum number of resources to display in the preview."
 msgstr ""
+
+#: application/forms/Install.php:145
+msgid "Maximum square thumbnail size constraint (in pixels)"
+msgstr "Uchafswm maint mân-lun sgwâr (mewn picseli)"
+
+#: application/forms/AppearanceSettings.php:42
+msgid "Maximum square thumbnail size constraint (in pixels)."
+msgstr "Uchafswm maint mân-lun sgwâr (mewn picseli)."
+
+#: application/forms/Install.php:137
+msgid "Maximum thumbnail size constraint (in pixels)"
+msgstr "Uchafswm maint mân-lun (mewn picseli)"
+
+#: application/forms/AppearanceSettings.php:35
+msgid "Maximum thumbnail size constraint (in pixels)."
+msgstr "Uchafswm maint mân-lun (mewn picseli)"
 
 #: application/view/common/data-type/resource.phtml:36
 #: application/view/layout/layout-admin.phtml:76
@@ -3290,6 +4917,11 @@ msgstr ""
 #: application/src/Controller/MigrateController.php:40
 msgid "Migration successful"
 msgstr ""
+
+#: admin/themes/default/files/show.php:78
+#: application/views/scripts/files/show.php:47
+msgid "Mime Type"
+msgstr "Math o Mime"
 
 #: application/src/File/ThumbnailManager.php:113
 msgid "Missing constraint for a thumbnail type configuration."
@@ -3387,13 +5019,33 @@ msgstr ""
 msgid "Must provide a vocabulary file or a vocabulary URL"
 msgstr ""
 
+#: application/models/Builder/Item.php:261
+msgid "Must specify a file transfer type when attaching files to an item!"
+msgstr "Rhaid enwi'r math o drosglwyddiad ffeil wrth ychwanegu ffeil at eitem!"
+
 #: application/src/Form/Element/VocabularyFetch.php:41
 msgid "N-Triples (.nt)"
 msgstr ""
 
 #: application/src/View/Helper/SearchUserFilters.php:54
 msgid "Name"
-msgstr ""
+msgstr "Enw"
+
+#: application/forms/User.php:82
+msgid "Name as it should be displayed on the site"
+msgstr "Yr enw fel ag y dylai ddangos ar y safle"
+
+#: application/models/ElementSet.php:144
+msgid "Name of element set must be unique."
+msgstr "Rhaid i'r set elfen gael enw unigryw."
+
+#: application/models/ElementSet.php:148
+msgid "Name of element set must not be empty."
+msgstr "Ni all enw'r set elfen fod yn wag."
+
+#: application/models/Plugin.php:133
+msgid "Names of plugins must not be blank"
+msgstr "Nid yw enw'r ategyn yn gallu bod yn wag."
 
 #: application/src/Form/VocabularyImportForm.php:32
 msgid "Namespace URI"
@@ -3405,9 +5057,18 @@ msgstr ""
 msgid "Namespace URI:"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:27
+#: application/views/scripts/items/search-form.php:25
+msgid "Narrow by Specific Fields"
+msgstr "Cyfyngu yn ôl Meysydd Penodol"
+
 #: application/view/omeka/site-admin/index/navigation.phtml:10
 msgid "Navigation"
-msgstr ""
+msgstr "Llywio"
+
+#: application/forms/Navigation.php:376
+msgid "Navigation links that have undeleteable sublinks cannot be deleted."
+msgstr "Ni ellir dileu dolenni llywio sydd â is-ddolenni wedi'u hamddiffyn."
 
 #: application/view/layout/layout-admin.phtml:42
 msgid "Navigation menu"
@@ -3426,6 +5087,14 @@ msgstr ""
 msgid "Never"
 msgstr ""
 
+#: admin/themes/default/item-types/form.php:85
+msgid "New"
+msgstr "Newydd"
+
+#: application/forms/ChangePassword.php:34
+msgid "New Password"
+msgstr "Cyfrinair Newydd"
+
 #: application/view/omeka/admin/item/add.phtml:6
 msgid "New item"
 msgstr ""
@@ -3436,7 +5105,7 @@ msgstr ""
 
 #: application/src/Form/UserForm.php:188
 msgid "New key label"
-msgstr ""
+msgstr "Label allwedd newydd"
 
 #: application/view/omeka/site-admin/index/add-page.phtml:6
 msgid "New page"
@@ -3445,6 +5114,19 @@ msgstr ""
 #: application/src/Form/UserForm.php:178
 msgid "New password"
 msgstr ""
+
+#: application/forms/ChangePassword.php:59
+msgid "New password must be at least %min% characters long."
+msgstr "Rhaid i'r cyfrinair newydd fod o leiaf %min% nodyn o hyd."
+
+#: application/forms/ChangePassword.php:41
+msgid "New password must be entered."
+msgstr "Rhaid rhoi cyfrinair newydd."
+
+#: application/forms/ChangePassword.php:50
+#: application/forms/ChangePassword.php:70
+msgid "New password must be typed correctly twice."
+msgstr "Rhaid i'r cyfrinair newydd gael ei deipio'n gywir ddwy-waith."
 
 #: application/view/omeka/admin/resource-template/add.phtml:6
 msgid "New resource template"
@@ -3476,17 +5158,55 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
+#: admin/themes/default/items/show.php:33
+msgid "Next Item"
+msgstr "Eitem Nesaf"
+
+#: application/libraries/globals.php:2594
+msgid "Next Item &rarr;"
+msgstr "Eitem nesaf →"
+
+#: application/views/scripts/common/pagination_control.php:48
+msgid "Next Page"
+msgstr ""
+
 #: application/view/omeka/admin/resource-template/review-import.phtml:75
 #: application/view/omeka/admin/resource-template/review-import.phtml:76
 #: application/view/omeka/admin/resource-template/show.phtml:51
 #: application/view/omeka/admin/resource-template/show.phtml:52
 #: application/view/omeka/admin/system-info/browse.phtml:18
 msgid "No"
-msgstr ""
+msgstr "Na"
+
+#: application/libraries/globals.php:2458
+#: application/models/Table/Collection.php:87
+#: application/views/helpers/ItemSearchFilters.php:49
+msgid "No Collection"
+msgstr "Dim Casgliad"
+
+#: admin/themes/default/items/browse.php:108
+msgid "No Tags"
+msgstr "Dim Tagiau"
+
+#: admin/themes/default/collections/browse.php:60
+msgid "No contributors"
+msgstr "Dim cyfrannwyr"
+
+#: admin/themes/default/collections/show.php:56
+msgid "No contributors."
+msgstr "Dim cyfrannwyr."
 
 #: application/src/Form/SettingForm.php:194
 msgid "No default (show index of sites)"
 msgstr ""
+
+#: application/libraries/globals.php:1304
+msgid "No featured collections are available."
+msgstr "Does dim casgliadau nodweddiadol i gael."
+
+#: application/libraries/globals.php:2335
+msgid "No featured items are available."
+msgstr "Does dim eitemau nodweddiadol i gael."
 
 #: application/view/common/filter-selector.phtml:6
 msgid "No filter"
@@ -3505,6 +5225,12 @@ msgstr ""
 msgid "No item sets are assigned to this site."
 msgstr ""
 
+#: application/controllers/ItemsController.php:235
+#: application/controllers/ItemsController.php:368
+#: application/controllers/ItemsController.php:434
+msgid "No item to batch edit."
+msgstr ""
+
 #: application/view/omeka/site/index/search.phtml:41
 msgid "No items found"
 msgstr ""
@@ -3518,6 +5244,14 @@ msgstr ""
 msgid "No pages found"
 msgstr ""
 
+#: application/controllers/PluginsController.php:370
+msgid "No plugin name given."
+msgstr "Dim enw ar gyfer yr ategyn."
+
+#: application/libraries/globals.php:2309
+msgid "No recent items available."
+msgstr "Does dim eitemau diweddar ar gael."
+
 #: application/view/common/data-type/resource.phtml:14
 msgid "No resource selected"
 msgstr ""
@@ -3530,9 +5264,21 @@ msgstr ""
 msgid "No resources link to this item."
 msgstr ""
 
+#: application/libraries/globals.php:3079
+msgid "No tags are available."
+msgstr "Does dim tagiau i gael."
+
 #: application/src/Form/SettingForm.php:173
 msgid "None"
 msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:25
+msgid "Not Featured"
+msgstr "Heb ei Amlygu"
+
+#: admin/themes/default/items/batch-edit-common.php:11
+msgid "Not Public"
+msgstr "Ddim yn Gyhoeddus"
 
 #: application/src/Controller/Admin/ModuleController.php:70
 #: application/src/Controller/Admin/ModuleController.php:77
@@ -3582,9 +5328,43 @@ msgstr ""
 msgid "OR"
 msgstr ""
 
+#: admin/themes/default/settings/edit-item-type-elements.php:51
+msgid "Ok"
+msgstr "Iawn"
+
 #: application/src/Site/BlockLayout/ListOfSites.php:38
 msgid "Oldest first"
 msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:764
+#: application/tests/suite/Omeka/NavigationTest.php:819
+#: application/tests/suite/Omeka/NavigationTest.php:862
+#: application/tests/suite/Omeka/NavigationTest.php:954
+#: install/views/scripts/layout.phtml:6 install/views/scripts/layout.phtml:23
+msgid "Omeka"
+msgstr "Omeka"
+
+#: admin/themes/default/common/header.php:11
+#: admin/themes/default/upgrade/index.php:6
+#: application/views/scripts/common/admin-bar.php:10
+msgid "Omeka Admin"
+msgstr "Gweinyddiaeth Omeka"
+
+#: application/libraries/globals.php:1646
+msgid "Omeka Atom Feed"
+msgstr "Ffrwd Atom Omeka"
+
+#. Omeka Image File
+msgid "Omeka Image File"
+msgstr "Ffeil Delwedd Omeka"
+
+#. Omeka Legacy File
+msgid "Omeka Legacy File"
+msgstr "Ffeil etifeddol Omeka"
+
+#: application/libraries/globals.php:1645
+msgid "Omeka RSS Feed"
+msgstr "Ffrwd RSS Omeka"
 
 #: application/view/layout/layout-admin.phtml:111
 msgid "Omeka S"
@@ -3600,6 +5380,10 @@ msgstr ""
 #: application/view/error/index.phtml:4
 msgid "Omeka S encountered an error"
 msgstr ""
+
+#. Omeka Video File
+msgid "Omeka Video File"
+msgstr "Ffeil Fidio Omeka"
 
 #: application/view/omeka/admin/item-set/browse.phtml:216
 msgid "Omeka could not find any item sets."
@@ -3637,6 +5421,29 @@ msgstr ""
 msgid "Omeka could not find any vocabularies."
 msgstr ""
 
+#: admin/themes/default/upgrade/migrate.php:5
+msgid "Omeka encountered an error when upgrading your installation."
+msgstr "Gwynebwyd gwall wrth i Omeka geisio uwchraddio'ch gosodiadau."
+
+#: application/views/scripts/error/index.php:4
+msgid "Omeka has encountered an error"
+msgstr "Mae Omeka wedi darganfod gwall"
+
+#: admin/themes/default/upgrade/migrate.php:3
+msgid "Omeka has upgraded successfully."
+msgstr "Uwchraddiwyd Omeka yn llwyddiannus."
+
+#: install/views/scripts/index/installed.phtml:2
+msgid "Omeka is installed."
+msgstr "Mae Omeka wedi'i osod."
+
+#: application/controllers/UpgradeController.php:66
+#, php-format
+msgid ""
+"Omeka requires PHP version %1$s or higher, but this server is running PHP "
+"version %2$s. Please update the installed version of PHP and try again."
+msgstr ""
+
 #: application/src/Stdlib/Environment.php:62
 #, php-format
 msgid "Omeka requires the PHP extension %s, but it is not loaded."
@@ -3661,6 +5468,26 @@ msgstr ""
 #. Class label for Friend of a Friend:OnlineGamingAccount
 msgid "Online Gaming Account"
 msgstr ""
+
+#: admin/themes/default/items/search-form.php:224
+#: application/views/scripts/items/search-form.php:204
+msgid "Only Featured Items"
+msgstr "Eitemau Wedi'u Hamlygu yn Unig"
+
+#: admin/themes/default/items/search-form.php:225
+#: application/views/scripts/items/search-form.php:205
+msgid "Only Non-Featured Items"
+msgstr "Eitemau Heb Eu Hamlygu Yn Unig"
+
+#: admin/themes/default/items/search-form.php:205
+#: application/views/scripts/items/search-form.php:187
+msgid "Only Non-Public Items"
+msgstr "Eitemau Anghyhoeddus Yn Unig"
+
+#: admin/themes/default/items/search-form.php:204
+#: application/views/scripts/items/search-form.php:186
+msgid "Only Public Items"
+msgstr "Eitemau Cyhoeddus yn Unig"
 
 #: application/src/Site/BlockLayout/LineBreak.php:35
 msgid "Opaque"
@@ -3704,7 +5531,12 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/form.phtml:56
 #: application/view/omeka/admin/resource-template/form.phtml:63
 msgid "Original"
-msgstr ""
+msgstr "Gwreiddiol"
+
+#: admin/themes/default/files/show.php:56
+#: application/views/scripts/files/show.php:29
+msgid "Original Filename"
+msgstr "Enw Gwreiddiol y Ffeil"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:36
 #: application/view/omeka/admin/resource-template/show.phtml:26
@@ -3714,6 +5546,15 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/form.phtml:69
 msgid "Other options"
 msgstr ""
+
+#: admin/themes/default/collections/show.php:62
+#: admin/themes/default/files/show.php:93
+#: admin/themes/default/items/browse.php:149
+#: admin/themes/default/items/show.php:88
+#: application/views/scripts/items/browse.php:60
+#: application/views/scripts/items/show.php:41
+msgid "Output Formats"
+msgstr "Fformat yr Allbwn"
 
 #: application/view/omeka/admin/item-set/browse.phtml:19
 #: application/view/omeka/admin/item-set/browse.phtml:76
@@ -3744,6 +5585,78 @@ msgstr ""
 #: application/view/common/sidebar-pagination.phtml:5
 msgid "Page"
 msgstr ""
+
+#: application/tests/suite/Omeka/NavigationTest.php:982
+#: application/tests/suite/Omeka/NavigationTest.php:990
+#: application/tests/suite/Omeka/NavigationTest.php:1127
+#: application/tests/suite/Omeka/NavigationTest.php:1135
+msgid "Page "
+msgstr "Tudalen"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1008
+#: application/tests/suite/Omeka/NavigationTest.php:1012
+#: application/tests/suite/Omeka/NavigationTest.php:1070
+#: application/tests/suite/Omeka/NavigationTest.php:1075
+#: application/tests/suite/Omeka/NavigationTest.php:1155
+#: application/tests/suite/Omeka/NavigationTest.php:1255
+msgid "Page 1"
+msgstr "Tudalen 1"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1015
+#: application/tests/suite/Omeka/NavigationTest.php:1021
+#: application/tests/suite/Omeka/NavigationTest.php:1078
+#: application/tests/suite/Omeka/NavigationTest.php:1081
+#: application/tests/suite/Omeka/NavigationTest.php:1162
+#: application/tests/suite/Omeka/NavigationTest.php:1181
+#: application/tests/suite/Omeka/NavigationTest.php:1199
+#: application/tests/suite/Omeka/NavigationTest.php:1231
+msgid "Page 2"
+msgstr "Tudalen 2"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1024
+#: application/tests/suite/Omeka/NavigationTest.php:1028
+#: application/tests/suite/Omeka/NavigationTest.php:1084
+#: application/tests/suite/Omeka/NavigationTest.php:1088
+#: application/tests/suite/Omeka/NavigationTest.php:1163
+#: application/tests/suite/Omeka/NavigationTest.php:1182
+#: application/tests/suite/Omeka/NavigationTest.php:1192
+#: application/tests/suite/Omeka/NavigationTest.php:1254
+msgid "Page 3"
+msgstr "Tudalen 3"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1031
+#: application/tests/suite/Omeka/NavigationTest.php:1040
+#: application/tests/suite/Omeka/NavigationTest.php:1091
+#: application/tests/suite/Omeka/NavigationTest.php:1095
+#: application/tests/suite/Omeka/NavigationTest.php:1164
+#: application/tests/suite/Omeka/NavigationTest.php:1183
+#: application/tests/suite/Omeka/NavigationTest.php:1200
+#: application/tests/suite/Omeka/NavigationTest.php:1221
+#: application/tests/suite/Omeka/NavigationTest.php:1239
+#: application/tests/suite/Omeka/NavigationTest.php:1249
+msgid "Page 4"
+msgstr "Tudalen 4"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1043
+#: application/tests/suite/Omeka/NavigationTest.php:1047
+#: application/tests/suite/Omeka/NavigationTest.php:1098
+#: application/tests/suite/Omeka/NavigationTest.php:1102
+#: application/tests/suite/Omeka/NavigationTest.php:1165
+#: application/tests/suite/Omeka/NavigationTest.php:1174
+#: application/tests/suite/Omeka/NavigationTest.php:1222
+#: application/tests/suite/Omeka/NavigationTest.php:1240
+msgid "Page 5"
+msgstr "Tudalen 5"
+
+#: application/tests/suite/Omeka/NavigationTest.php:1050
+#: application/tests/suite/Omeka/NavigationTest.php:1054
+#: application/tests/suite/Omeka/NavigationTest.php:1214
+msgid "Page 6"
+msgstr "Tudalen 6"
+
+#: application/controllers/ErrorController.php:63
+msgid "Page not found."
+msgstr "Tudalen Heb Ei Ddarganfod"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:172
 msgid "Page successfully created"
@@ -3783,7 +5696,15 @@ msgstr ""
 
 #: application/view/omeka/admin/user/edit.phtml:8
 msgid "Password"
-msgstr ""
+msgstr "Cyfrinair"
+
+#: application/forms/Login.php:40
+msgid "Password cannot be empty."
+msgstr "Nid yw'r cyfrinair yn gallu bod yn wag."
+
+#: application/controllers/UsersController.php:293
+msgid "Password changed!"
+msgstr "Cyfrinair wedi'i newid!"
 
 #: application/src/Controller/LoginController.php:113
 msgid "Password creation key expired."
@@ -3793,10 +5714,19 @@ msgstr ""
 msgid "Password creation unsuccessful"
 msgstr ""
 
+#: application/forms/ResetPassword.php:27
+msgid "Password is required."
+msgstr "Rhaid cael cyfrinair"
+
 #: application/src/View/Helper/PasswordRequirements.php:40
 #, php-format
 msgid "Password must be a minimum of %s characters in length."
 msgstr ""
+
+#: application/forms/ChangePassword.php:26
+#: application/forms/ChangePassword.php:36
+msgid "Password must be at least 6 characters long."
+msgstr "Mae'n rhaid i'r cyfrinair fod o leiaf 6 nodyn o hyd."
 
 #: application/src/View/Helper/PasswordRequirements.php:46
 #, php-format
@@ -3826,9 +5756,18 @@ msgstr ""
 msgid "Password successfully changed"
 msgstr ""
 
+#: application/controllers/UsersController.php:137
+msgid "Password: The passwords do not match."
+msgstr "Cyfrinair: Nid yw'r cyfrineiriau yn cydweddu."
+
 #. Class label for Bibliographic Ontology:Patent
 msgid "Patent"
 msgstr ""
+
+#: application/libraries/Omeka/Plugin/Ini.php:63
+#, php-format
+msgid "Path to plugin.ini for \"%s\" is not correct."
+msgstr "Mae'r llywbr i plugin.ini ar gyfer \"%s\" yn anghywir."
 
 #. Class label for Bibliographic Ontology:Performance
 msgid "Performance"
@@ -3888,6 +5827,21 @@ msgstr ""
 msgid "Physical Resource"
 msgstr ""
 
+#: admin/themes/default/items/item-type-form.php:15
+msgid "Pick this type"
+msgstr "Dewis y Math yma"
+
+#: admin/themes/default/upgrade/index.php:35
+msgid ""
+"Please back up your existing database and then click the button to upgrade."
+msgstr ""
+"Gwnewch copi wrth-gefn o'ch cronfa ddata cyfredol, yna cliciwch ar y botwm i "
+"uwchraddio."
+
+#: application/controllers/UsersController.php:119
+msgid "Please check your email for a link to reset your password."
+msgstr "Edrychwch yn eich ebost am ddolen i ail-osod eich cyfrinair."
+
 #: application/view/omeka/site-admin/index/theme.phtml:64
 msgid ""
 "Please contact the Omeka S administrator. This site will not be publicly "
@@ -3898,13 +5852,40 @@ msgstr ""
 msgid "Please enter a valid language tag"
 msgstr ""
 
+#: application/controllers/UsersController.php:110
+msgid "Please follow this link to reset your password:"
+msgstr "Dilynwch y ddolen yma i ail-osod eich cyfrinair."
+
+#: admin/themes/default/upgrade/migrate.php:30
+msgid "Please restore from your database backup and try again."
+msgstr "Ail-osodwch o'ch cronfa ddata a cheisiwch eto."
+
 #: application/src/Controller/Admin/VocabularyController.php:170
 msgid "Please review these changes before you accept them."
 msgstr ""
 
+#: application/libraries/Omeka/Plugin/Installer.php:112
+msgid "Plugin must have a valid directory name before it can be installed."
+msgstr ""
+"Mae'n rhaid i ategyn gael enw cyfeiriadur dilys cyn y gellir ei lwytho."
+
+#: admin/themes/default/common/global-nav.php:5
+#: admin/themes/default/plugins/browse.php:5
+msgid "Plugins"
+msgstr "Ategion"
+
 #. Class label for Dublin Core:Policy
 msgid "Policy"
 msgstr ""
+
+#. Omeka Legacy File: Post Processing element
+msgid "Post Processing"
+msgstr "Ôl-brosesu"
+
+#: admin/themes/default/common/footer.php:6
+#: admin/themes/default/common/login-footer.php:7
+msgid "Powered by Omeka"
+msgstr "Gyrrwyd gan Omeka"
 
 #: application/view/layout/layout.phtml:30
 msgid "Powered by Omeka S"
@@ -3924,6 +5905,10 @@ msgstr ""
 msgid "Prev"
 msgstr ""
 
+#: admin/themes/default/items/show.php:28
+msgid "Prev Item"
+msgstr "Eitem Blaenorol"
+
 #: application/src/Site/BlockLayout/BrowsePreview.php:65
 msgid "Preview title"
 msgstr ""
@@ -3931,6 +5916,10 @@ msgstr ""
 #: application/view/common/pagination.phtml:13
 #: application/view/common/sidebar-pagination.phtml:9
 msgid "Previous"
+msgstr ""
+
+#: application/views/scripts/common/pagination_control.php:11
+msgid "Previous Page"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:103
@@ -3945,7 +5934,7 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/form.phtml:90
 #: application/view/omeka/site-admin/index/index.phtml:64
 msgid "Private"
-msgstr ""
+msgstr "Preifat"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:41
 #: application/view/omeka/admin/resource-template/show.phtml:31
@@ -3955,6 +5944,10 @@ msgstr ""
 #. Class label for Bibliographic Ontology:Proceedings
 msgid "Proceedings"
 msgstr ""
+
+#. Omeka Legacy File: Producer element
+msgid "Producer"
+msgstr "Cynhyrchydd"
 
 #. Property comment for Bibliographic Ontology:producer
 msgid "Producer of a document or a collection of documents."
@@ -3986,6 +5979,10 @@ msgstr ""
 msgid "Property term for development use"
 msgstr ""
 
+#: application/views/scripts/common/footer.php:14
+msgid "Proudly powered by <a href=\"http://omeka.org\">Omeka</a>."
+msgstr "Yn falch o gael ei yrru gan <a href=\"http://omeka.org\">Omeka</a>."
+
 #. Property label for Dublin Core:provenance
 msgid "Provenance"
 msgstr ""
@@ -4005,11 +6002,24 @@ msgstr ""
 #: application/view/omeka/admin/media/show-details.phtml:38
 #: application/view/omeka/admin/media/show.phtml:33
 msgid "Public"
-msgstr ""
+msgstr "Cyhoeddus"
+
+#: install/views/scripts/index/installed.phtml:3
+msgid "Public Site"
+msgstr "Safle Gyhoeddus"
+
+#: admin/themes/default/items/search-form.php:195
+#: application/views/scripts/items/search-form.php:178
+msgid "Public/Non-Public"
+msgstr "Cyhoeddus/Anghyhoeddus"
+
+#: admin/themes/default/items/batch-edit-common.php:6
+msgid "Public?"
+msgstr "Cyhoeddus?"
 
 #. Property label for Dublin Core:publisher
 msgid "Publisher"
-msgstr ""
+msgstr "Cyhoeddwr"
 
 #: application/view/common/navigation-link-form/browse.phtml:9
 msgid "Query"
@@ -4023,6 +6033,19 @@ msgstr ""
 msgid "Query type"
 msgstr ""
 
+#: application/views/scripts/search/search-filters.php:4
+msgid "Query type:"
+msgstr "Math o chwiliad:"
+
+#: application/views/scripts/search/search-filters.php:3
+msgid "Query:"
+msgstr "Chwiliad:"
+
+#: admin/themes/default/items/quick-filters.php:2
+#: admin/themes/default/items/quick-filters.php:4
+msgid "Quick Filter"
+msgstr "Hidlydd Cyflym"
+
 #: application/view/omeka/admin/item/sidebar-select.phtml:67
 msgid "Quick add"
 msgstr ""
@@ -4035,10 +6058,53 @@ msgstr ""
 msgid "RDF/XML (.rdf)"
 msgstr ""
 
+#: application/libraries/globals.php:2577
+msgid "RSS"
+msgstr "RSS"
+
+#: admin/themes/default/users/activate.php:23 application/forms/Install.php:71
+#: application/forms/ResetPassword.php:44
+#: application/views/scripts/users/activate.php:20
+msgid "Re-type the Password"
+msgstr "Ail-deipiwch y Cyfrinair"
+
+#: application/forms/User.php:88 application/models/User.php:168
+msgid "Real Name is required."
+msgstr "Mae'n rhaid cael Enw Go Iawn"
+
 #: application/view/error/404.phtml:12
 #, php-format
 msgid "Reason: %s"
 msgstr ""
+
+#: admin/themes/default/error/404.php:36 admin/themes/default/index.php:70
+msgid "Recent Collections"
+msgstr "Casgliadau Diweddar"
+
+#: admin/themes/default/error/404.php:16 admin/themes/default/index.php:52
+msgid "Recent Items"
+msgstr "Eitemau Diweddar"
+
+#: admin/themes/default/collections/show.php:18
+#: admin/themes/default/item-types/show.php:30
+#: application/views/scripts/index.php:40
+msgid "Recently Added Items"
+msgstr "Eitemau â Ychwanegwyd yn Ddiweddar"
+
+#: admin/themes/default/search/index.php:12
+#: admin/themes/default/tags/browse.php:26
+#: application/views/scripts/search/index.php:13
+msgid "Record Type"
+msgstr "Math o Gofnod"
+
+#: admin/themes/default/tags/browse.php:74
+#: admin/themes/default/tags/browse.php:76
+msgid "Record Types"
+msgstr "Mathau o Gofnod"
+
+#: application/views/scripts/search/search-filters.php:5
+msgid "Record types:"
+msgstr "Math o gofnod:"
 
 #. Class label for Bibliographic Ontology:ReferenceSource
 msgid "Reference Source"
@@ -4084,16 +6150,25 @@ msgstr ""
 
 #. Property label for Dublin Core:relation
 msgid "Relation"
-msgstr ""
+msgstr "Perthynas"
 
 #. Vocabulary comment for Friend of a Friend
 msgid "Relationships between people and organizations (FOAF)"
 msgstr ""
 
+#: application/forms/Login.php:48
+msgid "Remember Me?"
+msgstr "Cofio Fi?"
+
 #: application/view/common/property-form-batch-edit.phtml:20
 #: application/view/common/property-form-batch-edit.phtml:34
 #: application/view/common/property-form-batch-edit.phtml:49
 msgid "Remove"
+msgstr "Dileu"
+
+#: admin/themes/default/items/search-form.php:108
+#: application/views/scripts/items/search-form.php:101
+msgid "Remove field"
 msgstr ""
 
 #: application/src/Form/ResourceBatchUpdateForm.php:127
@@ -4125,6 +6200,23 @@ msgstr ""
 msgid "Remove value"
 msgstr ""
 
+#: admin/themes/default/items/batch-edit-common.php:42
+#: admin/themes/default/items/batch-edit-common.php:57
+msgid "Remove?"
+msgstr "Dileu?"
+
+#. Omeka Legacy File: Render Details element
+msgid "Render Details"
+msgstr "Manylion Rendro"
+
+#. Omeka Legacy File: Render Device element
+msgid "Render Device"
+msgstr "Dyfais Rendro"
+
+#: application/forms/ChangePassword.php:68
+msgid "Repeat New Password"
+msgstr "Ail-deipiwch y Gyfrinair Newydd"
+
 #. Property label for Dublin Core:replaces
 msgid "Replaces"
 msgstr ""
@@ -4146,14 +6238,31 @@ msgstr ""
 msgid "Requires"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:44
+msgid "Rescind"
+msgstr "Diddymu"
+
 #: application/src/Permissions/Acl.php:26
 msgid "Researcher"
+msgstr "Ymchwilydd"
+
+#: admin/themes/default/users/edit.php:23
+msgid "Resend Activation Email"
 msgstr ""
 
 #: application/view/omeka/admin/item-set/search.phtml:12
 #: application/view/omeka/admin/item/search.phtml:12
 #: application/view/omeka/admin/media/search.phtml:12
 msgid "Reset"
+msgstr ""
+
+#: admin/themes/default/appearance/edit-navigation.php:35
+#: admin/themes/default/appearance/reset-navigation-confirm.php:2
+msgid "Reset Navigation"
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:29
+msgid "Reset results"
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:193
@@ -4227,6 +6336,22 @@ msgstr ""
 msgid "Restore"
 msgstr ""
 
+#: admin/themes/default/settings/edit-security.php:38
+msgid "Restore Default Attributes"
+msgstr "Adfer Nodweddion Diofyn"
+
+#: admin/themes/default/settings/edit-security.php:33
+msgid "Restore Default Elements"
+msgstr "Adfer Elfennau Diofyn"
+
+#: admin/themes/default/settings/edit-security.php:23
+msgid "Restore Default Extensions"
+msgstr "Adfer Estyniadau Diofyn"
+
+#: admin/themes/default/settings/edit-security.php:28
+msgid "Restore Default Types"
+msgstr "Adfer Mathau Diofyn"
+
 #: application/view/common/attachments-form.phtml:12
 #: application/view/common/attachments-form.phtml:53
 msgid "Restore attachment"
@@ -4259,10 +6384,26 @@ msgstr ""
 msgid "Restrict to templates"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:48
+msgid "Results Per Page (admin)"
+msgstr "Canlyniadau Fesul Tudalen (gweinyddwr)"
+
+#: application/forms/AppearanceSettings.php:55
+msgid "Results Per Page (public)"
+msgstr "Canlyniadau Fesul Tudalen (cyhoeddus)"
+
+#: admin/themes/default/settings/edit-api.php:35
+msgid "Results per Page"
+msgstr "Canlyniadau fesul Tudalen"
+
 #: application/src/Form/SiteSettingsForm.php:137
 #: application/src/Form/SettingForm.php:156
 msgid "Results per page"
 msgstr ""
+
+#: admin/themes/default/upgrade/migrate.php:24
+msgid "Return to Dashboard"
+msgstr "Dychwelyd at y Dangosfwrdd"
 
 #: application/view/omeka/admin/resource-template/review-import.phtml:5
 msgid "Review"
@@ -4278,7 +6419,7 @@ msgstr ""
 
 #. Property label for Dublin Core:rights
 msgid "Rights"
-msgstr ""
+msgstr "Hawliau"
 
 #. Property label for Dublin Core:rightsHolder
 msgid "Rights Holder"
@@ -4295,7 +6436,27 @@ msgstr ""
 #: application/view/omeka/site-admin/index/users.phtml:31
 #: application/view/omeka/site-admin/index/users.phtml:47
 msgid "Role"
+msgstr "Rôl"
+
+#: application/forms/User.php:130
+msgid ""
+"Roles describe the permissions a user has. See <a href='http://omeka.org/"
+"codex/User_Roles' target='_blank'>documentation</a> for details."
 msgstr ""
+"Mae Rôl yn dynodi hawliau defnyddiwr. Gweler <a href='http://omeka.org/codex/"
+"User_Roles' target='_blank'>y ddogfennaeth</a> am fwy o wybodaeth."
+
+#: application/views/scripts/error/404.rss2.php:1
+msgid "Rss2.0 Feed Not Found!"
+msgstr "Methu dod o hyd i Rss2.0!"
+
+#: application/controllers/UpgradeController.php:53
+msgid "SQL error in migration: "
+msgstr "Gwall SQL tra'n mudo."
+
+#. Omeka Video File: Sample Rate element
+msgid "Sample Rate"
+msgstr "Cyfradd Samplu"
 
 #: application/view/omeka/admin/item-set/batch-edit.phtml:19
 #: application/view/omeka/admin/item-set/edit.phtml:20
@@ -4320,6 +6481,37 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+#: admin/themes/default/appearance/edit-navigation.php:31
+#: admin/themes/default/appearance/edit-settings.php:21
+#: admin/themes/default/collections/edit.php:22
+#: admin/themes/default/element-sets/edit.php:41
+#: admin/themes/default/files/edit.php:35
+#: admin/themes/default/item-types/edit.php:18
+#: admin/themes/default/items/batch-edit-all.php:41
+#: admin/themes/default/items/batch-edit.php:61
+#: admin/themes/default/items/edit.php:19
+#: admin/themes/default/plugins/config.php:14
+#: admin/themes/default/settings/edit-api.php:82
+#: admin/themes/default/settings/edit-item-type-elements.php:39
+#: admin/themes/default/settings/edit-search.php:41
+#: admin/themes/default/settings/edit-security.php:15
+#: admin/themes/default/settings/edit-settings.php:15
+#: admin/themes/default/themes/config.php:16
+#: admin/themes/default/users/edit.php:21
+#: application/libraries/Omeka/Form/Decorator/SavePanelAction.php:66
+msgid "Save Changes"
+msgstr "Arbed Newidiadau"
+
+#: admin/themes/default/users/change-password.php:20
+msgid "Save Password"
+msgstr "Arbed Cyfrinair"
+
+#: admin/themes/default/themes/browse.php:18
+#: admin/themes/default/themes/browse.php:63
+#, php-format
+msgid "Screenshot for %s Theme"
+msgstr "Sgrinlun o Thema %s"
+
 #: application/src/View/Helper/SearchFilters.php:124
 #: application/view/common/search-form.phtml:7
 #: application/view/common/search-form.phtml:8
@@ -4334,7 +6526,65 @@ msgstr ""
 #: application/view/omeka/site/item-set/search.phtml:13
 #: application/view/omeka/site/item/search.phtml:13
 msgid "Search"
+msgstr "Chwilio"
+
+#: admin/themes/default/items/search-form.php:130
+#: application/views/scripts/items/search-form.php:120
+msgid "Search By Collection"
+msgstr "Chwilio yn ôl Casgliad"
+
+#: admin/themes/default/items/search-form.php:180
+#: application/views/scripts/items/search-form.php:165
+msgid "Search By Tags"
+msgstr "Chwilio yn ôl Tagiau"
+
+#: admin/themes/default/items/search-form.php:146
+#: application/views/scripts/items/search-form.php:134
+msgid "Search By Type"
+msgstr "Chwilio yn ôl Math"
+
+#: admin/themes/default/items/search-form.php:163
+#: application/views/scripts/items/search-form.php:150
+msgid "Search By User"
+msgstr "Chwilio yn ôl Defnyddiwr"
+
+#: admin/themes/default/items/search-form.php:67
+#: application/views/scripts/items/search-form.php:63
+msgid "Search Field"
 msgstr ""
+
+#: admin/themes/default/items/browse.php:19
+#: admin/themes/default/items/browse.php:144
+#: admin/themes/default/items/search.php:2
+#: application/libraries/globals.php:2414
+#: application/libraries/globals.php:2805
+#: application/views/scripts/items/search.php:2
+msgid "Search Items"
+msgstr "Chwilio eitemau"
+
+#: admin/themes/default/items/search-form.php:54
+#: application/views/scripts/items/search-form.php:50
+msgid "Search Joiner"
+msgstr ""
+
+#: admin/themes/default/settings/edit-search.php:10
+msgid "Search Record Types"
+msgstr "Chwilio Mathau o Gofnodion"
+
+#: admin/themes/default/items/search-form.php:102
+#: application/views/scripts/items/search-form.php:95
+msgid "Search Terms"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:80
+#: application/views/scripts/items/search-form.php:76
+msgid "Search Type"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:116
+#: application/views/scripts/items/search-form.php:109
+msgid "Search by a range of ID#s (example: 1-4, 156, 79)"
+msgstr "Chwilio yn ôl ystod o rifau#s (er enghraifft: 1-4, 156, 79)"
 
 #: application/view/common/advanced-search/users.phtml:44
 msgid "Search by activity"
@@ -4368,6 +6618,16 @@ msgstr ""
 msgid "Search by value"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:14
+#: application/views/scripts/items/search-form.php:13
+msgid "Search for Keywords"
+msgstr "Chwilio am Allweddeiriau"
+
+#: admin/themes/default/items/search-form.php:233
+#: application/views/scripts/items/search-form.php:215
+msgid "Search for items"
+msgstr "Chwilio am Eitemau"
+
 #: application/src/View/Helper/SearchFilters.php:47
 #: application/view/common/advanced-search/fulltext.phtml:6
 msgid "Search full-text"
@@ -4385,6 +6645,10 @@ msgstr ""
 msgid "Search media"
 msgstr ""
 
+#: application/views/scripts/search/search-form.php:11
+msgid "Search only these record types:"
+msgstr "Chwilio'r cofnodion hyn yn unig:"
+
 #: application/view/omeka/site/index/search.phtml:1
 #, php-format
 msgid "Search results for “%s”"
@@ -4393,6 +6657,18 @@ msgstr ""
 #: application/view/layout/layout-admin.phtml:43
 msgid "Search site"
 msgstr ""
+
+#: admin/themes/default/tags/browse.php:18
+msgid "Search tags"
+msgstr ""
+
+#: admin/themes/default/users/browse.php:35
+msgid "Search users"
+msgstr "Chwilio defnyddwyr"
+
+#: application/views/scripts/search/search-form.php:6
+msgid "Search using this query type:"
+msgstr "Chwilio trwy ddefnyddio'r math hyn o chwiliad:"
 
 #: application/view/common/advanced-search/resource-class.phtml:18
 msgid "Searches for items that are any of these classes."
@@ -4408,11 +6684,26 @@ msgstr ""
 
 #: application/src/Form/SettingForm.php:272
 msgid "Security"
-msgstr ""
+msgstr "Diogelwch"
 
 #: application/view/common/asset-form.phtml:37
 msgid "Select"
 msgstr ""
+
+#: admin/themes/default/items/batch-edit-common.php:9
+#: admin/themes/default/items/batch-edit-common.php:23
+#: admin/themes/default/items/batch-edit-common.php:37
+#: admin/themes/default/items/batch-edit-common.php:52
+msgid "Select Below"
+msgstr "Dewiswch Isod"
+
+#: application/libraries/globals.php:1602
+msgid "Select Below "
+msgstr "Dewiswch Isod"
+
+#: application/forms/Navigation.php:163
+msgid "Select a Homepage"
+msgstr "Dewisiwch Dudalen Cartref"
 
 #: application/src/Form/ResourceForm.php:53
 #: application/src/Form/ResourceBatchUpdateForm.php:92
@@ -4440,6 +6731,16 @@ msgstr ""
 msgid "Select all"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:25
+#: admin/themes/default/items/browse.php:128
+#, php-format
+msgid "Select all %s results"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:42
+msgid "Select all rows"
+msgstr ""
+
 #: application/view/omeka/admin/asset/sidebar-select.phtml:17
 msgid "Select asset"
 msgstr ""
@@ -4451,6 +6752,11 @@ msgstr ""
 #: application/view/omeka/admin/item/browse.phtml:97
 #: application/view/omeka/admin/item/sidebar-select.phtml:10
 msgid "Select item"
+msgstr ""
+
+#: admin/themes/default/items/browse.php:63
+#, php-format
+msgid "Select item \"%s\""
 msgstr ""
 
 #: application/view/omeka/admin/item-set/browse.phtml:99
@@ -4539,6 +6845,24 @@ msgstr ""
 msgid "Send password reset email"
 msgstr ""
 
+#: application/forms/Install.php:114
+msgid "Separate tags using this character or string."
+msgstr "Rhannwch tagiau trwy ddefnyddio'r nod/llinyn yma."
+
+#: application/forms/GeneralSettings.php:46
+msgid ""
+"Separate tags using this character or string. Be careful when changing this "
+"setting. You run the risk of splitting tags that contain the old delimiter."
+msgstr ""
+"Rhannwch y tagiau yn defnyddio'r nod/llinyn yma. Dylid fod yn ofalus wrth "
+"newid y gosodiad yma. Mae yna risg o hollti tagiau sy'n cynnwys yr hen "
+"amffinydd."
+
+#: admin/themes/default/items/tag-form.php:10
+#, php-format
+msgid "Separate tags with %s"
+msgstr "Gwahanwch pob tag gyda %s"
+
 #. Class label for Bibliographic Ontology:Series
 msgid "Series"
 msgstr ""
@@ -4583,12 +6907,25 @@ msgstr ""
 #: application/config/navigation.config.php:250
 #: application/src/Form/InstallationForm.php:26
 msgid "Settings"
-msgstr ""
+msgstr "Gosodiadau"
 
 #: application/src/Controller/SiteAdmin/IndexController.php:136
 #: application/src/Controller/Admin/SettingController.php:35
 msgid "Settings successfully updated"
 msgstr ""
+
+#: admin/themes/default/items/browse.php:156
+msgid "Show Details"
+msgstr "Dangos Manylion"
+
+#: application/forms/AppearanceSettings.php:67
+msgid "Show Element Set Headings"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:62
+#: application/forms/Install.php:168
+msgid "Show Empty Elements"
+msgstr "Dangos Elfennau Gwag"
 
 #: application/src/Form/SettingForm.php:175
 msgid "Show Term"
@@ -4636,6 +6973,26 @@ msgstr ""
 #: application/src/Permissions/Acl.php:22
 msgid "Site Administrator"
 msgstr ""
+
+#: application/forms/GeneralSettings.php:41 application/forms/Install.php:109
+msgid "Site Author Information"
+msgstr "Gwybodaeth am Awdur y Wefan"
+
+#: application/forms/GeneralSettings.php:37 application/forms/Install.php:105
+msgid "Site Copyright Information"
+msgstr "Gwybodaeth Hawlfraint y Wefan"
+
+#: application/forms/GeneralSettings.php:26 application/forms/Install.php:95
+msgid "Site Description"
+msgstr "Disgrifiad Gwefan"
+
+#: application/forms/Install.php:195
+msgid "Site Settings"
+msgstr "Gosodiadau'r Wefan"
+
+#: application/forms/GeneralSettings.php:22 application/forms/Install.php:90
+msgid "Site Title"
+msgstr "Teitl Gwefan"
 
 #: application/config/navigation.config.php:192
 msgid "Site info"
@@ -4716,6 +7073,11 @@ msgstr ""
 msgid "Some installation requirements were not satisfied."
 msgstr ""
 
+#: admin/themes/default/items/batch-delete.php:36
+msgid ""
+"Some items were excluded because you do not have permission to delete them."
+msgstr "Eithriwyd rhai eitemau gan nad oes gennych yr hawl i'w dileu."
+
 #. Property comment for Friend of a Friend:made
 msgid "Something that was made by this agent."
 msgstr ""
@@ -4723,6 +7085,10 @@ msgstr ""
 #: application/config/module.config.php:616
 msgid "Something went wrong"
 msgstr ""
+
+#: admin/themes/default/error/403.php:6
+msgid "Sorry, you do not have permission to access this page."
+msgstr "Ymddiheuriadau, does dim hawl i chi gael mynediad at y dudalen yma"
 
 #: application/view/common/sort-selector.phtml:17
 msgid "Sort"
@@ -4737,6 +7103,11 @@ msgstr ""
 msgid "Sort by %s"
 msgstr ""
 
+#: application/views/scripts/collections/browse.php:14
+#: application/views/scripts/items/browse.php:24
+msgid "Sort by: "
+msgstr "Trefnu yn ôl:"
+
 #: application/view/common/sort-selector.phtml:13
 msgid "Sort order"
 msgstr ""
@@ -4747,7 +7118,7 @@ msgstr ""
 
 #: application/view/omeka/admin/media/show.phtml:62
 msgid "Source"
-msgstr ""
+msgstr "Ffynhonnell"
 
 #. Property label for Dublin Core:spatial
 msgid "Spatial Coverage"
@@ -4756,6 +7127,15 @@ msgstr ""
 #. Property comment for Dublin Core:spatial
 msgid "Spatial characteristics of the resource."
 msgstr ""
+
+#: admin/themes/default/files/show.php:46
+msgid "Square Thumbnail"
+msgstr "Mân-lun sgwâr"
+
+#: application/forms/AppearanceSettings.php:41
+#: application/forms/Install.php:144
+msgid "Square Thumbnail Size"
+msgstr "Maint Mân-lun Sgwâr"
 
 #. Class label for Dublin Core:Standard
 #. Class label for Bibliographic Ontology:Standard
@@ -4807,11 +7187,15 @@ msgstr ""
 
 #. Property label for Dublin Core:subject
 msgid "Subject"
-msgstr ""
+msgstr "Pwnc"
 
 #: application/view/omeka/admin/module/configure.phtml:10
 msgid "Submit"
-msgstr ""
+msgstr "Cyflwyno"
+
+#: install/views/scripts/index/installed.phtml:1
+msgid "Success!"
+msgstr "Llwyddiant!"
 
 #: application/src/Controller/LoginController.php:129
 msgid "Successfully created your password. Please log in."
@@ -4833,6 +7217,14 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
+#. User role: Super
+msgid "Super"
+msgstr "Uwch"
+
+#: admin/themes/default/common/footer.php:6
+msgid "Support Forums"
+msgstr "Fforymau Cymorth"
+
 #: application/view/layout/layout-admin.phtml:114
 msgid "Support forums"
 msgstr ""
@@ -4849,6 +7241,11 @@ msgstr ""
 msgid "Switch to descending order"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:10
+#: admin/themes/default/system-info/index.php:2
+msgid "System Information"
+msgstr "Gwybodaeth Systemol"
+
 #: application/view/layout/layout-admin.phtml:112
 #: application/view/omeka/admin/system-info/browse.phtml:4
 msgid "System information"
@@ -4861,6 +7258,22 @@ msgstr ""
 #: application/src/Site/BlockLayout/TableOfContents.php:15
 msgid "Table of contents"
 msgstr ""
+
+#: application/forms/GeneralSettings.php:45 application/forms/Install.php:113
+msgid "Tag Delimiter"
+msgstr "Amffinydd Tagiau"
+
+#: admin/themes/default/common/content-nav.php:21
+#: admin/themes/default/items/browse.php:107
+#: admin/themes/default/items/show.php:65
+#: application/views/scripts/items/browse.php:46
+#: application/views/scripts/items/show.php:29
+msgid "Tags"
+msgstr "Tagiau"
+
+#: application/models/Tag.php:57
+msgid "Tags must be given a name."
+msgstr "Rhaid cael enw i bob tag."
 
 #: application/src/View/Helper/SearchFilters.php:137
 msgid "Template"
@@ -4886,6 +7299,10 @@ msgstr ""
 msgid "Term"
 msgstr ""
 
+#: admin/themes/default/settings/edit-settings.php:23
+msgid "Test"
+msgstr "Profi"
+
 #: application/view/common/resource-form-templates.phtml:22
 msgid "Text"
 msgstr ""
@@ -4894,10 +7311,25 @@ msgstr ""
 msgid "Text for link to full browse view, if any."
 msgstr ""
 
+#: application/models/Tag.php:61
+msgid "That name is already taken for this tag."
+msgstr "Mae'r enw yna eisoes wedi ei ddefnyddio ar gyfer y tag."
+
+#: application/models/Mixin/ElementText.php:578
+#, php-format
+msgid "The \"%s\" field has at least one invalid value!"
+msgstr "Mae gan y maes \"%s\" o leiaf un gwerth annilys!"
+
 #: application/src/Api/Adapter/AbstractEntityAdapter.php:241
 #, php-format
 msgid "The \"%s\" field is not available in the %s entity class."
 msgstr ""
+
+#: application/libraries/Omeka/Plugin/Installer.php:76
+#, php-format
+msgid "The \"%s\" plugin must be installed and have newer files to upgrade it."
+msgstr ""
+"Mae'n rhaid gosod yr ategyn \"%s\" a chael ffeiliau newydd i'w uwchraddio."
 
 #: application/src/Api/Adapter/AbstractResourceEntityAdapter.php:168
 #, php-format
@@ -4944,10 +7376,81 @@ msgstr ""
 msgid "The %1$s adapter does not implement the update operation."
 msgstr ""
 
+#: application/controllers/PluginsController.php:87
+#, php-format
+msgid "The %s plugin has already been installed."
+msgstr "Mae'r ategyn %s wedi ei osod yn barod."
+
+#: application/controllers/PluginsController.php:165
+#, php-format
+msgid "The %s plugin was activated, but could not be loaded: "
+msgstr ""
+"Cychwynodd yr ategyn %s yn llwyddiannus, ond nid oedd yn bosib i'w lwytho:"
+
+#: application/controllers/PluginsController.php:160
+#, php-format
+msgid "The %s plugin was successfully activated!"
+msgstr "Cychwynwyd yr ategyn %s yn llwyddiannus!"
+
+#: application/controllers/PluginsController.php:57
+#, php-format
+msgid "The %s plugin was successfully configured!"
+msgstr "Ffurfweddwyd yr ategyn %s yn llwyddiannus!"
+
+#: application/controllers/PluginsController.php:198
+#, php-format
+msgid "The %s plugin was successfully deactivated!"
+msgstr "Cafodd yr ategyn %s ei dynnu yn lwyddiannus!"
+
+#: application/controllers/PluginsController.php:97
+#, php-format
+msgid "The %s plugin was successfully installed!"
+msgstr "Gosodwyd yr ategyn %s yn llwyddiannus!"
+
+#: application/controllers/PluginsController.php:331
+#, php-format
+msgid "The %s plugin was successfully uninstalled!"
+msgstr "Tynnwyd yr ategyn %s yn llwyddiannus!"
+
+#: application/controllers/PluginsController.php:233
+#, php-format
+msgid "The %s plugin was successfully upgraded!"
+msgstr "Uwchraddiwyd yr ategyn %s yn llwyddiannus!"
+
+#: application/controllers/SettingsController.php:183
+msgid "The API configuration was successfully changed!"
+msgstr "Newidiwyd cyfluniad yr API yn llwyddiannus!"
+
 #: application/src/Api/Manager.php:201
 #, php-format
 msgid "The API does not support the \"%s\" resource."
 msgstr ""
+
+#. Dublin Core description
+msgid ""
+"The Dublin Core metadata element set is common to all Omeka records, "
+"including items, files, and collections. For more information see, http://"
+"dublincore.org/documents/dces/."
+msgstr ""
+"Mae'r set elfen metadata Dublin Core yn gyffredin i bob cofnod Omeka, yn "
+"cynnwys eitemau, ffeiliau a chasgliadau. Am fwy o wybodaeth, gweler http://"
+"dublincore.org/documents/dces/."
+
+#: application/controllers/SettingsController.php:207
+msgid "The ImageMagick directory path does not work."
+msgstr "Nid yw llwybr ImageMagick yn gweithio."
+
+#: application/controllers/ItemsController.php:86
+#: application/controllers/ItemsController.php:146
+msgid ""
+"The ImageMagick directory path has not been set. No derivative images will "
+"be created. If you would like Omeka to create derivative images, please set "
+"the path in Settings."
+msgstr ""
+
+#: application/controllers/SettingsController.php:206
+msgid "The ImageMagick directory path works."
+msgstr "Mae'r llwybr ImageMagick yn gweithio."
 
 #. Property comment for Bibliographic Ontology:shortTitle
 msgid "The abbreviation of a title."
@@ -4965,10 +7468,62 @@ msgstr ""
 msgid "The age in years of some agent."
 msgstr ""
 
+#: application/controllers/AppearanceController.php:48
+msgid "The appearance settings have been updated."
+msgstr "Mae gosodiadau'r golwg wedi'u huwchraddio."
+
 #. Property comment for Friend of a Friend:birthday
 msgid ""
 "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
 msgstr ""
+
+#: application/controllers/CollectionsController.php:59
+#, php-format
+msgid "The collection \"%s\" was successfully added!"
+msgstr "Ychwanegwyd y casgliad \"%s\"!"
+
+#: application/controllers/CollectionsController.php:69
+#, php-format
+msgid "The collection \"%s\" was successfully changed!"
+msgstr "Newidiwyd y casgliad \"%s\"!"
+
+#: application/controllers/CollectionsController.php:79
+#, php-format
+msgid "The collection \"%s\" was successfully deleted!"
+msgstr "Dilewyd y casgliad \"%s\""
+
+#: application/controllers/CollectionsController.php:61
+#, php-format
+msgid "The collection #%s was successfully added!"
+msgstr "Ychwanegwyd y casgliad \"%s\"!"
+
+#: application/controllers/CollectionsController.php:71
+#, php-format
+msgid "The collection #%s was successfully changed!"
+msgstr "Newidiwyd y casgliad \"%s\"!"
+
+#: application/controllers/CollectionsController.php:81
+#, php-format
+msgid "The collection #%s was successfully deleted!"
+msgstr "Dilewyd y casgliad \"%s\""
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:124
+#, php-format
+msgid "The configured PHP path (%s) does not point to a PHP-CLI binary."
+msgstr "Nid yw'r llwybr PHP (%s) yn pwyntio at PHP-CLI deuaidd."
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:114
+#, php-format
+msgid "The configured PHP path (%s) is invalid."
+msgstr "Mae'r llwybyr PHP (%s) yn annilys."
+
+#: application/libraries/Omeka/Job/Process/Dispatcher.php:126
+#, php-format
+msgid ""
+"The configured PHP path (%s) points to a PHP-CLI binary with an invalid "
+"version (%s)"
+msgstr ""
+"Mae'r llwybr PHP (%s) yn pwynrio at PHP-CLI deuaidd gyda fersiwn annilys (%s)"
 
 #: application/src/Controller/Admin/UserController.php:202
 msgid "The current password entered was invalid"
@@ -4994,6 +7549,22 @@ msgid ""
 "xsd:date"
 msgstr ""
 
+#: application/controllers/ItemsController.php:242
+msgid "The deletion of all items is forbidden."
+msgstr ""
+
+#: application/forms/ItemTypes.php:151
+msgid "The description of the item type."
+msgstr "Disgrifiad y math o eitem."
+
+#: application/models/Element.php:174
+msgid "The element name must not be empty."
+msgstr "Ni all enw'r elfen fod yn wag."
+
+#: application/controllers/ElementSetsController.php:70
+msgid "The element set was successfully changed!"
+msgstr "Newidiwyd y set elfennau yn llwyddiannus!"
+
 #: application/src/Api/Adapter/UserAdapter.php:130
 #, php-format
 msgid "The email %s is already taken."
@@ -5012,13 +7583,57 @@ msgstr ""
 msgid "The family name of some person."
 msgstr ""
 
+#. Dublin Core: Format element description
+msgid "The file format, physical medium, or dimensions of the resource"
+msgstr "Fformat ffeil, cyfrwng ffisegol, neu dimensiynau'r adnodd"
+
 #. Property comment for Dublin Core:format
 msgid "The file format, physical medium, or dimensions of the resource."
+msgstr ""
+
+#: application/controllers/FilesController.php:72
+msgid "The file was successfully deleted."
 msgstr ""
 
 #. Property comment for Friend of a Friend:firstName
 msgid "The first name of a person."
 msgstr ""
+
+#: application/controllers/PluginsController.php:150
+#, php-format
+msgid "The following error occurred while activating the %s plugin: "
+msgstr "Cafwyd y gwall ganlynol wrth geisio cychwyn yr ategyn %s."
+
+#: application/controllers/PluginsController.php:203
+#, php-format
+msgid "The following error occurred while deactivating the %s plugin: "
+msgstr "Cafwyd y gwall ganlynol wrth geisio tynnu'r ategyn %s."
+
+#: application/controllers/PluginsController.php:109
+#: application/controllers/PluginsController.php:114
+#, php-format
+msgid "The following error occurred while installing the %s plugin: "
+msgstr "Cafwyd y gwall ganlynol wrth geisio gosod yr ategyn %s."
+
+#: application/controllers/PluginsController.php:336
+#: application/controllers/PluginsController.php:341
+#, php-format
+msgid "The following error occurred while uninstalling the %s plugin: "
+msgstr "Cafwyd y gwall ganlynol wrth geisio tynnu'r ategyn %s."
+
+#: application/controllers/PluginsController.php:242
+#: application/controllers/PluginsController.php:248
+#, php-format
+msgid "The following error occurred while upgrading the %s plugin: "
+msgstr "Cafwyd y gwall ganlynol wrth geisio uwchraddio'r ategyn %s."
+
+#: install/views/scripts/index/index.phtml:4
+msgid ""
+"The following issues will not affect installation, but they may negatively "
+"affect the behavior of Omeka:"
+msgstr ""
+"Ni fydd y materion canlynol yn effeithio ar y gosod, ond mi allynt "
+"effeithio'n negyddol ar Omeka."
 
 #: application/view/omeka/admin/item-set/show.phtml:54
 msgid "The following resources link to this item set:"
@@ -5036,6 +7651,10 @@ msgstr ""
 msgid ""
 "The gender of this Agent (typically but not necessarily 'male' or 'female')."
 msgstr ""
+
+#: application/controllers/SettingsController.php:52
+msgid "The general settings have been updated."
+msgstr "Mae'r gosodiadau cyffredinol wedi'u huwchraddio."
 
 #. Property comment for Friend of a Friend:givenName
 #. Property comment for Friend of a Friend:givenname
@@ -5062,6 +7681,106 @@ msgid ""
 "The installed PHP version (%s) is too low. Omeka requires at least version "
 "%s."
 msgstr ""
+
+#: application/controllers/ItemsController.php:95
+#, php-format
+msgid "The item \"%s\" was successfully added!"
+msgstr "Ychwanegwyd yr eitem \"%s\"!"
+
+#: application/controllers/ItemsController.php:105
+#, php-format
+msgid "The item \"%s\" was successfully changed!"
+msgstr "Newidwyd yr eitem \"%s\"!"
+
+#: application/controllers/ItemsController.php:115
+#, php-format
+msgid "The item \"%s\" was successfully deleted!"
+msgstr "Dilewyd yr eitem \"%s\"!"
+
+#: application/controllers/ItemsController.php:97
+#, php-format
+msgid "The item #%s was successfully added!"
+msgstr "Ychwanegwyd yr eitem #%s !"
+
+#: application/controllers/ItemsController.php:107
+#, php-format
+msgid "The item #%s was successfully changed!"
+msgstr "Newidwyd yr eitem #%s!"
+
+#: application/controllers/ItemsController.php:117
+#, php-format
+msgid "The item #%s was successfully deleted!"
+msgstr "Dilewyd yr eitem #%s!"
+
+#: application/controllers/ItemTypesController.php:158
+#, php-format
+msgid ""
+"The item type \"%s\" was successfully added!  You may now add elements to "
+"your new item type."
+msgstr ""
+"Ychwanegwyd y math o eitem \"%s\"! Gallwch nawr ychwanegu elfennau i'r math "
+"newydd."
+
+#: application/controllers/ItemTypesController.php:28
+#, php-format
+msgid "The item type \"%s\" was successfully added."
+msgstr "Ychwanegwyd y math o eitem \"%s\" yn llwyddiannus!"
+
+#: application/controllers/ItemTypesController.php:55
+#, php-format
+msgid "The item type \"%s\" was successfully updated."
+msgstr "Uwchraddiwyd y math o eitem \"%s\" yn llwyddiannus."
+
+#: application/forms/ItemTypes.php:173 application/forms/ItemTypes.php:182
+#, php-format
+msgid "The item type cannot have more than one \"%s\" element."
+msgstr "Ni all math eitem gael mwy nag un elfen \"%s\"."
+
+#: application/controllers/SettingsController.php:156
+msgid "The item type elements were successfully changed!"
+msgstr "Newidiwyd elfennau y math o eitem yn llwyddiannus!"
+
+#. Item Type Metadata description
+msgid ""
+"The item type metadata element set, consisting of all item type elements "
+"bundled with Omeka and all item type elements created by an administrator."
+msgstr ""
+"Y set elfen metadata ar gyfer y math o eitem, yn cynnwys holl elfennau'r "
+"math o eitem sy'n dod gydag Omeka a'r holl elfennau ar gyfer y math o eitem "
+"a grewyd gan weinyddwr."
+
+#: application/models/ItemType.php:106
+msgid "The item type name must be unique."
+msgstr "Mae'n rhaid i enw'r math o eitem fod yn unigryw."
+
+#: application/models/ItemType.php:102
+#, php-format
+msgid "The item type name must have between %1$s and %2$s characters."
+msgstr "Rhaid i'r math o eitem cael enw sydd rhwng %1$s a %2$s llythyren."
+
+#: application/models/Job/ItemBatchEditAll.php:158
+msgid "The item was successfully batch-edited."
+msgstr ""
+
+#: application/models/Job/ItemBatchEditAll.php:141
+msgid "The item was successfully deleted."
+msgstr ""
+
+#: application/controllers/ItemsController.php:428
+msgid "The items are checked and changed one by one in the background."
+msgstr ""
+
+#: application/controllers/ItemsController.php:426
+msgid "The items are checked and deleted one by one in the background."
+msgstr ""
+
+#: application/controllers/ItemsController.php:363
+msgid "The items were successfully changed!"
+msgstr "Addaswyd yr eitemau!"
+
+#: application/controllers/ItemsController.php:361
+msgid "The items were successfully deleted!"
+msgstr "Dilewyd yr eitemau!"
 
 #: application/src/Controller/Admin/JobController.php:58
 msgid "The job could not be stopped."
@@ -5099,6 +7818,11 @@ msgstr ""
 msgid "The material or physical carrier of the resource."
 msgstr ""
 
+#: admin/themes/default/items/files-form.php:24
+#, php-format
+msgid "The maximum file size is %s."
+msgstr "Maint y ffeil mwyaf posib yw %s."
+
 #: application/src/Form/SettingForm.php:157
 msgid "The maximum number of results per page on browse pages."
 msgstr ""
@@ -5114,9 +7838,45 @@ msgstr ""
 msgid "The maximum upload size is %s MB."
 msgstr ""
 
+#. Omeka Image File description
+msgid ""
+"The metadata element set that was included in the `files_images` table in "
+"previous versions of Omeka. These elements are common to all image files."
+msgstr ""
+"Y set elfen metadata oedd wedi ei gynnwys yn y tabl 'ffeiliau_delweddau' yn "
+"fersiynau cynharach o Omeka. Mae'r elfennau hyn yn gyffredin i bob ffeil "
+"delwedd."
+
+#. Omeka Video File description
+msgid ""
+"The metadata element set that was included in the `files_videos` table in "
+"previous versions of Omeka. These elements are common to all video files."
+msgstr ""
+"Y set elfen metadata oedd wedi ei gynnwys yn y tabl 'ffeiliau_fidio' yn "
+"fersiynau cynharach o Omeka. Mae'r elfennau hyn yn gyffredin i bob ffeil "
+"fidio."
+
+#. Omeka Legacy File description
+msgid ""
+"The metadata element set that, in addition to the Dublin Core element set, "
+"was included in the `files` table in previous versions of Omeka. These "
+"elements are common to all Omeka files. This set may be deprecated in future "
+"versions."
+msgstr ""
+"Y set elfen metadata oedd, ynghyd a set elfen Dublin Core, wedi ei gynnwys "
+"yn y tabl 'ffeiliau' yn fersiynau cynharach o Omeka. Mae'r elfennau hyn yn "
+"gyffredin i holl ffeiliau Omeka. Mae'n bosib y bydd y ffeiliau hyn yn cael "
+"eu diddymu mewn fersiynau yn y dyfodol."
+
 #. Property comment for Dublin Core:accrualMethod
 msgid "The method by which items are added to a collection."
 msgstr ""
+
+#: application/views/scripts/error/405.php:6
+#, php-format
+msgid "The method used to access this URL (%s) is not valid."
+msgstr ""
+"Nid yw'r dull a ddefnyddiwyd i gael mynediad at yr URL yma (%s) yn ddilys."
 
 #: application/src/Controller/Admin/ModuleController.php:198
 msgid "The module was successfully activated"
@@ -5152,6 +7912,10 @@ msgid ""
 "value composed of a version number and words."
 msgstr ""
 
+#: application/forms/ItemTypes.php:142
+msgid "The name of the item type."
+msgstr "Enw'r math o eitem."
+
 #: application/src/Api/Adapter/VocabularyAdapter.php:186
 #, php-format
 msgid "The namespace URI \"%s\" is already taken."
@@ -5161,9 +7925,29 @@ msgstr ""
 msgid "The namespace URI cannot be empty."
 msgstr ""
 
+#. Dublin Core: Type element description
+msgid "The nature or genre of the resource"
+msgstr "Natur neu genre yr adnodd"
+
 #. Property comment for Dublin Core:type
 msgid "The nature or genre of the resource."
 msgstr ""
+
+#: application/controllers/AppearanceController.php:97
+msgid "The navigation settings have been reset."
+msgstr ""
+
+#: application/controllers/AppearanceController.php:66
+msgid "The navigation settings have been updated."
+msgstr "Mae gosodiadau'r llywio wedi'u huwchraddio."
+
+#: application/controllers/AppearanceController.php:69
+msgid ""
+"The navigation settings were not saved because of missing or invalid "
+"values.  All changed values have been restored."
+msgstr ""
+"Ni chafodd y gosodiadau llywio eu harbed oherwydd fod yna werthoedd coll neu "
+"annilys. Ma pob gwerth a newidiwyd wedi'u adfer."
 
 #. Property comment for Bibliographic Ontology:numPages
 msgid "The number of pages contained in a document"
@@ -5182,6 +7966,18 @@ msgid ""
 "hearings."
 msgstr ""
 
+#: application/libraries/Omeka/Navigation.php:213
+msgid "The page must be normalized and have a valid uid."
+msgstr "Rhaid i'r dudalen cael ei normaleiddio ac yn berchen ar UID dilys."
+
+#: application/libraries/Omeka/Navigation.php:225
+msgid ""
+"The parent container must either be the navigation object or a descendant "
+"subpage of the navigation object."
+msgstr ""
+"Rhaid i'r uwch-gynhwysydd fod naill ai y gwrthrych llywio neu yn dudalen "
+"ddisgynnyddol i'r gwrthrych llywio."
+
 #: application/src/Form/Element/PasswordConfirm.php:85
 msgid "The password is invalid"
 msgstr ""
@@ -5189,6 +7985,16 @@ msgstr ""
 #: application/src/Form/Element/PasswordConfirm.php:100
 msgid "The passwords did not match"
 msgstr ""
+
+#: application/controllers/PluginsController.php:383
+#, php-format
+msgid "The plugin %s must be installed."
+msgstr "Rhaid gosod yr ategyn %s."
+
+#: application/controllers/PluginsController.php:299
+#, php-format
+msgid "The plugin could not be found in the '%s' directory!"
+msgstr "Ni ellir dod o hyd i'r ategyn yn y cyfeiriadur '%s'!"
 
 #. Property comment for Dublin Core:accrualPolicy
 msgid "The policy governing the addition of items to a collection."
@@ -5220,9 +8026,22 @@ msgstr ""
 msgid "The publication status of (typically academic) content."
 msgstr ""
 
+#: admin/themes/default/items/browse.php:172
+#, php-format
+msgid "The query searched 1 item and returned no results."
+msgid_plural "The query searched %s items and returned no results."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #. Property comment for Bibliographic Ontology:reproducedIn
 msgid "The resource in which another resource is reproduced."
 msgstr ""
+
+#: application/controllers/SettingsController.php:85
+msgid "The security settings have been updated."
+msgstr "Mae'r gosodiadau diogelwch wedi'u huwchraddio."
 
 #. Property comment for Friend of a Friend:mbox_sha1sum
 msgid ""
@@ -5245,6 +8064,14 @@ msgstr ""
 msgid "The slug cannot be empty."
 msgstr ""
 
+#. Dublin Core: Coverage element description
+msgid ""
+"The spatial or temporal topic of the resource, the spatial applicability of "
+"the resource, or the jurisdiction under which the resource is relevant"
+msgstr ""
+"Y testun amserol a gofodol ar gyfer yr adnodd, perthnasedd gofodol yr "
+"adnodd, neu'r awdurdod sy'n berthnasol i'r adnodd"
+
 #. Property comment for Dublin Core:coverage
 msgid ""
 "The spatial or temporal topic of the resource, the spatial applicability of "
@@ -5263,9 +8090,21 @@ msgstr ""
 msgid "The surname of some person."
 msgstr ""
 
+#: application/controllers/ThemesController.php:61
+msgid "The theme has been successfully changed."
+msgstr "Newidwyd y thema yn llwyddiannus."
+
+#: application/controllers/ThemesController.php:86
+msgid "The theme settings were successfully saved!"
+msgstr "Mae gosodiadau'r thema wedi'u newid yn llwyddiannus!"
+
 #. Property comment for Bibliographic Ontology:degree
 msgid "The thesis degree."
 msgstr ""
+
+#. Dublin Core: Subject element description
+msgid "The topic of the resource"
+msgstr "Pwnc yr adnodd"
 
 #. Property comment for Dublin Core:subject
 msgid "The topic of the resource."
@@ -5282,6 +8121,38 @@ msgid ""
 "classes and properties."
 msgstr ""
 
+#: application/controllers/UsersController.php:181
+#, php-format
+msgid "The user \"%s\" was added, but the activation email could not be sent."
+msgstr ""
+"Ychwanegwyd y defnyddiwr \"%s\", ond nid oedd yn bosib anfon yr ebost "
+"bywiogi."
+
+#: application/controllers/UsersController.php:177
+#, php-format
+msgid "The user \"%s\" was successfully added!"
+msgstr "Ychwanegwyd y defnyddiwr \"%s\" yn llwyddiannus!"
+
+#: application/controllers/UsersController.php:356
+#, php-format
+msgid "The user \"%s\" was successfully deleted!"
+msgstr "Cafodd y defnyddiwr \"%s\" ei ddileu!"
+
+#: application/controllers/UsersController.php:257
+#, php-format
+msgid "The user %s was successfully changed!"
+msgstr "Newidwyd y defnyddiwr %s yn llwyddiannus!"
+
+#: application/models/User.php:181 application/models/User.php:229
+msgid "The user must be assigned a role."
+msgstr "Mae'n rhaid i ddefnyddiwr cael rôl wedi'i neilltuo."
+
+#: application/models/User.php:186
+#, php-format
+msgid "The username \"%1$s\" must be between %2$s and %3$s characters."
+msgstr ""
+"Mae'n rhaid i'r enw defnyddiwr \"%1$s\" fod rhwng %2$s a %3$s llythyren."
+
 #: application/view/omeka/site-admin/index/add.phtml:8
 #: application/view/omeka/site-admin/index/show.phtml:32
 #: application/view/omeka/site-admin/index/theme-settings.phtml:6
@@ -5293,10 +8164,18 @@ msgstr ""
 msgid "Theme settings successfully updated"
 msgstr ""
 
+#: admin/themes/default/common/appearance-nav.php:5
+msgid "Themes"
+msgstr "Themâu"
+
 #: application/view/omeka/site-admin/index/resources.phtml:37
 #, php-format
 msgid "There are currently %s items in this site’s pool."
 msgstr ""
+
+#: application/views/scripts/collections/show.php:35
+msgid "There are currently no items within this collection."
+msgstr "Does dim eitemau yn y casgliad hwn ar hyn o bryd."
 
 #: application/view/omeka/migrate/index.phtml:10
 msgid ""
@@ -5307,6 +8186,40 @@ msgstr ""
 #: application/view/omeka/site-admin/index/navigation.phtml:60
 msgid "There are no available pages."
 msgstr ""
+
+#: admin/themes/default/collections/browse.php:80
+msgid "There are no collections on this page."
+msgstr "Nid oes yna gasgliadau ar y dudalen hon."
+
+#: admin/themes/default/item-types/show.php:25
+msgid "There are no elements."
+msgstr "Does dim elfennau."
+
+#: admin/themes/default/items/show.php:76
+msgid "There are no files for this item yet."
+msgstr "Nid oes ffeiliau gan yr eitem yma eto."
+
+#: admin/themes/default/item-types/show.php:39
+msgid "There are no recently added items."
+msgstr "Ni ychwanegwyd unrhyw eitem yn ddiweddar."
+
+#: admin/themes/default/items/tags.php:9
+#: admin/themes/default/tags/browse.php:108
+msgid "There are no tags to display. You must first tag some items."
+msgstr "Does dim tagiau i'w harddangos. Rhaid tagio rhai eitemau yn gyntaf."
+
+#: application/models/ItemType.php:185
+msgid "There are too few values in the element ordering array."
+msgstr "Does dim digon o werthoedd yn arae trefn yr elfen."
+
+#: application/models/ItemType.php:183
+msgid "There are too many values in the element ordering array."
+msgstr "Mae yna ormod o werthoedd yn arae trefn yr elfen."
+
+#: application/models/Mixin/ElementText.php:292
+#, php-format
+msgid "There is no element \"%1$s\", \"%2$s\"!"
+msgstr "Nid oes elfen \"%1$s\", \"%2$s\" i gael!"
 
 #: application/src/Controller/Admin/ModuleController.php:276
 msgid "There was a problem during configuration"
@@ -5319,9 +8232,42 @@ msgid ""
 "below."
 msgstr ""
 
+#: application/controllers/ElementSetsController.php:51
+#: application/controllers/PluginsController.php:49
+#: application/controllers/PluginsController.php:77
+#: application/controllers/PluginsController.php:135
+#: application/controllers/PluginsController.php:184
+#: application/controllers/PluginsController.php:217
+#: application/controllers/PluginsController.php:325
+#: application/controllers/SettingsController.php:104
+#: application/controllers/SettingsController.php:140
+#: application/controllers/SettingsController.php:177
+#: application/controllers/ThemesController.php:89
+#: application/controllers/UsersController.php:312
+#: application/libraries/Omeka/Controller/AbstractActionController.php:183
+#: application/libraries/Omeka/Controller/AbstractActionController.php:224
+msgid "There was an error on the form. Please try again."
+msgstr "Darganfuwyd gwall yn y ffurflen. Ceisiwch eto."
+
+#: application/controllers/UsersController.php:169
+#: application/controllers/UsersController.php:235
+#: application/controllers/UsersController.php:286
+msgid "There was an invalid entry on the form. Please try again."
+msgstr "Ysgrifennwyd gwall yn un o'r meysydd yn y ffurflen. Ceisiwch eto."
+
 #: application/src/Controller/InstallController.php:56
 msgid "There were errors during installation."
 msgstr ""
+
+#: application/controllers/AppearanceController.php:51
+#: application/controllers/ItemTypesController.php:35
+#: application/controllers/ItemTypesController.php:61
+#: application/controllers/SettingsController.php:55
+#: application/controllers/SettingsController.php:88
+#: install/views/scripts/index/index.phtml:17
+msgid "There were errors found in your form. Please edit and resubmit."
+msgstr ""
+"Darganfuwyd gwallau yn y ffurflen. Gofynnir i chi olygu ac ail-gyflwyno."
 
 #. Class label for Bibliographic Ontology:Thesis
 msgid "Thesis"
@@ -5330,6 +8276,18 @@ msgstr ""
 #. Class label for Bibliographic Ontology:ThesisDegree
 msgid "Thesis degree"
 msgstr ""
+
+#: application/forms/User.php:121
+msgid "This email address is already in use."
+msgstr "Mae'r cyfeiriad ebost yma wedi'i gymryd."
+
+#: application/forms/User.php:94
+msgid "This email address is invalid."
+msgstr "Mae'r cyfeiriad ebost yma yn annilys."
+
+#: admin/themes/default/plugins/browse.php:35
+msgid "This is not a valid plugin."
+msgstr "Nid yw'n ategyn dilys."
 
 #: application/view/omeka/admin/item/manage-item-sets.phtml:40
 msgid ""
@@ -5340,6 +8298,14 @@ msgstr ""
 #: application/src/Site/BlockLayout/Fallback.php:37
 msgid "This layout is invalid."
 msgstr ""
+
+#: application/tests/suite/Omeka/Db/Migration/_files/migrations/20080717013526_foobar.php:18
+msgid "This migration should have been run previously (should not run again)."
+msgstr "Mi ddyliai'r mudo hyn wedi digwydd eisoes (ni ddylid rhedeg eto)."
+
+#: application/tests/suite/Omeka/Db/Migration/_files/migrations/50000101120000_notRunYet.php:18
+msgid "This migration should not be run."
+msgstr "Ni ddylai'r mudo hyn cael ei redeg."
 
 #. Property comment for Bibliographic Ontology:content
 msgid ""
@@ -5374,6 +8340,20 @@ msgstr ""
 msgid "This theme requires Omeka S %s"
 msgstr ""
 
+#: application/controllers/ThemesController.php:47
+#, php-format
+msgid "This theme requires a newer version of Omeka (%s)."
+msgstr "Mae'r thema yma yn ofynnol ar gael fersiwn mwy newydd o Omeka (%s)"
+
+#: application/forms/User.php:72
+msgid "This username is already in use."
+msgstr "Mae'r Enw Defnyddiwr yma eisoes wedi ei gymryd."
+
+#: admin/themes/default/plugins/browse.php:29
+#, php-format
+msgid "This version of %1$s requires at least Omeka %2$s."
+msgstr "Mae'r fersiwn yma o %1$s angen Omeka %2$s o leiaf."
+
 #: application/view/omeka/admin/vocabulary/classes.phtml:75
 msgid "This vocabulary has no classes."
 msgstr ""
@@ -5382,11 +8362,81 @@ msgstr ""
 msgid "This vocabulary has no properties."
 msgstr ""
 
+#: application/controllers/ItemTypesController.php:150
+#, php-format
+msgid ""
+"This will delete the \"%s\" item type but will not delete the elements "
+"assigned to the item type. Items that are assigned to this item type will "
+"lose all metadata that is specific to the item type."
+msgstr ""
+"Bydd hyn yn dileu't math o eitem \"%s\" ond ni fydd yn dileu'r elfennau "
+"ynghlwm a'r math o eitem. Bydd eitemau sydd ynghlwm a'r math o eitem yma yn "
+"colli'r holl metadata sy'n unigryw i'r math o eitem."
+
+#: application/controllers/CollectionsController.php:89
+#, php-format
+msgid ""
+"This will delete the collection \"%s\" and its associated metadata. This "
+"will not delete any items in this collection, but will delete the reference "
+"to this collection in each item."
+msgstr ""
+"Bydd hyn yn dileu'r casgliad \"%s\" a'r holl fetadata sy'n gysylltiedig. Ni "
+"fydd yr eitemau yn y casgliad yn cael eu dileu, ond bydd y cyfeiriad at y "
+"casgliad hwn ymhob eitem yn cael ei ddileu."
+
+#: application/controllers/CollectionsController.php:93
+#, php-format
+msgid ""
+"This will delete the collection #%s and its associated metadata. This will "
+"not delete any items in this collection, but will delete the reference to "
+"this collection in each item."
+msgstr ""
+"Bydd hyn yn dileu'r casgliad #%s a'r holl fetadata sy'n gysylltiedig. Ni "
+"fydd yr eitemau yn y casgliad yn cael eu dileu, ond bydd y cyfeiriad at y "
+"casgliad hwn ymhob eitem yn cael ei ddileu."
+
+#: application/controllers/ElementSetsController.php:21
+msgid ""
+"This will delete the element set and all elements assigned to the element "
+"set. Items will lose all metadata that is specific to this element set."
+msgstr ""
+"Bydd hyn yn dileu'r set elfen a'r holl elfennau sydd ynghlwm a'r set elfen. "
+"Bydd eitemau yn colli'r holl fetadata sy'n gysylltiedig a'r set elfen yma."
+
+#: application/controllers/FilesController.php:66
+msgid "This will delete the file and its associated metadata."
+msgstr "Bydd hyn yn dileu'r ffeil a'r metadata sy'n gysylltiedig."
+
+#: application/controllers/ItemsController.php:125
+#, php-format
+msgid ""
+"This will delete the item \"%s\" and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+"Bydd hyn yn dileu'r eitem \"%s\" a'r holl fetadata sy'n gysylltiedig. Bydd "
+"yr holl ffeiliau a metadata'r ffeiliau sydd ynghlwm a'r eitem hefyd yn cael "
+"eu dileu."
+
+#: application/controllers/ItemsController.php:129
+#, php-format
+msgid ""
+"This will delete the item #%s and its associated metadata. It will also "
+"delete all files and file metadata associated with this item."
+msgstr ""
+"Bydd hyn yn dileu'r eitem %s a'r holl fetadata sy'n gysylltiedig. Bydd yr "
+"holl ffeiliau a metadata'r ffeiliau sydd ynghlwm a'r eitem hefyd yn cael eu "
+"dileu."
+
 #: application/view/omeka/admin/item-set/form.phtml:13
 #: application/view/omeka/admin/item/form.phtml:16
 #: application/view/omeka/admin/media/edit.phtml:13
 msgid "Thumbnail"
-msgstr ""
+msgstr "Mân-lun"
+
+#: application/forms/AppearanceSettings.php:34
+#: application/forms/Install.php:136
+msgid "Thumbnail Size"
+msgstr "Maint Mân-lun"
 
 #: application/src/Site/BlockLayout/Media.php:60
 msgid "Thumbnail alignment"
@@ -5416,11 +8466,64 @@ msgstr ""
 #: application/view/omeka/site-admin/page/index.phtml:18
 #: application/view/omeka/site/item/browse.phtml:14
 msgid "Title"
-msgstr ""
+msgstr "Teitl"
 
 #. Property comment for Friend of a Friend:title
 msgid "Title (Mr, Mrs, Ms, Dr. etc)"
 msgstr ""
+
+#: admin/themes/default/users/api-keys.php:21
+msgid ""
+"To create a new API key, enter a label for the key below. For example, "
+"describe for what purpose it will be used. This key will have all your "
+"permissions; treat it as you would your password."
+msgstr ""
+"I greu allwedd API newydd, gosodwch label ar gyfer yr allwedd isod. Er "
+"enghraifft, disgrifiwch at ba bwrpas y bydd yn cael ei ddefnyddio. Bydd yr "
+"allwedd yn cario'ch holl hawliau a dylid ei drin yn yr un modd a'ch "
+"cyfrinair."
+
+#: admin/themes/default/tags/browse.php:47
+msgid ""
+"To delete a tag, click the X. Deleting a tag will not delete the tagged "
+"items."
+msgstr ""
+"I ddileu tag, cliciwch yr X. Nid yw dileu tag yn dileu'r eitemau sydd wedi'u "
+"tagio."
+
+#: admin/themes/default/tags/browse.php:46
+msgid ""
+"To edit the tag name, click the name and begin editing, and hit \"enter\" to "
+"save. To cancel an edit, click the ESC key or click away from the tag."
+msgstr ""
+"Er mwyn golygu enw'r tag, cliciwch ar yr enw, dechreuwch golygu a gwasgwch "
+"\"enter\" i'w arbed. I ganslo yng nghanol golygu, gwasgwch ESC neu cliciwch "
+"i ffwrdd o'r tag."
+
+#: application/views/scripts/error/index.php:33
+msgid ""
+"To learn how to see more detailed information about this error, see the "
+"Omeka Codex page on <a href=\"http://omeka.org/classic/docs/Troubleshooting/"
+"Retrieving_Error_Messages/\">retrieving error messages</a>."
+msgstr ""
+
+#: admin/themes/default/tags/browse.php:45
+msgid "To view all items with a tag, click the number."
+msgstr "Er mwyn gweld pob eitem efo tag, cliciwch ar y rhif."
+
+#: admin/themes/default/item-types/browse.php:31
+msgid "Total Items"
+msgstr "Cyfanswm Eitemau"
+
+#: admin/themes/default/collections/browse.php:33
+#: admin/themes/default/collections/show.php:46
+#: admin/themes/default/item-types/show.php:42
+msgid "Total Number of Items"
+msgstr "Cyfanswm yr Eitemau"
+
+#. Omeka Legacy File: Transcriber element
+msgid "Transcriber"
+msgstr "Trawsgrifwr"
 
 #: application/src/Site/BlockLayout/LineBreak.php:34
 msgid "Transparent"
@@ -5434,7 +8537,20 @@ msgstr ""
 #: application/view/common/navigation-link-form/page.phtml:13
 #: application/view/common/navigation-link-form/url.phtml:7
 msgid "Type"
-msgstr ""
+msgstr "Math"
+
+#: admin/themes/default/files/show.php:76
+#: application/views/scripts/files/show.php:45
+msgid "Type Metadata"
+msgstr "Metadata'r Math"
+
+#: admin/themes/default/item-types/browse.php:29
+msgid "Type Name"
+msgstr "Enw'r Math"
+
+#: application/forms/ResetPassword.php:33
+msgid "Typed passwords do not match."
+msgstr "Nid yw'r cyfrineiriau a deipiwyd yn cydweddu."
 
 #: application/view/common/data-type/uri.phtml:6
 #: application/view/common/property-form-batch-edit.phtml:44
@@ -5444,7 +8560,7 @@ msgstr ""
 
 #: application/view/common/navigation-link-form/url.phtml:9
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: application/src/Media/Ingester/IIIF.php:102
 msgid "URL for the image to embed."
@@ -5464,9 +8580,28 @@ msgstr ""
 msgid "URL slug"
 msgstr ""
 
+#: application/controllers/UsersController.php:72
+msgid ""
+"Unable to reset password. Please verify that the information is correct and "
+"contact an administrator if necessary."
+msgstr ""
+"Nid oedd yn bosib ail-osod y cyfrinair. Gwiriwch fod y wybodaeth yn gywir a "
+"chysylltwch â gweinyddwr os oes angen."
+
+#: admin/themes/default/item-types/form.php:42
+#: admin/themes/default/items/tag-form.php:22
+#: admin/themes/default/settings/edit-item-type-elements.php:22
+msgid "Undo"
+msgstr "Dadwneud"
+
 #: application/view/omeka/admin/module/browse.phtml:127
 msgid "Uninstall"
-msgstr ""
+msgstr "Dadosod"
+
+#: admin/themes/default/plugins/confirm-uninstall.php:2
+#, php-format
+msgid "Uninstall Plugin: %s"
+msgstr "Dadosod Ategyn: %s"
 
 #: application/view/omeka/admin/module/uninstall-confirm.phtml:5
 msgid "Uninstall module"
@@ -5523,6 +8658,10 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
+#: admin/themes/default/users/api-keys.php:61
+msgid "Update API Keys"
+msgstr ""
+
 #: application/view/omeka/migrate/index.phtml:4
 #: application/view/omeka/migrate/index.phtml:7
 msgid "Update database"
@@ -5530,7 +8669,20 @@ msgstr ""
 
 #: application/src/Form/ModuleStateChangeForm.php:64
 msgid "Upgrade"
-msgstr ""
+msgstr "Uwchraddio"
+
+#: admin/themes/default/upgrade/index.php:37
+msgid "Upgrade Database"
+msgstr "Uwchraddio'r Gronfa ddata"
+
+#: admin/themes/default/upgrade/index.php:32
+msgid "Upgrade Your Omeka Database"
+msgstr "Uwchraddiwch Eich Cronfa Ddata Omeka"
+
+#: admin/themes/default/index.php:36
+#, php-format
+msgid "Upgrade to %s"
+msgstr "Uwchraddio i %s"
 
 #: application/view/omeka/admin/asset/sidebar-select.phtml:12
 msgid "Upload"
@@ -5544,8 +8696,16 @@ msgstr ""
 msgid "Upload new asset"
 msgstr ""
 
+#: application/views/helpers/ElementInput.php:130
+msgid "Use HTML"
+msgstr "Defnyddio HTML"
+
 #: application/src/Form/SettingForm.php:281
 msgid "Use HTMLPurifier"
+msgstr ""
+
+#: application/forms/AppearanceSettings.php:21
+msgid "Use Square Thumbnails"
 msgstr ""
 
 #: application/view/omeka/admin/resource-template/form.phtml:78
@@ -5560,6 +8720,12 @@ msgstr ""
 msgid "Use global setting"
 msgstr ""
 
+#: application/forms/AppearanceSettings.php:22
+msgid ""
+"Use square-cropped images by default wherever thumbnails appear in the "
+"public interface."
+msgstr ""
+
 #: application/src/Form/SiteSettingsForm.php:170
 msgid ""
 "Use this property for the body of each resource on a browse page. Keep "
@@ -5572,9 +8738,31 @@ msgid ""
 "unselected to use the default title property of each resource."
 msgstr ""
 
+#: admin/themes/default/themes/browse.php:65
+msgid "Use this theme"
+msgstr "Defnyddio'r thema yma"
+
 #: application/src/View/Helper/SearchFilters.php:168
 #: application/view/omeka/site-admin/index/users.phtml:30
 msgid "User"
+msgstr ""
+
+#: admin/themes/default/users/show.php:8
+#, php-format
+msgid "User #%s"
+msgstr "Defnyddiwr #%s"
+
+#: admin/themes/default/users/activate.php:2
+#: application/views/scripts/users/activate.php:2
+msgid "User Activation"
+msgstr "Creu Defnyddiwr"
+
+#: application/controllers/UsersController.php:219
+msgid "User activation email could not be sent."
+msgstr ""
+
+#: application/controllers/UsersController.php:217
+msgid "User activation email has been sent."
 msgstr ""
 
 #: application/src/Stdlib/Mailer.php:233
@@ -5590,9 +8778,51 @@ msgstr ""
 msgid "User information"
 msgstr ""
 
+#: application/controllers/ItemsController.php:318
+msgid "User is not allowed to delete selected items."
+msgstr "Nid oes hawl gan y defnyddiwr i ddileu'r eitemau."
+
+#: application/models/Job/ItemBatchEditAll.php:105
+msgid "User is not allowed to delete this item."
+msgstr ""
+
+#: application/controllers/ItemsController.php:324
+msgid "User is not allowed to edit selected items."
+msgstr "Nid oes hawl gan y defnyddiwr i olygu'r eitemau."
+
+#: application/models/Job/ItemBatchEditAll.php:112
+msgid "User is not allowed to edit this item."
+msgstr ""
+
+#: application/controllers/ItemsController.php:311
+#: application/controllers/ItemsController.php:407
+msgid "User is not allowed to modify featured status of items."
+msgstr "Nid oes hawl gan y defnyddiwr i newid statws eitem."
+
+#: application/controllers/ItemsController.php:306
+#: application/controllers/ItemsController.php:402
+msgid "User is not allowed to modify visibility of items."
+msgstr "Nid oes hawl gan y defnyddiwr i newid gwelededd eitem."
+
+#: application/controllers/ItemsController.php:329
+msgid "User is not allowed to tag selected items."
+msgstr "Nid oes hawl y defnyddiwr i dagio'r eitemau."
+
+#: application/models/Job/ItemBatchEditAll.php:118
+msgid "User is not allowed to tag this item."
+msgstr ""
+
 #: application/view/layout/layout-admin.phtml:113
 msgid "User manual"
 msgstr ""
+
+#: application/models/User.php:109
+msgid "User may not change permissions to super-user"
+msgstr "Ni all ddefnyddiwr newid ei hawliau i fod yn arch-ddefnyddiwr"
+
+#: application/models/User.php:112
+msgid "User may not change roles."
+msgstr "Ni all ddefnyddiwr newid rôl."
 
 #: application/view/layout/layout-admin.phtml:44
 msgid "User menu"
@@ -5628,13 +8858,41 @@ msgstr ""
 msgid "User to be removed"
 msgstr ""
 
+#: admin/themes/default/users/browse.php:20
+#: admin/themes/default/users/browse.php:36
+#: admin/themes/default/users/browse.php:47
+#: admin/themes/default/users/show.php:18 application/forms/Install.php:30
+#: application/forms/Login.php:21 application/forms/User.php:29
+msgid "Username"
+msgstr "Enw Defnyddiwr"
+
+#: application/forms/Login.php:27
+msgid "Username cannot be empty."
+msgstr "Nid yw'r enw defnyddiwr yn gallu bod yn wag."
+
+#: application/forms/User.php:37
+msgid "Username is required."
+msgstr "Rhaid cael Enw Defnyddiwr."
+
+#: application/forms/User.php:30
+msgid "Username must be 30 characters or fewer. Whitespace is not allowed."
+msgstr ""
+
+#: application/forms/User.php:56
+msgid "Username must be at least %min% characters long."
+msgstr "Rhaid i'r Enw Defnyddiwr fod o leiaf %min% nodyn o hyd."
+
+#: application/forms/User.php:58
+msgid "Username must be at most %max% characters long."
+msgstr "Gall Enw Defnyddiwr fod hyd at %max% nodyn yn unig."
+
 #: application/view/omeka/admin/user/add.phtml:7
 #: application/view/omeka/admin/user/browse.phtml:24
 #: application/view/omeka/admin/user/edit.phtml:14
 #: application/view/omeka/admin/user/search.phtml:5
 #: application/view/omeka/admin/user/show.phtml:7
 msgid "Users"
-msgstr ""
+msgstr "Defnyddwyr"
 
 #: application/src/Api/Adapter/UserAdapter.php:136
 msgid "Users must have a role."
@@ -5658,6 +8916,13 @@ msgstr ""
 msgid "Values"
 msgstr ""
 
+#: admin/themes/default/common/footer.php:8
+#: admin/themes/default/common/login-footer.php:8
+#: admin/themes/default/plugins/browse.php:55
+#, php-format
+msgid "Version %s"
+msgstr "Fersiwn %s"
+
 #: application/src/Media/Ingester/Youtube.php:90
 msgid "Video URL"
 msgstr ""
@@ -5666,13 +8931,48 @@ msgstr ""
 #: application/view/omeka/site-admin/index/show.phtml:17
 #: application/view/omeka/site-admin/page/edit.phtml:15
 msgid "View"
-msgstr ""
+msgstr "Gweld"
+
+#: admin/themes/default/items/quick-filters.php:5
+msgid "View All"
+msgstr "Gweld Popeth"
+
+#: admin/themes/default/collections/browse.php:80
+msgid "View All Collections"
+msgstr "Gweld Pob Casgliad"
+
+#: application/views/scripts/index.php:42
+msgid "View All Items"
+msgstr "Gweld Pob Eitem"
+
+#: admin/themes/default/items/show.php:80
+msgid "View File Metadata"
+msgstr "Gweld Metadata'r Ffeil"
+
+#: admin/themes/default/appearance/edit-navigation.php:43
+#: admin/themes/default/collections/edit.php:23
+#: admin/themes/default/collections/show.php:34
+#: admin/themes/default/files/show.php:28
+#: admin/themes/default/items/edit.php:20
+#: admin/themes/default/items/show.php:45
+#: application/libraries/Omeka/Form/Decorator/SavePanelAction.php:72
+msgid "View Public Page"
+msgstr "Gweld y Tudalen Gyhoeddus"
 
 #: application/view/omeka/site/index/search.phtml:11
 #: application/view/omeka/site/index/search.phtml:32
 #, php-format
 msgid "View all results (%s total)"
 msgstr ""
+
+#: application/views/scripts/collections/show.php:33
+#, php-format
+msgid "View item"
+msgid_plural "View all %s items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: application/view/omeka/admin/item-set/show.phtml:32
 msgid "View items"
@@ -5686,6 +8986,11 @@ msgstr ""
 #: application/view/omeka/site-admin/index/index.phtml:70
 msgid "View public site"
 msgstr ""
+
+#: application/views/scripts/collections/browse.php:41
+#, php-format
+msgid "View the items in %s"
+msgstr "Gweld yr eitemau yn %s"
 
 #: application/view/omeka/site-admin/index/show.phtml:6
 #: application/view/omeka/site-admin/index/users.phtml:10
@@ -5752,6 +9057,16 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
+#: admin/themes/default/plugins/confirm-uninstall.php:11
+msgid ""
+"Warning: data associated with this plugin may be permanently deleted from "
+"the database."
+msgstr ""
+
+#. Omeka Legacy File: Watermark element
+msgid "Watermark"
+msgstr "Dyfrnod"
+
 #. Class label for Bibliographic Ontology:Webpage
 msgid "Webpage"
 msgstr ""
@@ -5773,13 +9088,39 @@ msgstr ""
 msgid "Welcome to your new site. This is an example page."
 msgstr ""
 
+#: application/controllers/UsersController.php:386
+msgid "Welcome!"
+msgstr "Croeso!"
+
+#: admin/themes/default/common/header.php:61
+#: application/views/scripts/common/admin-bar.php:6
+#, php-format
+msgid "Welcome, %s"
+msgstr "Croeso, %s"
+
 #: application/src/Form/SiteSettingsForm.php:78
 msgid "When logged in"
 msgstr ""
 
+#: application/forms/Install.php:39 application/forms/User.php:46
+#: application/models/User.php:188
+#, php-format
+msgid ""
+"Whitespace is not allowed. Only these special characters may be used: %s"
+msgstr ""
+
+#. Omeka Image File: Width element
+msgid "Width"
+msgstr "Lled"
+
 #. Class label for Bibliographic Ontology:Workshop
 msgid "Workshop"
 msgstr ""
+
+#: admin/themes/default/items/browse.php:173
+#, php-format
+msgid "Would you like to %s?"
+msgstr "Hoffech chi %s?"
 
 #. Property label for Friend of a Friend:yahooChatID
 msgid "Yahoo chat ID"
@@ -5791,7 +9132,11 @@ msgstr ""
 #: application/view/omeka/admin/resource-template/show.phtml:52
 #: application/view/omeka/admin/system-info/browse.phtml:18
 msgid "Yes"
-msgstr ""
+msgstr "Ie"
+
+#: admin/themes/default/plugins/confirm-uninstall.php:14
+msgid "Yes, I want to uninstall this plugin."
+msgstr "Ydw, dwi eisiau dad-osod yr ategyn hwn."
 
 #: application/view/omeka/admin/item-set/batch-edit.phtml:36
 #, php-format
@@ -5837,15 +9182,71 @@ msgstr ""
 msgid "You can’t delete yourself."
 msgstr ""
 
+#: admin/themes/default/plugins/browse.php:162
+msgid ""
+"You do not have any plugins installed. Add them to the plugins directory to "
+"see them listed here."
+msgstr ""
+"Does dim ategyn wedi ei osod. Ychwanegwch hwy i'r cyfeiriadur ategion er "
+"mwyn gweld rhestr ohonynt yma."
+
+#: application/views/scripts/error/403.php:8
+msgid "You do not have permission to access this page."
+msgstr "Does dim hawl gennych i weld y dudalen hon."
+
+#: admin/themes/default/plugins/browse.php:72
+#, php-format
+msgid "You have a new version of %s. Please upgrade!"
+msgstr "Mae ganddoch fersiwn newydd o %s. Uwchraddiwch os gwelwch yn dda!"
+
+#: application/controllers/SettingsController.php:114
+msgid ""
+"You have changed which records are searchable in Omeka. Please re-index the "
+"records using the form below."
+msgstr ""
+"Rydych wedi newid pa gofnodion y gellid chwilio yn Omeka. Dylid mynegeio'r "
+"cofnod eto gan ddefnyddio'r ffurflen isod."
+
+#: application/controllers/ThemesController.php:40
+msgid "You have chosen an illegal theme name. Please select another theme."
+msgstr ""
+"Rydych wedi dewis enw anghyfreithlon ar gyfer y thema. Dewiswch thema arall."
+
+#: admin/themes/default/users/api-keys.php:31
+msgid "You have no API keys. Use the form above to create one."
+msgstr ""
+"Does dim allweddi API gennych. Gellir creu un trwy ddefnyddio'r ffurlfen "
+"uchod."
+
+#: admin/themes/default/collections/browse.php:83
+msgid "You have no collections."
+msgstr "Does dim casgliadau gennych."
+
+#: admin/themes/default/items/browse.php:165
+msgid "You have no items."
+msgstr "Does dim eitem gennych."
+
 #: application/config/module.config.php:621
 msgid "You have unsaved changes."
 msgstr ""
+
+#: application/controllers/UsersController.php:145
+msgid "You may now log in to Omeka."
+msgstr "Gellir mewngofnodi i Omeka nawr."
 
 #: application/view/omeka/admin/vocabulary/edit.phtml:19
 msgid ""
 "You may update this vocabulary to a newer version. You will be able to "
 "review the changes before you accept."
 msgstr ""
+
+#: application/controllers/ItemsController.php:259
+msgid "You must choose some items to batch edit."
+msgstr "Rhaid dewis eitemau i'w golygu."
+
+#: application/controllers/PluginsController.php:312
+msgid "You must confirm the uninstall before proceeding."
+msgstr "Mae'n rhaid cadarnhau i dynnu cyn y gellid barhau."
 
 #: application/src/Controller/Admin/ItemSetController.php:189
 msgid "You must select at least one item set to batch delete."
@@ -5886,13 +9287,57 @@ msgid ""
 "version %s. You are currently on version %s."
 msgstr ""
 
+#: admin/themes/default/error/405.php:9
+#, php-format
+msgid ""
+"You must use a different method to access this URL. If you reached this page "
+"by following a link or clicking a button in Omeka, please contact the %s."
+msgstr ""
+"Mae'n rhaid defnyddio dull gwahanol i gael mynediad at yr URL yma. Os "
+"gyrhaeddwyd y dudalen hon trwy ddilyn dolen neu fotwm yn Omeka, cysylltwch â "
+"%s."
+
 #: application/src/Form/Element/Recaptcha.php:99
 msgid "You must verify that you are human by completing the CAPTCHA."
 msgstr ""
 
+#: admin/themes/default/error/404.php:6
+msgid ""
+"You&#8217;ve tried to access a page that does not seem to exist. Sometimes "
+"this happens. Below is a quick break-down of the items, collections, and "
+"exhibits on this site."
+msgstr ""
+"Rydych wedi ceisio mynd at dudalen sydd ddim yn bodoli. Mae hyn yn digwydd o "
+"bryd i'w gilydd. Islaw y mae braslun o'r eitemau, casgliadau ac "
+"arddangosfeydd sydd ar y wefan hon."
+
 #: application/src/Media/Ingester/Youtube.php:27
 msgid "YouTube"
 msgstr ""
+
+#: admin/themes/default/upgrade/index.php:34
+msgid ""
+"Your Omeka database is not compatible with your current version of Omeka."
+msgstr "Dyw'ch cronfa ddata Omeka ddim yn gytûn a'ch fersiwn cyfredol o Omeka."
+
+#: application/controllers/UsersController.php:388
+#, php-format
+msgid ""
+"Your account for the %s repository has been created. Please click the "
+"following link to activate your account:"
+msgstr ""
+"Nid yw'ch cyfrif ar gyfer cadwrfa %s wedi ei greu. Cliciwch ar y linc i "
+"fywiogi'ch cyfrif."
+
+#: admin/themes/default/search/index.php:39
+#: application/views/scripts/search/index.php:40
+msgid "Your query returned no results."
+msgstr "Ni ddarganfuwyd unrhyw ganlyniadau."
+
+#: application/controllers/UsersController.php:116
+#, php-format
+msgid "[%s] Reset Your Password"
+msgstr "[%s] Ailosod Eich Cyfrinair"
 
 #: application/src/Form/UserBatchUpdateForm.php:61
 #: application/src/Form/UserBatchUpdateForm.php:78
@@ -5910,6 +9355,10 @@ msgstr ""
 #: application/src/Form/Element/VocabularyFetch.php:39
 msgid "[Autodetect]"
 msgstr ""
+
+#: application/forms/Navigation.php:157
+msgid "[Default]"
+msgstr "[Rhagosodiad]"
 
 #: application/view/common/asset-form.phtml:34
 msgid "[No asset selected]"
@@ -5940,7 +9389,12 @@ msgstr ""
 #: application/view/omeka/site/item-set/browse.phtml:23
 #: application/view/omeka/site/item/browse.phtml:58
 msgid "[Untitled]"
-msgstr ""
+msgstr "[Di-deitl]"
+
+#: application/models/Table/Collection.php:80
+#, php-format
+msgid "[Untitled] #%s"
+msgstr "[Heb deitl] #%s"
 
 #: application/view/omeka/admin/job/show.phtml:54
 msgid "[no args]"
@@ -5964,6 +9418,10 @@ msgstr ""
 msgid "[no owner]"
 msgstr ""
 
+#: application/views/helpers/AllElementTexts.php:107
+msgid "[no text]"
+msgstr "[dim testun]"
+
 #: application/view/omeka/admin/job/show.phtml:13
 msgid "[not ended]"
 msgstr ""
@@ -5979,6 +9437,12 @@ msgstr ""
 #. Property label for Bibliographic Ontology:abstract
 msgid "abstract"
 msgstr ""
+
+#. / Chicago-style item citation: access date and URL
+#: application/models/Item.php:492
+#, php-format
+msgid "accessed %1$s, %2$s."
+msgstr "aeth at %1$s, %2$s."
 
 #. Property label for Friend of a Friend:account
 #. Property label for Friend of a Friend:holdsAccount
@@ -6042,7 +9506,7 @@ msgstr ""
 #: application/view/omeka/admin/module/browse.phtml:46
 #, php-format
 msgid "by %s"
-msgstr ""
+msgstr "yn ôl %s"
 
 #. Property label for Bibliographic Ontology:chapter
 msgid "chapter"
@@ -6059,6 +9523,14 @@ msgstr ""
 #. Property label for Bibliographic Ontology:coden
 msgid "coden"
 msgstr ""
+
+#: admin/themes/default/index.php:11
+msgid "collection"
+msgid_plural "collections"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: application/src/Entity/Job.php:26
 msgid "completed"
@@ -6087,7 +9559,7 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:34
 #: application/view/common/advanced-search/properties.phtml:67
 msgid "contains"
-msgstr ""
+msgstr "cynnwys"
 
 #. Property label for Bibliographic Ontology:content
 msgid "content"
@@ -6132,6 +9604,10 @@ msgstr ""
 #: application/src/View/Helper/SearchFilters.php:35
 #: application/view/common/advanced-search/properties.phtml:68
 msgid "does not contain"
+msgstr "ddim yn cynnwys"
+
+#: admin/themes/default/items/search-form.php:94
+msgid "does not match"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:doi
@@ -6141,6 +9617,10 @@ msgstr ""
 #. Property label for Bibliographic Ontology:eanucc13
 msgid "eanucc13"
 msgstr ""
+
+#: admin/themes/default/settings/edit-item-type-elements.php:12
+msgid "edit a specific item type"
+msgstr "golygu math o eitem sbesiffig"
 
 #. Property label for Bibliographic Ontology:edition
 msgid "edition"
@@ -6152,6 +9632,11 @@ msgstr ""
 
 #. Property label for Bibliographic Ontology:eissn
 msgid "eissn"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:92
+#: application/views/scripts/items/search-form.php:87
+msgid "ends with"
 msgstr ""
 
 #: application/src/Entity/Job.php:28
@@ -6220,6 +9705,10 @@ msgstr ""
 msgid "in_progress"
 msgstr ""
 
+#: admin/themes/default/users/browse.php:60
+msgid "inactive"
+msgstr "segur"
+
 #. Property label for Friend of a Friend:interest
 msgid "interest"
 msgstr ""
@@ -6232,10 +9721,20 @@ msgstr ""
 msgid "interviewer"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:89
+#: application/views/scripts/items/search-form.php:84
+msgid "is empty"
+msgstr "yn wag"
+
 #: application/src/View/Helper/SearchFilters.php:32
 #: application/view/common/advanced-search/properties.phtml:65
 msgid "is exactly"
-msgstr ""
+msgstr "yn union"
+
+#: admin/themes/default/items/search-form.php:90
+#: application/views/scripts/items/search-form.php:85
+msgid "is not empty"
+msgstr "ddim yn wag"
 
 #: application/src/View/Helper/SearchFilters.php:33
 #: application/view/common/advanced-search/properties.phtml:66
@@ -6300,6 +9799,11 @@ msgstr ""
 msgid "items"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:26
+#: admin/themes/default/items/browse.php:129
+msgid "items selected"
+msgstr ""
+
 #. Property label for Friend of a Friend:jabberID
 msgid "jabber ID"
 msgstr ""
@@ -6348,6 +9852,10 @@ msgstr ""
 msgid "maker"
 msgstr ""
 
+#: admin/themes/default/items/search-form.php:93
+msgid "matches"
+msgstr ""
+
 #: application/view/omeka/admin/media/sidebar-select.phtml:38
 msgid "media"
 msgstr ""
@@ -6367,6 +9875,14 @@ msgstr ""
 #. Property label for Friend of a Friend:membershipClass
 msgid "membershipClass"
 msgstr ""
+
+#: application/forms/Install.php:31
+msgid "must be 30 characters or fewer with no whitespace"
+msgstr ""
+
+#: application/forms/Install.php:49
+msgid "must be at least 6 characters"
+msgstr "rhaid iddo fod o leia 6 nodyn"
 
 #. Property label for Friend of a Friend:myersBriggs
 msgid "myersBriggs"
@@ -6431,6 +9947,10 @@ msgstr ""
 msgid "openid"
 msgstr ""
 
+#: admin/themes/default/plugins/confirm-uninstall.php:19
+msgid "or"
+msgstr "neu"
+
 #. Property label for Bibliographic Ontology:organizer
 msgid "organizer"
 msgstr ""
@@ -6479,6 +9999,14 @@ msgstr ""
 msgid "plan"
 msgstr ""
 
+#: admin/themes/default/index.php:16
+msgid "plugin"
+msgid_plural "plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #. Property label for Bibliographic Ontology:pmid
 msgid "pmid"
 msgstr ""
@@ -6507,6 +10035,14 @@ msgstr ""
 msgid "publications"
 msgstr ""
 
+#: application/forms/SecuritySettings.php:59
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: application/forms/SecuritySettings.php:51
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
 #: application/src/Form/SettingForm.php:343
 msgid "reCAPTCHA secret key"
 msgstr ""
@@ -6519,9 +10055,21 @@ msgstr ""
 msgid "recipient"
 msgstr ""
 
+#: admin/themes/default/items/browse.php:173
+msgid "refine your search"
+msgstr "mireinio'r chwiliad"
+
 #. Property label for Bibliographic Ontology:reproducedIn
 msgid "reproducedIn"
 msgstr ""
+
+#: admin/themes/default/item-types/form.php:15
+#: admin/themes/default/users/add.php:7
+#: admin/themes/default/users/change-password.php:15
+#: admin/themes/default/users/edit.php:15
+#: install/views/scripts/index/index.phtml:14
+msgid "required field"
+msgstr "maes gofynnol"
 
 #: application/src/Controller/Admin/ResourceTemplateController.php:338
 msgid "resource template"
@@ -6567,6 +10115,11 @@ msgstr ""
 msgid "site"
 msgstr ""
 
+#: admin/themes/default/error/403.php:10 admin/themes/default/error/404.php:9
+#: admin/themes/default/error/405.php:8
+msgid "site administrator"
+msgstr "gweinyddwr y safle"
+
 #. Class comment for Bibliographic Ontology:Issue
 msgid ""
 "something that is printed or published and distributed, esp. a given number "
@@ -6579,6 +10132,11 @@ msgstr ""
 
 #: application/src/Entity/Job.php:23
 msgid "starting"
+msgstr ""
+
+#: admin/themes/default/items/search-form.php:91
+#: application/views/scripts/items/search-form.php:86
+msgid "starts with"
 msgstr ""
 
 #. Property label for Bibliographic Ontology:status
@@ -6602,9 +10160,17 @@ msgstr ""
 msgid "suffix name"
 msgstr ""
 
+#: admin/themes/default/index.php:12
+msgid "tag"
+msgid_plural "tags"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #. Property label for Friend of a Friend:theme
 msgid "theme"
-msgstr ""
+msgstr "themâu"
 
 #: application/src/Form/Element/ColorPicker.php:10
 msgid "three- or six-digit hexadecimal color, or \"transparent\""
