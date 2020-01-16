@@ -26,6 +26,9 @@ msgstr "Dathlu Abertawe"
 msgid "Centenary Essays"
 msgstr "Traethodau Canmlwyddiant"
 
+msgid "Centenary Writing Prize"
+msgstr "Gwobr Ysgrifennu Canmlwyddiant"
+
 msgid "Council Annual Report 1920"
 msgstr "Adroddiad Blynyddol Cyngor 1920"
 

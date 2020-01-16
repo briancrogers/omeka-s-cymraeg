@@ -26,6 +26,9 @@ msgstr ""
 msgid "Centenary Essays"
 msgstr ""
 
+msgid "Centenary Writing Prize"
+msgstr ""
+
 msgid "Council Annual Report 1920"
 msgstr ""
 
