@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-13 15:51-0400\n"
+"POT-Creation-Date: 2020-04-29 14:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,26 +20,5 @@ msgstr ""
 msgid "Browse"
 msgstr "Pori"
 
-msgid "Celebrating Swansea"
-msgstr "Dathlu Abertawe"
-
-msgid "Centenary Essays"
-msgstr "Traethodau Canmlwyddiant"
-
-msgid "Centenary Writing Prize"
-msgstr "Gwobr Ysgrifennu Canmlwyddiant"
-
-msgid "Council Annual Report 1920"
-msgstr "Adroddiad Blynyddol Cyngor 1920"
-
-msgid "History of the University"
-msgstr "Hanes y Brifysgol"
-
-msgid "History of the University Publication"
-msgstr "Cyhoeddiad Hanes y Brifysgol"
-
 msgid "Home"
 msgstr "Hafan"
-
-msgid "Inaugural Lectures"
-msgstr "Darlithoedd agoriadol"
