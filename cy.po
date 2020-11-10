@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-11-10 14:16+0000\n"
-"PO-Revision-Date: 2020-11-10 14:24+0000\n"
+"PO-Revision-Date: 2020-11-10 14:41+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,3 +25,33 @@ msgstr "Croeso"
 
 msgid "Banners of the South Wales Miners"
 msgstr "Baneri Glowyr De Cymru"
+
+msgid "Unfurling the Banners"
+msgstr "Agor Y Baneri"
+
+msgid "United We Stand"
+msgstr "Safwn Yn Ynol"
+
+msgid "Raise the Banners High"
+msgstr "Chwifiwn Ein Baneri"
+
+msgid "Professional Banner Makers"
+msgstr "Gwneuthwrwyr Baneri Proffesiynol"
+
+msgid "Semi Professional and Home Made Makers"
+msgstr "Gwneuthwrwyr Baneri Lled Brofesiynol a Waith Cartref"
+
+msgid "Banner Messages"
+msgstr "Negeseuon Baneri"
+
+msgid "Follow the Banner"
+msgstr "Dilyn Y Faner"
+
+msgid "Caring for the Banners"
+msgstr "Gofalu Am Y Baneri"
+
+msgid "Preserving the Banners"
+msgstr "Diogelu'r Baneri Ar Gyfer Yfory"
+
+msgid "Get involved! Design your very own banner!"
+msgstr "Cymerwch Ran! Dyluniwch eich baner eich hun!"
